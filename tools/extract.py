@@ -259,6 +259,10 @@ for wptype in ['page', 'post', 'service', 'service-area']:
         title = re.sub(r'\s*\|\s*Coastal K9 & Pest Solutions\s*$', '', title)
         desc = html.unescape(rend.get('desc', '') or strip_tags(x['excerpt']['rendered'])[:155])
         raw = x['content']['rendered']
+        rewrite = PROJ / 'content/rewrites' / (path.strip('/') + '.html')
+        rewritten = rewrite.exists()
+        if rewritten:
+            raw = rewrite.read_text()
         # Live-site defect: some posts open a JSON-LD <script> and never close it, which
         # swallows the entire article (it renders blank on ck9ps.com). Close it.
         fixed_script = False
@@ -329,9 +333,9 @@ for wptype in ['page', 'post', 'service', 'service-area']:
             'title': title, 'description': desc, 'h1': h1text, 'hero': hero,
             'heroImage': hero_img, 'body': body, 'faqs': faqs, 'toc': toc,
             'citations': citations, 'images': sorted(set(page_images)),
-            'date': x.get('date_gmt'), 'modified': x.get('modified_gmt'),
+            'date': x.get('date_gmt'), 'modified': (__import__('datetime').datetime.fromtimestamp(rewrite.stat().st_mtime, __import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%S') if rewritten else x.get('modified_gmt')),
             'excerpt': strip_tags(x['excerpt']['rendered'])[:300], 'words': words,
-            'noindex': kind in ('utility',), 'fixedScript': fixed_script,
+            'noindex': kind in ('utility',), 'fixedScript': fixed_script, 'rewritten': rewritten,
         }
         m = CITY_SVC.match(path)
         if m: rec['citySvc'] = {'service': m.group(1), 'city': m.group(2)}

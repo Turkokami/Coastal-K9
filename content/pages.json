@@ -68,7 +68,8 @@
 "excerpt": "Certified K9 bed bug, rodent & wildlife detection in Aiken, SC & the CSRA. FEMA-trained, NESDCA-certified founder. Detection before treatment. Call 803-226-3155.",
 "words": 576,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/10-questions-about-selecting-training-and-hiring-detection-dogs/",
@@ -92,7 +93,8 @@
 "excerpt": "COASTAL K9 PEST SOLUTIONSDetection Before Treatment. Every Time. People ask about the dog. The nose. The training. How you find one, how long it takes to build one,and what it’s actually capable of. These are the real answers — from someone who has lived thiswork. more handler focus and a more manag",
 "words": 3288,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/14-questions-about-bed-bug-treatment-prevention-and-protection/",
@@ -117,7 +119,8 @@
 "excerpt": "COASTAL K9 PEST SOLUTIONSDetection Before Treatment. Every Time. Bed bugs are not a hygiene problem. They’re a detection and treatment problem — and mostpeople don’t get the right information until the infestation is already established. These are thequestions that matter before, during, and after. ",
 "words": 4123,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/about/",
@@ -185,7 +188,8 @@
 "excerpt": "Meet Kimberly Camera, FEMA-trained canine handler and founder of Coastal K9 — NESDCA, WDDO, CPDA & ICRWDA certified with 28+ years of K9 detection experience.",
 "words": 624,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/awards-and-recognition/",
@@ -243,7 +247,8 @@
 "excerpt": "Discover the awards, recognitions, and industry achievements that reflect Coastal K9 & Pest Solutions’ commitment to excellence, innovation, customer service, and professional K9 detection and exclusion services throughout South Carolina.",
 "words": 397,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/banana-spider-in-south-carolina-the-beneficial-giant-in-your-backyard/",
@@ -282,7 +287,8 @@
 "excerpt": "“Banana spider” is the common name for the golden silk orbweaver, Trichonephila clavipes, previously classified as Nephila clavipes. It’s not a new arrival",
 "words": 809,
 "noindex": false,
-"fixedScript": true
+"fixedScript": true,
+"rewritten": false
 },
 {
 "path": "/bat-echolocation-how-bats-see-with-sound-and-why-the-old-blindness-myth-is-backwards/",
@@ -317,7 +323,8 @@
 "excerpt": "“Blind as a bat” might be the most confidently wrong phrase in the English language. Every bat species has functional eyes, and many see quite well. What actually makes bats remarkable isn’t an absence of sight",
 "words": 986,
 "noindex": false,
-"fixedScript": true
+"fixedScript": true,
+"rewritten": false
 },
 {
 "path": "/bat-nest-boxes-why-bats-matter/",
@@ -368,7 +375,8 @@
 "excerpt": "Bats and people can absolutely coexist — the trouble starts when “coexist” means “share the same attic.”",
 "words": 1644,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bat-superlatives/",
@@ -403,7 +411,8 @@
 "excerpt": "World-Record Bats: Questions & Answers",
 "words": 968,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bats-vs-birds/",
@@ -434,7 +443,8 @@
 "excerpt": "Bats and birds both solved the same problem — how to get off the ground and stay there",
 "words": 1056,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bed-bug-control/",
@@ -576,7 +586,8 @@
 "excerpt": "Certified K9 bed bug inspections across Aiken & the CSRA. Detection dogs pinpoint live bed bugs faster than the eye — then we treat and verify. Call 803-226-3155.",
 "words": 1703,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bed-bug-treatment/",
@@ -739,7 +750,8 @@
 "excerpt": "RESIDENTIAL & COMMERCIAL · BED BUGS Bed Bug Treatment in Aiken, Augusta & the CSRA Bed bug treatment works when the eggs die, not just the adults. Adults die around 119°F, but eggs need about 118°F held for 71 to 90 minutes — so we combine heat, steam, silica gel, encasements and interceptor monitor",
 "words": 5482,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bed-bugs-in-apartments/",
@@ -761,7 +773,8 @@
 "excerpt": "In a multifamily property, bed bugs are never really a single-unit problem — they’re a building problem that happens to have been reported by one resident",
 "words": 1581,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bird-control-aiken-sc/",
@@ -921,6 +934,7 @@
 "words": 4352,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "bird-control",
 "city": "aiken"
@@ -1088,6 +1102,7 @@
 "words": 4367,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "bird-control",
 "city": "columbia"
@@ -1113,7 +1128,8 @@
 "excerpt": "Commercial and industrial buildings are, from a pigeon’s perspective, superb cliff habitat",
 "words": 1488,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bird-control-lexington-sc/",
@@ -1273,6 +1289,7 @@
 "words": 4459,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "bird-control",
 "city": "lexington"
@@ -1432,6 +1449,7 @@
 "words": 4366,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "bird-control",
 "city": "north-augusta"
@@ -1457,7 +1475,8 @@
 "excerpt": "Bird exclusion works by making it physically impossible for birds to land, roost, or nest where you don’t want them",
 "words": 1550,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/bird-exclusion/",
@@ -1592,7 +1611,8 @@
 "excerpt": "Commercial & residential bird control and exclusion across the CSRA — netting, deterrents and proofing that keep pest birds out for good. Coastal K9.",
 "words": 857,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/black-widow-spiders-in-aiken-county/",
@@ -1651,7 +1671,8 @@
 "excerpt": "The Bite Everyone’s Heard Of — What’s Actually True, and What to Do About It",
 "words": 1102,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/brown-recluse-spiders-natural-history-behavior-and-the-truth-about-south-carolina/",
@@ -1690,7 +1711,8 @@
 "excerpt": "Few spiders carry a reputation like the brown recluse. It’s also one of the most misidentified animals in the country",
 "words": 1384,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/canine-scent-detection-accuracy/",
@@ -1735,7 +1757,8 @@
 "excerpt": "How Accurate Is Canine Bed Bug & Rodent Detection? Short answer: in controlled tests, trained detection dogs are among the most accurate bed bug tools available — one peer-reviewed study measured 97.5% detection with zero false positives. In the field, accuracy depends almost entirely on how the dog",
 "words": 705,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/canine-scent-detection-science/",
@@ -1834,7 +1857,8 @@
 "excerpt": "How does canine scent detection work, and why is it so accurate? A FEMA-trained handler explains the science of detection dogs and how it powers modern pest control.",
 "words": 1357,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/coastal-k9-blog/",
@@ -1858,7 +1882,8 @@
 "excerpt": "Keep in touch by following our Blog to learn about managing pest in the Whatcom and Skagit Counties!",
 "words": 53,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/coastal-k9-image-gallery/",
@@ -2018,7 +2043,8 @@
 "excerpt": "Coastal K9 & Pest Solutions, Video and Image gallery",
 "words": 154,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/cockroach-control/",
@@ -2173,7 +2199,8 @@
 "excerpt": "RESIDENTIAL & COMMERCIAL · COCKROACHES Cockroach Control in Aiken, Augusta & the CSRA Cockroach control starts with identifying the species, because German cockroaches are carried indoors and breed inside, while palmetto bugs and smokybrowns come in from mulch, tree holes, gutters and sewers. Coasta",
 "words": 4995,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/columbia-sc-pest-control/",
@@ -2302,7 +2329,8 @@
 "excerpt": "Family-owned, certified K9 pest, bed bug & rodent control in Columbia, SC. Detection before treatment — safe for kids & pets, honest, and local. Call 803-226-3155.",
 "words": 2743,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/commercial-pest-compliance-in-south-carolina/",
@@ -2324,7 +2352,8 @@
 "excerpt": "Passing a pest-related inspection or audit is rarely about whether you have a pest control vendor — nearly everyone does.",
 "words": 1514,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/commercial-pest-control/",
@@ -2466,7 +2495,8 @@
 "excerpt": "Documented, detection-driven commercial pest control for CSRA businesses — hotels, multifamily, food & warehouse. Inspection-ready K9 programs. Coastal K9.",
 "words": 1005,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/contact/",
@@ -2510,7 +2540,8 @@
 "excerpt": "Request a certified K9 inspection from Coastal K9 Pest Solutions in Aiken, SC. Bed bug, rodent & wildlife detection across the CSRA. Call or text 803-226-3155.",
 "words": 91,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/falconry-bird-abatement/",
@@ -2661,7 +2692,8 @@
 "excerpt": "COMMERCIAL · FALCONRY BIRD ABATEMENT Falconry Bird Abatement for Casinos, Stadiums & Large Sites Falconry bird abatement uses trained raptors under a USFWS Special Purpose – Abatement permit to move gulls, pigeons, starlings, grackles and vultures off a property. It is silent, chemical-free and perm",
 "words": 5193,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/food-processing-manufacturing-pest-control/",
@@ -2812,7 +2844,8 @@
 "excerpt": "COMMERCIAL · FOOD PROCESSING K-9 Rodent Detection for Food Processing & Manufacturing AIB, SQF, and customer audits leave no room for a pest finding. Our detection dogs pinpoint rodent activity before an auditor ever could — and document it thoroughly. Call 803-226-3155 · Certified K-9 teams · Famil",
 "words": 1607,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/goose-control-aiken-sc/",
@@ -2976,6 +3009,7 @@
 "words": 4356,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "goose-control",
 "city": "aiken"
@@ -3135,6 +3169,7 @@
 "words": 4349,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "goose-control",
 "city": "columbia"
@@ -3160,7 +3195,8 @@
 "excerpt": "A golf course is close to a purpose-built goose habitat: open water, wide expanses of short, fertilized, irrigated grass, clear sightlines, and no natural predators.",
 "words": 1610,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/goose-control-for-hoas-parks-schools/",
@@ -3182,7 +3218,8 @@
 "excerpt": "Retention ponds, community lakes, campus lawns, and school fields are magnets for Canada geese — and once a flock settles in, the complaints start",
 "words": 1550,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/goose-control-lexington-sc/",
@@ -3338,6 +3375,7 @@
 "words": 4384,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "goose-control",
 "city": "lexington"
@@ -3505,6 +3543,7 @@
 "words": 4339,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "goose-control",
 "city": "north-augusta"
@@ -3650,7 +3689,8 @@
 "excerpt": "Humane K9 Canada goose management for parks, campuses & waterfronts across the CSRA. Reclaim your grounds — no birds harmed. Coastal K9, 803-226-3155.",
 "words": 983,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/healthcare-senior-living-pest-control/",
@@ -3801,7 +3841,8 @@
 "excerpt": "COMMERCIAL · HEALTHCARE K-9 Bed Bug & Rodent Detection for Healthcare & Senior Living In healthcare, a pest problem is a patient-safety and reputation issue. Our detection dogs work discreetly and precisely, with the sensitivity, documentation, and infection-control awareness these environments dema",
 "words": 1570,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/hoa-golf-course-goose-management/",
@@ -3952,7 +3993,8 @@
 "excerpt": "COMMERCIAL · GROUNDS & WATERFOWL K-9 Goose Management for HOAs, Golf Courses & Campuses Resident geese foul walkways, damage turf, and create liability on shared grounds. Our trained herding dogs move them along — humanely, legally, and for good. Call 803-226-3155 · Certified K-9 teams · Family-owne",
 "words": 1712,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/hotels-hospitality-pest-control/",
@@ -4103,7 +4145,8 @@
 "excerpt": "COMMERCIAL · HOSPITALITY K-9 Bed Bug Detection for Hotels & Hospitality In hospitality, one bad review can cost you a season. Our certified detection dogs find bed bugs before your guests do — discreetly, room by room, verified before and after treatment. Call 803-226-3155 · Certified K-9 teams · Fa",
 "words": 1900,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/how-k9-bed-bug-detection-works/",
@@ -4125,7 +4168,8 @@
 "excerpt": "A trained bed bug detection dog can find live bed bugs and viable eggs hidden inside walls, furniture seams, and mattresses that no human inspector can see",
 "words": 1599,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/how-k9-rodent-detection-finds-what-standard-inspections-miss/",
@@ -4147,7 +4191,8 @@
 "excerpt": "Rodents live in the parts of a building nobody can see — inside wall voids, above ceilings, under floors, deep in crawl spaces and insulation",
 "words": 1563,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/humane-goose-control/",
@@ -4169,7 +4214,8 @@
 "excerpt": "If you manage a property with a pond, a lake, or a wide manicured lawn, you already know that Canada geese are almost impossible to get rid of with conventional deterrents",
 "words": 1608,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/independent-canine-detection/",
@@ -4210,7 +4256,8 @@
 "excerpt": "Independent Canine Detection: Third-Party Verification vs. a Sales Inspection The short version: when the company that inspects your property is also the company that sells you the treatment, the inspection has a built-in incentive to find work. An independent canine detection audit removes that inc",
 "words": 421,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/joro-spider-in-sc/",
@@ -4249,7 +4296,8 @@
 "excerpt": "The Joro spider (Trichonephila clavata) is a large, non-native orbweaver native to Japan, Korea, China, and Taiwan",
 "words": 1501,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/k9-bed-bug-detection-aiken-sc/",
@@ -4405,6 +4453,7 @@
 "words": 4346,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-bed-bug-detection",
 "city": "aiken"
@@ -4572,6 +4621,7 @@
 "words": 4386,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-bed-bug-detection",
 "city": "columbia"
@@ -4698,7 +4748,8 @@
 "excerpt": "A complete guide to K9 bed bug detection — how detection dogs work, how accurate they are, what an inspection looks like, and when to use one. By a NESDCA-certified handler.",
 "words": 2469,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/k9-bed-bug-detection-lexington-sc/",
@@ -4858,6 +4909,7 @@
 "words": 4350,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-bed-bug-detection",
 "city": "lexington"
@@ -5021,6 +5073,7 @@
 "words": 4392,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-bed-bug-detection",
 "city": "north-augusta"
@@ -5046,7 +5099,8 @@
 "excerpt": "Healthcare and senior living facilities face a version of the bed bug problem that’s harder than almost anywhere else: a constant flow of people and belongings, and residents.",
 "words": 1547,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/k9-bed-bug-inspections-for-hotels/",
@@ -5068,7 +5122,8 @@
 "excerpt": "For a hotel, bed bugs are not primarily a pest problem — they’re a reputation problem, a liability problem, and a revenue problem.",
 "words": 1594,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/k9-detection-video-library/",
@@ -5110,7 +5165,8 @@
 "excerpt": "Coastal K9 & Pest Solutions video library — K9 scent-detection, bed bug and rodent inspections serving Aiken and the CSRA of South Carolina.",
 "words": 138,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/k9-rodent-detection-aiken-sc/",
@@ -5270,6 +5326,7 @@
 "words": 4378,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-rodent-detection",
 "city": "aiken"
@@ -5433,6 +5490,7 @@
 "words": 4507,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-rodent-detection",
 "city": "columbia"
@@ -5600,6 +5658,7 @@
 "words": 4758,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-rodent-detection",
 "city": "lexington"
@@ -5767,6 +5826,7 @@
 "words": 4651,
 "noindex": false,
 "fixedScript": false,
+"rewritten": false,
 "citySvc": {
 "service": "k9-rodent-detection",
 "city": "north-augusta"
@@ -5792,7 +5852,8 @@
 "excerpt": "A certified detection dog works from scent, so it can find live bed bugs concealed inside furniture, walls, and seams that no visual inspection can reach.",
 "words": 1555,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/media-and-press/",
@@ -5903,7 +5964,8 @@
 "excerpt": "Interview requests, published podcast appearances, copy-ready biographies and fast facts for Coastal K-9 and Pest Solutions in Windsor, SC.",
 "words": 2269,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/multifamily-property-management-pest-control/",
@@ -6054,7 +6116,8 @@
 "excerpt": "COMMERCIAL · MULTIFAMILY K-9 Bed Bug & Rodent Detection for Multifamily & Property Management Bed bugs and rodents spread unit to unit — and residents talk. Our detection dogs pinpoint exactly which units are affected so you treat precisely, document everything, and protect the whole community. Call",
 "words": 1732,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/nationwide-k9-rodent-detection/",
@@ -6136,7 +6199,8 @@
 "excerpt": "Certified canine rodent detection for food processing, agriculture, and multi-site operators nationwide. We find active harborage and burrow systems your device map can’t see. Call 803-226-3155.",
 "words": 1586,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/nationwide-k9-rodent-detection/agriculture-grain/",
@@ -6202,7 +6266,8 @@
 "excerpt": "Certified detection dogs locate rodent harborage across grain storage, feed mills, and ag facilities where structural voids and bulk product make visual inspection impossible.",
 "words": 792,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/nationwide-k9-rodent-detection/audit-documentation/",
@@ -6260,7 +6325,8 @@
 "excerpt": "Inspection reports built for GFSI and AIB auditors — findings mapped, dated, photographed, and tied to corrective actions you can defend on the floor.",
 "words": 648,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/nationwide-k9-rodent-detection/food-processing/",
@@ -6326,7 +6392,8 @@
 "excerpt": "Canine rodent detection built for SQF, BRCGS, FSSC 22000 and AIB audits. Locate active harborage, document findings, and close corrective actions with evidence.",
 "words": 915,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/nationwide-k9-rodent-detection/multi-site-programs/",
@@ -6388,7 +6455,8 @@
 "excerpt": "One detection standard across every location. Consistent methodology, comparable reporting, and portfolio-level trending for multi-site operators nationwide.",
 "words": 747,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/",
@@ -6450,7 +6518,8 @@
 "excerpt": "Norway rat burrow systems hide concealed bolt holes that defeat baiting and gas treatment. Our detection dogs map the full system before treatment begins.",
 "words": 1004,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/nationwide-rodent-mitigation/",
@@ -6474,7 +6543,8 @@
 "excerpt": "Coastal K9 & Pest Solutions Our nationwide rodent program has a new home It now lives at a dedicated hub with full detail on food processing, agriculture & grain, Norway rat burrow mitigation, multi-site programs, and audit-ready documentation. Go to Nationwide K9 Rodent Detection →",
 "words": 37,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/norway-rat-burrow-mitigation/",
@@ -6581,7 +6651,8 @@
 "excerpt": "A complete guide to Norway rat burrows: how to identify a burrow system, why it overwhelms standard pest control, the risks it creates, and how detection-driven mitigation solves it.",
 "words": 1776,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-aiken-south-carolina/",
@@ -6726,7 +6797,8 @@
 "excerpt": "Family-owned, certified K9 pest, bed bug & rodent control in Aiken, SC. Detection before treatment — safe for kids & pets, honest, and local. Call 803-226-3155.",
 "words": 3440,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-barnwell-sc/",
@@ -6859,7 +6931,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Barnwell, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2259,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-batesburg-leesville-sc/",
@@ -6988,7 +7061,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Batesburg-Leesville, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2353,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-beech-island-sc/",
@@ -7117,7 +7191,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in Beech Island, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2952,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-blackville-sc/",
@@ -7246,7 +7321,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Blackville, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2225,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-cayce-sc/",
@@ -7371,7 +7447,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Cayce, SC. Safe for kids & pets, same-week service near the Riverwalk. Call 803-226-3155.",
 "words": 2444,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-cedar-creek-aiken-sc/",
@@ -7508,7 +7585,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Cedar Creek, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2847,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-charleston-sc/",
@@ -7633,7 +7711,8 @@
 "excerpt": "Certified K9 bed bug, rodent & wildlife detection in Charleston, SC. FEMA-trained, NESDCA-certified Coastal K9 Pest Solutions — detection before treatment. Call 803-226-3155.",
 "words": 2546,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-coupons/",
@@ -7685,7 +7764,8 @@
 "excerpt": "Offers & Savings Great Service at a Fair Price We’re among the highest-ranked, most dependable pest and rodent control teams in the area — and we keep our pricing competitive. Call to ask about our current specials and find the right fit for your home or business. Call for Current OffersCheck Our Se",
 "words": 195,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-crosland-park-aiken-sc/",
@@ -7818,7 +7898,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Crosland Park, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2933,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-downtown-aiken-sc/",
@@ -7947,7 +8028,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Downtown & Laurens Street, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2953,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-edgefield-sc/",
@@ -8072,7 +8154,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Edgefield, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2240,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-gem-lakes-aiken-sc/",
@@ -8197,7 +8280,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Gem Lakes, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2049,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-gilbert-sc/",
@@ -8326,7 +8410,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Gilbert, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2150,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-graniteville-sc/",
@@ -8463,7 +8548,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in Graniteville, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2928,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-greenville-sc/",
@@ -8592,7 +8678,8 @@
 "excerpt": "Certified K9 bed bug, rodent & wildlife detection in Greenville, SC. FEMA-trained, NESDCA-certified Coastal K9 Pest Solutions — detection before treatment. Call 803-226-3155.",
 "words": 2557,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-gregg-park-aiken-sc/",
@@ -8721,7 +8808,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Gregg Park, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2224,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-hitchcock-woods-aiken-sc/",
@@ -8854,7 +8942,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Hitchcock Woods Edge, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2834,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-houndslake-aiken-sc/",
@@ -8983,7 +9072,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Houndslake, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2851,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-irmo-sc/",
@@ -9112,7 +9202,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Irmo, SC. Safe for kids & pets, same-week service near Lake Murray. Call 803-226-3155.",
 "words": 2446,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-jackson-sc/",
@@ -9241,7 +9332,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in Jackson, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2651,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-johnston-sc/",
@@ -9366,7 +9458,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Johnston, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2251,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-kalmia-hill-aiken-sc/",
@@ -9499,7 +9592,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Kalmia Hill, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2635,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-lexington-sc/",
@@ -9624,7 +9718,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Lexington, SC. Safe for kids & pets, same-week service near Lake Murray. Call 803-226-3155.",
 "words": 2548,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-montmorenci-aiken-sc/",
@@ -9757,7 +9852,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Montmorenci, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2345,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-new-ellenton-sc/",
@@ -9898,7 +9994,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in New Ellenton, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2929,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-north-augusta-sc/",
@@ -10031,7 +10128,8 @@
 "excerpt": "Family-owned, certified K9 pest, bed bug & rodent control in North Augusta, SC. Detection before treatment — safe for kids & pets, honest, and local. Call 803-226-3155.",
 "words": 3444,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-orangeburg-sc/",
@@ -10156,7 +10254,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Orangeburg, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2347,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-salley-sc/",
@@ -10281,7 +10380,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in Salley, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2249,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-trenton-sc/",
@@ -10414,7 +10514,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Trenton, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2161,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-usc-aiken-sc/",
@@ -10539,7 +10640,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in USC Aiken Area, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2953,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-wagener-sc/",
@@ -10672,7 +10774,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in Wagener, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2352,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-warrenville-sc/",
@@ -10805,7 +10908,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in Warrenville, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2356,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-west-columbia-sc/",
@@ -10930,7 +11034,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in West Columbia, SC. Safe for kids & pets, same-week riverfront service. Call 803-226-3155.",
 "words": 2446,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-williston-sc/",
@@ -11059,7 +11164,8 @@
 "excerpt": "Family-owned pest control, K9 bed bug detection & rodent control in Williston, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2247,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-windsor-sc/",
@@ -11184,7 +11290,8 @@
 "excerpt": "Family-owned Aiken County pest control, K9 bed bug detection & rodent control in Windsor, SC. Safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2326,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-winter-colony-aiken-sc/",
@@ -11317,7 +11424,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in The Winter Colony, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2951,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control-woodside-plantation-aiken-sc/",
@@ -11446,7 +11554,8 @@
 "excerpt": "Pest control, K9 bed bug detection & rodent control in Woodside Plantation, Aiken SC. Family-owned, safe for kids & pets, same-week service. Call 803-226-3155.",
 "words": 2949,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-control/",
@@ -11593,7 +11702,8 @@
 "excerpt": "K9-guided integrated pest management in Aiken & the CSRA. Least-toxic, targeted, documented control that lasts. Detection before treatment. Coastal K9.",
 "words": 1164,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/",
@@ -11646,7 +11756,8 @@
 "excerpt": "Pest Library — Identification & Control Guide A field guide to the pests we deal with across Aiken and the CSRA — how to identify them, how they behave, and how we handle them. Use it to figure out what you’re seeing before you call. For the pests our detection dogs specialize in, start with […]",
 "words": 154,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/american-cockroach/",
@@ -11658,41 +11769,63 @@
 "h1": "American Cockroach — Identification & Control",
 "hero": {
 "h1": "American Cockroach — Identification & Control",
-"lead": "The American cockroach — the large “palmetto bug” — lives in sewers, drains, mulch, and crawlspaces and pushes indoors in warm CSRA weather."
+"lead": "The American cockroach is the big reddish-brown roach many South Carolinians call a \"palmetto bug.\" It lives mostly outside the living space — in crawlspaces, sewers, drains, mulch beds and tree holes — and wanders indoors, especially after heavy rain or in the heat of summer."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-american-cockroach\">How to identify the American Cockroach</h2>\n<p>Large, up to 1.5 inches, glossy reddish-brown with a pale figure-eight marking behind the head. Much bigger than the German cockroach.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>It favors warm, damp, dark places — drains, sewers, crawlspaces, mulch beds — and enters homes through gaps, drains, and utility penetrations, mostly at night.</p>\n<h2 id=\"why-american-cockroachs-are-a-problem\">Why American Cockroachs are a problem</h2>\n<p>It contaminates surfaces with bacteria, triggers allergies, and its size and sudden appearance alarm customers in homes and businesses alike.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Large roaches in basements, crawlspaces, and near drains at night, ridged droppings the size of mouse droppings, and dark egg cases.</p>\n<h2 id=\"how-we-handle-american-cockroachs-in-the-csra\">How we handle American Cockroachs in the CSRA</h2>\n<p>Control combines exclusion, moisture reduction, and targeted treatment of harborage. Our <a href=\"/commercial-pest-control/\">commercial pest control</a> and <a href=\"/pest-control/\">general pest</a> programs handle it. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. Browse the full <a href=\"/pest-library/\">pest library</a>.</p>\n<p>For species-level identification, gel baiting and exterior source work, see our <a href=\"/cockroach-control/\">cockroach control service</a>.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> one large roach in the house now and then is usually an outdoor American cockroach that got in. The fix is the crawlspace, drains and perimeter — not spraying the kitchen.</p></div>\n<h2 id=\"how-to-identify-the-american-cockroach\">How to identify the American cockroach</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What to look for</th></tr></thead><tbody>\n<tr><th>Size</th><td>One of the largest house-invading roaches, about 1.5–2 inches</td></tr>\n<tr><th>Color</th><td>Shiny reddish-brown with a pale yellowish band around the shield behind the head</td></tr>\n<tr><th>Wings</th><td>Fully winged as adults; can glide or fly short distances in warm weather</td></tr>\n<tr><th>Look-alikes</th><td>Smoky-brown cockroach (uniformly dark mahogany), Florida woods roach (very dark, short wings, strong odor), German cockroach (much smaller, two stripes)</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>American cockroaches favor warm, damp places: sewer systems, storm drains, crawlspaces, boiler rooms, mulch and leaf litter. The female drops or glues each egg case — about 16 eggs — in a sheltered spot. Development is slow compared with the German cockroach, and adults can live a year or more.</p>\n<p>They come indoors through gaps under doors, around pipes, through floor drains and weep holes, and up from crawlspaces. Heavy rain and drought both push them toward buildings.</p>\n<h2 id=\"why-american-cockroaches-are-a-problem\">Why American cockroaches are a problem</h2>\n<p>Because they move between sewers, garbage and kitchens, they can carry bacteria onto food surfaces, and their droppings and body parts contribute to indoor allergens. In commercial kitchens and food plants they are an inspection issue on their own.</p>\n<h2 id=\"signs-of-activity\">Signs of activity</h2>\n<ul class=\"k-signs\">\n<li><strong>Large roaches</strong> near drains, in bathrooms, garages and basements, often at night.</li>\n<li><strong>Droppings</strong> — larger, blunt-ended pellets — in crawlspaces and utility areas.</li>\n<li><strong>Egg cases</strong> about 3/8 inch long, dark brown, tucked into cracks.</li>\n</ul>\n<h2 id=\"prevention-you-can-do\">Prevention you can do</h2>\n<ul class=\"k-list\">\n<li>Keep crawlspaces ventilated and dry; fix leaking pipes and AC condensate lines.</li>\n<li>Pull mulch and leaf litter back from the foundation and keep gutters flowing.</li>\n<li>Fit door sweeps, seal gaps around pipes and screen weep holes.</li>\n<li>Keep drain covers in place and run water in seldom-used drains.</li>\n</ul>\n<h2 id=\"how-we-handle-american-cockroaches\">How we handle American cockroaches</h2>\n<p>Through our <a href=\"/cockroach-control/\">cockroach control</a> and <a href=\"/pest-control/\">integrated pest management</a> services we treat where these roaches actually live — crawlspaces, drains, perimeter harborage — and close the routes they use to get inside, rather than spraying living areas. Call <a href=\"tel:8032263155\">803-226-3155</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Is a palmetto bug the same as a cockroach?</summary><p>Yes. \"Palmetto bug\" is a regional name used for large outdoor cockroaches — most often the American cockroach, sometimes the smoky-brown or Florida woods roach.</p></details>\n<details><summary>Does one big roach mean my house is infested?</summary><p>Not necessarily. An occasional American cockroach usually wandered in from outside. Several a week, or small roaches in the kitchen, point to a different problem.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://hgic.clemson.edu/factsheet/cockroach-control/\" rel=\"noopener\">Clemson Cooperative Extension HGIC — Cockroach Control</a></li>\n<li><a href=\"https://ipm.uga.edu/files/2025/08/cockroach-fact-sheet.pdf\" rel=\"noopener\">University of Georgia IPM — Cockroach Fact Sheet</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Is a palmetto bug the same as a cockroach?",
+"a": "<p>Yes. \"Palmetto bug\" is a regional name used for large outdoor cockroaches — most often the American cockroach, sometimes the smoky-brown or Florida woods roach.</p>"
+},
+{
+"q": "Does one big roach mean my house is infested?",
+"a": "<p>Not necessarily. An occasional American cockroach usually wandered in from outside. Several a week, or small roaches in the kitchen, point to a different problem.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-american-cockroach",
-"text": "How to identify the American Cockroach"
+"text": "How to identify the American cockroach"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
-"id": "why-american-cockroachs-are-a-problem",
-"text": "Why American Cockroachs are a problem"
+"id": "why-american-cockroaches-are-a-problem",
+"text": "Why American cockroaches are a problem"
 },
 {
-"id": "signs-of-an-infestation",
-"text": "Signs of an infestation"
+"id": "signs-of-activity",
+"text": "Signs of activity"
 },
 {
-"id": "how-we-handle-american-cockroachs-in-the-csra",
-"text": "How we handle American Cockroachs in the CSRA"
+"id": "prevention-you-can-do",
+"text": "Prevention you can do"
+},
+{
+"id": "how-we-handle-american-cockroaches",
+"text": "How we handle American cockroaches"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:59:37",
-"modified": "2026-08-18T23:14:10",
+"modified": "2026-11-09T00:26:12",
 "excerpt": "American Cockroach — Identification & Control The American cockroach — the large “palmetto bug” — lives in sewers, drains, mulch, and crawlspaces and pushes indoors in warm CSRA weather. How to identify the American Cockroach Large, up to 1.5 inches, glossy reddish-brown with a pale figure-eight mar",
-"words": 182,
+"words": 494,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/asian-tiger-mosquito/",
@@ -11738,7 +11871,8 @@
 "excerpt": "Asian Tiger Mosquito — Identification & Control The Asian tiger mosquito is the aggressive, day-biting striped mosquito that breeds in tiny pockets of standing water around CSRA yards. How to identify the Asian Tiger Mosquito Small and black with bright white stripes on the legs and a single white s",
 "words": 182,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/bat/",
@@ -11784,7 +11918,8 @@
 "excerpt": "Bat — Identification & Control Bats roost in attics and soffits across the CSRA and are beneficial insect-eaters outdoors — but a colony inside a structure creates real health and odor problems and must be handled carefully and legally. How to identify the Bat Small mammals seen emerging at dusk; th",
 "words": 197,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/bed-bug/",
@@ -11796,41 +11931,67 @@
 "h1": "Bed Bug — Identification & Control",
 "hero": {
 "h1": "Bed Bug — Identification & Control",
-"lead": "Bed bugs are small, blood-feeding insects that hide in beds, furniture, and cracks and come out at night to feed. They are among the hardest household pests to detect early, which is exactly why a trained dog is so valuable."
+"lead": "Bed bugs are small, flat, blood-feeding insects that hide in beds, furniture and wall cracks and come out at night to feed. They are among the hardest household pests to catch early, which is exactly why a trained dog is so valuable: a certified canine team can screen a room in minutes and alert on live bugs and viable eggs a visual check misses."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-bed-bug\">How to identify the Bed Bug</h2>\n<p>Adults are about the size and color of an apple seed — flat, oval, reddish-brown. After feeding they swell and darken. Eggs and young are pale and much harder to see.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>They are nocturnal, hide in mattress seams, box springs, headboards, baseboards, and wall voids, and can survive months without feeding. A single mated female can start a new infestation.</p>\n<h2 id=\"why-bed-bugs-are-a-problem\">Why Bed Bugs are a problem</h2>\n<p>Bites cause itchy welts, often in lines, and infestations spread fast between rooms and units. They travel home on luggage and used furniture, so they turn up in the cleanest homes.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Rows of itchy bites, small blood smears on sheets, dark ink-like fecal spots along seams, pale shed skins, and in heavier cases a sweet, musty odor.</p>\n<h2 id=\"how-we-handle-bed-bugs-in-the-csra\">How we handle Bed Bugs in the CSRA</h2>\n<p>Our canine teams screen a property in minutes and pinpoint live activity early — see our <a href=\"/canine-scent-detection-accuracy/\">accuracy standards</a>. Confirmed finds move to our <a href=\"/bed-bug-control/\">bed bug treatment</a> program. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. See more in our <a href=\"/pest-library/\">pest library</a>.</p>\n<p>For heat, steam and residual treatment with monitored verification, see our <a href=\"/bed-bug-treatment/\">bed bug treatment service</a>.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> if you are waking up with itchy welts in lines or clusters and find rusty spots on mattress seams, treat it as a possible bed bug problem — don't move to another room or spray store-bought insecticide. Both spread the infestation. Get the room screened first.</p></div>\n<h2 id=\"how-to-identify-a-bed-bug\">How to identify a bed bug</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What you'll see</th></tr></thead><tbody>\n<tr><th>Size</th><td>Adults about 3/16 inch (5 mm) — the size of an apple seed. Newly hatched nymphs are about 1/16 inch and nearly clear.</td></tr>\n<tr><th>Shape &amp; color</th><td>Flat and oval when unfed; reddish-brown. After feeding they swell, lengthen and darken.</td></tr>\n<tr><th>Wings</th><td>None. Bed bugs crawl; they do not fly or jump.</td></tr>\n<tr><th>Eggs</th><td>Pearl-white, about 1 mm, glued into seams and crevices — very hard to see without magnification.</td></tr>\n<tr><th>Common look-alikes</th><td>Bat bugs and swallow bugs (nearly identical, tied to roosts and nests), carpet beetles, and booklice.</td></tr>\n</tbody></table>\n<h2 id=\"life-cycle-and-behavior\">Life cycle and behavior</h2>\n<p>A bed bug passes through five nymph stages, and each one needs a blood meal before it can molt to the next. At normal indoor temperatures the trip from egg to adult takes roughly five weeks, and a mated female can lay several eggs a day for months — a few hundred over her life. Eggs hatch in about one to two weeks.</p>\n<p>They are nocturnal and stay close to where people rest: mattress and box-spring seams, bed frames, headboards, nightstands, upholstered chairs, and baseboards. As numbers grow they spread into outlets, picture frames and wall voids, and into neighboring rooms or units. Adults can survive for months between meals, so an empty room is not a cleared room.</p>\n<h2 id=\"why-bed-bugs-are-a-problem-in-the-csra\">Why bed bugs are a problem in the CSRA</h2>\n<p>Bed bugs are not known to spread disease, but the bites, the sleep loss and the cost of getting rid of them are real. Aiken's equestrian season, North Augusta and Augusta hotel traffic, Fort Eisenhower moves, college housing in Aiken and Columbia, and the region's senior-living communities all move people and belongings in and out constantly — and bed bugs travel in luggage, used furniture and laundry. Many populations in the U.S. are also resistant to the pyrethroid sprays sold over the counter, which is why do-it-yourself treatment so often makes a problem bigger rather than smaller.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<ul class=\"k-signs\">\n<li><strong>Rusty or dark spots</strong> on sheets and along mattress seams — digested blood.</li>\n<li><strong>Itchy welts</strong> in a line or cluster that appear overnight (not everyone reacts to bites).</li>\n<li><strong>Pale shed skins and tiny white eggs</strong> in seams, piping, headboard joints and cracks.</li>\n<li><strong>Live bugs</strong> in the seams or corners of furniture, often in clusters.</li>\n<li><strong>A sweet, musty odor</strong> in heavier infestations.</li>\n</ul>\n<h2 id=\"what-you-can-do-right-now\">What you can do right now</h2>\n<ul class=\"k-list\">\n<li>Stay in the room you've been sleeping in so you don't carry bugs to a new one.</li>\n<li>Bag bedding and clothes and run them through a hot dryer for at least 30 minutes.</li>\n<li>Don't throw furniture on the curb without wrapping and marking it — that's how neighbors get them.</li>\n<li>Skip foggers and store sprays; they scatter bed bugs into walls and adjoining rooms.</li>\n<li>Inspect luggage and used furniture before it comes inside.</li>\n</ul>\n<h2 id=\"how-we-handle-bed-bugs-in-the-csra\">How we handle bed bugs in the CSRA</h2>\n<p>We start with a certified canine inspection: a handler and dog work the home, hotel floor or apartment building room by room and mark exactly where live activity is — including rooms you haven't seen signs in yet. Our dog teams are certified through NESDCA, and every alert is confirmed visually by the handler before anything is treated. See how accurate detection dogs really are on our <a href=\"/canine-scent-detection-accuracy/\">K9 detection accuracy</a> page.</p>\n<p>Treatment is targeted to the confirmed rooms with a protocol built to kill eggs, not just adults, followed by monitoring until the property comes back clean. Details are on our <a href=\"/bed-bug-control/\">K9 bed bug detection</a> and <a href=\"/bed-bug-treatment/\">bed bug treatment</a> pages, and hotels and property managers should read our <a href=\"/hotels-hospitality-pest-control/\">hotel</a> and <a href=\"/multifamily-property-management-pest-control/\">multifamily</a> programs. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule a screening.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Can bed bugs live in a clean house?</summary><p>Yes. Bed bugs feed on blood, not crumbs or dirt, so a spotless home is just as vulnerable. Clutter only gives them more places to hide and makes treatment harder.</p></details>\n<details><summary>How long can bed bugs live without feeding?</summary><p>Adults can survive for months without a blood meal, especially in cooler conditions. That is why leaving a room empty for a few weeks does not clear it.</p></details>\n<details><summary>Do bed bugs spread disease?</summary><p>They are not known to transmit disease to people. The health effects are the bites themselves, skin infections from scratching, and the stress and sleep loss an infestation causes.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://hgic.clemson.edu/factsheet/bed-bugs/\" rel=\"noopener\">Clemson Cooperative Extension HGIC — Bed Bugs</a></li>\n<li><a href=\"https://ipm.ucanr.edu/home-and-landscape/bed-bugs/\" rel=\"noopener\">University of California IPM — Bed Bugs</a></li>\n<li><a href=\"https://urbanentomology.tamu.edu/urban-pests/bedbugs/\" rel=\"noopener\">Texas A&amp;M Urban Entomology — Bed Bugs</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Can bed bugs live in a clean house?",
+"a": "<p>Yes. Bed bugs feed on blood, not crumbs or dirt, so a spotless home is just as vulnerable. Clutter only gives them more places to hide and makes treatment harder.</p>"
+},
+{
+"q": "How long can bed bugs live without feeding?",
+"a": "<p>Adults can survive for months without a blood meal, especially in cooler conditions. That is why leaving a room empty for a few weeks does not clear it.</p>"
+},
+{
+"q": "Do bed bugs spread disease?",
+"a": "<p>They are not known to transmit disease to people. The health effects are the bites themselves, skin infections from scratching, and the stress and sleep loss an infestation causes.</p>"
+}
+],
 "toc": [
 {
-"id": "how-to-identify-the-bed-bug",
-"text": "How to identify the Bed Bug"
+"id": "how-to-identify-a-bed-bug",
+"text": "How to identify a bed bug"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "life-cycle-and-behavior",
+"text": "Life cycle and behavior"
 },
 {
-"id": "why-bed-bugs-are-a-problem",
-"text": "Why Bed Bugs are a problem"
+"id": "why-bed-bugs-are-a-problem-in-the-csra",
+"text": "Why bed bugs are a problem in the CSRA"
 },
 {
 "id": "signs-of-an-infestation",
 "text": "Signs of an infestation"
 },
 {
+"id": "what-you-can-do-right-now",
+"text": "What you can do right now"
+},
+{
 "id": "how-we-handle-bed-bugs-in-the-csra",
-"text": "How we handle Bed Bugs in the CSRA"
+"text": "How we handle bed bugs in the CSRA"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:58:01",
-"modified": "2026-08-18T23:09:21",
+"modified": "2026-11-09T00:25:36",
 "excerpt": "Bed Bug — Identification & Control Bed bugs are small, blood-feeding insects that hide in beds, furniture, and cracks and come out at night to feed. They are among the hardest household pests to detect early, which is exactly why a trained dog is so valuable. How to identify the Bed Bug Adults are a",
-"words": 239,
+"words": 850,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/black-widow-spider/",
@@ -11876,7 +12037,8 @@
 "excerpt": "Black Widow Spider — Identification & Control Black widows are the venomous spiders that build strong, messy webs in garages, woodpiles, crawlspaces, and outbuildings around CSRA properties. How to identify the Black Widow Spider Glossy black with a red hourglass on the underside of the abdomen. Fem",
 "words": 181,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/brown-recluse-spider/",
@@ -11922,7 +12084,8 @@
 "excerpt": "Brown Recluse Spider — Identification & Control Brown recluse spiders are occasionally found in the CSRA in undisturbed indoor spaces. They are shy and rarely bite, but a bite can be medically serious, so identification matters. How to identify the Brown Recluse Spider Light to medium brown with a d",
 "words": 200,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/canada-goose/",
@@ -11934,41 +12097,67 @@
 "h1": "Canada Goose — Identification & Control",
 "hero": {
 "h1": "Canada Goose — Identification & Control",
-"lead": "Resident Canada geese have become year-round nuisance birds on CSRA golf courses, HOA ponds, and corporate campuses, where flocks foul turf and turn aggressive during nesting."
+"lead": "The Canada goose is the large black-necked goose with the white chinstrap that has settled year-round on CSRA ponds, golf courses, HOA lakes, school fields and office parks. Many of these birds no longer migrate at all — they are resident flocks that grow every year where the grass is short and the water is open."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-canada-goose\">How to identify the Canada Goose</h2>\n<p>Large birds with a black head and neck, white chin strap, brown body, and a loud honk. Resident (non-migratory) flocks stay put and grow year over year.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>They graze on turf, favor open grass beside water, and defend nests aggressively in spring. Flocks return to the same sites and habituate quickly to passive deterrents.</p>\n<h2 id=\"why-canada-gooses-are-a-problem\">Why Canada Gooses are a problem</h2>\n<p>Droppings damage turf and foul walkways and shorelines, create a slip and health hazard, and aggressive nesting birds harass people and pets.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Grazed and fouled turf, accumulations of droppings along water edges and cart paths, feathers, and nesting activity near ponds in spring.</p>\n<h2 id=\"how-we-handle-canada-gooses-in-the-csra\">How we handle Canada Gooses in the CSRA</h2>\n<p>Trained dogs make a property feel unsafe to geese and move flocks off without harming them — our <a href=\"/goose-control/\">goose control</a> and <a href=\"/hoa-golf-course-goose-management/\">HOA &amp; golf course</a> programs deliver lasting results. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. See more in our <a href=\"/pest-library/\">pest library</a>.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> Canada geese are federally protected, so you can't harm them, take eggs or destroy active nests without federal authorization. What you <em>can</em> do legally is make the property feel unsafe — and a working dog is the one deterrent geese don't learn to ignore.</p></div>\n<h2 id=\"how-to-identify-the-canada-goose\">How to identify the Canada goose</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What to look for</th></tr></thead><tbody>\n<tr><th>Size</th><td>Large waterfowl, roughly 2.5–3.5 feet long</td></tr>\n<tr><th>Markings</th><td>Black head and neck with a white \"chinstrap\" patch; brown-gray body, pale chest, white under the tail</td></tr>\n<tr><th>Young</th><td>Goslings are yellow-green and fluffy in spring</td></tr>\n<tr><th>Look-alikes</th><td>Domestic geese and goose hybrids on park ponds (often white or mottled, with orange bills)</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>Resident Canada geese pair for life and return to the same property each year. In the Southeast they nest in early spring, usually close to water on islands, banks and landscaped beds; incubation takes about four weeks. Pairs defend the nest hard — hissing, wing-beating and charging people who get close.</p>\n<p>In early summer adults go through a molt and lose their flight feathers for several weeks. Flocks gather on ponds with open lawn beside them, because short, fertilized grass is ideal food and open water lets them escape predators. Every successful brood adds to next year's flock.</p>\n<h2 id=\"why-geese-are-a-problem\">Why geese are a problem</h2>\n<ul class=\"k-reg\">\n<li><strong>Droppings.</strong> A single adult goose produces a large volume of droppings every day; a flock fouls walkways, docks, beaches, greens and athletic fields, and adds nutrients that feed algae in ponds.</li>\n<li><strong>Aggression.</strong> Nesting geese charge residents, golfers, employees and children — a liability for HOAs, campuses and businesses.</li>\n<li><strong>Turf and water damage.</strong> Grazing and droppings damage turf; flocks can degrade water quality in retention ponds.</li>\n<li><strong>Safety.</strong> Geese crossing roads and parking lots, and near airfields, create collision risks.</li>\n</ul>\n<h2 id=\"what-doesn-t-work-for-long\">What doesn't work for long</h2>\n<p>Plastic coyotes, swan decoys, flags and noise makers work briefly — until the geese learn they never move. Feeding bans help but don't move an established flock. Chemical grazing repellents need repeated application. And anything involving eggs or nests requires federal registration and specific timing, so it is not a do-it-yourself job.</p>\n<h2 id=\"prevention-you-can-do\">Prevention you can do</h2>\n<ul class=\"k-list\">\n<li>Stop all feeding of waterfowl on the property, and post signs.</li>\n<li>Let a strip of taller native grass or shrubs grow along the shoreline — geese avoid cover where a predator could hide.</li>\n<li>Reduce mowed lawn running straight down to the water's edge.</li>\n<li>Start deterrence before nesting season, not after nests are built.</li>\n</ul>\n<h2 id=\"how-we-handle-canada-geese\">How we handle Canada geese</h2>\n<p>We use trained working dogs to haze geese — the dog moves the flock off the property without contact or harm, and repeated visits teach the geese the site isn't safe to nest or feed on. Dog hazing is a legal, non-lethal method that doesn't require a permit. We schedule visits more often around spring nesting and the summer molt and adjust as goose pressure drops. See <a href=\"/goose-control/\">Canada goose management</a> and our <a href=\"/hoa-golf-course-goose-management/\">HOA, golf course &amp; campus program</a>, or call <a href=\"tel:8032263155\">803-226-3155</a> — ideally before nesting season starts.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Is it legal to chase geese with a dog?</summary><p>Yes. Harassing Canada geese to move them is legal as long as the birds aren't harmed or captured and nests and eggs aren't disturbed. That is exactly how a professional hazing dog works.</p></details>\n<details><summary>Can I remove a goose nest myself?</summary><p>No — not without federal authorization. Nest and egg management for resident Canada geese requires registration with the U.S. Fish and Wildlife Service and follows specific rules.</p></details>\n<details><summary>When should goose control start?</summary><p>Before nesting season. Geese that have already built a nest are far harder to move than birds that are still choosing a site.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://www.aphis.usda.gov/sites/default/files/canada_goose.pdf\" rel=\"noopener\">USDA APHIS Wildlife Services — Canada Goose</a></li>\n<li><a href=\"https://apps.fws.gov/rcgr/resources/canada-goose-nesting\" rel=\"noopener\">U.S. Fish &amp; Wildlife Service — Management of Canada Goose Nesting</a></li>\n<li><a href=\"https://njaes.rutgers.edu/fs1214/\" rel=\"noopener\">Rutgers Cooperative Extension — FS1214 (Canada goose management)</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Is it legal to chase geese with a dog?",
+"a": "<p>Yes. Harassing Canada geese to move them is legal as long as the birds aren't harmed or captured and nests and eggs aren't disturbed. That is exactly how a professional hazing dog works.</p>"
+},
+{
+"q": "Can I remove a goose nest myself?",
+"a": "<p>No — not without federal authorization. Nest and egg management for resident Canada geese requires registration with the U.S. Fish and Wildlife Service and follows specific rules.</p>"
+},
+{
+"q": "When should goose control start?",
+"a": "<p>Before nesting season. Geese that have already built a nest are far harder to move than birds that are still choosing a site.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-canada-goose",
-"text": "How to identify the Canada Goose"
+"text": "How to identify the Canada goose"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
-"id": "why-canada-gooses-are-a-problem",
-"text": "Why Canada Gooses are a problem"
+"id": "why-geese-are-a-problem",
+"text": "Why geese are a problem"
 },
 {
-"id": "signs-of-an-infestation",
-"text": "Signs of an infestation"
+"id": "what-doesn-t-work-for-long",
+"text": "What doesn't work for long"
 },
 {
-"id": "how-we-handle-canada-gooses-in-the-csra",
-"text": "How we handle Canada Gooses in the CSRA"
+"id": "prevention-you-can-do",
+"text": "Prevention you can do"
+},
+{
+"id": "how-we-handle-canada-geese",
+"text": "How we handle Canada geese"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:58:11",
-"modified": "2026-08-18T23:07:40",
+"modified": "2026-11-09T00:27:25",
 "excerpt": "Canada Goose — Identification & Control Resident Canada geese have become year-round nuisance birds on CSRA golf courses, HOA ponds, and corporate campuses, where flocks foul turf and turn aggressive during nesting. How to identify the Canada Goose Large birds with a black head and neck, white chin ",
-"words": 190,
+"words": 687,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/carpenter-ant/",
@@ -12014,7 +12203,8 @@
 "excerpt": "Carpenter Ant — Identification & Control Carpenter ants are the large black ants that hollow out damp or damaged wood to nest. They do not eat wood, but their galleries can signal — and worsen — a moisture problem. How to identify the Carpenter Ant Among the largest ants you will see indoors, 1/4 to",
 "words": 190,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/cat-flea/",
@@ -12060,7 +12250,8 @@
 "excerpt": "Cat Flea — Identification & Control The cat flea is the biting parasite behind most flea problems in CSRA homes — it infests pets and then the carpets, bedding, and yard, and is stubborn because most of its life cycle is hidden off the animal. How to identify the Cat Flea Tiny, dark, wingless insect",
 "words": 199,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/eastern-gray-squirrel/",
@@ -12106,7 +12297,8 @@
 "excerpt": "Eastern Gray Squirrel — Identification & Control Eastern gray squirrels are the most common attic invaders in the CSRA, gnawing their way into soffits and eaves to nest — especially in late winter and late summer. How to identify the Eastern Gray Squirrel Familiar gray (sometimes brownish) tree squi",
 "words": 182,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/eastern-mole/",
@@ -12152,7 +12344,8 @@
 "excerpt": "Eastern Mole — Identification & Control The eastern mole tunnels just below CSRA lawns in search of grubs and earthworms, raising the ridges and mounds that damage otherwise healthy turf. How to identify the Eastern Mole Rarely seen — a small burrowing mammal with velvety gray fur, tiny eyes, and la",
 "words": 168,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/eastern-subterranean-termite/",
@@ -12198,7 +12391,8 @@
 "excerpt": "Eastern Subterranean Termite — Identification & Control The eastern subterranean termite is the most destructive structural pest in South Carolina, eating wood from the inside out and often going unnoticed until damage is significant. How to identify the Eastern Subterranean Termite Workers are pale",
 "words": 184,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/european-starling/",
@@ -12210,41 +12404,59 @@
 "h1": "European Starling — Identification & Control",
 "hero": {
 "h1": "European Starling — Identification & Control",
-"lead": "European starlings are aggressive cavity-nesting birds that jam nests into vents and signage and gather in large, noisy, messy flocks across the CSRA."
+"lead": "The European starling is the chunky, short-tailed black bird that roosts in huge, noisy flocks and nests in any cavity it can find — soffits, gable vents, dryer and bath vents, signs and gaps behind fascia boards. It was introduced to North America in 1890 and is now one of the continent's most common birds."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-european-starling\">How to identify the European Starling</h2>\n<p>Stocky black birds with an iridescent green-purple sheen and white speckles in winter; the bill turns yellow in breeding season. They fly in dense flocks.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>They aggressively take over cavities — dryer and exhaust vents, signage, soffit gaps — and roost communally in large numbers, displacing native birds.</p>\n<h2 id=\"why-european-starlings-are-a-problem\">Why European Starlings are a problem</h2>\n<p>Nests clog and disable vents (a fire and moisture hazard), droppings foul and corrode surfaces, and large roosts create noise and disease concerns.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Chattering flocks, nests packed into vents and signs, droppings below roosts, and blocked dryer or exhaust vents.</p>\n<h2 id=\"how-we-handle-european-starlings-in-the-csra\">How we handle European Starlings in the CSRA</h2>\n<p>The fix is exclusion — screening vents and sealing cavities so they cannot re-nest. Our <a href=\"/bird-exclusion/\">bird exclusion</a> program handles it. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. Browse the full <a href=\"/pest-library/\">pest library</a>.</p>\n<p>Where a flock is entrenched on a commercial property, see our <a href=\"/falconry-bird-abatement/\">falconry bird abatement</a> and <a href=\"/bird-exclusion/\">bird exclusion</a> services.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> chattering and scratching inside a vent or soffit in spring is very often a starling nest. Fix it by removing the nest after the young leave and screening the opening — otherwise the same hole gets used every year.</p></div>\n<h2 id=\"how-to-identify-the-european-starling\">How to identify the European starling</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What to look for</th></tr></thead><tbody>\n<tr><th>Size &amp; shape</th><td>About 8–9 inches, stocky, short square tail, pointed wings (triangular in flight)</td></tr>\n<tr><th>Breeding plumage</th><td>Glossy black with green-purple sheen and a yellow bill</td></tr>\n<tr><th>Winter plumage</th><td>Covered in white spots, darker bill</td></tr>\n<tr><th>Look-alikes</th><td>Grackles and blackbirds (longer tails; native and protected)</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>Starlings nest in cavities from early spring, often raising more than one brood. Outside nesting season they gather into very large communal roosts in trees, on buildings and under bridges and canopies, flying out each day to feed on insects, fruit, grain and livestock feed.</p>\n<h2 id=\"why-starlings-are-a-problem\">Why starlings are a problem</h2>\n<ul class=\"k-reg\">\n<li><strong>Nests in vents</strong> block dryer, bath and kitchen exhausts — a fire and moisture risk — and bring in mites.</li>\n<li><strong>Roosts</strong> concentrate heavy droppings on buildings, sidewalks and vehicles.</li>\n<li><strong>Agriculture.</strong> Flocks feed on and contaminate livestock feed and fruit crops.</li>\n<li><strong>Native birds.</strong> Starlings take over nest cavities from native species such as bluebirds and woodpeckers.</li>\n</ul>\n<h2 id=\"signs-of-starlings\">Signs of starlings</h2>\n<ul class=\"k-signs\">\n<li>Birds flying in and out of a vent, soffit gap or sign in spring.</li>\n<li>Nesting material — grass, twigs, feathers — sticking out of openings.</li>\n<li>Loud chattering from chicks inside a wall or vent.</li>\n<li>Droppings building up under a roost area in fall and winter.</li>\n</ul>\n<h2 id=\"how-we-handle-starlings\">How we handle starlings</h2>\n<p>Once a nest is inactive we clear the nesting material, clean the opening and close it with durable guards and screening sized for vents, then protect roost areas with netting, wire or spikes. Starlings are a non-native species not covered by the Migratory Bird Treaty Act, but correct identification matters — many similar-looking blackbirds are protected. See <a href=\"/bird-exclusion/\">bird control &amp; exclusion</a>, or for large commercial roosts <a href=\"/falconry-bird-abatement/\">falconry bird abatement</a>. Call <a href=\"tel:8032263155\">803-226-3155</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Why do starlings keep nesting in my dryer vent?</summary><p>An open or louver-style vent is a perfect cavity. Once a pair uses it, birds return to the same spot. A proper vent guard that still lets air out is the long-term fix.</p></details>\n<details><summary>Are starlings protected?</summary><p>European starlings are non-native and are not protected under the federal Migratory Bird Treaty Act. Native blackbirds and grackles that look similar are protected.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://www.maine.gov/dacf/php/gotpests/othercritters/starlings.htm\" rel=\"noopener\">Maine Board of Pesticides Control — Starlings</a></li>\n<li><a href=\"https://idph.illinois.gov/envhealth/pdf/Bird_Control_Manual.pdf\" rel=\"noopener\">Illinois Department of Public Health — Bird Control Manual</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Why do starlings keep nesting in my dryer vent?",
+"a": "<p>An open or louver-style vent is a perfect cavity. Once a pair uses it, birds return to the same spot. A proper vent guard that still lets air out is the long-term fix.</p>"
+},
+{
+"q": "Are starlings protected?",
+"a": "<p>European starlings are non-native and are not protected under the federal Migratory Bird Treaty Act. Native blackbirds and grackles that look similar are protected.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-european-starling",
-"text": "How to identify the European Starling"
+"text": "How to identify the European starling"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
-"id": "why-european-starlings-are-a-problem",
-"text": "Why European Starlings are a problem"
+"id": "why-starlings-are-a-problem",
+"text": "Why starlings are a problem"
 },
 {
-"id": "signs-of-an-infestation",
-"text": "Signs of an infestation"
+"id": "signs-of-starlings",
+"text": "Signs of starlings"
 },
 {
-"id": "how-we-handle-european-starlings-in-the-csra",
-"text": "How we handle European Starlings in the CSRA"
+"id": "how-we-handle-starlings",
+"text": "How we handle starlings"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T03:01:05",
-"modified": "2026-08-18T23:03:40",
+"modified": "2026-11-09T00:27:34",
 "excerpt": "European Starling — Identification & Control European starlings are aggressive cavity-nesting birds that jam nests into vents and signage and gather in large, noisy, messy flocks across the CSRA. How to identify the European Starling Stocky black birds with an iridescent green-purple sheen and white",
-"words": 186,
+"words": 473,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/german-cockroach/",
@@ -12256,41 +12468,63 @@
 "h1": "German Cockroach — Identification & Control",
 "hero": {
 "h1": "German Cockroach — Identification & Control",
-"lead": "The German cockroach is the small indoor roach that infests kitchens and bathrooms and is the hardest to eliminate because it breeds so fast."
+"lead": "The German cockroach is the small, fast indoor roach found in kitchens, bathrooms and food-service areas. It is the cockroach that breeds inside buildings, multiplies faster than any other common species, and is the one most likely to show up in an apartment, restaurant or school."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-german-cockroach\">How to identify the German Cockroach</h2>\n<p>Light tan to brown, about half an inch, with two dark parallel stripes behind the head. Egg cases are small, tan, and purse-shaped.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>It hides in warm, humid harborage near food and water — behind appliances, under sinks, in cabinet voids — and is active at night. One egg case holds dozens of young.</p>\n<h2 id=\"why-german-cockroachs-are-a-problem\">Why German Cockroachs are a problem</h2>\n<p>It spreads bacteria across food surfaces, triggers allergies and asthma, and multiplies rapidly, making a small problem an infestation within weeks.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Pepper-like droppings in drawers and corners, discarded egg cases, a musty odor, and live roaches scattering when a light comes on.</p>\n<h2 id=\"how-we-handle-german-cockroachs-in-the-csra\">How we handle German Cockroachs in the CSRA</h2>\n<p>German roaches need a targeted, sanitation-aware program rather than over-the-counter sprays. Our <a href=\"/restaurant-food-service-pest-control/\">food-service</a> and <a href=\"/commercial-pest-control/\">commercial pest control</a> teams handle heavy accounts. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. See more in our <a href=\"/pest-library/\">pest library</a>.</p>\n<p>For species-level identification, gel baiting and exterior source work, see our <a href=\"/cockroach-control/\">cockroach control service</a>.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> small tan roaches with two dark stripes behind the head, seen in the kitchen or bathroom — especially in daylight — means an established German cockroach infestation. Sprays usually make it worse; baits, sanitation and crack-and-crevice work fix it.</p></div>\n<h2 id=\"how-to-identify-the-german-cockroach\">How to identify the German cockroach</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>German cockroach</th><th>American cockroach (look-alike)</th></tr></thead><tbody>\n<tr><th>Size</th><td>About 1/2–5/8 inch</td><td>About 1.5–2 inches</td></tr>\n<tr><th>Color &amp; marks</th><td>Light tan to brown with two dark parallel stripes on the shield behind the head</td><td>Reddish-brown with a pale yellowish band around the shield</td></tr>\n<tr><th>Where</th><td>Indoors: kitchens, bathrooms, appliances, cabinets</td><td>Crawlspaces, sewers, mulch, basements; wanders in</td></tr>\n<tr><th>Egg case</th><td>Female carries it until the eggs are about to hatch</td><td>Dropped or glued in a protected spot</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>German cockroaches live almost entirely indoors near warmth, moisture and food. Each egg case holds roughly 30–40 eggs, and because the female carries it until hatching, the eggs are protected from many treatments. Under good conditions the life cycle from egg to adult takes about two months, so populations grow very quickly.</p>\n<p>They hide in tight cracks — hinges, the backs of cabinets, under sinks, inside appliance motors and electronics — and come out at night. Seeing them during the day usually means hiding places are already full.</p>\n<h2 id=\"why-german-cockroaches-are-a-problem\">Why German cockroaches are a problem</h2>\n<p>They contaminate food and surfaces, and their droppings, shed skins and saliva are well-documented allergens and asthma triggers, especially for children in multifamily housing. In restaurants and food handling they are an immediate health-inspection problem. Many populations have also developed resistance to common insecticides, and store-bought sprays and foggers tend to scatter them into neighboring units.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<ul class=\"k-signs\">\n<li><strong>Pepper-like droppings</strong> and dark smear marks in cabinet corners, hinges and behind appliances.</li>\n<li><strong>Shed skins and empty egg cases</strong> in cracks and under sinks.</li>\n<li><strong>Live roaches in daytime</strong>, or scattering when the light comes on.</li>\n<li><strong>An oily, musty smell</strong> in heavy infestations.</li>\n</ul>\n<h2 id=\"prevention-you-can-do\">Prevention you can do</h2>\n<ul class=\"k-list\">\n<li>Don't leave dishes, food or pet bowls out overnight; wipe crumbs and grease.</li>\n<li>Fix drips and leaks under sinks and around appliances.</li>\n<li>Inspect grocery boxes, used appliances and furniture before bringing them in.</li>\n<li>Seal gaps around plumbing and in cabinets; reduce cardboard and clutter.</li>\n</ul>\n<h2 id=\"how-we-handle-german-cockroaches\">How we handle German cockroaches</h2>\n<p>We treat German roaches through our <a href=\"/cockroach-control/\">cockroach control</a> service: a thorough inspection to find every harborage, targeted gel baits and growth regulators placed in cracks rather than sprayed over surfaces, sanitation and exclusion recommendations, and follow-up visits until activity stops. Multifamily and food-service properties are covered under our <a href=\"/multifamily-property-management-pest-control/\">multifamily</a> and <a href=\"/restaurant-food-service-pest-control/\">restaurant</a> programs. Call <a href=\"tel:8032263155\">803-226-3155</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Why do roaches keep coming back after I spray?</summary><p>Most sprays don't reach the egg cases or the cracks where most roaches hide, and repellent sprays push them into walls and next-door units. Baits that roaches carry back to the harborage work far better.</p></details>\n<details><summary>Do German cockroaches live outside?</summary><p>Rarely. They depend on indoor warmth and food. If you're seeing large roaches outdoors, it's more likely an American or smoky-brown cockroach.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://hgic.clemson.edu/factsheet/cockroach-control/\" rel=\"noopener\">Clemson Cooperative Extension HGIC — Cockroach Control</a></li>\n<li><a href=\"https://ipm.uga.edu/files/2025/08/cockroach-fact-sheet.pdf\" rel=\"noopener\">University of Georgia IPM — Cockroach Fact Sheet</a></li>\n<li><a href=\"https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2016/07/E-359-Cockroach-biology-and-management-2012.pdf\" rel=\"noopener\">Texas A&amp;M AgriLife — Cockroach Biology and Management (E-359)</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Why do roaches keep coming back after I spray?",
+"a": "<p>Most sprays don't reach the egg cases or the cracks where most roaches hide, and repellent sprays push them into walls and next-door units. Baits that roaches carry back to the harborage work far better.</p>"
+},
+{
+"q": "Do German cockroaches live outside?",
+"a": "<p>Rarely. They depend on indoor warmth and food. If you're seeing large roaches outdoors, it's more likely an American or smoky-brown cockroach.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-german-cockroach",
-"text": "How to identify the German Cockroach"
+"text": "How to identify the German cockroach"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
-"id": "why-german-cockroachs-are-a-problem",
-"text": "Why German Cockroachs are a problem"
+"id": "why-german-cockroaches-are-a-problem",
+"text": "Why German cockroaches are a problem"
 },
 {
 "id": "signs-of-an-infestation",
 "text": "Signs of an infestation"
 },
 {
-"id": "how-we-handle-german-cockroachs-in-the-csra",
-"text": "How we handle German Cockroachs in the CSRA"
+"id": "prevention-you-can-do",
+"text": "Prevention you can do"
+},
+{
+"id": "how-we-handle-german-cockroaches",
+"text": "How we handle German cockroaches"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:58:09",
-"modified": "2026-08-18T23:07:59",
+"modified": "2026-11-09T00:26:12",
 "excerpt": "German Cockroach — Identification & Control The German cockroach is the small indoor roach that infests kitchens and bathrooms and is the hardest to eliminate because it breeds so fast. How to identify the German Cockroach Light tan to brown, about half an inch, with two dark parallel stripes behind",
-"words": 194,
+"words": 571,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/house-fly/",
@@ -12336,7 +12570,8 @@
 "excerpt": "House Fly — Identification & Control House flies breed in decaying organic matter and trash and mechanically spread bacteria wherever they land — a nuisance at home and a serious concern for food businesses. How to identify the House Fly Gray with four dark stripes on the thorax and reddish eyes, ab",
 "words": 175,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/house-mouse/",
@@ -12348,41 +12583,63 @@
 "h1": "House Mouse — Identification & Control",
 "hero": {
 "h1": "House Mouse — Identification & Control",
-"lead": "The house mouse is the small gray rodent that slips indoors through gaps as small as a dime and breeds year-round. Small size and fast reproduction make it a persistent problem."
+"lead": "The house mouse is the small gray rodent that moves indoors when the weather cools. It needs only a gap about the width of a pencil to get in, lives its whole life within a few feet of food, and can turn a handful of mice into a full infestation in a single season."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-house-mouse\">How to identify the House Mouse</h2>\n<p>Dusty gray to light brown, 2.5–4 inches in the body with a thin, nearly hairless tail about as long, large ears, and a pointed nose. Droppings are rice-grain sized.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>Curious rather than wary, mice explore new objects readily, nest in shredded material near food, and can produce a litter every few weeks.</p>\n<h2 id=\"why-house-mouses-are-a-problem\">Why House Mouses are a problem</h2>\n<p>They contaminate far more food than they eat, gnaw packaging and wiring, and trigger allergies and asthma. A few mice become many quickly.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Small dark droppings along walls and in drawers, gnawed packaging, nests of shredded paper or insulation, and a faint musky odor.</p>\n<h2 id=\"how-we-handle-house-mouses-in-the-csra\">How we handle House Mouses in the CSRA</h2>\n<p>Canine detection finds nesting and travel routes behind cabinets and in voids so treatment is targeted — see <a href=\"/nationwide-k9-rodent-detection/\">K9 rodent detection</a> and our <a href=\"/rodent-control/\">rodent control</a> program. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. See more in our <a href=\"/pest-library/\">pest library</a>.</p>\n<p>For trapping, code-grade exclusion and clean-up, see our <a href=\"/rat-mouse-control/\">rat and mouse control service</a>.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> tiny rod-shaped droppings in drawers, under the sink or behind the stove mean mice. One mouse seen usually means more you haven't seen — and the gaps they use are almost always smaller than people expect.</p></div>\n<h2 id=\"how-to-identify-the-house-mouse\">How to identify the house mouse</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What to look for</th></tr></thead><tbody>\n<tr><th>Body</th><td>Small and slender, about 2.5–3.5 inches plus a tail of similar length</td></tr>\n<tr><th>Color</th><td>Dusty gray to light brown, slightly lighter belly</td></tr>\n<tr><th>Head</th><td>Pointed nose, relatively large ears, small eyes</td></tr>\n<tr><th>Droppings</th><td>About 1/8–1/4 inch, rod-shaped with pointed ends, often scattered</td></tr>\n<tr><th>Look-alikes</th><td>Young rats (bigger heads and feet), deer mice and white-footed mice (bicolored, white belly and feet — more common in sheds and cabins)</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>House mice are nibblers. Rather than eating one big meal they visit many small food sources, usually within about 10–30 feet of the nest, and they can get most of the water they need from their food. They nest in walls, cabinets, appliances, insulation and stored boxes, using shredded paper and fabric.</p>\n<p>A female can have five to ten litters a year of around five or six young, and the young are breeding within about six to eight weeks. Mice are curious rather than cautious, so they explore new objects quickly — which helps trapping when traps are in the right places.</p>\n<h2 id=\"why-mice-are-a-problem\">Why mice are a problem</h2>\n<p>They contaminate food and food-prep surfaces with urine and droppings, chew wiring and insulation, and can carry salmonella and other pathogens. Mouse allergens are a recognized asthma trigger in homes and schools. In commercial kitchens, healthcare and food storage, a single sighting can become an inspection finding.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<ul class=\"k-signs\">\n<li><strong>Droppings</strong> in drawers, cabinets, along baseboards and behind appliances.</li>\n<li><strong>Gnawed packaging</strong> — especially cereal, grains, pet food and birdseed.</li>\n<li><strong>Nests</strong> of shredded paper, fabric or insulation in hidden spaces.</li>\n<li><strong>Scratching</strong> in walls or ceilings at night and a stale, musky odor.</li>\n<li><strong>Pets</strong> staring at or pawing one spot on a wall or appliance.</li>\n</ul>\n<h2 id=\"prevention-you-can-do\">Prevention you can do</h2>\n<ul class=\"k-list\">\n<li>Seal gaps of 1/4 inch and larger with steel wool plus sealant, mesh or metal — around pipes, vents, garage doors and utility lines.</li>\n<li>Store dry food, pet food and seed in hard containers with tight lids.</li>\n<li>Reduce clutter and cardboard in garages, basements and storage rooms.</li>\n<li>Keep firewood and stored materials off the ground and away from walls.</li>\n</ul>\n<h2 id=\"how-we-handle-house-mice\">How we handle house mice</h2>\n<p>We find the problem first. A certified detection dog pinpoints where mice are actually nesting and traveling inside walls and voids, so trapping and sealing target the right places instead of the whole house. Then we remove the mice, close every entry point and clean up. See <a href=\"/rat-mouse-control/\">rat and mouse control</a> and <a href=\"/repairs/\">repairs &amp; exclusion</a>, or call <a href=\"tel:8032263155\">803-226-3155</a>. Businesses should see our <a href=\"/commercial-pest-control/\">commercial programs</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>How small a hole can a mouse get through?</summary><p>About 1/4 inch — roughly the width of a pencil. If the head fits, the body follows.</p></details>\n<details><summary>Why do I only see mice in the fall?</summary><p>Cooler nights push mice indoors looking for warmth and food. They were often nearby all summer, living in yards, sheds and landscaping.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://www.aces.edu/wp-content/uploads/2020/10/ANR-0688-Controlling-Rats-and-Mice_101920L-A.pdf\" rel=\"noopener\">Alabama Cooperative Extension — Controlling Rats and Mice (ANR-0688)</a></li>\n<li><a href=\"https://www.epa.gov/rodenticides/about-rats-and-mice\" rel=\"noopener\">U.S. EPA — About Rats and Mice</a></li>\n</ul>",
+"faqs": [
+{
+"q": "How small a hole can a mouse get through?",
+"a": "<p>About 1/4 inch — roughly the width of a pencil. If the head fits, the body follows.</p>"
+},
+{
+"q": "Why do I only see mice in the fall?",
+"a": "<p>Cooler nights push mice indoors looking for warmth and food. They were often nearby all summer, living in yards, sheds and landscaping.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-house-mouse",
-"text": "How to identify the House Mouse"
+"text": "How to identify the house mouse"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
-"id": "why-house-mouses-are-a-problem",
-"text": "Why House Mouses are a problem"
+"id": "why-mice-are-a-problem",
+"text": "Why mice are a problem"
 },
 {
 "id": "signs-of-an-infestation",
 "text": "Signs of an infestation"
 },
 {
-"id": "how-we-handle-house-mouses-in-the-csra",
-"text": "How we handle House Mouses in the CSRA"
+"id": "prevention-you-can-do",
+"text": "Prevention you can do"
+},
+{
+"id": "how-we-handle-house-mice",
+"text": "How we handle house mice"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:58:07",
-"modified": "2026-08-18T23:08:18",
+"modified": "2026-11-09T00:25:36",
 "excerpt": "House Mouse — Identification & Control The house mouse is the small gray rodent that slips indoors through gaps as small as a dime and breeds year-round. Small size and fast reproduction make it a persistent problem. How to identify the House Mouse Dusty gray to light brown, 2.5–4 inches in the body",
-"words": 205,
+"words": 593,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/house-sparrow/",
@@ -12394,41 +12651,55 @@
 "h1": "House Sparrow — Identification & Control",
 "hero": {
 "h1": "House Sparrow — Identification & Control",
-"lead": "House sparrows are the small, bold birds that stuff messy nests into signage, eaves, and vents around homes and businesses throughout the region."
+"lead": "The house sparrow is the small brown bird that nests in store signs, light fixtures, gutters, dock-door housings and warehouse rafters. It was introduced to North America in the 1850s, lives almost exclusively around people and buildings, and often gets inside retail stores, garden centers and food warehouses."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-house-sparrow\">How to identify the House Sparrow</h2>\n<p>Small brown and gray birds; males have a black bib and chestnut markings. They stay close to buildings year-round.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>They nest in almost any protected cavity — sign lettering, soffit gaps, vents, and ledges — and raise multiple broods a year, aggressively defending sites.</p>\n<h2 id=\"why-house-sparrows-are-a-problem\">Why House Sparrows are a problem</h2>\n<p>Bulky nests clog vents and lit signage (a fire risk), droppings foul entrances, and their nesting debris and mites become an ongoing nuisance.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Constant chirping in signage and eaves, straw-like nests poking from cavities, droppings at entrances, and nesting material on the ground below.</p>\n<h2 id=\"how-we-handle-house-sparrows-in-the-csra\">How we handle House Sparrows in the CSRA</h2>\n<p>Exclusion — netting, screening, and sealing cavities — keeps them out for good. See our <a href=\"/bird-exclusion/\">bird exclusion</a> service. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. Browse the full <a href=\"/pest-library/\">pest library</a>.</p>\n<p>Where a flock is entrenched on a commercial property, see our <a href=\"/falconry-bird-abatement/\">falconry bird abatement</a> and <a href=\"/bird-exclusion/\">bird exclusion</a> services.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> chirping birds nesting inside a sign letter, a light fixture or the steel above a loading door are usually house sparrows. Exclusion of those specific nesting gaps is what stops them.</p></div>\n<h2 id=\"how-to-identify-the-house-sparrow\">How to identify the house sparrow</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What to look for</th></tr></thead><tbody>\n<tr><th>Size</th><td>About 6 inches, chunky with a thick seed-eating bill</td></tr>\n<tr><th>Male</th><td>Gray crown, chestnut nape, black bib, white cheeks</td></tr>\n<tr><th>Female</th><td>Plain buff-brown with a pale stripe behind the eye</td></tr>\n<tr><th>Look-alikes</th><td>Native sparrows and finches (protected) — check the bib and gray crown on males</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>House sparrows nest in almost any enclosed space on a building and can raise several broods a season. They are bold, social birds that follow food: spilled grain and seed, outdoor dining, garden centers and open warehouse doors. Once inside a large building they can live there year-round.</p>\n<h2 id=\"why-house-sparrows-are-a-problem\">Why house sparrows are a problem</h2>\n<ul class=\"k-reg\">\n<li><strong>Inside buildings</strong> they contaminate stock and food areas — a serious issue for food warehouses, retail and food processing.</li>\n<li><strong>Nests</strong> in signs and light fixtures create fire risk and damage fixtures.</li>\n<li><strong>Droppings</strong> under nest sites and on merchandise, equipment and walkways.</li>\n<li><strong>Native birds.</strong> They compete aggressively with bluebirds and martins for nest boxes.</li>\n</ul>\n<h2 id=\"how-we-handle-house-sparrows\">How we handle house sparrows</h2>\n<p>We find the specific nesting and entry points, clear nesting material, and close them with netting, mesh and exclusion sized for a small bird, plus door and dock strategies to keep birds out of interiors. See <a href=\"/bird-exclusion/\">bird control &amp; exclusion</a> and our <a href=\"/warehouse-distribution-pest-control/\">warehouse &amp; distribution</a> program, or call <a href=\"tel:8032263155\">803-226-3155</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Are house sparrows protected?</summary><p>House sparrows are non-native and are not protected by the federal Migratory Bird Treaty Act. Native sparrows are, so correct identification comes first.</p></details>\n<details><summary>How do sparrows get inside a warehouse?</summary><p>Mostly through dock and overhead doors left open, and through gaps at roof lines and wall penetrations. They nest in the steel and rafters once inside.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://agri.nv.gov/Protection/Resource_Protection/AnimalPdfs/House_Sparrows\" rel=\"noopener\">Nevada Department of Agriculture — House Sparrows</a></li>\n<li><a href=\"https://idph.illinois.gov/envhealth/pdf/Bird_Control_Manual.pdf\" rel=\"noopener\">Illinois Department of Public Health — Bird Control Manual</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Are house sparrows protected?",
+"a": "<p>House sparrows are non-native and are not protected by the federal Migratory Bird Treaty Act. Native sparrows are, so correct identification comes first.</p>"
+},
+{
+"q": "How do sparrows get inside a warehouse?",
+"a": "<p>Mostly through dock and overhead doors left open, and through gaps at roof lines and wall penetrations. They nest in the steel and rafters once inside.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-house-sparrow",
-"text": "How to identify the House Sparrow"
+"text": "How to identify the house sparrow"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
 "id": "why-house-sparrows-are-a-problem",
-"text": "Why House Sparrows are a problem"
+"text": "Why house sparrows are a problem"
 },
 {
-"id": "signs-of-an-infestation",
-"text": "Signs of an infestation"
+"id": "how-we-handle-house-sparrows",
+"text": "How we handle house sparrows"
 },
 {
-"id": "how-we-handle-house-sparrows-in-the-csra",
-"text": "How we handle House Sparrows in the CSRA"
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T03:01:07",
-"modified": "2026-08-18T23:03:19",
+"modified": "2026-11-09T00:27:34",
 "excerpt": "House Sparrow — Identification & Control House sparrows are the small, bold birds that stuff messy nests into signage, eaves, and vents around homes and businesses throughout the region. How to identify the House Sparrow Small brown and gray birds; males have a black bib and chestnut markings. They ",
-"words": 184,
+"words": 381,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/lone-star-tick/",
@@ -12474,7 +12745,8 @@
 "excerpt": "Lone Star Tick — Identification & Control The lone star tick is the aggressive, human-biting tick that dominates brushy and wooded areas across the CSRA and is linked to several tick-borne illnesses. How to identify the Lone Star Tick Reddish-brown; the adult female has a single distinctive white do",
 "words": 174,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/nine-banded-armadillo/",
@@ -12520,7 +12792,8 @@
 "excerpt": "Nine-Banded Armadillo — Identification & Control The nine-banded armadillo has become a common lawn and landscape pest in the CSRA, rooting for grubs and digging burrows that undermine lawns, gardens, and foundations. How to identify the Nine-Banded Armadillo Unmistakable — a football-sized animal c",
 "words": 161,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/norway-rat/",
@@ -12532,41 +12805,67 @@
 "h1": "Norway Rat — Identification & Control",
 "hero": {
 "h1": "Norway Rat — Identification & Control",
-"lead": "The Norway rat is the large brown rat that burrows at ground level around foundations, crawlspaces, and trash areas. It is the most common commensal rat in the Southeast."
+"lead": "The Norway rat is the large brown rat that burrows at ground level around foundations, crawlspaces, dumpsters and loading docks. It is the most common commensal rat in the Southeast and the species behind most of the large burrow systems we excavate on commercial sites."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-norway-rat\">How to identify the Norway Rat</h2>\n<p>Heavy-bodied and brown-gray, 7–10 inches in the body with a shorter, thick tail, small ears, and a blunt nose. Droppings are capsule-shaped with blunt ends.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>Ground-dwelling and neophobic — wary of new objects — they burrow, follow established runways, and gnaw constantly to keep incisors in check. They are strong swimmers and enter through sewer lines and gaps.</p>\n<h2 id=\"why-norway-rats-are-a-problem\">Why Norway Rats are a problem</h2>\n<p>They contaminate food, gnaw wiring and structural materials (a fire risk), and carry pathogens. A colony grows quickly once a food source is established.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Capsule droppings, greasy rub marks along walls, gnaw marks, burrow openings near foundations, and nighttime scratching.</p>\n<h2 id=\"how-we-handle-norway-rats-in-the-csra\">How we handle Norway Rats in the CSRA</h2>\n<p>Canine detection locates hidden activity inside walls and voids that traps miss — see our <a href=\"/nationwide-k9-rodent-detection/\">K9 rodent detection</a>. We pair findings with our <a href=\"/rodent-control/\">rodent control</a> program. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. See more in our <a href=\"/pest-library/\">pest library</a>.</p>\n<p>For trapping, code-grade exclusion and clean-up, see our <a href=\"/rat-mouse-control/\">rat and mouse control service</a>.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> fresh holes about 2–4 inches across in bare soil along a foundation, wall or slab — with smooth, packed edges and a worn path between them — are almost always Norway rat burrows. Baiting or gassing only the openings you can see rarely works, because each system has hidden escape holes.</p></div>\n<h2 id=\"how-to-identify-the-norway-rat\">How to identify the Norway rat</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>Norway rat</th><th>Roof rat (look-alike)</th></tr></thead><tbody>\n<tr><th>Body</th><td>Heavy-bodied, about 7–10 inches plus tail</td><td>Slender, about 6–8 inches plus tail</td></tr>\n<tr><th>Tail</th><td>Shorter than head and body; thick, scaly</td><td>Longer than head and body</td></tr>\n<tr><th>Head</th><td>Blunt nose, small ears close to the head</td><td>Pointed nose, large thin ears</td></tr>\n<tr><th>Color</th><td>Brown to gray-brown, paler belly</td><td>Dark gray to black, or brown with a light belly</td></tr>\n<tr><th>Droppings</th><td>Capsule-shaped with blunt ends, about 3/4 inch</td><td>Spindle-shaped with pointed ends, about 1/2 inch</td></tr>\n<tr><th>Where it lives</th><td>Ground level: burrows, crawlspaces, basements, sewers</td><td>Up high: attics, trees, vines, roof lines</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>Norway rats dig. A typical burrow runs a few feet long and usually less than 18 inches deep, with a main entrance and one or more lightly plugged bolt holes for escape. Colonies build these systems under slabs, along retaining walls, beneath dumpster pads and in landscaping beds — anywhere loose soil sits next to steady food and water.</p>\n<p>They are wary of new objects (neophobic), follow the same runways night after night, and usually forage within about 100–150 feet of the nest. A female can have several litters a year of six to twelve young, and the young are breeding themselves within about three months, so a small problem becomes a large one in a single season. A rat can squeeze through a gap about the size of a quarter, and they are strong swimmers that come up through sewer lines and floor drains.</p>\n<h2 id=\"why-norway-rats-are-a-problem\">Why Norway rats are a problem</h2>\n<p>They contaminate food and packaging, gnaw wiring and plumbing, undermine slabs, sidewalks and retaining walls with their tunnels, and carry pathogens such as leptospirosis and salmonella. On food plants and distribution warehouses, rodent activity is one of the fastest ways to fail a third-party audit. In apartment complexes and restaurants, the burrow system under the dumpster pad is often the source of the rats seen inside.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<ul class=\"k-signs\">\n<li><strong>Burrow openings</strong> in bare soil along foundations, walls, slabs and fence lines, often with fresh dirt fanned out.</li>\n<li><strong>Runways</strong> — narrow worn paths through grass or mulch between burrows and food.</li>\n<li><strong>Capsule-shaped droppings</strong> along walls and near food.</li>\n<li><strong>Greasy rub marks</strong> where they repeatedly brush against walls and pipes.</li>\n<li><strong>Gnawing</strong> on doors, pallets, bins and plastic, and nighttime scratching in walls or crawlspaces.</li>\n</ul>\n<h2 id=\"prevention-you-can-do\">Prevention you can do</h2>\n<ul class=\"k-list\">\n<li>Keep dumpster lids closed and pads clean; fix leaking compactors and drains.</li>\n<li>Store feed, birdseed and pet food in sealed metal or heavy plastic containers.</li>\n<li>Clear dense vegetation, debris and stacked material from the first few feet around buildings.</li>\n<li>Seal gaps around pipes and utilities with metal mesh, sheet metal or concrete — rats chew through foam.</li>\n<li>Fit door sweeps and keep loading doors closed when not in use.</li>\n</ul>\n<h2 id=\"how-we-handle-norway-rats\">How we handle Norway rats</h2>\n<p>We map before we treat. A certified detection dog works the property and tells us which burrows are active and where the hidden bolt holes and interior harborage are — the parts a visual inspection and a trend report from bait stations never show. Then the system is treated or excavated as a whole and the soil and slab edges are restored so it can't be re-dug.</p>\n<p>For homes we pair that with trapping, exclusion and clean-up through our <a href=\"/rat-mouse-control/\">rat and mouse control</a> and <a href=\"/repairs/\">repairs &amp; exclusion</a> services. For food processing, agriculture and multi-site operators we run the same approach nationwide — see <a href=\"/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/\">Norway rat burrow mitigation</a>. Call <a href=\"tel:8032263155\">803-226-3155</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Why don't rats take the bait I put out?</summary><p>Norway rats avoid new objects and new foods at first, and they will keep feeding on a reliable food source like an open dumpster instead. Bait works best after sanitation removes the competition — and only once you know where the active burrows are.</p></details>\n<details><summary>Should I fill rat holes with dirt?</summary><p>Filling holes and checking which ones reopen overnight is a useful way to tell active burrows from old ones. On its own it won't solve the problem — the colony simply digs a new entrance.</p></details>\n<details><summary>Are rat burrows dangerous to my slab or wall?</summary><p>They can be. Large systems remove soil from under sidewalks, slabs and retaining walls, which leads to cracking and settling. That is why we restore the ground after a burrow system is cleared.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://www.aces.edu/wp-content/uploads/2020/10/ANR-0688-Controlling-Rats-and-Mice_101920L-A.pdf\" rel=\"noopener\">Alabama Cooperative Extension — Controlling Rats and Mice (ANR-0688)</a></li>\n<li><a href=\"https://www.epa.gov/rodenticides/about-rats-and-mice\" rel=\"noopener\">U.S. EPA — About Rats and Mice</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Why don't rats take the bait I put out?",
+"a": "<p>Norway rats avoid new objects and new foods at first, and they will keep feeding on a reliable food source like an open dumpster instead. Bait works best after sanitation removes the competition — and only once you know where the active burrows are.</p>"
+},
+{
+"q": "Should I fill rat holes with dirt?",
+"a": "<p>Filling holes and checking which ones reopen overnight is a useful way to tell active burrows from old ones. On its own it won't solve the problem — the colony simply digs a new entrance.</p>"
+},
+{
+"q": "Are rat burrows dangerous to my slab or wall?",
+"a": "<p>They can be. Large systems remove soil from under sidewalks, slabs and retaining walls, which leads to cracking and settling. That is why we restore the ground after a burrow system is cleared.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-norway-rat",
-"text": "How to identify the Norway Rat"
+"text": "How to identify the Norway rat"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
 "id": "why-norway-rats-are-a-problem",
-"text": "Why Norway Rats are a problem"
+"text": "Why Norway rats are a problem"
 },
 {
 "id": "signs-of-an-infestation",
 "text": "Signs of an infestation"
 },
 {
-"id": "how-we-handle-norway-rats-in-the-csra",
-"text": "How we handle Norway Rats in the CSRA"
+"id": "prevention-you-can-do",
+"text": "Prevention you can do"
+},
+{
+"id": "how-we-handle-norway-rats",
+"text": "How we handle Norway rats"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:58:03",
-"modified": "2026-08-18T23:09:03",
+"modified": "2026-11-09T00:25:36",
 "excerpt": "Norway Rat — Identification & Control The Norway rat is the large brown rat that burrows at ground level around foundations, crawlspaces, and trash areas. It is the most common commensal rat in the Southeast. How to identify the Norway Rat Heavy-bodied and brown-gray, 7–10 inches in the body with a ",
-"words": 206,
+"words": 830,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/odorous-house-ant/",
@@ -12612,7 +12911,8 @@
 "excerpt": "Odorous House Ant — Identification & Control Odorous house ants are the tiny ants that trail across kitchen counters and give off a rotten-coconut smell when crushed. They are one of the most persistent indoor ants in the region. How to identify the Odorous House Ant Very small, brown to black, abou",
 "words": 189,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/paper-wasp/",
@@ -12658,7 +12958,8 @@
 "excerpt": "Paper Wasp — Identification & Control Paper wasps build the familiar open, umbrella-shaped nests under eaves, soffits, and door frames. They are less aggressive than yellowjackets but will sting to defend a nest near an entryway. How to identify the Paper Wasp Slender, long-legged wasps, brownish wi",
 "words": 176,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/pharaoh-ant/",
@@ -12704,7 +13005,8 @@
 "excerpt": "Pharaoh Ant — Identification & Control The pharaoh ant is a tiny yellow indoor ant notorious in kitchens, hospitals, and commercial buildings — and infamous for splitting into new colonies when sprayed, which makes the wrong treatment spread it. How to identify the Pharaoh Ant Very small, about 1/16",
 "words": 188,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/pigeon/",
@@ -12716,41 +13018,63 @@
 "h1": "Pigeon — Identification & Control",
 "hero": {
 "h1": "Pigeon — Identification & Control",
-"lead": "Pigeons (rock doves) are the commercial roosting birds that foul ledges, signs, and rooftops across the CSRA, corroding surfaces and creating a health and slip hazard."
+"lead": "The rock pigeon (feral pigeon) is the ledge, beam and parapet bird of every CSRA downtown, shopping center, warehouse and parking deck. Pigeons nest on buildings rather than in trees, breed almost year-round, and stay loyal to a roost — which is why they come back no matter how many times they're scared off."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-pigeon\">How to identify the Pigeon</h2>\n<p>Plump gray birds with iridescent neck feathers and two dark wing bars, though color varies. They gather in flocks on ledges and rooflines.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>Highly adapted to buildings, they roost and nest on ledges, under signage, and on HVAC equipment, returning to the same sites and habituating to passive scares.</p>\n<h2 id=\"why-pigeons-are-a-problem\">Why Pigeons are a problem</h2>\n<p>Their acidic droppings corrode buildings and equipment, foul walkways, spread disease, and clog drains and gutters with nesting debris.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Flocks roosting on ledges and signs, heavy droppings below roost sites, nests in signage and equipment, and cooing overhead.</p>\n<h2 id=\"how-we-handle-pigeons-in-the-csra\">How we handle Pigeons in the CSRA</h2>\n<p>Lasting control means physical exclusion — netting, spikes, and deterrents fitted to the structure. Our <a href=\"/bird-exclusion/\">bird exclusion</a> program removes the roost for good. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. Browse the full <a href=\"/pest-library/\">pest library</a>.</p>\n<p>Where a flock is entrenched on a commercial property, see our <a href=\"/falconry-bird-abatement/\">falconry bird abatement</a> and <a href=\"/bird-exclusion/\">bird exclusion</a> services.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> pigeons are solved by taking away the places they roost and nest — netting, spikes and wire on the exact ledges they use — not by noise or plastic owls.</p></div>\n<h2 id=\"how-to-identify-the-pigeon\">How to identify the pigeon</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What to look for</th></tr></thead><tbody>\n<tr><th>Size</th><td>About 12–13 inches long, plump</td></tr>\n<tr><th>Color</th><td>Typically blue-gray with two dark wing bars and an iridescent green-purple neck; many color variations</td></tr>\n<tr><th>Where</th><td>Ledges, beams, signs, rooftop equipment, bridges, parking structures, loading docks</td></tr>\n<tr><th>Look-alikes</th><td>Mourning doves (slimmer, tan, long pointed tail — a protected native species) and Eurasian collared-doves</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>Pigeons descend from cliff-nesting birds, so buildings suit them perfectly. A pair raises two chicks at a time and can nest several times a year. They gather in flocks around reliable food — spilled grain, dumpsters, people feeding them — and roost and nest in the same sheltered spots day after day, building up droppings and nesting debris.</p>\n<h2 id=\"why-pigeons-are-a-problem\">Why pigeons are a problem</h2>\n<ul class=\"k-reg\">\n<li><strong>Droppings</strong> stain and corrode masonry, metal and paint, and make walkways and loading docks slippery.</li>\n<li><strong>Health.</strong> Accumulated droppings can harbor fungi associated with histoplasmosis and cryptococcosis; clean-up of heavy deposits needs proper protection.</li>\n<li><strong>Nests and debris</strong> clog gutters, drains and vents, and attract mites and other insects.</li>\n<li><strong>Food safety.</strong> Birds inside warehouses and food facilities are an audit and contamination problem.</li>\n</ul>\n<h2 id=\"signs-of-a-pigeon-problem\">Signs of a pigeon problem</h2>\n<ul class=\"k-signs\">\n<li>Droppings building up below ledges, beams, signs and rooftop units.</li>\n<li>Feathers and nesting material on sills and in rafters.</li>\n<li>Birds flushing from the same spot every time a door opens.</li>\n</ul>\n<h2 id=\"prevention-you-can-do\">Prevention you can do</h2>\n<ul class=\"k-list\">\n<li>Stop feeding, and keep dumpsters closed and loading areas swept.</li>\n<li>Close openings into warehouses, attics and parking-structure voids.</li>\n<li>Clean droppings with water and protective gear rather than dry sweeping.</li>\n</ul>\n<h2 id=\"how-we-handle-pigeons\">How we handle pigeons</h2>\n<p>We match the deterrent to the surface and the pressure: bird netting to close off beams, canopies and recesses; spikes and wire systems on ledges, signs and parapets; and exclusion of building openings. For large sites with heavy flocks we also offer permitted <a href=\"/falconry-bird-abatement/\">falconry bird abatement</a>. Feral pigeons are not covered by the Migratory Bird Treaty Act, which gives more flexibility than with native birds. See <a href=\"/bird-exclusion/\">bird control &amp; exclusion</a> or call <a href=\"tel:8032263155\">803-226-3155</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Do plastic owls keep pigeons away?</summary><p>Only briefly. Pigeons quickly learn that a decoy never moves. Physical exclusion — netting, spikes, wire — is what keeps them off a ledge long-term.</p></details>\n<details><summary>Are pigeons protected?</summary><p>Feral rock pigeons are not protected under the federal Migratory Bird Treaty Act. Native doves and most other birds are, so it matters which bird you're dealing with.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://idph.illinois.gov/envhealth/pdf/Bird_Control_Manual.pdf\" rel=\"noopener\">Illinois Department of Public Health — Bird Control Manual</a></li>\n<li><a href=\"https://naturalresources.extension.iastate.edu/tags/pigeon\" rel=\"noopener\">Iowa State University Extension — Nuisance Birds: Damage Management</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Do plastic owls keep pigeons away?",
+"a": "<p>Only briefly. Pigeons quickly learn that a decoy never moves. Physical exclusion — netting, spikes, wire — is what keeps them off a ledge long-term.</p>"
+},
+{
+"q": "Are pigeons protected?",
+"a": "<p>Feral rock pigeons are not protected under the federal Migratory Bird Treaty Act. Native doves and most other birds are, so it matters which bird you're dealing with.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-pigeon",
-"text": "How to identify the Pigeon"
+"text": "How to identify the pigeon"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
 "id": "why-pigeons-are-a-problem",
-"text": "Why Pigeons are a problem"
+"text": "Why pigeons are a problem"
 },
 {
-"id": "signs-of-an-infestation",
-"text": "Signs of an infestation"
+"id": "signs-of-a-pigeon-problem",
+"text": "Signs of a pigeon problem"
 },
 {
-"id": "how-we-handle-pigeons-in-the-csra",
-"text": "How we handle Pigeons in the CSRA"
+"id": "prevention-you-can-do",
+"text": "Prevention you can do"
+},
+{
+"id": "how-we-handle-pigeons",
+"text": "How we handle pigeons"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:59:51",
-"modified": "2026-08-18T23:03:56",
+"modified": "2026-11-09T00:27:25",
 "excerpt": "Pigeon — Identification & Control Pigeons (rock doves) are the commercial roosting birds that foul ledges, signs, and rooftops across the CSRA, corroding surfaces and creating a health and slip hazard. How to identify the Pigeon Plump gray birds with iridescent neck feathers and two dark wing bars, ",
-"words": 188,
+"words": 503,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/raccoon/",
@@ -12796,7 +13120,8 @@
 "excerpt": "Raccoon — Identification & Control Raccoons are strong, clever nocturnal animals that den in attics, chimneys, and crawlspaces — most often a female looking for a safe place to raise young in spring. How to identify the Raccoon Stocky gray animals with a black mask and ringed tail, 2–3 feet includin",
 "words": 170,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/red-imported-fire-ant/",
@@ -12842,7 +13167,8 @@
 "excerpt": "Red Imported Fire Ant — Identification & Control Red imported fire ants build dome mounds across CSRA lawns and deliver a painful, burning sting when disturbed. They are one of the most common yard pests in the region. How to identify the Red Imported Fire Ant Small reddish-brown ants of varying siz",
 "words": 184,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/roof-rat/",
@@ -12854,41 +13180,63 @@
 "h1": "Roof Rat — Identification & Control",
 "hero": {
 "h1": "Roof Rat — Identification & Control",
-"lead": "The roof rat is the sleek climbing rat that nests high — in attics, rafters, trees, and upper cabinets — rather than burrowing. It is common in warmer parts of the CSRA."
+"lead": "The roof rat is the slender, agile climber of the rat world. In the CSRA it lives up high — in attics, soffits, wall voids, trees, ivy and palm-style landscaping — and travels along fences, utility lines and overhanging limbs to get onto the roof."
 },
 "heroImage": null,
-"body": "<h2 id=\"how-to-identify-the-roof-rat\">How to identify the Roof Rat</h2>\n<p>Slimmer and darker than the Norway rat, 6–8 inches in the body with a tail longer than the body, large ears, and a pointed nose. Droppings are smaller with pointed ends.</p>\n<h2 id=\"behavior-biology\">Behavior &amp; biology</h2>\n<p>An agile climber that travels utility lines and branches to enter roofs and attics. It prefers fruit, nuts, and seeds and nests above ground.</p>\n<h2 id=\"why-roof-rats-are-a-problem\">Why Roof Rats are a problem</h2>\n<p>It contaminates stored food and attic insulation, gnaws wiring in ceilings and walls, and spreads disease. Because it lives overhead, activity is often heard before it is seen.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<p>Pointed droppings in attics and cabinets, gnawing overhead, nighttime scrabbling in ceilings, and grease trails along rafters and pipes.</p>\n<h2 id=\"how-we-handle-roof-rats-in-the-csra\">How we handle Roof Rats in the CSRA</h2>\n<p>Our dogs confirm whether noises overhead are active rats and where they are traveling — see <a href=\"/nationwide-k9-rodent-detection/\">K9 rodent detection</a>, backed by our <a href=\"/rodent-control/\">rodent control</a> service. Call <a href=\"tel:8032263155\">803-226-3155</a> to schedule. See more in our <a href=\"/pest-library/\">pest library</a>.</p>\n<p>For trapping, code-grade exclusion and clean-up, see our <a href=\"/rat-mouse-control/\">rat and mouse control service</a>.</p>",
-"faqs": [],
+"body": "<div class=\"k-intro\"><p><strong>Quick answer:</strong> scratching overhead at night, pointed droppings in the attic, and gnawed holes at the roofline usually mean roof rats. They are solved at the roof and the tree line, not in the yard.</p></div>\n<h2 id=\"how-to-identify-the-roof-rat\">How to identify the roof rat</h2>\n<table class=\"k-cmp\"><thead><tr><th>Feature</th><th>What to look for</th></tr></thead><tbody>\n<tr><th>Body</th><td>Slender, about 6–8 inches plus tail</td></tr>\n<tr><th>Tail</th><td>Longer than the head and body together</td></tr>\n<tr><th>Head</th><td>Pointed nose, large thin ears, prominent eyes</td></tr>\n<tr><th>Color</th><td>Dark gray to black, or brown with a white-to-gray belly</td></tr>\n<tr><th>Droppings</th><td>About 1/2 inch, spindle-shaped with pointed ends</td></tr>\n<tr><th>Look-alikes</th><td>Norway rat (heavier, blunt nose, short tail, lives at ground level); flying and gray squirrels in attics</td></tr>\n</tbody></table>\n<h2 id=\"behavior-and-biology\">Behavior and biology</h2>\n<p>Roof rats are excellent climbers that prefer to nest above ground. Outdoors they use dense vines, tree canopies and woodpiles; indoors they head for attics, insulation, ceiling voids and the tops of cabinets. They are more sensitive to cold than Norway rats, which is why they are most common across the warmer Southeast and coastal South.</p>\n<p>Like Norway rats they are cautious around new objects and breed quickly — several litters a year of about five to eight young. They feed heavily on fruit, nuts, seeds, pet food and birdseed, and they gnaw constantly to keep their incisors worn.</p>\n<h2 id=\"why-roof-rats-are-a-problem\">Why roof rats are a problem</h2>\n<p>Gnawed wiring in attics is a fire risk, and nesting rats contaminate insulation with droppings and urine. They chew through soffits, vents and roof returns, and they can carry the same diseases and parasites as other commensal rodents. Aiken's mature tree canopy — Hitchcock Woods edges, the Winter Colony, Houndslake — gives them highways straight onto rooflines.</p>\n<h2 id=\"signs-of-an-infestation\">Signs of an infestation</h2>\n<ul class=\"k-signs\">\n<li><strong>Scratching or running sounds</strong> in the ceiling or walls at dusk and overnight.</li>\n<li><strong>Pointed droppings</strong> in the attic, on top of cabinets or along rafters.</li>\n<li><strong>Gnaw holes</strong> at soffits, roof returns, gable vents and where utility lines enter.</li>\n<li><strong>Rub marks</strong> on beams and along the path from a tree limb to the roof.</li>\n<li><strong>Half-eaten fruit or nuts</strong> under trees and hollowed-out citrus or pecans.</li>\n</ul>\n<h2 id=\"prevention-you-can-do\">Prevention you can do</h2>\n<ul class=\"k-list\">\n<li>Trim tree limbs back at least several feet from the roof and keep vines off walls and fences.</li>\n<li>Pick up fallen fruit and nuts and stop feeding birds where seed spills.</li>\n<li>Screen gable, soffit and ridge vents with sturdy metal mesh.</li>\n<li>Seal gaps where cables, pipes and AC lines enter the house.</li>\n</ul>\n<h2 id=\"how-we-handle-roof-rats\">How we handle roof rats</h2>\n<p>Roof rat work is a roofline job. Our detection dog confirms where activity is and isn't — in the attic, in wall voids, in the garage — so we aren't guessing at which entry points matter. We then remove the rats, seal every entry with materials they can't chew, and clean up contaminated areas. See our <a href=\"/rat-mouse-control/\">rat and mouse control</a> and <a href=\"/repairs/\">repairs &amp; exclusion</a> services, or call <a href=\"tel:8032263155\">803-226-3155</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<div class=\"k-faq\">\n<details><summary>Is it a rat or a squirrel in my attic?</summary><p>Squirrels are mostly active during the day, especially early morning; roof rats are active at night. Droppings help too: roof rat droppings are small and pointed, squirrel droppings are larger and rounder.</p></details>\n<details><summary>Will poison bait in the attic fix it?</summary><p>It often creates a new problem — rats that die in wall voids cause odor and flies — and it doesn't stop new rats coming in. Sealing the entry points is the part that makes the result last.</p></details>\n</div>\n<h2 id=\"sources\">Sources</h2>\n<ul>\n<li><a href=\"https://www.aces.edu/wp-content/uploads/2020/10/ANR-0688-Controlling-Rats-and-Mice_101920L-A.pdf\" rel=\"noopener\">Alabama Cooperative Extension — Controlling Rats and Mice (ANR-0688)</a></li>\n<li><a href=\"https://www.epa.gov/rodenticides/about-rats-and-mice\" rel=\"noopener\">U.S. EPA — About Rats and Mice</a></li>\n</ul>",
+"faqs": [
+{
+"q": "Is it a rat or a squirrel in my attic?",
+"a": "<p>Squirrels are mostly active during the day, especially early morning; roof rats are active at night. Droppings help too: roof rat droppings are small and pointed, squirrel droppings are larger and rounder.</p>"
+},
+{
+"q": "Will poison bait in the attic fix it?",
+"a": "<p>It often creates a new problem — rats that die in wall voids cause odor and flies — and it doesn't stop new rats coming in. Sealing the entry points is the part that makes the result last.</p>"
+}
+],
 "toc": [
 {
 "id": "how-to-identify-the-roof-rat",
-"text": "How to identify the Roof Rat"
+"text": "How to identify the roof rat"
 },
 {
-"id": "behavior-biology",
-"text": "Behavior & biology"
+"id": "behavior-and-biology",
+"text": "Behavior and biology"
 },
 {
 "id": "why-roof-rats-are-a-problem",
-"text": "Why Roof Rats are a problem"
+"text": "Why roof rats are a problem"
 },
 {
 "id": "signs-of-an-infestation",
 "text": "Signs of an infestation"
 },
 {
-"id": "how-we-handle-roof-rats-in-the-csra",
-"text": "How we handle Roof Rats in the CSRA"
+"id": "prevention-you-can-do",
+"text": "Prevention you can do"
+},
+{
+"id": "how-we-handle-roof-rats",
+"text": "How we handle roof rats"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+},
+{
+"id": "sources",
+"text": "Sources"
 }
 ],
 "citations": [],
 "images": [],
 "date": "2026-08-04T02:58:05",
-"modified": "2026-08-18T23:08:44",
+"modified": "2026-11-09T00:25:36",
 "excerpt": "Roof Rat — Identification & Control The roof rat is the sleek climbing rat that nests high — in attics, rafters, trees, and upper cabinets — rather than burrowing. It is common in warmer parts of the CSRA. How to identify the Roof Rat Slimmer and darker than the Norway rat, 6–8 inches in the […]",
-"words": 212,
+"words": 622,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": true
 },
 {
 "path": "/pest-library/silverfish/",
@@ -12934,7 +13282,8 @@
 "excerpt": "Silverfish — Identification & Control Silverfish are the wriggling, silvery insects found in damp bathrooms, basements, and attics, where they feed on paper, starch, and glue and quietly damage stored items. How to identify the Silverfish Teardrop-shaped, silvery-gray, wingless, with three long tail",
 "words": 162,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/virginia-opossum/",
@@ -12980,7 +13329,8 @@
 "excerpt": "Virginia Opossum — Identification & Control The Virginia opossum is a nocturnal marsupial that shelters under decks, sheds, and crawlspaces and raids trash and pet food. It is a nuisance more than a destroyer, but an unwelcome one. How to identify the Virginia Opossum Cat-sized with coarse grayish-w",
 "words": 177,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/pest-library/yellowjacket/",
@@ -13026,7 +13376,8 @@
 "excerpt": "Yellowjacket — Identification & Control Yellowjackets are the aggressive ground- and void-nesting wasps that peak in late summer across the CSRA and sting repeatedly when a nest is disturbed. How to identify the Yellowjacket Black and bright yellow, about half an inch, with a smooth, hairless body a",
 "words": 176,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/rat-mouse-control/",
@@ -13177,7 +13528,8 @@
 "excerpt": "RESIDENTIAL & COMMERCIAL · RATS & MICE Rat & Mouse Control in Aiken, Augusta & the CSRA Rodent control only holds when you seal the building. A mouse passes a quarter-inch gap and a rat passes a half-inch, so trapping and baiting reduce the population while exclusion is what keeps the next one out. ",
 "words": 4962,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/repairs/",
@@ -13315,7 +13667,8 @@
 "excerpt": "Pest exclusion & repairs across the CSRA — seal entry points and repair rodent & wildlife damage so control lasts. Coastal K9, Aiken SC. Call 803-226-3155.",
 "words": 909,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/restaurant-food-service-pest-control/",
@@ -13466,7 +13819,8 @@
 "excerpt": "COMMERCIAL · FOOD SERVICE K-9 Rodent Detection for Restaurants & Food Service Your health score is public — and permanent online. Our detection dogs find rodent activity before an inspector does, and before your customers notice, so you stay open, compliant, and trusted. Call 803-226-3155 · Certifie",
 "words": 1687,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/rodent-control-for-warehouses/",
@@ -13488,7 +13842,8 @@
 "excerpt": "In a warehouse or food facility, a rodent program built on bait stations alone is a program with no end date",
 "words": 1561,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/rodent-control/",
@@ -13642,7 +13997,8 @@
 "excerpt": "K9-guided rodent detection, control & exclusion — from homes to nationwide food-processing facilities. Find the source, seal them out. Coastal K9, Aiken SC.",
 "words": 1288,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/schools-student-housing-pest-control/",
@@ -13793,7 +14149,8 @@
 "excerpt": "COMMERCIAL · EDUCATION K-9 Bed Bug & Rodent Detection for Schools & Student Housing Bed bugs travel home in a backpack, and rodents find their way into cafeterias and dorms. Our detection dogs find both — discreetly, off-hours, and completely chemical-free. Call 803-226-3155 · Certified K-9 teams · ",
 "words": 1566,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/service-areas/",
@@ -13853,7 +14210,8 @@
 "excerpt": "Coastal K9 provides certified K9 pest, bed bug & rodent detection across Aiken, the CSRA and South Carolina Midlands — within about 60 miles of Aiken.",
 "words": 158,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/services/",
@@ -13905,7 +14263,8 @@
 "excerpt": "When it comes to protecting your home or business, not every pest or wildlife issue requires traditional pest control. At Coastal K-9 & Pest Solutions, we specialize in advanced K9 detection services.",
 "words": 353,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/signs-of-bed-bugs-in-your-south-carolina-home-and-what-to-do-next/",
@@ -13927,7 +14286,8 @@
 "excerpt": "The earliest signs of bed bugs are easy to miss and easier to misread — which is exactly why infestations so often go unnoticed until they’re well established",
 "words": 1548,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/spider-control/",
@@ -14078,7 +14438,8 @@
 "excerpt": "RESIDENTIAL & COMMERCIAL · SPIDERS Spider Control in Aiken, Augusta & the CSRA Spider control works when you strip out webs and egg sacs, cut off the insects spiders feed on, seal the gaps they walk through, and treat harborage directly instead of spraying open surfaces. Coastal K-9 & Pest Solutions",
 "words": 4797,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/spiders-in-aiken-county/",
@@ -14129,7 +14490,8 @@
 "excerpt": "What’s Actually Dangerous — and What’s Just Doing Its Job",
 "words": 1091,
 "noindex": false,
-"fixedScript": true
+"fixedScript": true,
+"rewritten": false
 },
 {
 "path": "/thank-you/",
@@ -14153,7 +14515,8 @@
 "excerpt": "Thank you, you will be contacted soon by our technician to resolve your pest control needs",
 "words": 61,
 "noindex": true,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/the-brazilian-free-tailed-bat-the-fastest-flyer-on-earth-is-probably-living-in-your-attic/",
@@ -14196,7 +14559,8 @@
 "excerpt": "Of all the bats sharing Aiken County with us, the Brazilian free-tailed bat is the one with the best resume.",
 "words": 1565,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/ty-inspection/",
@@ -14220,7 +14584,8 @@
 "excerpt": "Thank you, This Service requires a Inspection to better determine your needs",
 "words": 61,
 "noindex": true,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/ty-instant-price/",
@@ -14244,7 +14609,8 @@
 "excerpt": "All services require a inspection to determine necessary preventative services and custom quote",
 "words": 26,
 "noindex": true,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/vampire-bats/",
@@ -14279,7 +14645,8 @@
 "excerpt": "Vampire Bats: The 3 Real Species",
 "words": 1007,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/warehouse-distribution-pest-control/",
@@ -14430,7 +14797,8 @@
 "excerpt": "COMMERCIAL · WAREHOUSE & DISTRIBUTION K-9 Rodent Detection for Warehouses & Distribution A rodent problem in a warehouse is a whole-facility problem. Our detection dogs cover large footprints fast — pinpointing activity that scattered traps and bait stations miss entirely. Call 803-226-3155 · Certif",
 "words": 1668,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/white-nose-syndrome/",
@@ -14473,7 +14841,8 @@
 "excerpt": "White-nose syndrome (WNS) is a fungal disease that attacks hibernating bats",
 "words": 1247,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 },
 {
 "path": "/why-is-aiken-county-suddenly-full-of-bats/",
@@ -14495,6 +14864,7 @@
 "excerpt": "A field guide to your new dusk neighbors — plus the bug that loves to impersonate a bed bug",
 "words": 960,
 "noindex": false,
-"fixedScript": false
+"fixedScript": false,
+"rewritten": false
 }
 ]
