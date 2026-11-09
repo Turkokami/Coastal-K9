@@ -17,6 +17,10 @@ RENDERED = {p['url'].replace('https://ck9ps.com', '') or '/': p for p in json.lo
 MEDIA_IDX = json.load(open(SCRAPE / 'media-index.json'))
 
 SITE = 'https://ck9ps.com'
+# Kept out of the build: apparent AI scenes shown as real, a personal ID/document photo, a screenshot of a
+# third party's LinkedIn profile, the old Urban Canine/UCPAWS-branded flyer, and a SC flyer printing a
+# different phone number (404-234-0688) from the site NAP.
+EXCLUDE_IMG = ('a-clean-modern-office', 'a-bright-sunny-suburban', 'img-0581', 'img-3199', '123-1', 'coastalk9-southcarolina-flyer')
 
 # ---------------------------------------------------------------- media map
 def media_key(url):
@@ -284,9 +288,9 @@ for wptype in ['page', 'post', 'service', 'service-area']:
         clean_fragment(soup, path, page_images)
         # keep out of the build: apparent AI-generated scenes shown as real, and a photo of a personal document
         for im in soup.find_all('img'):
-            if any(str(im.get('src', '')).startswith('media:' + x) for x in ('a-clean-modern-office', 'a-bright-sunny-suburban', 'img-0581')):
+            if any(str(im.get('src', '')).startswith('media:' + x) for x in EXCLUDE_IMG):
                 (im.find_parent('figure') or im).decompose()
-        page_images[:] = [n for n in page_images if not n.startswith(('a-clean-modern-office', 'a-bright-sunny-suburban', 'img-0581'))]
+        page_images[:] = [n for n in page_images if not n.startswith(EXCLUDE_IMG)]
         hero = extract_hero(soup, kind)
         faqs = faq_from(soup)
         # featured image
@@ -302,7 +306,7 @@ for wptype in ['page', 'post', 'service', 'service-area']:
         if not hero_img and rend.get('ogimage'):
             im = resolve_image(rend['ogimage'])
             if im: hero_img = im['name']
-        if hero_img and hero_img.startswith(('a-clean-modern-office', 'a-bright-sunny-suburban', 'img-0581')):
+        if hero_img and hero_img.startswith(EXCLUDE_IMG):
             hero_img = None
         if not hero_img and page_images:
             hero_img = page_images[0]

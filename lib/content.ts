@@ -1,6 +1,7 @@
 import pagesJson from '@/content/pages.json';
 import mediaJson from '@/content/media.json';
 import galleryJson from '@/content/gallery.json';
+import altJson from '@/content/alt-overrides.json';
 import { ICONS } from './icons';
 
 export type Hero = {
@@ -19,6 +20,8 @@ export type Media = { alt: string; w: number; h: number; sizes: { w: number; h: 
 export const PAGES = pagesJson as unknown as Page[];
 export const MEDIA = mediaJson as unknown as Record<string, Media>;
 export const GALLERY = galleryJson as unknown as string[];
+/** Alt text written from looking at each photo (replaces the generic/inaccurate legacy alts). */
+const ALT = altJson as Record<string, string>;
 
 const BY_PATH = new Map(PAGES.map((p) => [p.path, p]));
 export const getPage = (path: string) => BY_PATH.get(path);
@@ -41,7 +44,7 @@ export function imgTag(name: string, alt?: string, opts: { eager?: boolean; size
   const m = MEDIA[name];
   if (!m) return '';
   const srcset = m.sizes.map((s) => `${s.src} ${s.w}w`).join(', ');
-  const a = (alt ?? m.alt ?? '').replace(/"/g, '&quot;');
+  const a = (ALT[name] ?? alt ?? m.alt ?? '').replace(/"/g, '&quot;');
   const largest = m.sizes[m.sizes.length - 1];
   return `<img src="${largest.src}" srcset="${srcset}" sizes="${opts.sizes ?? '(max-width: 900px) 100vw, 860px'}" width="${largest.w}" height="${largest.h}" alt="${a}" ${opts.eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"${opts.cls ? ` class="${opts.cls}"` : ''}>`;
 }
