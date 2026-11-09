@@ -30,3 +30,15 @@ reproduced at the **same path** (trailing slash kept), so no page redirects are 
 npm run build && npm start   # then:
 node tools/verify.mjs http://localhost:3000 tools/legacy-urls.json
 ```
+
+## Accessibility + phone-width check (Keystone Dimension 14)
+```
+npm i -D playwright axe-core      # one-time, local only
+node tools/a11y-mobile.mjs http://localhost:3000
+```
+Runs axe (WCAG 2 A/AA) and a horizontal-overflow check on 17 templates at 1366, 390 and 320px.
+A clean run is the mechanical subset only — the human review still has to be done.
+
+## Lab performance (Lighthouse mobile, local `next start`, Nov 2026)
+Home 99 · service 92–95 · city/neighborhood 97 · pest library 96 · about 97 · gallery 89–94.
+TBT 70–210 ms, CLS ≤ 0.04, LCP 1.2–2.8 s (gallery ~3.6 s). Re-check field data (INP/LCP) at 28 days after cutover.

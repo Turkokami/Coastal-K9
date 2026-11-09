@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { PAGES, getPage, renderBody, related, plain, byKind, MEDIA, Page, seoTitle } from '@/lib/content';
+import { PAGES, getPage, renderBody, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS } from '@/lib/content';
 import { KIND_PARENT, SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import Hero from '@/components/Hero';
@@ -121,6 +121,13 @@ export default async function Route({ params }: { params: Promise<{ slug: string
           {LONGFORM.has(p.kind) || p.kind === 'pest' ? <Byline modified={p.modified} label={p.kind === 'post' ? 'Written by' : 'Reviewed by'} /> : null}
           <div dangerouslySetInnerHTML={{ __html: body }} />
           {listing}
+          {SERVICE_PESTS[p.path] ? (
+            <section aria-labelledby="pests-h" className="k-intro" style={{ marginTop: 32 }}>
+              <h2 id="pests-h" style={{ marginTop: 0 }}>Pests this service covers</h2>
+              <p>Identification, signs and prevention for each one in our pest library:</p>
+              <ul className="chips">{SERVICE_PESTS[p.path].map((x) => getPage(x)).filter(Boolean).map((x) => <li key={x!.path}><Link href={x!.path}>{plain(x!.h1).replace(/\s*[—–].*$/, '')}</Link></li>)}</ul>
+            </section>
+          ) : null}
           {p.kind === 'pest' ? (
             <p><Link href="/pest-library/">← Back to the pest library</Link></p>
           ) : null}

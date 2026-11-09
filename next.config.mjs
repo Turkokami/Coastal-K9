@@ -5,6 +5,7 @@ const legacyMedia = JSON.parse(fs.readFileSync(new URL('./content/legacy-media-r
 const nextConfig = {
   trailingSlash: true,           // matches every legacy WordPress URL exactly
   poweredByHeader: false,
+  experimental: { inlineCss: true }, // no render-blocking stylesheet request (Keystone performance gate)
   images: { unoptimized: true }, // images are pre-optimised to responsive WebP in /public/media
   async redirects() {
     return [

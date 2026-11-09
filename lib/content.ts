@@ -59,6 +59,9 @@ export function renderBody(html: string): string {
     const alt = (/alt="([^"]*)"/.exec(a + b) || [])[1];
     return imgTag(name, alt ? alt.replace(/&amp;/g, '&') : undefined);
   });
+  // gallery thumbnails render ~220px wide — let the browser pick the 640w file, not 1280w
+  out = out.replace(/<figure class="k-gallery">[\s\S]*?<\/figure>\s*<\/figure>|<figure class="k-gallery">[\s\S]*?(?=<h2|$)/g, (blk) =>
+    blk.replace(/sizes="[^"]*"/g, 'sizes="(max-width: 600px) 50vw, 240px"'));
   // remote images that were not migrated (badges hosted elsewhere) – lazy + decoding
   out = out.replace(/<img(?![^>]*loading=)([^>]*)>/g, '<img loading="lazy" decoding="async"$1>');
   // YouTube iframes -> click-to-load facade (no third-party JS until the visitor asks)
@@ -129,3 +132,28 @@ export function seoTitle(p: Page): string {
   const at = Math.max(cut.lastIndexOf(':'), cut.lastIndexOf(' —'), cut.lastIndexOf(' –'), cut.lastIndexOf(' |'), cut.lastIndexOf(','));
   return (at > 30 ? cut.slice(0, at) : cut.slice(0, cut.lastIndexOf(' '))).replace(/[\s,:;—–-]+$/, '');
 }
+
+/** Service page -> pest library entries it covers (internal linking hub-and-spoke). */
+const PL = (...slugs: string[]) => slugs.map((x) => `/pest-library/${x}/`);
+export const SERVICE_PESTS: Record<string, string[]> = {
+  '/bed-bug-control/': PL('bed-bug'),
+  '/bed-bug-treatment/': PL('bed-bug'),
+  '/rodent-control/': PL('norway-rat', 'roof-rat', 'house-mouse'),
+  '/rat-mouse-control/': PL('norway-rat', 'roof-rat', 'house-mouse'),
+  '/repairs/': PL('norway-rat', 'roof-rat', 'house-mouse', 'eastern-gray-squirrel', 'raccoon', 'virginia-opossum', 'bat', 'nine-banded-armadillo'),
+  '/goose-control/': PL('canada-goose'),
+  '/hoa-golf-course-goose-management/': PL('canada-goose'),
+  '/bird-exclusion/': PL('pigeon', 'european-starling', 'house-sparrow'),
+  '/falconry-bird-abatement/': PL('pigeon', 'european-starling', 'house-sparrow'),
+  '/pest-control/': PL('odorous-house-ant', 'carpenter-ant', 'red-imported-fire-ant', 'german-cockroach', 'american-cockroach', 'yellowjacket', 'paper-wasp', 'lone-star-tick', 'asian-tiger-mosquito', 'cat-flea', 'silverfish', 'eastern-mole'),
+  '/spider-control/': PL('black-widow-spider', 'brown-recluse-spider'),
+  '/cockroach-control/': PL('german-cockroach', 'american-cockroach'),
+  '/restaurant-food-service-pest-control/': PL('german-cockroach', 'american-cockroach', 'house-mouse', 'norway-rat', 'house-fly'),
+  '/food-processing-manufacturing-pest-control/': PL('norway-rat', 'house-mouse', 'german-cockroach', 'house-fly', 'pigeon', 'house-sparrow'),
+  '/warehouse-distribution-pest-control/': PL('norway-rat', 'house-mouse', 'house-sparrow', 'pigeon'),
+  '/healthcare-senior-living-pest-control/': PL('bed-bug', 'pharaoh-ant', 'german-cockroach', 'house-mouse'),
+  '/hotels-hospitality-pest-control/': PL('bed-bug', 'german-cockroach', 'house-mouse'),
+  '/multifamily-property-management-pest-control/': PL('bed-bug', 'german-cockroach', 'pharaoh-ant', 'norway-rat', 'house-mouse'),
+  '/schools-student-housing-pest-control/': PL('bed-bug', 'german-cockroach', 'house-mouse', 'yellowjacket'),
+  '/commercial-pest-control/': PL('norway-rat', 'house-mouse', 'german-cockroach', 'bed-bug', 'pigeon'),
+};

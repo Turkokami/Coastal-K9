@@ -5,9 +5,14 @@
   "h": 422,
   "sizes": [
    {
-    "w": 640,
-    "h": 211,
-    "src": "/media/cropped-7082d6e5-8f47-45c8-b86f-2d81b47bba8a-640.webp"
+    "w": 480,
+    "h": 158,
+    "src": "/media/cropped-7082d6e5-8f47-45c8-b86f-2d81b47bba8a-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 317,
+    "src": "/media/cropped-7082d6e5-8f47-45c8-b86f-2d81b47bba8a-960.webp"
    },
    {
     "w": 1280,
@@ -23,9 +28,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/goose-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/goose-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/goose-960.webp"
    },
    {
     "w": 1280,
@@ -37,13 +47,13 @@
  },
  "bird": {
   "alt": "Feral pigeons perched in a row along a weathered stone ledge on the facade of a building",
-  "w": 640,
-  "h": 400,
+  "w": 480,
+  "h": 300,
   "sizes": [
    {
-    "w": 640,
-    "h": 400,
-    "src": "/media/bird-640.webp"
+    "w": 480,
+    "h": 300,
+    "src": "/media/bird-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2021/10/bird"
@@ -54,9 +64,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/dog-insp-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/dog-insp-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dog-insp-960.webp"
    },
    {
     "w": 1280,
@@ -72,9 +87,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/dog-insp-bb-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/dog-insp-bb-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dog-insp-bb-960.webp"
    },
    {
     "w": 1280,
@@ -90,9 +110,14 @@
   "h": 854,
   "sizes": [
    {
-    "w": 640,
-    "h": 427,
-    "src": "/media/img-20260603-143908-1-640.webp"
+    "w": 480,
+    "h": 320,
+    "src": "/media/img-20260603-143908-1-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "src": "/media/img-20260603-143908-1-960.webp"
    },
    {
     "w": 1280,
@@ -108,9 +133,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-20260603-143831-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-20260603-143831-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/img-20260603-143831-960.webp"
    },
    {
     "w": 1280,
@@ -122,13 +152,13 @@
  },
  "tunneling": {
   "alt": "Tunneling",
-  "w": 640,
-  "h": 854,
+  "w": 480,
+  "h": 640,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/tunneling-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/tunneling-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/tunneling"
@@ -139,9 +169,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/kimgoose-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/kimgoose-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/kimgoose-960.webp"
    },
    {
     "w": 1280,
@@ -157,9 +192,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/20260412-051442-under-2mb-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/20260412-051442-under-2mb-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/20260412-051442-under-2mb-960.webp"
    },
    {
     "w": 1280,
@@ -171,13 +211,13 @@
  },
  "trainnig": {
   "alt": "Trainnig",
-  "w": 640,
-  "h": 367,
+  "w": 480,
+  "h": 275,
   "sizes": [
    {
-    "w": 640,
-    "h": 367,
-    "src": "/media/trainnig-640.webp"
+    "w": 480,
+    "h": 275,
+    "src": "/media/trainnig-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/trainnig"
@@ -188,9 +228,14 @@
   "h": 622,
   "sizes": [
    {
-    "w": 640,
-    "h": 311,
-    "src": "/media/20231211-093417-under-2mb-640.webp"
+    "w": 480,
+    "h": 233,
+    "src": "/media/20231211-093417-under-2mb-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 466,
+    "src": "/media/20231211-093417-under-2mb-960.webp"
    },
    {
     "w": 1280,
@@ -206,9 +251,14 @@
   "h": 853,
   "sizes": [
    {
-    "w": 640,
-    "h": 427,
-    "src": "/media/img-20260603-143908-640.webp"
+    "w": 480,
+    "h": 320,
+    "src": "/media/img-20260603-143908-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "src": "/media/img-20260603-143908-960.webp"
    },
    {
     "w": 1280,
@@ -220,13 +270,13 @@
  },
  "ratsbig": {
   "alt": "Ratsbig",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/ratsbig-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/ratsbig-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/ratsbig"
@@ -237,9 +287,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/rats3-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/rats3-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rats3-960.webp"
    },
    {
     "w": 1280,
@@ -255,9 +310,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/rats-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/rats-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rats-960.webp"
    },
    {
     "w": 1280,
@@ -269,13 +329,13 @@
  },
  "lab": {
   "alt": "Lab",
-  "w": 640,
-  "h": 640,
+  "w": 480,
+  "h": 480,
   "sizes": [
    {
-    "w": 640,
-    "h": 640,
-    "src": "/media/lab-640.webp"
+    "w": 480,
+    "h": 480,
+    "src": "/media/lab-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/lab"
@@ -286,9 +346,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/kimgoose-7dad5-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/kimgoose-7dad5-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/kimgoose-7dad5-960.webp"
    },
    {
     "w": 1280,
@@ -300,13 +365,13 @@
  },
  "kim-rats-4": {
   "alt": "Kim rats 4",
-  "w": 640,
-  "h": 427,
+  "w": 480,
+  "h": 320,
   "sizes": [
    {
-    "w": 640,
-    "h": 427,
-    "src": "/media/kim-rats-4-640.webp"
+    "w": 480,
+    "h": 320,
+    "src": "/media/kim-rats-4-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/kim-rats-4"
@@ -317,9 +382,14 @@
   "h": 1706,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/insp5-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/insp5-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/insp5-960.webp"
    },
    {
     "w": 1280,
@@ -331,26 +401,26 @@
  },
  "insp4": {
   "alt": "Insp4",
-  "w": 640,
-  "h": 853,
+  "w": 480,
+  "h": 640,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/insp4-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/insp4-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/insp4"
  },
  "insp": {
   "alt": "Insp",
-  "w": 640,
-  "h": 360,
+  "w": 480,
+  "h": 270,
   "sizes": [
    {
-    "w": 640,
-    "h": 360,
-    "src": "/media/insp-640.webp"
+    "w": 480,
+    "h": 270,
+    "src": "/media/insp-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/insp"
@@ -361,9 +431,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/goose-96a18-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/goose-96a18-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/goose-96a18-960.webp"
    },
    {
     "w": 1280,
@@ -379,9 +454,14 @@
   "h": 853,
   "sizes": [
    {
-    "w": 640,
-    "h": 427,
-    "src": "/media/a-clean-modern-office-scene-with-a-corporate-look-under2mb-640.webp"
+    "w": 480,
+    "h": 320,
+    "src": "/media/a-clean-modern-office-scene-with-a-corporate-look-under2mb-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "src": "/media/a-clean-modern-office-scene-with-a-corporate-look-under2mb-960.webp"
    },
    {
     "w": 1280,
@@ -397,9 +477,14 @@
   "h": 853,
   "sizes": [
    {
-    "w": 640,
-    "h": 427,
-    "src": "/media/a-bright-sunny-suburban-residential-scene-a-wide-under2mb-640.webp"
+    "w": 480,
+    "h": 320,
+    "src": "/media/a-bright-sunny-suburban-residential-scene-a-wide-under2mb-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "src": "/media/a-bright-sunny-suburban-residential-scene-a-wide-under2mb-960.webp"
    },
    {
     "w": 1280,
@@ -411,26 +496,26 @@
  },
  "cropped-337814df-6bbe-48f0-8f7f-5ef874f57078": {
   "alt": "Cropped 337814df 6bbe 48f0 8f7f 5ef874f57078",
-  "w": 512,
-  "h": 512,
+  "w": 480,
+  "h": 480,
   "sizes": [
    {
-    "w": 512,
-    "h": 512,
-    "src": "/media/cropped-337814df-6bbe-48f0-8f7f-5ef874f57078-512.webp"
+    "w": 480,
+    "h": 480,
+    "src": "/media/cropped-337814df-6bbe-48f0-8f7f-5ef874f57078-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/cropped-337814df-6bbe-48f0-8f7f-5ef874f57078"
  },
  "attachment-1": {
   "alt": "Attachment 1",
-  "w": 640,
-  "h": 960,
+  "w": 480,
+  "h": 720,
   "sizes": [
    {
-    "w": 640,
-    "h": 960,
-    "src": "/media/attachment-1-640.webp"
+    "w": 480,
+    "h": 720,
+    "src": "/media/attachment-1-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/attachment-1"
@@ -441,9 +526,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/dog-insp2-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/dog-insp2-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dog-insp2-960.webp"
    },
    {
     "w": 1280,
@@ -459,9 +549,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/1769208424892-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/1769208424892-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/1769208424892-960.webp"
    },
    {
     "w": 1280,
@@ -477,9 +572,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9437-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9437-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/img-9437-960.webp"
    },
    {
     "w": 1280,
@@ -495,9 +595,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-9432-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-9432-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-9432-960.webp"
    },
    {
     "w": 1280,
@@ -513,9 +618,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-9431-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-9431-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-9431-960.webp"
    },
    {
     "w": 1280,
@@ -531,9 +641,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-9429-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-9429-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-9429-960.webp"
    },
    {
     "w": 1280,
@@ -549,9 +664,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-9428-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-9428-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-9428-960.webp"
    },
    {
     "w": 1280,
@@ -567,9 +687,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9425-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9425-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/img-9425-960.webp"
    },
    {
     "w": 1280,
@@ -585,9 +710,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9424-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9424-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/img-9424-960.webp"
    },
    {
     "w": 1280,
@@ -603,9 +733,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-9419-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-9419-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-9419-960.webp"
    },
    {
     "w": 1280,
@@ -617,247 +752,247 @@
  },
  "img-9298": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9298-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9298-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9298"
  },
  "img-9297": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9297-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9297-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9297"
  },
  "img-9277": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9277-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9277-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9277"
  },
  "img-9278": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9278-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9278-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9278"
  },
  "img-9280": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9280-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9280-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9280"
  },
  "img-9281": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9281-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9281-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9281"
  },
  "img-9282": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9282-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9282-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9282"
  },
  "img-9289": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9289-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9289-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9289"
  },
  "img-9290": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9290-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9290-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9290"
  },
  "img-9291": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9291-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9291-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9291"
  },
  "img-9293": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9293-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9293-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9293"
  },
  "img-9296": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9296-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9296-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9296"
  },
  "img-9276": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9276-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9276-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9276"
  },
  "img-9275": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9275-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9275-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9275"
  },
  "img-9274": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9274-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9274-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9274"
  },
  "img-9272": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9272-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9272-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9272"
  },
  "img-9271": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9271-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9271-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9271"
  },
  "img-9268": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9268-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9268-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9268"
  },
  "img-9239": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9239-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9239-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9239"
@@ -907,9 +1042,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-8828-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-8828-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-8828-960.webp"
    },
    {
     "w": 1280,
@@ -921,52 +1061,52 @@
  },
  "img-9101": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9101-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9101-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9101"
  },
  "img-9102": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9102-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9102-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9102"
  },
  "img-9104": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9104-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9104-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9104"
  },
  "img-9105": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-9105-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-9105-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_9105"
@@ -990,9 +1130,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-9187-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-9187-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-9187-960.webp"
    },
    {
     "w": 1280,
@@ -1043,26 +1188,26 @@
  },
  "img-8521": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 960,
+  "w": 480,
+  "h": 720,
   "sizes": [
    {
-    "w": 640,
-    "h": 960,
-    "src": "/media/img-8521-640.webp"
+    "w": 480,
+    "h": 720,
+    "src": "/media/img-8521-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_8521"
  },
  "img-8520": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 960,
+  "w": 480,
+  "h": 720,
   "sizes": [
    {
-    "w": 640,
-    "h": 960,
-    "src": "/media/img-8520-640.webp"
+    "w": 480,
+    "h": 720,
+    "src": "/media/img-8520-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_8520"
@@ -1073,9 +1218,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-7049-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-7049-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-7049-960.webp"
    },
    {
     "w": 1280,
@@ -1091,9 +1241,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-7046-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-7046-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-7046-960.webp"
    },
    {
     "w": 1280,
@@ -1109,9 +1264,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-7045-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-7045-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-7045-960.webp"
    },
    {
     "w": 1280,
@@ -1127,9 +1287,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-7044-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-7044-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-7044-960.webp"
    },
    {
     "w": 1280,
@@ -1145,9 +1310,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-7043-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-7043-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-7043-960.webp"
    },
    {
     "w": 1280,
@@ -1163,9 +1333,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-7042-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-7042-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-7042-960.webp"
    },
    {
     "w": 1280,
@@ -1177,26 +1352,26 @@
  },
  "img-5246": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 480,
+  "w": 480,
+  "h": 360,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-5246-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-5246-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_5246"
  },
  "img-5197": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 854,
+  "w": 480,
+  "h": 641,
   "sizes": [
    {
-    "w": 640,
-    "h": 854,
-    "src": "/media/img-5197-640.webp"
+    "w": 480,
+    "h": 641,
+    "src": "/media/img-5197-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_5197"
@@ -1207,9 +1382,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4509-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4509-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4509-960.webp"
    },
    {
     "w": 1280,
@@ -1225,9 +1405,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4510-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4510-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4510-960.webp"
    },
    {
     "w": 1280,
@@ -1243,9 +1428,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4511-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4511-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4511-960.webp"
    },
    {
     "w": 1280,
@@ -1261,9 +1451,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4512-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4512-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4512-960.webp"
    },
    {
     "w": 1280,
@@ -1279,9 +1474,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4517-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4517-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4517-960.webp"
    },
    {
     "w": 1280,
@@ -1297,9 +1497,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4519-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4519-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4519-960.webp"
    },
    {
     "w": 1280,
@@ -1315,9 +1520,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4520-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4520-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4520-960.webp"
    },
    {
     "w": 1280,
@@ -1333,9 +1543,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4521-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4521-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4521-960.webp"
    },
    {
     "w": 1280,
@@ -1351,9 +1566,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4522-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4522-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4522-960.webp"
    },
    {
     "w": 1280,
@@ -1369,9 +1589,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-5195-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-5195-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-5195-960.webp"
    },
    {
     "w": 1280,
@@ -1387,9 +1612,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-4507-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-4507-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-4507-960.webp"
    },
    {
     "w": 1280,
@@ -1405,9 +1635,14 @@
   "h": 1529,
   "sizes": [
    {
-    "w": 640,
-    "h": 764,
-    "src": "/media/img-4360-640.webp"
+    "w": 480,
+    "h": 573,
+    "src": "/media/img-4360-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1147,
+    "src": "/media/img-4360-960.webp"
    },
    {
     "w": 1280,
@@ -1423,9 +1658,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-3395-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-3395-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-3395-960.webp"
    },
    {
     "w": 1280,
@@ -1437,13 +1677,13 @@
  },
  "img-3199": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 1387,
+  "w": 480,
+  "h": 1040,
   "sizes": [
    {
-    "w": 640,
-    "h": 1387,
-    "src": "/media/img-3199-640.webp"
+    "w": 480,
+    "h": 1040,
+    "src": "/media/img-3199-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_3199"
@@ -1454,9 +1694,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-2146-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-2146-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-2146-960.webp"
    },
    {
     "w": 1280,
@@ -1472,9 +1717,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-2140-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-2140-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-2140-960.webp"
    },
    {
     "w": 1280,
@@ -1490,9 +1740,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-2134-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-2134-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-2134-960.webp"
    },
    {
     "w": 1280,
@@ -1504,26 +1759,26 @@
  },
  "img-1787": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 1391,
+  "w": 480,
+  "h": 1043,
   "sizes": [
    {
-    "w": 640,
-    "h": 1391,
-    "src": "/media/img-1787-640.webp"
+    "w": 480,
+    "h": 1043,
+    "src": "/media/img-1787-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_1787"
  },
  "img-1666": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 1391,
+  "w": 480,
+  "h": 1043,
   "sizes": [
    {
-    "w": 640,
-    "h": 1391,
-    "src": "/media/img-1666-640.webp"
+    "w": 480,
+    "h": 1043,
+    "src": "/media/img-1666-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_1666"
@@ -1534,9 +1789,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1396-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1396-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1396-960.webp"
    },
    {
     "w": 1280,
@@ -1552,9 +1812,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1379-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1379-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1379-960.webp"
    },
    {
     "w": 1280,
@@ -1570,9 +1835,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1380-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1380-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1380-960.webp"
    },
    {
     "w": 1280,
@@ -1588,9 +1858,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1382-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1382-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1382-960.webp"
    },
    {
     "w": 1280,
@@ -1606,9 +1881,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1383-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1383-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1383-960.webp"
    },
    {
     "w": 1280,
@@ -1624,9 +1904,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1384-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1384-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1384-960.webp"
    },
    {
     "w": 1280,
@@ -1642,9 +1927,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1387-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1387-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1387-960.webp"
    },
    {
     "w": 1280,
@@ -1660,9 +1950,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1389-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1389-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1389-960.webp"
    },
    {
     "w": 1280,
@@ -1678,9 +1973,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1390-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1390-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1390-960.webp"
    },
    {
     "w": 1280,
@@ -1696,9 +1996,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1391-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1391-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1391-960.webp"
    },
    {
     "w": 1280,
@@ -1714,9 +2019,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-1392-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-1392-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-1392-960.webp"
    },
    {
     "w": 1280,
@@ -1732,9 +2042,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-0952-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-0952-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-0952-960.webp"
    },
    {
     "w": 1280,
@@ -1750,9 +2065,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-0951-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-0951-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-0951-960.webp"
    },
    {
     "w": 1280,
@@ -1768,9 +2088,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-0950-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-0950-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-0950-960.webp"
    },
    {
     "w": 1280,
@@ -1786,9 +2111,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-0719-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-0719-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/img-0719-960.webp"
    },
    {
     "w": 1280,
@@ -1804,9 +2134,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/img-0718-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/img-0718-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/img-0718-960.webp"
    },
    {
     "w": 1280,
@@ -1818,39 +2153,44 @@
  },
  "img-0695": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 970,
+  "w": 960,
+  "h": 1456,
   "sizes": [
    {
-    "w": 640,
-    "h": 970,
-    "src": "/media/img-0695-640.webp"
+    "w": 480,
+    "h": 728,
+    "src": "/media/img-0695-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1456,
+    "src": "/media/img-0695-960.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_0695"
  },
  "img-0679": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 651,
+  "w": 480,
+  "h": 488,
   "sizes": [
    {
-    "w": 640,
-    "h": 651,
-    "src": "/media/img-0679-640.webp"
+    "w": 480,
+    "h": 488,
+    "src": "/media/img-0679-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_0679"
  },
  "img-0581": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 1391,
+  "w": 480,
+  "h": 1043,
   "sizes": [
    {
-    "w": 640,
-    "h": 1391,
-    "src": "/media/img-0581-640.webp"
+    "w": 480,
+    "h": 1043,
+    "src": "/media/img-0581-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_0581"
@@ -1861,9 +2201,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-0208-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-0208-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-0208-960.webp"
    },
    {
     "w": 1280,
@@ -1879,9 +2224,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-0206-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-0206-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-0206-960.webp"
    },
    {
     "w": 1280,
@@ -1897,9 +2247,14 @@
   "h": 1600,
   "sizes": [
    {
-    "w": 640,
-    "h": 800,
-    "src": "/media/123-1-640.webp"
+    "w": 480,
+    "h": 600,
+    "src": "/media/123-1-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "src": "/media/123-1-960.webp"
    },
    {
     "w": 1280,
@@ -1915,9 +2270,14 @@
   "h": 1280,
   "sizes": [
    {
-    "w": 640,
-    "h": 640,
-    "src": "/media/1000020236-640.webp"
+    "w": 480,
+    "h": 480,
+    "src": "/media/1000020236-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "src": "/media/1000020236-960.webp"
    },
    {
     "w": 1280,
@@ -1929,26 +2289,31 @@
  },
  "attachment": {
   "alt": "Attachment",
-  "w": 640,
-  "h": 960,
+  "w": 480,
+  "h": 720,
   "sizes": [
    {
-    "w": 640,
-    "h": 960,
-    "src": "/media/attachment-640.webp"
+    "w": 480,
+    "h": 720,
+    "src": "/media/attachment-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/attachment"
  },
  "img-0102": {
   "alt": "Coastal K9 Image Gallery",
-  "w": 640,
-  "h": 853,
+  "w": 960,
+  "h": 1280,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-0102-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-0102-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-0102-960.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/img_0102"
@@ -1959,9 +2324,14 @@
   "h": 1707,
   "sizes": [
    {
-    "w": 640,
-    "h": 853,
-    "src": "/media/img-0103-640.webp"
+    "w": 480,
+    "h": 640,
+    "src": "/media/img-0103-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/img-0103-960.webp"
    },
    {
     "w": 1280,
@@ -1977,9 +2347,14 @@
   "h": 422,
   "sizes": [
    {
-    "w": 640,
-    "h": 211,
-    "src": "/media/7082d6e5-8f47-45c8-b86f-2d81b47bba8a-640.webp"
+    "w": 480,
+    "h": 158,
+    "src": "/media/7082d6e5-8f47-45c8-b86f-2d81b47bba8a-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 317,
+    "src": "/media/7082d6e5-8f47-45c8-b86f-2d81b47bba8a-960.webp"
    },
    {
     "w": 1280,
@@ -2004,13 +2379,18 @@
  },
  "coastalk9-southcarolina-flyer-under2mb": {
   "alt": "",
-  "w": 640,
-  "h": 427,
+  "w": 960,
+  "h": 640,
   "sizes": [
    {
-    "w": 640,
-    "h": 427,
-    "src": "/media/coastalk9-southcarolina-flyer-under2mb-640.webp"
+    "w": 480,
+    "h": 320,
+    "src": "/media/coastalk9-southcarolina-flyer-under2mb-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "src": "/media/coastalk9-southcarolina-flyer-under2mb-960.webp"
    }
   ],
   "orig": "/wp-content/uploads/2021/11/coastalk9_southcarolina_flyer_under2mb"
@@ -2021,9 +2401,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/1779324289640-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/1779324289640-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/1779324289640-960.webp"
    },
    {
     "w": 1280,
@@ -2035,39 +2420,39 @@
  },
  "kimpctmagazine": {
   "alt": "Kimberly Camera featured in Pest Control Technology magazine",
-  "w": 640,
-  "h": 360,
+  "w": 480,
+  "h": 270,
   "sizes": [
    {
-    "w": 640,
-    "h": 360,
-    "src": "/media/kimpctmagazine-640.webp"
+    "w": 480,
+    "h": 270,
+    "src": "/media/kimpctmagazine-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/kimpctmagazine"
  },
  "cropped-cropped-7082d6e5-8f47-45c8-b86f-2d81b47bba8a": {
   "alt": "",
-  "w": 512,
-  "h": 512,
+  "w": 480,
+  "h": 480,
   "sizes": [
    {
-    "w": 512,
-    "h": 512,
-    "src": "/media/cropped-cropped-7082d6e5-8f47-45c8-b86f-2d81b47bba8a-512.webp"
+    "w": 480,
+    "h": 480,
+    "src": "/media/cropped-cropped-7082d6e5-8f47-45c8-b86f-2d81b47bba8a-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2026/06/cropped-cropped-7082d6e5-8f47-45c8-b86f-2d81b47bba8a"
  },
  "bed-bug-treatment": {
   "alt": "Engorged adult bed bug on human skin, the reddish-brown flattened insect Coastal K-9 treats across the CSRA",
-  "w": 640,
-  "h": 340,
+  "w": 480,
+  "h": 255,
   "sizes": [
    {
-    "w": 640,
-    "h": 340,
-    "src": "/media/bed-bug-treatment-640.webp"
+    "w": 480,
+    "h": 255,
+    "src": "/media/bed-bug-treatment-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2021/04/bed-bug-treatment"
@@ -2078,9 +2463,14 @@
   "h": 960,
   "sizes": [
    {
-    "w": 640,
-    "h": 480,
-    "src": "/media/rats-commercial-640.webp"
+    "w": 480,
+    "h": 360,
+    "src": "/media/rats-commercial-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rats-commercial-960.webp"
    },
    {
     "w": 1280,
@@ -2092,39 +2482,39 @@
  },
  "roach-exterminator": {
   "alt": "Large reddish-brown peridomestic cockroach of the kind found in CSRA crawl spaces, mulch beds and drain lines",
-  "w": 640,
-  "h": 340,
+  "w": 480,
+  "h": 255,
   "sizes": [
    {
-    "w": 640,
-    "h": 340,
-    "src": "/media/roach-exterminator-640.webp"
+    "w": 480,
+    "h": 255,
+    "src": "/media/roach-exterminator-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2021/05/roach-exterminator"
  },
  "spider-exterminator": {
   "alt": "Large hunting spider found indoors during a Coastal K-9 spider inspection in the CSRA",
-  "w": 640,
-  "h": 340,
+  "w": 480,
+  "h": 255,
   "sizes": [
    {
-    "w": 640,
-    "h": 340,
-    "src": "/media/spider-exterminator-640.webp"
+    "w": 480,
+    "h": 255,
+    "src": "/media/spider-exterminator-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2021/05/spider-exterminator"
  },
  "commercial-768x480-1": {
   "alt": "Random mall in town",
-  "w": 640,
-  "h": 400,
+  "w": 480,
+  "h": 300,
   "sizes": [
    {
-    "w": 640,
-    "h": 400,
-    "src": "/media/commercial-768x480-1-640.webp"
+    "w": 480,
+    "h": 300,
+    "src": "/media/commercial-768x480-1-480.webp"
    }
   ],
   "orig": "/wp-content/uploads/2022/05/commercial-768x480-1"

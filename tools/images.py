@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 SCRAPE = Path(sys.argv[1]); PROJ = Path(sys.argv[2])
 imap = json.load(open(PROJ / 'content/image-map.json'))
 out = PROJ / 'public/media'; out.mkdir(parents=True, exist_ok=True)
-WIDTHS = [640, 1280]
+WIDTHS = [480, 960, 1280]
 media, redirects = {}, {}
 for key, m in imap.items():
     src = SCRAPE / m['file']

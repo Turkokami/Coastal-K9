@@ -5,7 +5,7 @@
   --amber: #f5a623; --amber-600: #e08f00;
   --ink: #17293a; --muted: #4a5d6b; --line: #dde8ec; --soft: #f4f9fa; --white: #fff;
   --radius: 14px; --shadow: 0 8px 24px rgba(11, 31, 56, .08); --shadow-lg: 0 18px 44px rgba(11, 31, 56, .16);
-  --font-h: 'Poppins', system-ui, sans-serif; --font-b: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-h: 'Poppins', system-ui, sans-serif; --font-b: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --wrap: 1180px; --read: 760px;
 }
 *, *::before, *::after { box-sizing: border-box; }
@@ -89,6 +89,8 @@ a, button, summary, input, select, textarea { touch-action: manipulation; }
   .nav-cta .btn { min-height: 44px; padding: 8px 14px; font-size: .9rem; }
 }
 @media (max-width: 420px) { .brand img { width: 120px; } .nav-cta .btn-primary { padding: 8px 10px; font-size: .82rem; } }
+/* very narrow phones: the sticky bottom bar carries Call + Get an Inspection, so the header keeps only the menu */
+@media (max-width: 370px) { .nav-cta { display: none; } .mainnav { margin-left: auto; } }
 
 /* ---------- breadcrumbs ---------- */
 .crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px; padding: 14px 0 0; margin: 0; font-size: .85rem; color: var(--muted); }
