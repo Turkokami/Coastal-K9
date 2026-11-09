@@ -13,3 +13,15 @@ Source: live ck9ps.com as published by the client, captured 2026-11-08. Not inde
 
 Excluded from the build on purpose: two images that look AI-generated presented as real scenes
 (office reception, truck at house) and one photo of what appears to be a personal ID/document (IMG_0581).
+
+## Service scope (confirmed by Kristofer, 8 Nov 2026)
+| Service | In scope? | How the site says it |
+|---|---|---|
+| Wildlife removal + exclusion (raccoon, opossum, squirrel, armadillo; bat one-way exclusion) | Yes | Humane removal, then sealing entry points |
+| Mosquito & tick treatment | Yes | Seasonal yard/perimeter treatment under IPM |
+| Lawn pests — fire ants & moles | Yes | Whole-yard fire ant baiting; mole removal + grub treatment |
+| Termites (treatment, bonds, CL-100 / wood infestation reports) | Subcontracted | "Coordinated through a licensed termite partner" — never claimed as in-house |
+
+The legacy city/neighborhood pages said the opposite in ~69 places ("we do not offer mosquito programs or lawn work",
+"we do not trap … a raccoon", "we do not subcontract termites"). Those sentences are rewritten at build time from
+`content/scope-fixes.json` (applied to body text and FAQ answers before schema is generated).

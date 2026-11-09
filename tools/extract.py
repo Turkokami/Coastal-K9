@@ -248,6 +248,8 @@ def strip_tags(s):
 
 TITLE_FIX = {'Sourth Carolina': 'South Carolina', 'Charleston. South Carolina': 'Charleston, South Carolina'}
 
+SCOPE_FIXES = {k: v for k, v in json.load(open(PROJ / 'content/scope-fixes.json')).items() if not k.startswith('_')}
+SCOPE_HITS, SCOPE_MISS = [], []
 records = []
 for wptype in ['page', 'post', 'service', 'service-area']:
     for x in R[wptype]['items']:
@@ -295,6 +297,9 @@ for wptype in ['page', 'post', 'service', 'service-area']:
             if any(str(im.get('src', '')).startswith('media:' + x) for x in EXCLUDE_IMG):
                 (im.find_parent('figure') or im).decompose()
         page_images[:] = [n for n in page_images if not n.startswith(EXCLUDE_IMG)]
+        for old, new in SCOPE_FIXES.get(path, []):
+            for tn in soup.find_all(string=lambda t: t and old in t):
+                tn.replace_with(tn.replace(old, new)); SCOPE_HITS.append(path)
         hero = extract_hero(soup, kind)
         faqs = faq_from(soup)
         # featured image
@@ -325,6 +330,11 @@ for wptype in ['page', 'post', 'service', 'service-area']:
             used.add(hid); h2['id'] = hid
             toc.append({'id': hid, 'text': t})
         body = str(soup).strip()
+        for old, new in SCOPE_FIXES.get(path, []):
+            o, n = html.escape(old, quote=False), html.escape(new, quote=False)
+            if o in body: body = body.replace(o, n); SCOPE_HITS.append(path)
+            elif old in body: body = body.replace(old, n); SCOPE_HITS.append(path)
+            elif new not in body: SCOPE_MISS.append((path, old[:70]))
         words = len(strip_tags(body).split()) + len(strip_tags(hero.get('lead', '')).split())
         h1text = strip_tags(hero.get('h1', '')) or strip_tags(x['title']['rendered'])
         for a, b in TITLE_FIX.items(): h1text = h1text.replace(a, b)
@@ -364,3 +374,5 @@ print('unresolved imgs', sorted({m for r in records for m in re.findall(r'src="(
 print('words total', sum(r['words'] for r in records))
 thin = sorted((r['words'], r['path']) for r in records if r['words'] < 300 and r['kind'] not in ('utility', 'redirect'))
 print('thin', thin)
+
+print('scope fixes applied', len(SCOPE_HITS), 'missed', SCOPE_MISS)

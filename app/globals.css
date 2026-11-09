@@ -134,7 +134,7 @@ a, button, summary, input, select, textarea { touch-action: manipulation; }
 .side-call { background: var(--navy-900); color: #dbecf1; border: 0; }
 .side-call h2 { color: #fff; }
 .side-call .btn { width: 100%; margin-top: 8px; }
-@media (max-width: 1000px) { .page { grid-template-columns: 1fr; } .side-sticky { position: static; } }
+@media (max-width: 1000px) { .page { grid-template-columns: minmax(0, 1fr); } .side-sticky { position: static; } }
 
 /* ---------- byline ---------- */
 .byline { display: flex; gap: 14px; align-items: center; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; font-size: .92rem; margin: 0 0 26px; }
