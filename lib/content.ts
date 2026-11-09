@@ -97,6 +97,27 @@ export function plain(s: string) {
 export { esc };
 
 /** Related pages for internal linking. */
+export const TOPICS: { key: string; label: string; test: RegExp }[] = [
+  { key: 'bed-bugs', label: 'Bed bugs', test: /bed.?bug/i },
+  { key: 'rodents', label: 'Rats, mice & burrows', test: /rodent|rat\b|rats|burrow|mouse|mice/i },
+  { key: 'bats', label: 'Bats', test: /\bbats?\b|white-nose/i },
+  { key: 'geese-birds', label: 'Geese & birds', test: /goose|geese|bird/i },
+  { key: 'spiders', label: 'Spiders', test: /spider/i },
+  { key: 'k9', label: 'Detection dogs & commercial compliance', test: /.*/ },
+];
+export const postTopic = (p: Page) => TOPICS.find((t) => t.test.test(p.h1 + ' ' + p.path))!.key;
+
+export const PEST_GROUPS: { label: string; slugs: string[] }[] = [
+  { label: 'Bed bugs & rodents — our detection dogs’ specialty', slugs: ['bed-bug', 'norway-rat', 'roof-rat', 'house-mouse'] },
+  { label: 'Cockroaches & ants', slugs: ['german-cockroach', 'american-cockroach', 'odorous-house-ant', 'carpenter-ant', 'pharaoh-ant', 'red-imported-fire-ant'] },
+  { label: 'Birds & geese', slugs: ['canada-goose', 'pigeon', 'european-starling', 'house-sparrow'] },
+  { label: 'Wildlife', slugs: ['raccoon', 'virginia-opossum', 'eastern-gray-squirrel', 'bat', 'nine-banded-armadillo', 'eastern-mole'] },
+  { label: 'Stinging insects', slugs: ['yellowjacket', 'paper-wasp'] },
+  { label: 'Ticks, mosquitoes & fleas', slugs: ['lone-star-tick', 'asian-tiger-mosquito', 'cat-flea'] },
+  { label: 'Spiders & occasional invaders', slugs: ['black-widow-spider', 'brown-recluse-spider', 'silverfish', 'house-fly'] },
+  { label: 'Termites (handled through our licensed partner)', slugs: ['eastern-subterranean-termite'] },
+];
+
 export function related(p: Page, n = 6): Page[] {
   const pool = (k: string) => PAGES.filter((x) => x.kind === k && x.path !== p.path);
   let list: Page[] = [];
@@ -107,8 +128,8 @@ export function related(p: Page, n = 6): Page[] {
     ];
   } else if (p.kind === 'neighborhood') list = pool('neighborhood');
   else if (p.kind === 'city') list = pool('city');
-  else if (p.kind === 'pest') list = pool('pest');
-  else if (p.kind === 'post') list = pool('post');
+  else if (p.kind === 'pest') { const g = PEST_GROUPS.find((g) => g.slugs.some((x) => p.path === `/pest-library/${x}/`)); const all = pool('pest'); list = [...all.filter((x) => g?.slugs.some((y) => x.path === `/pest-library/${y}/`)), ...all.filter((x) => !g?.slugs.some((y) => x.path === `/pest-library/${y}/`))]; }
+  else if (p.kind === 'post') { const t = postTopic(p); const all = pool('post'); list = [...all.filter((x) => postTopic(x) === t), ...all.filter((x) => postTopic(x) !== t)]; }
   else if (p.kind === 'commercial') list = pool('commercial');
   else if (p.kind === 'nationwide') list = pool('nationwide');
   else if (p.kind === 'service') list = pool('service');

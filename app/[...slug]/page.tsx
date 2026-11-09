@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { PAGES, getPage, renderBody, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS } from '@/lib/content';
+import { PAGES, getPage, renderBody, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, TOPICS, postTopic, PEST_GROUPS } from '@/lib/content';
 import { KIND_PARENT, SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import Hero from '@/components/Hero';
@@ -63,6 +63,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
     const m = new RegExp(`<figure[^>]*>(?:(?!</figure>)[\\s\\S])*?src="media:${p.heroImage}"(?:(?!</figure>)[\\s\\S])*?</figure>`).exec(raw);
     if (m && m.index < 2500) raw = raw.slice(0, m.index) + raw.slice(m.index + m[0].length);
   }
+  if (p.kind === 'hub-pests') raw = raw.split('<h2')[0];
   const body = renderBody(raw);
   const rel = related(p);
   const showToc = p.toc.length >= 4 && LONGFORM.has(p.kind) && !p.body.includes('k-toc');
@@ -99,7 +100,25 @@ export default async function Route({ params }: { params: Promise<{ slug: string
   }
 
   const listing =
-    p.kind === 'hub-blog' ? <CardGrid pages={byKind('post').sort((a, b) => (b.date || '').localeCompare(a.date || ''))} /> :
+    p.kind === 'hub-blog' ? (
+      <>
+        <nav aria-label="Blog topics"><ul className="chips">{TOPICS.map((t) => <li key={t.key}><a href={`#${t.key}`}>{t.label}</a></li>)}</ul></nav>
+        {TOPICS.map((t) => {
+          const posts = byKind('post').filter((x) => postTopic(x) === t.key).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+          return posts.length ? <section key={t.key} aria-labelledby={t.key}><h2 id={t.key}>{t.label}</h2><CardGrid pages={posts} /></section> : null;
+        })}
+      </>
+    ) :
+    p.kind === 'hub-pests' ? (
+      <>
+        {PEST_GROUPS.map((g) => (
+          <section key={g.label} aria-label={g.label}>
+            <h2>{g.label}</h2>
+            <CardGrid withImage={false} more="Identify & control" pages={g.slugs.map((x) => getPage(`/pest-library/${x}/`)!).filter(Boolean)} />
+          </section>
+        ))}
+      </>
+    ) :
     p.kind === 'hub-areas' ? (
       <>
         <h2>Community pages</h2>

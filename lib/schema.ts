@@ -1,5 +1,5 @@
 import { SITE } from './site';
-import { MEDIA, Page, plain } from './content';
+import { MEDIA, Page, plain, PAGES } from './content';
 
 const U = (p: string) => SITE.url + p;
 export const LB_ID = U('/#localbusiness');
@@ -82,6 +82,14 @@ export function pageGraph(p: Page, crumbs: { label: string; href: string }[]) {
     });
   }
   // Conditional: FAQPage only where the Q&A is visible on the page.
+  // Hubs: ItemList of the pages they index
+  const hubKinds: Record<string, string> = { 'hub-blog': 'post', 'hub-pests': 'pest', 'hub-areas': 'city' };
+  if (hubKinds[p.kind]) {
+    const items = PAGES.filter((x) => x.kind === hubKinds[p.kind]);
+    webpage.mainEntity = { '@id': url + '#itemlist' };
+    graph.push({ '@type': 'ItemList', '@id': url + '#itemlist', numberOfItems: items.length,
+      itemListElement: items.map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: U(x.path), name: plain(x.h1) })) });
+  }
   if (p.faqs.length >= 2) {
     graph.push({
       '@type': 'FAQPage', '@id': url + '#faq',

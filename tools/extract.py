@@ -315,7 +315,7 @@ for wptype in ['page', 'post', 'service', 'service-area']:
         if not hero_img and rend.get('ogimage'):
             im = resolve_image(rend['ogimage'])
             if im: hero_img = im['name']
-        if hero_img and hero_img.startswith(EXCLUDE_IMG):
+        if hero_img and (hero_img.startswith(EXCLUDE_IMG) or hero_img.startswith(('cropped-', '7082d6e5'))):
             hero_img = None
         if not hero_img and page_images:
             hero_img = page_images[0]
