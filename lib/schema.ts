@@ -68,7 +68,7 @@ export function pageGraph(p: Page, crumbs: { label: string; href: string }[]) {
     graph.push({
       '@type': 'Service', '@id': url + '#service', name: plain(p.h1), url, description: p.description,
       provider: { '@id': LB_ID }, serviceType: plain(p.hero.eyebrow || p.h1),
-      areaServed: city ? { '@type': 'City', name: `${city}, SC` } : p.kind === 'nationwide' ? { '@type': 'Country', name: 'United States' } : { '@type': 'AdministrativeArea', name: 'CSRA and South Carolina Midlands' },
+      areaServed: city ? { '@type': 'City', name: `${city}, SC` } : p.kind === 'city' && / in (.+?), (GA|SC)$/.test(plain(p.h1)) ? { '@type': 'City', name: plain(p.h1).replace(/^.* in /, '') } : p.kind === 'nationwide' ? { '@type': 'Country', name: 'United States' } : { '@type': 'AdministrativeArea', name: 'CSRA and South Carolina Midlands' },
       mainEntityOfPage: { '@id': url + '#webpage' },
     });
   }

@@ -39,7 +39,8 @@ export const SITE = {
   areaServed: [
     'Aiken', 'North Augusta', 'Graniteville', 'Warrenville', 'New Ellenton', 'Beech Island', 'Jackson', 'Wagener', 'Windsor',
     'Salley', 'Edgefield', 'Trenton', 'Johnston', 'Barnwell', 'Williston', 'Blackville', 'Lexington', 'Cayce', 'West Columbia',
-    'Columbia', 'Irmo', 'Batesburg-Leesville', 'Gilbert', 'Orangeburg', 'Augusta, GA', 'Martinez, GA', 'Evans, GA',
+    'Columbia', 'Irmo', 'Batesburg-Leesville', 'Gilbert', 'Orangeburg', 'Augusta, GA', 'Martinez, GA', 'Evans, GA', 'Grovetown, GA',
+    'Hephzibah, GA', 'Harlem, GA', 'Thomson, GA', 'Waynesboro, GA',
   ],
 } as const;
 
@@ -98,6 +99,8 @@ export const NAV: NavItem[] = [
       { label: 'Cayce, SC', href: '/pest-control-cayce-sc/' },
       { label: 'Irmo, SC', href: '/pest-control-irmo-sc/' },
       { label: 'Edgefield, SC', href: '/pest-control-edgefield-sc/' },
+      { label: 'Augusta, GA', href: '/pest-control-augusta-ga/' },
+      { label: 'Evans & Martinez, GA', href: '/pest-control-evans-ga/' },
       { label: 'All Service Areas', href: '/service-areas/' },
     ],
   },

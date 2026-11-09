@@ -336,3 +336,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
 @media print { .site-header, .mobilebar, .ctaband, .site-footer, .side { display: none; } }
+
+.k-ytfig { margin: 18px 0 26px; }
+.k-ytfig .k-yt { margin: 0; }
+.k-ytfig figcaption { font-family: var(--font-h); font-weight: 600; color: var(--navy-900); margin-top: 8px; }

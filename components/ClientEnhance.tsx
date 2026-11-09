@@ -14,7 +14,7 @@ export default function ClientEnhance() {
       const yt = t.closest('.k-yt') as HTMLElement | null;
       if (yt && !yt.querySelector('iframe')) {
         const id = yt.dataset.yt;
-        yt.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" title="Coastal K9 video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+        yt.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" title="${yt.dataset.title || 'Coastal K9 video'}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
         return;
       }
       // one dropdown open at a time; close when clicking outside

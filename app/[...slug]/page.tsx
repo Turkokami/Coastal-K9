@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { PAGES, getPage, renderBody, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, TOPICS, postTopic, PEST_GROUPS } from '@/lib/content';
+import { PAGES, getPage, renderBody, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, CROSS_LINKS, TOPICS, postTopic, PEST_GROUPS } from '@/lib/content';
 import { KIND_PARENT, SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import Hero from '@/components/Hero';
@@ -121,8 +121,10 @@ export default async function Route({ params }: { params: Promise<{ slug: string
     ) :
     p.kind === 'hub-areas' ? (
       <>
-        <h2>Community pages</h2>
-        <ul className="chips">{byKind('city').map((c) => <li key={c.path}><Link href={c.path}>{plain(c.h1).replace(/^Pest Control in /, '').replace(/,? South Carolina.*$/, '')}</Link></li>)}</ul>
+        <h2>South Carolina communities</h2>
+        <ul className="chips">{byKind('city').filter((c) => !c.path.endsWith('-ga/')).map((c) => <li key={c.path}><Link href={c.path}>{plain(c.h1).replace(/^Pest Control in /, '').replace(/,? South Carolina.*$/, '')}</Link></li>)}</ul>
+        <h2>Georgia communities</h2>
+        <ul className="chips">{byKind('city').filter((c) => c.path.endsWith('-ga/')).map((c) => <li key={c.path}><Link href={c.path}>{plain(c.h1).replace(/^.* in /, '')}</Link></li>)}</ul>
         <h2>Aiken neighborhoods</h2>
         <ul className="chips">{byKind('neighborhood').map((c) => <li key={c.path}><Link href={c.path}>{plain(c.h1).replace(/^Pest Control in /, '').replace(/\s*[–—-]\s*Aiken.*$/, '')}</Link></li>)}</ul>
         <h2>K9 detection, goose and bird services by city</h2>
@@ -138,6 +140,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
       <div className={`wrap page${wide ? ' single' : ''}`}>
         <article className="content">
           {LONGFORM.has(p.kind) || p.kind === 'pest' ? <Byline modified={p.modified} label={p.kind === 'post' ? 'Written by' : 'Reviewed by'} /> : null}
+          {CROSS_LINKS[p.path] ? <p className="k-xref" dangerouslySetInnerHTML={{ __html: CROSS_LINKS[p.path] }} /> : null}
           <div dangerouslySetInnerHTML={{ __html: body }} />
           {listing}
           {SERVICE_PESTS[p.path] ? (

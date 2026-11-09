@@ -351,6 +351,29 @@ for wptype in ['page', 'post', 'service', 'service-area']:
         if m: rec['citySvc'] = {'service': m.group(1), 'city': m.group(2)}
         records.append(rec)
 
+# brand-new pages (not on the live WordPress site) — content/new-pages/<path>.html + .json meta
+for f in sorted((PROJ / 'content/new-pages').glob('*.html')):
+    path = '/' + f.stem + '/'
+    meta = json.load(open(f.with_suffix('.json')))
+    soup = BeautifulSoup(f.read_text(), 'html.parser')
+    page_images = []
+    clean_fragment(soup, path, page_images)
+    kind = classify(path, 'service-area')
+    hero = extract_hero(soup, kind)
+    faqs = faq_from(soup)
+    toc, used = [], set()
+    for h2 in soup.find_all('h2'):
+        tx = text_of(h2); hid = slugify(tx)[:48]
+        while hid in used: hid += '-x'
+        used.add(hid); h2['id'] = hid; toc.append({'id': hid, 'text': tx})
+    body = str(soup).strip()
+    import datetime as _dt
+    mod = _dt.datetime.fromtimestamp(f.stat().st_mtime, _dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S')
+    records.append({'path': path, 'slug': f.stem, 'wpType': 'new', 'kind': kind, 'title': meta['title'], 'description': meta['description'],
+        'h1': strip_tags(hero.get('h1', '')), 'hero': hero, 'heroImage': None, 'body': body, 'faqs': faqs, 'toc': toc, 'citations': [],
+        'images': [], 'date': mod, 'modified': mod, 'excerpt': meta['description'], 'words': len(strip_tags(body).split()),
+        'noindex': False, 'rewritten': True, 'newPage': True})
+
 # og-only images referenced on rendered pages (gallery etc.) that are not in content
 for p in records:
     rend = RENDERED.get(p['path'], {})

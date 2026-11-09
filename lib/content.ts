@@ -66,7 +66,7 @@ export function renderBody(html: string): string {
   out = out.replace(/<img(?![^>]*loading=)([^>]*)>/g, '<img loading="lazy" decoding="async"$1>');
   // YouTube iframes -> click-to-load facade (no third-party JS until the visitor asks)
   out = out.replace(/<iframe[^>]*src="https:\/\/www\.youtube(?:-nocookie)?\.com\/embed\/([\w-]{11})[^"]*"[^>]*>\s*<\/iframe>/g,
-    (_m, id) => `<div class="k-yt" data-yt="${id}"><button type="button" aria-label="Play video"><img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="k-yt-play" aria-hidden="true"></span></button></div>`);
+    (_m, id) => `<figure class="k-ytfig"><div class="k-yt" data-yt="${id}" data-title="${VIDEO_TITLES[id] ?? 'Coastal K9 video'}"><button type="button" aria-label="Play video: ${VIDEO_TITLES[id] ?? 'Coastal K9 video'}"><img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="k-yt-play" aria-hidden="true"></span></button></div><figcaption>${VIDEO_TITLES[id] ?? 'Coastal K9 video'}</figcaption></figure>`);
   // other iframes (maps) – lazy
   out = out.replace(/<iframe(?![^>]*loading=)/g, '<iframe loading="lazy"');
   // icons
@@ -85,6 +85,11 @@ export function renderBody(html: string): string {
   return out;
 }
 
+// Generic, topic-relevant titles for the YouTube embeds (no published titles were available).
+const VIDEO_TITLES: Record<string, string> = {
+  x5htvQ2lEtE: 'K9 detection in action', LGmStZNv2dA: 'Our detection dogs at work', U0opRCsZjPQ: 'Inside a Coastal K9 inspection',
+  rXHDCYilQBQ: 'Working with the Coastal K9 team', H0NAGMj7Ir4: 'Behind the scenes at Coastal K9',
+};
 export function icon(name: string) {
   const d = ICONS[name] ?? ICONS['paw'];
   return `<svg class="k-ic" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -127,7 +132,7 @@ export function related(p: Page, n = 6): Page[] {
       ...PAGES.filter((x) => x.citySvc?.service === p.citySvc!.service && x.path !== p.path),
     ];
   } else if (p.kind === 'neighborhood') list = pool('neighborhood');
-  else if (p.kind === 'city') list = pool('city');
+  else if (p.kind === 'city') { const ga = p.path.endsWith('-ga/'); const all = pool('city'); list = [...all.filter((x) => x.path.endsWith('-ga/') === ga), ...all.filter((x) => x.path.endsWith('-ga/') !== ga)]; }
   else if (p.kind === 'pest') { const g = PEST_GROUPS.find((g) => g.slugs.some((x) => p.path === `/pest-library/${x}/`)); const all = pool('pest'); list = [...all.filter((x) => g?.slugs.some((y) => x.path === `/pest-library/${y}/`)), ...all.filter((x) => !g?.slugs.some((y) => x.path === `/pest-library/${y}/`))]; }
   else if (p.kind === 'post') { const t = postTopic(p); const all = pool('post'); list = [...all.filter((x) => postTopic(x) === t), ...all.filter((x) => postTopic(x) !== t)]; }
   else if (p.kind === 'commercial') list = pool('commercial');
@@ -177,4 +182,10 @@ export const SERVICE_PESTS: Record<string, string[]> = {
   '/multifamily-property-management-pest-control/': PL('bed-bug', 'german-cockroach', 'pharaoh-ant', 'norway-rat', 'house-mouse'),
   '/schools-student-housing-pest-control/': PL('bed-bug', 'german-cockroach', 'house-mouse', 'yellowjacket'),
   '/commercial-pest-control/': PL('norway-rat', 'house-mouse', 'german-cockroach', 'bed-bug', 'pigeon'),
+};
+
+/** Pages kept separate on purpose (distinct intents) — each points to its sibling. */
+export const CROSS_LINKS: Record<string, string> = {
+  '/norway-rat-burrow-mitigation/': 'This is our field guide to Norway rat burrows for homes and local properties. Running a food plant, farm or multi-site operation? See our <a href="/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/">commercial Norway rat burrow mitigation program</a>.',
+  '/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/': 'This page covers our commercial and nationwide burrow program. For a plain-language guide to spotting and dealing with Norway rat burrows around a home, read <a href="/norway-rat-burrow-mitigation/">Norway rat burrows: identify, treat &amp; prevent</a>.',
 };

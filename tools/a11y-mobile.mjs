@@ -9,7 +9,7 @@ const axe = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 const BASE = process.argv[2] || 'http://localhost:3000';
 const TEMPLATES = ['/', '/bed-bug-control/', '/hotels-hospitality-pest-control/', '/nationwide-k9-rodent-detection/', '/k9-bed-bug-detection-aiken-sc/',
   '/pest-control-aiken-south-carolina/', '/pest-control-houndslake-aiken-sc/', '/pest-library/norway-rat/', '/canine-scent-detection-science/',
-  '/service-areas/', '/pest-library/', '/coastal-k9-blog/', '/about/', '/contact/', '/coastal-k9-image-gallery/', '/k9-detection-video-library/', '/thank-you/'];
+  '/service-areas/', '/pest-library/', '/coastal-k9-blog/', '/about/', '/contact/', '/coastal-k9-image-gallery/', '/k9-detection-video-library/', '/thank-you/', '/pest-control-augusta-ga/'];
 const b = await chromium.launch(); let fails = 0;
 for (const width of [1366, 390, 320]) {
   const pg = await b.newPage({ viewport: { width, height: 900 } });

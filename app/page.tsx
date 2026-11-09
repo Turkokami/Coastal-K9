@@ -38,7 +38,7 @@ const AREAS: [string, string | null][] = [
   ['Windsor', '/pest-control-windsor-sc/'], ['Beech Island', '/pest-control-beech-island-sc/'], ['New Ellenton', '/pest-control-new-ellenton-sc/'],
   ['Edgefield', '/pest-control-edgefield-sc/'], ['Lexington', '/pest-control-lexington-sc/'], ['Columbia', '/columbia-sc-pest-control/'],
   ['West Columbia', '/pest-control-west-columbia-sc/'], ['Cayce', '/pest-control-cayce-sc/'], ['Irmo', '/pest-control-irmo-sc/'],
-  ['Orangeburg', '/pest-control-orangeburg-sc/'], ['Barnwell', '/pest-control-barnwell-sc/'], ['Augusta, GA', null], ['Martinez, GA', null], ['Evans, GA', null],
+  ['Orangeburg', '/pest-control-orangeburg-sc/'], ['Barnwell', '/pest-control-barnwell-sc/'], ['Augusta, GA', '/pest-control-augusta-ga/'], ['Martinez, GA', '/pest-control-martinez-ga/'], ['Evans, GA', '/pest-control-evans-ga/'], ['Grovetown, GA', '/pest-control-grovetown-ga/'],
 ];
 
 export default function Home() {
