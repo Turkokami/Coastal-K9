@@ -320,6 +320,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .foot-nap img { width: 210px; margin-bottom: 8px; }
 .foot-tag { color: var(--teal-300); font-weight: 700; font-family: var(--font-h); }
 .foot-nap address { font-style: normal; margin: 0 0 12px; line-height: 1.7; }
+.foot-nap .foot-former { font-size: .9em; opacity: .85; }
 .hours { margin: 0 0 12px; } .hours div { display: flex; gap: 10px; } .hours dt { min-width: 76px; color: #fff; } .hours dd { margin: 0; }
 .social { display: flex; gap: 14px; flex-wrap: wrap; }
 .foot-creds, .foot-legal { display: flex; flex-wrap: wrap; gap: 8px 14px; border-top: 1px solid rgba(255, 255, 255, .08); padding-top: 16px; padding-bottom: 16px; font-size: .84rem; }

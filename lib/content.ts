@@ -186,6 +186,7 @@ export const SERVICE_PESTS: Record<string, string[]> = {
 
 /** Pages kept separate on purpose (distinct intents) — each points to its sibling. */
 export const CROSS_LINKS: Record<string, string> = {
+  '/about/': 'Coastal K9 &amp; Pest Solutions was formerly Urban Canine Pest &amp; Wildlife Solutions (UCPaWS). <a href="/ucpaws/">Read about the name change</a>.',
   '/norway-rat-burrow-mitigation/': 'This is our field guide to Norway rat burrows for homes and local properties. Running a food plant, farm or multi-site operation? See our <a href="/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/">commercial Norway rat burrow mitigation program</a>.',
   '/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/': 'This page covers our commercial and nationwide burrow program. For a plain-language guide to spotting and dealing with Norway rat burrows around a home, read <a href="/norway-rat-burrow-mitigation/">Norway rat burrows: identify, treat &amp; prevent</a>.',
 };

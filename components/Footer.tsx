@@ -11,6 +11,7 @@ export default function Footer() {
           <p className="foot-tag">{SITE.tagline}</p>
           <address>
             <b>{SITE.name}</b><br />
+            <Link className="foot-former" href={SITE.renamePath}>Formerly {SITE.formerName}</Link><br />
             {SITE.address.street}<br />
             {SITE.address.city}, {SITE.address.region} {SITE.address.zip}<br />
             <a href={SITE.phoneHref}>{SITE.phone}</a><br />

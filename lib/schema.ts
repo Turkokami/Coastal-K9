@@ -21,7 +21,7 @@ export function imageNode(name: string | null | undefined, pageUrl: string) {
 export function coreNodes() {
   return [
     {
-      '@type': ['LocalBusiness', 'ProfessionalService'], '@id': LB_ID, name: SITE.name, url: U('/'),
+      '@type': ['LocalBusiness', 'ProfessionalService'], '@id': LB_ID, name: SITE.name, alternateName: [...SITE.alternateNames], url: U('/'),
       logo: { '@type': 'ImageObject', url: U(SITE.logo) }, image: U('/brand/og-default.jpg'),
       description: 'Family-owned certified K9 detection and pest solutions company in Windsor, SC — K9 bed bug and rodent detection, rodent exclusion, Canada goose and bird management for the CSRA and Midlands, plus nationwide K9 rodent detection for food processing and agriculture.',
       telephone: '+1-' + SITE.phone, email: SITE.email, priceRange: '$$',

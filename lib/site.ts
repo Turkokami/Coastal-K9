@@ -4,6 +4,10 @@ export const SITE = {
   name: 'Coastal K9 & Pest Solutions',
   shortName: 'Coastal K9',
   legalName: 'Coastal K9 & Pest Solutions',
+  // Former name (rebrand). Shown in the footer, the About page and /ucpaws/, and as schema alternateName.
+  formerName: 'Urban Canine Pest & Wildlife Solutions (UCPaWS)',
+  alternateNames: ['Urban Canine Pest & Wildlife Solutions', 'Urban Canine Pest and Wildlife Solutions', 'UCPaWS'],
+  renamePath: '/ucpaws/',
   tagline: 'Detection Before Treatment. Every Time.',
   phone: '803-226-3155',
   phoneHref: 'tel:+18032263155',
@@ -140,4 +144,5 @@ export const KIND_PARENT: Record<string, { label: string; href: string } | null>
   neighborhood: { label: 'Aiken', href: '/pest-control-aiken-south-carolina/' },
   pest: { label: 'Pest Library', href: '/pest-library/' },
   post: { label: 'Blog', href: '/coastal-k9-blog/' },
+  rename: { label: 'About', href: '/about/' },
 };
