@@ -7,7 +7,7 @@ export default function Header() {
       <a className="skip" href="#main">Skip to content</a>
       <div className="topbar">
         <div className="wrap topbar-in">
-          <span><b>{SITE.rating.value}★</b> rating · {SITE.rating.count} reviews · Family-owned · Windsor, SC</span>
+          <span><a className="tb-rev" href={SITE.google.reviewsUrl} target="_blank" rel="noopener"><b>{SITE.rating.value}★</b> on Google · Read our reviews</a> · Family-owned · Windsor, SC</span>
           <span className="topbar-r">
             <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
             <a href={SITE.phoneHref}>Call or text {SITE.phone}</a>

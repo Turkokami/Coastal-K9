@@ -20,6 +20,10 @@ export default function Footer() {
           <dl className="hours">
             {SITE.hours.map((h) => (<div key={h.label}><dt>{h.label}</dt><dd>{h.value}</dd></div>))}
           </dl>
+          <div className="rev-btns">
+            <a className="btn btn-primary" href={SITE.google.reviewsUrl} target="_blank" rel="noopener">⭐ Read our Google reviews</a>
+            {SITE.google.writeReviewUrl && <a className="btn btn-light" href={SITE.google.writeReviewUrl} target="_blank" rel="noopener">Leave us a review</a>}
+          </div>
           <ul className="social">
             {SITE.social.map((s) => (<li key={s.name}><a href={s.url} rel="noopener me" target="_blank">{s.name}</a></li>))}
           </ul>

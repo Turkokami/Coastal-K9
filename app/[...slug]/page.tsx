@@ -80,6 +80,11 @@ export default async function Route({ params }: { params: Promise<{ slug: string
             <p><b>{SITE.name}</b><br />{SITE.address.street}, {SITE.address.city}, {SITE.address.region} {SITE.address.zip}<br />
               <a href={SITE.phoneHref}>{SITE.phone}</a> · <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
             <p>{SITE.hours.map((h) => `${h.label}: ${h.value}`).join(' · ')}</p>
+            <h2>See what customers say</h2>
+            <div className="rev-btns">
+              <a className="btn btn-primary" href={SITE.google.reviewsUrl} target="_blank" rel="noopener">⭐ Read our Google reviews</a>
+              {SITE.google.writeReviewUrl && <a className="btn btn-light" href={SITE.google.writeReviewUrl} target="_blank" rel="noopener">Leave us a review</a>}
+            </div>
             <iframe loading="lazy" title="Map: Coastal K9 and Pest Solutions, Windsor SC" src="https://www.google.com/maps?q=320+Wendy+Lane,+Windsor,+SC+29856&output=embed" style={{ width: '100%', minHeight: 360, border: 0, borderRadius: 14 }} />
           </article>
         </div>

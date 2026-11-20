@@ -18,7 +18,13 @@ export const SITE = {
     { label: 'Saturday', value: '8:00 AM – 4:00 PM', days: ['Saturday'], opens: '08:00', closes: '16:00' },
     { label: 'Sunday', value: 'Closed', days: [], opens: '', closes: '' },
   ],
-  rating: { value: '5.0', count: '22+' },
+  rating: { value: '5.0' },
+  // Google Business Profile ("Coastal K9 and Pest Solutions", 320 Wendy Ln). Set writeReviewUrl to '' to hide that button.
+  google: {
+    placeId: 'ChIJJagaB23_-IgRFx-hU7939Y4',
+    reviewsUrl: 'https://search.google.com/local/reviews?placeid=ChIJJagaB23_-IgRFx-hU7939Y4',
+    writeReviewUrl: 'https://search.google.com/local/writereview?placeid=ChIJJagaB23_-IgRFx-hU7939Y4',
+  },
   founder: {
     name: 'Kimberly Camera',
     jobTitle: 'Founder & Operations Field Director',
