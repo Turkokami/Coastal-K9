@@ -585,9 +585,21 @@ function main() {
   }
   if (!pages.length) {
     log('no built pages found in', HTML_DIRS.join(', '), '- nothing written');
-    for (const d of ['.next/server/app', VERCEL_OUT, path.join(VERCEL_OUT, 'static'), path.join(VERCEL_OUT, 'functions')]) {
-      try { const e = fs.readdirSync(d); log(`  ${d}: ${e.length} entries, e.g. ${e.slice(0, 8).join(', ')}`); } catch { /* absent */ }
-    }
+    // Diagnostics: where did the build put its HTML, and where did public/ get copied?
+    const counts = new Map(); const marks = [];
+    const scan = (d, depth) => {
+      if (depth > 9) return;
+      let ents; try { ents = fs.readdirSync(d, { withFileTypes: true }); } catch { return; }
+      for (const e of ents) {
+        const p = path.join(d, e.name);
+        if (e.isDirectory()) { if (!['node_modules', '.git', 'cache', 'proc', 'sys'].includes(e.name)) scan(p, depth + 1); }
+        else if (e.name.endsWith('.html')) counts.set(d, (counts.get(d) || 0) + 1);
+        else if (e.name === 'robots.txt' || e.name === 'llms.txt' || e.name === 'sitemap.xml' || e.name === 'sitemap.xml.body') marks.push(p);
+      }
+    };
+    for (const root of [process.cwd(), VERCEL_OUT, '/vercel']) scan(root, 0);
+    log('  html dirs:', [...counts].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([d, n]) => `${d} (${n})`).join(' | ') || 'none');
+    log('  marker files:', [...new Set(marks)].slice(0, 15).join(' | ') || 'none');
     return;
   }
 
