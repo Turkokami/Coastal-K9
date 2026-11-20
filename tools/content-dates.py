@@ -27,6 +27,8 @@ def git(*a):
 def plain(s):
     s = re.sub(r'<[^>]+>', ' ', s or '')
     s = s.replace('&amp;', '&').replace('&nbsp;', ' ').replace('&#8217;', '’').replace('&rsquo;', '’')
+    # A change in how the business name is written alone ("&" vs "and", K9 vs K-9, capitals) is not a content update
+    s = re.sub(r'Coastal K-?9 (?:&|and )?\s*Pest Solutions', 'Coastal K9 and Pest Solutions', s, flags=re.I)
     return re.sub(r'\s+', ' ', s).strip()
 
 

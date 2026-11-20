@@ -113,7 +113,7 @@ export default function Home() {
 
       <section className="section" aria-labelledby="h-kim">
         <div className="wrap split">
-          <div dangerouslySetInnerHTML={{ __html: imgTag('kim1', 'Kimberly Camera, founder of Coastal K9 & Pest Solutions, presenting with her detection dog', { sizes: '(max-width: 860px) 100vw, 560px' }) }} />
+          <div dangerouslySetInnerHTML={{ __html: imgTag('kim1', 'Kimberly Camera, founder of Coastal K9 and Pest Solutions, presenting with her detection dog', { sizes: '(max-width: 860px) 100vw, 560px' }) }} />
           <div>
             <span className="kicker">Meet the founder</span>
             <h2 id="h-kim">Kimberly Camera: from FEMA search-and-rescue to pest detection</h2>
@@ -172,7 +172,7 @@ export default function Home() {
       </section>
 
       <CtaBand />
-      <JsonLd data={pageGraph({ ...home, title: 'Coastal K9 & Pest Solutions', heroImage: 'kim1' }, [{ label: 'Home', href: '/' }])} />
+      <JsonLd data={pageGraph({ ...home, title: 'Coastal K9 and Pest Solutions', heroImage: 'kim1' }, [{ label: 'Home', href: '/' }])} />
     </>
   );
 }

@@ -1,7 +1,7 @@
 // Single source of truth for business facts (client-attested — see GUARDRAILS.md).
 export const SITE = {
   url: 'https://ck9ps.com',
-  name: 'Coastal K9 & Pest Solutions',
+  name: 'Coastal K9 and Pest Solutions',
   shortName: 'Coastal K9',
   legalName: 'Coastal K9 & Pest Solutions',
   // Former name (rebrand). Shown in the footer, the About page and /ucpaws/, and as schema alternateName.

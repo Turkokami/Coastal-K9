@@ -80,7 +80,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
             <p><b>{SITE.name}</b><br />{SITE.address.street}, {SITE.address.city}, {SITE.address.region} {SITE.address.zip}<br />
               <a href={SITE.phoneHref}>{SITE.phone}</a> · <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
             <p>{SITE.hours.map((h) => `${h.label}: ${h.value}`).join(' · ')}</p>
-            <iframe loading="lazy" title="Map: Coastal K9 & Pest Solutions, Windsor SC" src="https://www.google.com/maps?q=320+Wendy+Lane,+Windsor,+SC+29856&output=embed" style={{ width: '100%', minHeight: 360, border: 0, borderRadius: 14 }} />
+            <iframe loading="lazy" title="Map: Coastal K9 and Pest Solutions, Windsor SC" src="https://www.google.com/maps?q=320+Wendy+Lane,+Windsor,+SC+29856&output=embed" style={{ width: '100%', minHeight: 360, border: 0, borderRadius: 14 }} />
           </article>
         </div>
         <JsonLd data={pageGraph(p, crumbs)} />
