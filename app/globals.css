@@ -46,6 +46,9 @@ a, button, summary, input, select, textarea { touch-action: manipulation; }
 .topbar-in { display: flex; justify-content: space-between; gap: 16px; padding-top: 6px; padding-bottom: 6px; }
 .topbar a { color: #e8f6f7; text-decoration: none; margin-left: 18px; }
 .topbar b { color: var(--amber); }
+.topbar a.tb-rev { margin-left: 0; text-decoration: underline; text-underline-offset: 2px; }
+.rev-btns { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 18px; }
+.badges a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .nav-row { display: flex; align-items: center; gap: 18px; min-height: 76px; }
 .brand { flex: none; display: block; }
 .brand img { width: 200px; height: auto; }

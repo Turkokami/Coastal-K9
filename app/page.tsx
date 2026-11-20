@@ -52,7 +52,7 @@ export default function Home() {
             <h1>Certified K9 Bed Bug, Rodent &amp; Wildlife Detection</h1>
             <p className="lead">{plain(home.hero.lead || '')}</p>
             <ul className="badges">
-              <li>{SITE.rating.value}★ · {SITE.rating.count} reviews</li><li>NESDCA certified</li><li>FEMA-trained handler</li><li>Licensed technician</li><li>Family-owned</li>
+              <li><a href={SITE.google.reviewsUrl} target="_blank" rel="noopener">{SITE.rating.value}★ on Google</a></li><li>NESDCA certified</li><li>FEMA-trained handler</li><li>Licensed technician</li><li>Family-owned</li>
             </ul>
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href={SITE.phoneHref}>Call {SITE.phone}</a>
