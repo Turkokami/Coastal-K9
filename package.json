@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/ai-files.mjs --mode next --out public",
     "start": "next start",
     "verify": "node tools/verify.mjs"
   },
