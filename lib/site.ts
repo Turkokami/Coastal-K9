@@ -21,7 +21,7 @@ export const SITE = {
   rating: { value: '5.0', count: '22+' },
   founder: {
     name: 'Kimberly Camera',
-    jobTitle: 'Founder & Field Operator',
+    jobTitle: 'Founder & Operations Field Director',
     url: '/about/',
     image: 'kim1',
     summary:
@@ -35,9 +35,9 @@ export const SITE = {
   ],
   credentials: [
     { abbr: 'NESDCA', name: 'National Entomology Scent Detection Canine Association', url: 'https://nesdca.com/' },
-    { abbr: 'WDDO', name: 'World Detector Dog Organization', url: 'https://www.wddo.org/' },
-    { abbr: 'CPDA', name: 'Canine Pest Detection Association', url: 'https://www.caninepestdetection.org/' },
-    { abbr: 'ICRWDA', name: 'International Casino & Resort Working Dog Association', url: 'https://icrwda.org/' },
+    { abbr: 'WDDO', name: 'World Detection Dogs Organization', url: 'https://www.wddo.org/' },
+    { abbr: 'CPDA', name: 'Canine Professional Detection Association', url: 'https://www.caninepestdetection.org/' },
+    { abbr: 'ICRWDA', name: 'International Casino Resort Working Dogs Association', url: 'https://icrwda.org/' },
   ],
   logo: '/brand/logo.webp',
   areaServed: [

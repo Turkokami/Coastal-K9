@@ -141,7 +141,7 @@ export default function Home() {
           <div className="section-head">
             <span className="kicker">Service area</span>
             <h2 id="h-area">Serving Aiken, the CSRA &amp; the SC Midlands</h2>
-            <p>Certified K9 detection within roughly 60 miles of our Windsor base, on both sides of the Savannah River — from Aiken’s Winter Colony and Houndslake to Lexington and Columbia.</p>
+            <p>Same-week K9 detection within roughly 60 miles of our Windsor base, on both sides of the Savannah River — from Aiken’s Winter Colony and Houndslake to Lexington and Columbia — plus scheduled service across South Carolina, including Greenville and Charleston.</p>
           </div>
           <ul className="chips">
             {AREAS.map(([n, h]) => <li key={n}>{h ? <Link href={h}>{n}</Link> : <span>{n}</span>}</li>)}
