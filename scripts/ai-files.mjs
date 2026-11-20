@@ -48,8 +48,10 @@ const OUT = path.resolve(arg('out', MODE === 'next' ? 'public' : 'dist'));
 // On Vercel, Next 16's build adapter writes the finished deployment to /vercel/output during
 // `next build` and takes the prerendered HTML with it, so read pages from there too and write
 // the AI files straight into its static folder (public/ was already collected by then).
-const VERCEL_OUT = '/vercel/output';
-const ADAPTER = MODE === 'next' && fs.existsSync(path.join(VERCEL_OUT, 'config.json'));
+// The adapter writes Vercel's Build Output into .next/output (copied to /vercel/output after the build).
+const VERCEL_OUT = ['.next/output', '/vercel/output'].map((d) => path.resolve(d))
+  .find((d) => fs.existsSync(path.join(d, 'functions')) || fs.existsSync(path.join(d, 'config.json'))) || path.resolve('.next/output');
+const ADAPTER = MODE === 'next' && fs.existsSync(VERCEL_OUT);
 const HTML_DIRS = MODE === 'next'
   ? [path.resolve('.next/server/app'), path.resolve('.next/server/pages'), ...(ADAPTER ? [VERCEL_OUT] : [])]
   : [path.resolve(arg('html', OUT))];
