@@ -2,6 +2,7 @@ import pagesJson from '@/content/pages.json';
 import mediaJson from '@/content/media.json';
 import galleryJson from '@/content/gallery.json';
 import altJson from '@/content/alt-overrides.json';
+import contentDates from '@/content/content-dates.json';
 import { ICONS } from './icons';
 
 export type Hero = {
@@ -17,7 +18,14 @@ export type Page = {
 };
 export type Media = { alt: string; w: number; h: number; sizes: { w: number; h: number; src: string }[] };
 
-export const PAGES = pagesJson as unknown as Page[];
+/** When each page's on-page text last changed in this repo (tools/content-dates.py). The WordPress
+ *  `modified` date stays when it is later; otherwise the repo date wins, so "Updated", dateModified and
+ *  the sitemap lastmod never predate the text a visitor reads. */
+const TEXT_DATES = contentDates as Record<string, string>;
+export const PAGES = (pagesJson as unknown as Page[]).map((p) => {
+  const d = TEXT_DATES[p.path];
+  return d && (!p.modified || d > p.modified) ? { ...p, modified: d } : p;
+});
 export const MEDIA = mediaJson as unknown as Record<string, Media>;
 export const GALLERY = galleryJson as unknown as string[];
 /** Alt text written from looking at each photo (replaces the generic/inaccurate legacy alts). */
