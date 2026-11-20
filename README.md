@@ -1,4 +1,4 @@
-# ck9ps.com — Coastal K9 & Pest Solutions (Keystone build)
+# ck9ps.com — Coastal K9 and Pest Solutions (Keystone build)
 
 Static Next.js 16 (App Router) rebuild of ck9ps.com. Every one of the 160 live WordPress URLs is
 reproduced at the **same path** (trailing slash kept), so no page redirects are needed at cutover.

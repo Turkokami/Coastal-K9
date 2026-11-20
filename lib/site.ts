@@ -3,7 +3,7 @@ export const SITE = {
   url: 'https://ck9ps.com',
   name: 'Coastal K9 and Pest Solutions',
   shortName: 'Coastal K9',
-  legalName: 'Coastal K9 & Pest Solutions',
+  legalName: 'Coastal K9 and Pest Solutions',
   // Former name (rebrand). Shown in the footer, the About page and /ucpaws/, and as schema alternateName.
   formerName: 'Urban Canine Pest & Wildlife Solutions (UCPaWS)',
   alternateNames: ['Urban Canine Pest & Wildlife Solutions', 'Urban Canine Pest and Wildlife Solutions', 'UCPaWS'],
