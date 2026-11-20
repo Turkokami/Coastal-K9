@@ -45,9 +45,15 @@ const arg = (name, dflt) => {
 };
 const MODE = arg('mode', 'static');
 const OUT = path.resolve(arg('out', MODE === 'next' ? 'public' : 'dist'));
+// On Vercel, Next 16's build adapter writes the finished deployment to /vercel/output during
+// `next build` and takes the prerendered HTML with it, so read pages from there too and write
+// the AI files straight into its static folder (public/ was already collected by then).
+const VERCEL_OUT = '/vercel/output';
+const ADAPTER = MODE === 'next' && fs.existsSync(path.join(VERCEL_OUT, 'config.json'));
 const HTML_DIRS = MODE === 'next'
-  ? [path.resolve('.next/server/app'), path.resolve('.next/server/pages')]
+  ? [path.resolve('.next/server/app'), path.resolve('.next/server/pages'), ...(ADAPTER ? [VERCEL_OUT] : [])]
   : [path.resolve(arg('html', OUT))];
+const OUT_DIRS = [OUT, ...(ADAPTER ? [path.join(VERCEL_OUT, 'static')] : [])];
 const DO_ROBOTS = Boolean(arg('robots', false));
 let SITEMAP_NAME = 'sitemap.xml';
 let SITE = typeof arg('site') === 'string' ? String(arg('site')).replace(/\/+$/, '') : '';
@@ -286,7 +292,14 @@ function listHtml(dir) {
 }
 
 function routeFromFile(file, dir) {
-  let r = '/' + path.relative(dir, file).split(path.sep).join('/');
+  let rel = path.relative(dir, file).split(path.sep).join('/');
+  if (dir === VERCEL_OUT) {
+    if (rel.startsWith('static/')) rel = rel.slice(7);
+    else if (rel.startsWith('functions/') && rel.endsWith('.prerender-fallback.html')) rel = rel.slice(10).replace(/\.prerender-fallback\.html$/, '.html');
+    else return null;
+    if (rel === 'index.html' || rel.endsWith('/index.html')) { /* index route */ }
+  }
+  let r = '/' + rel;
   r = r.replace(/\.html$/, '');
   if (r.endsWith('/index')) r = r.slice(0, -'index'.length);
   if (r === '/index') r = '/';
@@ -297,7 +310,7 @@ const SKIP_ROUTES = /^\/(404|500|_not-found|_global-error|_error|_app|_document)
 
 function readPage(file, dir) {
   const route = routeFromFile(file, dir);
-  if (SKIP_ROUTES.test(route)) return null;
+  if (route == null || SKIP_ROUTES.test(route)) return null;
   const html = fs.readFileSync(file, 'utf8');
   if (!/<html[\s>]/i.test(html) && !/<body[\s>]/i.test(html) && !/<main[\s>]/i.test(html)) return null;
   const doc = parse(html);
@@ -350,7 +363,7 @@ function sitemapUrls() {
       else if (/sitemap[^/]*\.xml(\.body)?$/i.test(e.name)) files.push(p);
     }
   };
-  if (MODE === 'next') { look(path.resolve('.next/server/app')); look(OUT); } else look(OUT);
+  if (MODE === 'next') { look(path.resolve('.next/server/app')); look(OUT); if (ADAPTER) look(path.join(VERCEL_OUT, 'static')); } else look(OUT);
   const urls = [];
   for (const f of files) {
     const xml = fs.readFileSync(f, 'utf8');
@@ -557,17 +570,26 @@ function main() {
   // 1. Read every built page.
   const pages = [];
   const skipped = { noindex: 0, redirect: 0 };
+  const seenRoutes = new Set();
   for (const dir of HTML_DIRS) {
     for (const f of listHtml(dir)) {
       try {
         const p = readPage(f, dir);
         if (!p) continue;
         if (p.skip) { skipped[p.skip]++; continue; }
+        if (seenRoutes.has(p.route)) continue;
+        seenRoutes.add(p.route);
         pages.push(p);
       } catch (e) { log('could not read', f, e.message); }
     }
   }
-  if (!pages.length) { log('no built pages found in', HTML_DIRS.join(', '), '- nothing written'); return; }
+  if (!pages.length) {
+    log('no built pages found in', HTML_DIRS.join(', '), '- nothing written');
+    for (const d of ['.next/server/app', VERCEL_OUT, path.join(VERCEL_OUT, 'static'), path.join(VERCEL_OUT, 'functions')]) {
+      try { const e = fs.readdirSync(d); log(`  ${d}: ${e.length} entries, e.g. ${e.slice(0, 8).join(', ')}`); } catch { /* absent */ }
+    }
+    return;
+  }
 
   // 2. Site origin.
   const home = pages.find((p) => p.route === '/');
@@ -736,16 +758,23 @@ function main() {
       const page = head.join('\n') + '\n' + body + '\n';
       const target = path.join(OUT, mdPath(p));
       if (!fs.existsSync(target) || fs.readFileSync(target, 'utf8').includes('URL: ')) {
-        fs.mkdirSync(path.dirname(target), { recursive: true });
-        fs.writeFileSync(target, page);
+        for (const o of OUT_DIRS) {
+          const t = path.join(o, mdPath(p));
+          fs.mkdirSync(path.dirname(t), { recursive: true });
+          fs.writeFileSync(t, page);
+        }
         written++;
       }
       full.push('---', '', page.replace(/^# /, '## ').replace(/\n(#{1,5}) /g, '\n#$1 '), '');
     }
   }
   fs.mkdirSync(OUT, { recursive: true });
-  fs.writeFileSync(llmsFile, llms.replace(/\n{3,}/g, '\n\n').trimEnd() + '\n');
-  fs.writeFileSync(path.join(OUT, 'llms-full.txt'), full.join('\n').replace(/\n{3,}/g, '\n\n').trimEnd() + '\n');
+  for (const o of OUT_DIRS) {
+    fs.mkdirSync(o, { recursive: true });
+    fs.writeFileSync(path.join(o, 'llms.txt'), llms.replace(/\n{3,}/g, '\n\n').trimEnd() + '\n');
+    fs.writeFileSync(path.join(o, 'llms-full.txt'), full.join('\n').replace(/\n{3,}/g, '\n\n').trimEnd() + '\n');
+  }
+  if (ADAPTER) log('also wrote into', path.join(VERCEL_OUT, 'static'), '(Next build adapter output)');
 
   // 9. robots.txt (static output only).
   let rb = 'not touched';
