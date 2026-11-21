@@ -113,7 +113,7 @@ export default function Home() {
 
       <section className="section" aria-labelledby="h-kim">
         <div className="wrap split">
-          <div className="k-founder home-founder" dangerouslySetInnerHTML={{ __html: imgTag('founder-portrait', 'Founder of Coastal K9 and Pest Solutions', { sizes: '220px' }) }} />
+          <div className="k-founder home-founder" dangerouslySetInnerHTML={{ __html: imgTag('founder-portrait', 'Founder of Coastal K9 and Pest Solutions with a Jack Russell terrier', { sizes: '(max-width: 860px) 80vw, 360px' }) }} />
           <div>
             <span className="kicker">Our founder</span>
             <h2 id="h-kim">A first-class environmental detection program</h2>

@@ -3534,19 +3534,24 @@
   "orig": null
  },
  "founder-portrait": {
-  "alt": "Founder of Coastal K9 and Pest Solutions",
-  "w": 960,
-  "h": 960,
+  "alt": "Founder of Coastal K9 and Pest Solutions with a Jack Russell terrier",
+  "w": 1218,
+  "h": 1291,
   "sizes": [
    {
     "w": 480,
-    "h": 480,
+    "h": 509,
     "src": "/media/founder-portrait-480.webp"
    },
    {
     "w": 960,
-    "h": 960,
+    "h": 1018,
     "src": "/media/founder-portrait-960.webp"
+   },
+   {
+    "w": 1218,
+    "h": 1291,
+    "src": "/media/founder-portrait-1218.webp"
    }
   ],
   "orig": null

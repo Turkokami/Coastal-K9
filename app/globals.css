@@ -342,6 +342,6 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .k-ytfig .k-yt { margin: 0; }
 .k-ytfig figcaption { font-family: var(--font-h); font-weight: 600; color: var(--navy-900); margin-top: 8px; }
 .k-founder figure { margin: 8px 0 16px; }
-.k-founder img { width: 220px; height: 220px; object-fit: cover; border-radius: 50%; }
+.k-founder img { width: 100%; max-width: 320px; height: auto; border-radius: 16px; }
 .home-founder { display: flex; justify-content: center; align-items: center; }
-.home-founder img { width: 220px; height: 220px; object-fit: cover; border-radius: 50%; }
+.home-founder img { width: 100%; max-width: 360px; height: auto; border-radius: 16px; }
