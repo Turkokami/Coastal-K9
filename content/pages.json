@@ -383,6 +383,80 @@
 "rewritten": false
 },
 {
+"path": "/bat-removal/",
+"slug": "bat-removal",
+"wpType": "new",
+"kind": "service",
+"title": "Bat Removal & Exclusion | Aiken SC & CSRA",
+"description": "Humane bat removal by one-way exclusion for Aiken, Augusta and the Midlands: entry points found, bats let out safely, the building sealed, timed around maternity season.",
+"h1": "Humane Bat Removal & Exclusion",
+"hero": {
+"eyebrow": "RESIDENTIAL & COMMERCIAL · BATS",
+"h1": "Humane Bat Removal & Exclusion",
+"lead": "Bats are protected and beneficial, but they don’t belong in your attic. We get them out humanely with one-way exclusion, seal the building so they can’t come back, and time the work so no flightless pups are trapped inside.",
+"meta": "<strong><a href=\"tel:+18032263155\">Call 803-226-3155</a></strong> · Family-owned · Detection-first · Serving the CSRA & Midlands",
+"badges": [
+"One-way exclusion",
+"Timed around maternity season",
+"Entry points sealed",
+"Humane, no killing"
+],
+"ctas": [
+{
+"label": "Call 803-226-3155",
+"href": "tel:+18032263155"
+},
+{
+"label": "Request an Inspection",
+"href": "/contact/"
+}
+]
+},
+"heroImage": null,
+"body": "<div class=\"k-intro\"><p>Bats can squeeze through a gap about the width of your thumb. Most of our bat calls start with droppings in an attic, stains around a soffit, or bats seen pouring out at dusk.</p></div><h2 id=\"how-we-remove-bats\">How we remove bats</h2><ol class=\"k-svclist\"><li><strong>Inspect and confirm.</strong> We find every active entry and confirm the species and roughly how many bats are using the building.</li><li><strong>Time it right.</strong> SCDNR advises against excluding bats roughly May through July, when flightless pups are in the roost. We schedule exclusion outside that window.</li><li><strong>One-way exclusion.</strong> Devices on the active entries let bats leave at night but not get back in.</li><li><strong>Seal the building.</strong> Once the bats are out, we seal the entries and the other gaps they could use.</li><li><strong>Clean-up advice.</strong> We tell you what is needed for droppings in the attic and who handles heavy clean-up.</li></ol><h2 id=\"why-not-just-trap-or-kill-them\">Why not just trap or kill them</h2><p>Bats are protected, they eat huge numbers of insects, and killing them leaves odor and remains inside your walls. Exclusion solves the problem without any of that.</p><h2 id=\"learn-more\">Learn more</h2><p>See our <a href=\"/pest-library/bat/\">bat identification guide</a> and <a href=\"/why-is-aiken-county-suddenly-full-of-bats/\">why Aiken County seems full of bats</a>.</p><h2 id=\"frequently-asked-questions\">Frequently asked questions</h2><details><summary>Can you remove bats in summer?</summary><p>We can inspect and plan any time, but exclusion itself waits until pups can fly, after the roughly May–July maternity window.</p></details><details><summary>Are bats in the attic dangerous?</summary><p>The main concerns are droppings and the small chance of contact with a sick bat. Never handle a bat with bare hands. If someone may have been bitten, contact your doctor or the health department.</p></details><details><summary>Will they come back?</summary><p>Not through openings we have sealed. We seal the active entries and other likely gaps once the colony is out.</p></details>",
+"faqs": [
+{
+"q": "Can you remove bats in summer?",
+"a": "<p>We can inspect and plan any time, but exclusion itself waits until pups can fly, after the roughly May–July maternity window.</p>"
+},
+{
+"q": "Are bats in the attic dangerous?",
+"a": "<p>The main concerns are droppings and the small chance of contact with a sick bat. Never handle a bat with bare hands. If someone may have been bitten, contact your doctor or the health department.</p>"
+},
+{
+"q": "Will they come back?",
+"a": "<p>Not through openings we have sealed. We seal the active entries and other likely gaps once the colony is out.</p>"
+}
+],
+"toc": [
+{
+"id": "how-we-remove-bats",
+"text": "How we remove bats"
+},
+{
+"id": "why-not-just-trap-or-kill-them",
+"text": "Why not just trap or kill them"
+},
+{
+"id": "learn-more",
+"text": "Learn more"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+}
+],
+"citations": [],
+"images": [],
+"date": "2026-11-21T09:26:21",
+"modified": "2026-11-21T09:26:21",
+"excerpt": "Humane bat removal by one-way exclusion for Aiken, Augusta and the Midlands: entry points found, bats let out safely, the building sealed, timed around maternity season.",
+"words": 322,
+"noindex": false,
+"rewritten": true,
+"newPage": true
+},
+{
 "path": "/bat-superlatives/",
 "slug": "bat-superlatives",
 "wpType": "post",
@@ -5970,6 +6044,156 @@
 "noindex": false,
 "fixedScript": false,
 "rewritten": false
+},
+{
+"path": "/mold-detection-dogs/",
+"slug": "mold-detection-dogs",
+"wpType": "new",
+"kind": "service",
+"title": "Mold Detection Dogs SC & GA",
+"description": "Certified mold detection dogs find hidden mold behind walls, under floors and in HVAC spaces for medical facilities, short-term rentals and homes across SC and GA.",
+"h1": "Mold Detection Dogs for Medical Facilities, Rentals & Homes",
+"hero": {
+"eyebrow": "COMMERCIAL & RESIDENTIAL · MOLD DETECTION",
+"h1": "Mold Detection Dogs for Medical Facilities, Rentals & Homes",
+"lead": "A musty smell with no visible source usually means mold is growing where you can’t see it. Our mold detection dogs pinpoint the source behind walls, under flooring and inside HVAC spaces, so remediation targets the right spot instead of opening up a whole building.",
+"meta": "<strong><a href=\"tel:+18032263155\">Call 803-226-3155</a></strong> · Family-owned · Detection-first · Serving the CSRA & Midlands",
+"badges": [
+"Hidden-source detection",
+"Written findings report",
+"Medical facilities & rentals",
+"Detection before demolition"
+],
+"ctas": [
+{
+"label": "Call 803-226-3155",
+"href": "tel:+18032263155"
+},
+{
+"label": "Request an Inspection",
+"href": "/contact/"
+}
+]
+},
+"heroImage": "dog-insp2",
+"body": "<figure><span class=\"k-bg\"></span><img alt=\"\" src=\"media:dog-insp2\"/></figure><div class=\"k-intro\"><p>Mold is a moisture problem first. By the time it shows on a wall, it has usually been growing inside the cavity for weeks. Moisture meters and air samples tell you mold is somewhere; a trained dog tells you where.</p></div><h2 id=\"who-we-work-with\">Who we work with</h2><ul class=\"k-svclist\"><li><strong>Medical facilities</strong> that need a source found quickly with minimal disruption to patient areas.</li><li><strong>Airbnbs and short-term rentals</strong> where a guest complaint about a smell can turn into a bad review overnight.</li><li><strong>Homeowners and buyers</strong> who smell it, can’t see it, and don’t want walls opened on a guess.</li><li><strong>Property managers</strong> handling a unit complaint that may involve the units around it.</li></ul><h2 id=\"how-a-mold-detection-visit-works\">How a mold detection visit works</h2><ol class=\"k-svclist\"><li><strong>Walk-through and history.</strong> We ask where the smell is strongest, about past leaks, and what changed.</li><li><strong>Dog search.</strong> The dog works room by room and indicates the spots where the odor source is strongest.</li><li><strong>Marking and report.</strong> Each indication is marked and photographed, and you get a written report.</li><li><strong>Next step.</strong> Hand the report to your remediation contractor, insurer or facilities team so work starts in the right place.</li></ol><h2 id=\"why-a-dog-instead-of-opening-walls\">Why a dog instead of opening walls</h2><p>Opening walls on a guess is slow, expensive and disruptive, especially in a clinic or an occupied rental. A dog narrows the search to specific spots first, so the opening, testing and repair are targeted.</p><h2 id=\"frequently-asked-questions\">Frequently asked questions</h2><details><summary>Does the dog replace mold testing?</summary><p>No. The dog finds where the odor source is. Lab sampling confirms what is growing and how much. Many clients use both: the dog to find it, sampling to document it.</p></details><details><summary>Is the search safe for patients, guests and pets?</summary><p>Yes. A detection search uses no chemicals. The dog simply sniffs the space.</p></details><details><summary>How long does a search take?</summary><p>Most homes and rental units take under an hour. Larger facilities are scheduled by area. Call 803-226-3155 and we will scope it with you.</p></details>",
+"faqs": [
+{
+"q": "Does the dog replace mold testing?",
+"a": "<p>No. The dog finds where the odor source is. Lab sampling confirms what is growing and how much. Many clients use both: the dog to find it, sampling to document it.</p>"
+},
+{
+"q": "Is the search safe for patients, guests and pets?",
+"a": "<p>Yes. A detection search uses no chemicals. The dog simply sniffs the space.</p>"
+},
+{
+"q": "How long does a search take?",
+"a": "<p>Most homes and rental units take under an hour. Larger facilities are scheduled by area. Call 803-226-3155 and we will scope it with you.</p>"
+}
+],
+"toc": [
+{
+"id": "who-we-work-with",
+"text": "Who we work with"
+},
+{
+"id": "how-a-mold-detection-visit-works",
+"text": "How a mold detection visit works"
+},
+{
+"id": "why-a-dog-instead-of-opening-walls",
+"text": "Why a dog instead of opening walls"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+}
+],
+"citations": [],
+"images": [
+"dog-insp2"
+],
+"date": "2026-11-21T09:26:21",
+"modified": "2026-11-21T09:26:21",
+"excerpt": "Certified mold detection dogs find hidden mold behind walls, under floors and in HVAC spaces for medical facilities, short-term rentals and homes across SC and GA.",
+"words": 360,
+"noindex": false,
+"rewritten": true,
+"newPage": true
+},
+{
+"path": "/mosquito-control/",
+"slug": "mosquito-control",
+"wpType": "new",
+"kind": "service",
+"title": "Green Mosquito Control, No Fogging | Aiken SC",
+"description": "No-fog mosquito control for Aiken, Augusta and the Midlands: find and remove breeding sites, treat larvae at the source, and target resting areas with lower-impact products.",
+"h1": "Green Mosquito Control, No Fogging",
+"hero": {
+"eyebrow": "RESIDENTIAL & COMMERCIAL · MOSQUITOES",
+"h1": "Green Mosquito Control, No Fogging",
+"lead": "Fogging drifts across your yard and your neighbors’, kills pollinators, and wears off fast. We control mosquitoes the way that lasts: find where they breed, stop the larvae there, and treat only the shady spots where adults rest.",
+"meta": "<strong><a href=\"tel:+18032263155\">Call 803-226-3155</a></strong> · Family-owned · Detection-first · Serving the CSRA & Midlands",
+"badges": [
+"No fogging",
+"Breeding-site removal",
+"Larval control at the source",
+"Pollinator-conscious"
+],
+"ctas": [
+{
+"label": "Call 803-226-3155",
+"href": "tel:+18032263155"
+},
+{
+"label": "Request an Inspection",
+"href": "/contact/"
+}
+]
+},
+"heroImage": null,
+"body": "<div class=\"k-intro\"><p>Most backyard mosquitoes in the CSRA, especially the Asian tiger mosquito, breed within a few hundred feet of where they bite, in water as small as a bottle cap. That makes them a property problem you can actually fix, not just spray.</p></div><h2 id=\"what-our-mosquito-service-includes\">What our mosquito service includes</h2><ul class=\"k-svclist\"><li><strong>Property inspection</strong> for standing water: gutters, plant saucers, tarps, toys, tires, low spots and drains.</li><li><strong>Source removal</strong>: we dump, drain or fix what we can and show you the rest.</li><li><strong>Larval control</strong> in water that can’t be removed, such as drains and ornamental features.</li><li><strong>Targeted treatment of resting areas</strong>: dense shrubs, the undersides of decks and shaded foliage, using lower-impact products.</li><li><strong>Seasonal visits</strong> through the warm months, adjusted to rainfall.</li></ul><h2 id=\"why-we-don-t-fog\">Why we don’t fog</h2><p>A fog only hits the adults flying at that moment, drifts beyond your property line, and lands on bees and butterflies along the way. Removing breeding water and treating larvae cuts the next generation instead.</p><h2 id=\"learn-more\">Learn more</h2><p>See our <a href=\"/pest-library/asian-tiger-mosquito/\">Asian tiger mosquito profile</a> for how to spot breeding sites yourself.</p><h2 id=\"frequently-asked-questions\">Frequently asked questions</h2><details><summary>Is this safe for kids and pets?</summary><p>We avoid broadcast fogging and treat only targeted spots. We tell you what was applied and how long to keep kids and pets off treated areas.</p></details><details><summary>How often do you come out?</summary><p>Visits run through the mosquito season, typically spring through fall, with timing adjusted to rainfall.</p></details><details><summary>Do you treat ticks too?</summary><p>Yes. Tick treatment can be added to your yard visits.</p></details>",
+"faqs": [
+{
+"q": "Is this safe for kids and pets?",
+"a": "<p>We avoid broadcast fogging and treat only targeted spots. We tell you what was applied and how long to keep kids and pets off treated areas.</p>"
+},
+{
+"q": "How often do you come out?",
+"a": "<p>Visits run through the mosquito season, typically spring through fall, with timing adjusted to rainfall.</p>"
+},
+{
+"q": "Do you treat ticks too?",
+"a": "<p>Yes. Tick treatment can be added to your yard visits.</p>"
+}
+],
+"toc": [
+{
+"id": "what-our-mosquito-service-includes",
+"text": "What our mosquito service includes"
+},
+{
+"id": "why-we-don-t-fog",
+"text": "Why we don’t fog"
+},
+{
+"id": "learn-more",
+"text": "Learn more"
+},
+{
+"id": "frequently-asked-questions",
+"text": "Frequently asked questions"
+}
+],
+"citations": [],
+"images": [],
+"date": "2026-11-21T09:26:21",
+"modified": "2026-11-21T09:26:21",
+"excerpt": "No-fog mosquito control for Aiken, Augusta and the Midlands: find and remove breeding sites, treat larvae at the source, and target resting areas with lower-impact products.",
+"words": 283,
+"noindex": false,
+"rewritten": true,
+"newPage": true
 },
 {
 "path": "/multifamily-property-management-pest-control/",
@@ -15517,6 +15741,52 @@
 "rewritten": false
 },
 {
+"path": "/ucpaws/",
+"slug": "ucpaws",
+"wpType": "page",
+"kind": "rename",
+"title": "UCPaWS Is Now Coastal K9 and Pest Solutions",
+"description": "Urban Canine Pest & Wildlife Solutions (UCPaWS) now operates as Coastal K9 and Pest Solutions. Same founder, Kimberly Camera, and still based in Windsor, SC.",
+"h1": "UCPaWS is now Coastal K9 and Pest Solutions",
+"hero": {
+"eyebrow": "Formerly Urban Canine Pest & Wildlife Solutions",
+"h1": "UCPaWS is now Coastal K9 and Pest Solutions",
+"lead": "If you know us as Urban Canine Pest &amp; Wildlife Solutions (UCPaWS), you are in the right place. Same founder, same Windsor, SC home base, new name.",
+"ctas": [
+{
+"label": "Request an Inspection",
+"href": "/contact/"
+}
+]
+},
+"heroImage": null,
+"body": "<div class=\"k-in\">\n<div class=\"k-sec\">\n<h2 id=\"one-company-a-new-name\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"paw\"></span> One company, a new name</h2>\n<p>Urban Canine Pest &amp; Wildlife Solutions, often shortened to UCPaWS, now does business as <strong>Coastal K9 and Pest Solutions</strong>. The company behind the name has not changed. Founder <a href=\"/about/\">Kimberly Camera</a> still leads it, it is still based in Windsor, South Carolina, and every program still starts with certified K9 detection: <strong>detection before treatment, every time.</strong></p>\n<p>Older news stories, reviews, directory listings and social posts may still use the UCPaWS or Urban Canine name. They are talking about us.</p>\n</div>\n<div class=\"k-sec\">\n<h2 id=\"reaching-us-today\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"phone\"></span> Reaching us today</h2>\n<p>Call <a href=\"tel:+18032263155\">803-226-3155</a>, email <a href=\"mailto:Kim@ck9ps.com\">Kim@ck9ps.com</a>, or <a href=\"/contact/\">request an inspection online</a>. Our office is at 320 Wendy Lane, Windsor, SC 29856.</p>\n</div>\n<div class=\"k-sec\">\n<h2 id=\"what-we-do\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"dog\"></span> What we do</h2>\n<ul>\n<li><a href=\"/bed-bug-control/\">K9 bed bug detection</a> and <a href=\"/bed-bug-treatment/\">bed bug treatment</a></li>\n<li><a href=\"/rodent-control/\">K9 rodent detection</a>, <a href=\"/rat-mouse-control/\">rat and mouse control</a> and <a href=\"/repairs/\">repairs and exclusion</a></li>\n<li><a href=\"/goose-control/\">Canada goose management</a> and <a href=\"/bird-exclusion/\">bird control and exclusion</a></li>\n<li><a href=\"/commercial-pest-control/\">Commercial programs</a> for hotels, multifamily, food service and more</li>\n<li><a href=\"/nationwide-k9-rodent-detection/\">Nationwide K9 rodent detection</a> for food processing and agriculture</li>\n</ul>\n<p>See <a href=\"/services/\">all services</a> or the <a href=\"/service-areas/\">areas we serve</a>.</p>\n</div>\n</div>",
+"faqs": [],
+"toc": [
+{
+"id": "one-company-a-new-name",
+"text": "One company, a new name"
+},
+{
+"id": "reaching-us-today",
+"text": "Reaching us today"
+},
+{
+"id": "what-we-do",
+"text": "What we do"
+}
+],
+"citations": [],
+"images": [],
+"date": "2026-11-17T12:00:00",
+"modified": "2026-11-17T12:00:00",
+"excerpt": "Urban Canine Pest & Wildlife Solutions (UCPaWS) now does business as Coastal K9 and Pest Solutions, still led by founder Kimberly Camera in Windsor, SC.",
+"words": 168,
+"noindex": false,
+"fixedScript": false,
+"rewritten": false
+},
+{
 "path": "/vampire-bats/",
 "slug": "vampire-bats",
 "wpType": "post",
@@ -15767,52 +16037,6 @@
 "modified": "2026-07-05T17:26:25",
 "excerpt": "A field guide to your new dusk neighbors — plus the bug that loves to impersonate a bed bug",
 "words": 960,
-"noindex": false,
-"fixedScript": false,
-"rewritten": false
-},
-{
-"path": "/ucpaws/",
-"slug": "ucpaws",
-"wpType": "page",
-"kind": "rename",
-"title": "UCPaWS Is Now Coastal K9 and Pest Solutions",
-"description": "Urban Canine Pest & Wildlife Solutions (UCPaWS) now operates as Coastal K9 and Pest Solutions. Same founder, Kimberly Camera, and still based in Windsor, SC.",
-"h1": "UCPaWS is now Coastal K9 and Pest Solutions",
-"hero": {
-"eyebrow": "Formerly Urban Canine Pest & Wildlife Solutions",
-"h1": "UCPaWS is now Coastal K9 and Pest Solutions",
-"lead": "If you know us as Urban Canine Pest &amp; Wildlife Solutions (UCPaWS), you are in the right place. Same founder, same Windsor, SC home base, new name.",
-"ctas": [
-{
-"label": "Request an Inspection",
-"href": "/contact/"
-}
-]
-},
-"heroImage": null,
-"body": "<div class=\"k-in\">\n<div class=\"k-sec\">\n<h2 id=\"one-company-a-new-name\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"paw\"></span> One company, a new name</h2>\n<p>Urban Canine Pest &amp; Wildlife Solutions, often shortened to UCPaWS, now does business as <strong>Coastal K9 and Pest Solutions</strong>. The company behind the name has not changed. Founder <a href=\"/about/\">Kimberly Camera</a> still leads it, it is still based in Windsor, South Carolina, and every program still starts with certified K9 detection: <strong>detection before treatment, every time.</strong></p>\n<p>Older news stories, reviews, directory listings and social posts may still use the UCPaWS or Urban Canine name. They are talking about us.</p>\n</div>\n<div class=\"k-sec\">\n<h2 id=\"reaching-us-today\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"phone\"></span> Reaching us today</h2>\n<p>Call <a href=\"tel:+18032263155\">803-226-3155</a>, email <a href=\"mailto:Kim@ck9ps.com\">Kim@ck9ps.com</a>, or <a href=\"/contact/\">request an inspection online</a>. Our office is at 320 Wendy Lane, Windsor, SC 29856.</p>\n</div>\n<div class=\"k-sec\">\n<h2 id=\"what-we-do\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"dog\"></span> What we do</h2>\n<ul>\n<li><a href=\"/bed-bug-control/\">K9 bed bug detection</a> and <a href=\"/bed-bug-treatment/\">bed bug treatment</a></li>\n<li><a href=\"/rodent-control/\">K9 rodent detection</a>, <a href=\"/rat-mouse-control/\">rat and mouse control</a> and <a href=\"/repairs/\">repairs and exclusion</a></li>\n<li><a href=\"/goose-control/\">Canada goose management</a> and <a href=\"/bird-exclusion/\">bird control and exclusion</a></li>\n<li><a href=\"/commercial-pest-control/\">Commercial programs</a> for hotels, multifamily, food service and more</li>\n<li><a href=\"/nationwide-k9-rodent-detection/\">Nationwide K9 rodent detection</a> for food processing and agriculture</li>\n</ul>\n<p>See <a href=\"/services/\">all services</a> or the <a href=\"/service-areas/\">areas we serve</a>.</p>\n</div>\n</div>",
-"faqs": [],
-"toc": [
-{
-"id": "one-company-a-new-name",
-"text": "One company, a new name"
-},
-{
-"id": "reaching-us-today",
-"text": "Reaching us today"
-},
-{
-"id": "what-we-do",
-"text": "What we do"
-}
-],
-"citations": [],
-"images": [],
-"date": "2026-11-17T12:00:00",
-"modified": "2026-11-17T12:00:00",
-"excerpt": "Urban Canine Pest & Wildlife Solutions (UCPaWS) now does business as Coastal K9 and Pest Solutions, still led by founder Kimberly Camera in Windsor, SC.",
-"words": 168,
 "noindex": false,
 "fixedScript": false,
 "rewritten": false
