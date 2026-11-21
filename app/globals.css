@@ -224,7 +224,7 @@ a.k-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); colo
 .k-pic, figure.k-pic { margin: 0 0 28px; }
 .k-bg { display: none; }
 .k-cimg { border-radius: var(--radius); margin: 20px 0; }
-.k-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 24px 0; }
+.k-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; margin: 24px 0; }
 .k-gallery figure { margin: 0; }
 .k-gallery img { aspect-ratio: 1; object-fit: cover; width: 100%; border-radius: 10px; }
 .k-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
