@@ -12,7 +12,7 @@ const home = getPage('/')!;
 
 export const metadata: Metadata = {
   title: { absolute: 'K9 Bed Bug & Rodent Detection in Aiken, SC | Coastal K9' },
-  description: 'Certified K9 bed bug, rodent and wildlife detection in Aiken, North Augusta & the CSRA, led by FEMA-trained handler Kimberly Camera. Detection before treatment, every time.',
+  description: 'Certified K9 bed bug, rodent and wildlife detection in Aiken, North Augusta & the CSRA, with roots in FEMA search and rescue. Detection before treatment, every time.',
   alternates: { canonical: '/' },
   openGraph: { url: '/', images: [{ url: '/brand/og-default.jpg' }] },
 };
@@ -65,7 +65,7 @@ export default function Home() {
 
       <div className="trust" aria-label="Why customers trust us">
         <ul className="wrap">
-          <li dangerouslySetInnerHTML={{ __html: icon('award') + ' Founded by FEMA US&amp;R canine handler Kimberly Camera' }} />
+          <li dangerouslySetInnerHTML={{ __html: icon('award') + ' Roots in FEMA US&amp;R canine work' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('dog') + ' 28+ years with working dogs' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('certificate') + ' NESDCA · WDDO · CPDA · ICRWDA' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('location-dot') + ' Windsor, SC — serving the CSRA &amp; Midlands' }} />
@@ -113,13 +113,13 @@ export default function Home() {
 
       <section className="section" aria-labelledby="h-kim">
         <div className="wrap split">
-          <div dangerouslySetInnerHTML={{ __html: imgTag('kim1', 'Kimberly Camera, founder of Coastal K9 and Pest Solutions, presenting with her detection dog', { sizes: '(max-width: 860px) 100vw, 560px' }) }} />
+          <div className="k-founder home-founder" dangerouslySetInnerHTML={{ __html: imgTag('founder-portrait', 'Founder of Coastal K9 and Pest Solutions with a Jack Russell terrier', { sizes: '(max-width: 860px) 80vw, 360px' }) }} />
           <div>
-            <span className="kicker">Meet the founder</span>
-            <h2 id="h-kim">Kimberly Camera: from FEMA search-and-rescue to pest detection</h2>
-            <p>Kim’s career in working dogs began as a certified FEMA Urban Search &amp; Rescue canine handler, deploying across the country with live-find and cadaver-recovery dogs. With 27 years in wildlife management and 28+ years handling working dogs, 15 of them in detection, she built Coastal K9 around one idea: find the problem precisely before anyone applies a product.</p>
-            <p>She’s been profiled in <i>Pest Control Technology</i>, presented at the Purdue Pest Management Conference, and trains and certifies her own detection teams.</p>
-            <div className="hero-ctas"><Link className="btn btn-teal" href="/about/">Read Kim’s story</Link><Link className="btn btn-light" href="/awards-and-recognition/">Awards &amp; recognition</Link></div>
+            <span className="kicker">Our founder</span>
+            <h2 id="h-kim">A first-class environmental detection program</h2>
+            <p>Our founder started Coastal K9 and Pest Solutions after 28+ years handling working dogs, beginning with FEMA Urban Search and Rescue, and 27 years in wildlife management and education.</p>
+            <p>The goal: detection teams working side by side with pest professionals, making their jobs easier, delivering faster results, and focusing and reducing the use of pesticides and rodenticides.</p>
+            <div className="hero-ctas"><Link className="btn btn-teal" href="/about/">About us</Link><Link className="btn btn-light" href="/awards-and-recognition/">Awards &amp; recognition</Link></div>
           </div>
         </div>
       </section>
@@ -172,7 +172,7 @@ export default function Home() {
       </section>
 
       <CtaBand />
-      <JsonLd data={pageGraph({ ...home, title: 'Coastal K9 and Pest Solutions', heroImage: 'kim1' }, [{ label: 'Home', href: '/' }])} />
+      <JsonLd data={pageGraph({ ...home, title: 'Coastal K9 and Pest Solutions', heroImage: 'facility-aerial' }, [{ label: 'Home', href: '/' }])} />
     </>
   );
 }
