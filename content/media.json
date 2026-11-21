@@ -3532,5 +3532,23 @@
    }
   ],
   "orig": null
+ },
+ "founder-portrait": {
+  "alt": "Founder of Coastal K9 and Pest Solutions",
+  "w": 960,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 480,
+    "src": "/media/founder-portrait-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "src": "/media/founder-portrait-960.webp"
+   }
+  ],
+  "orig": null
  }
 }
