@@ -109,6 +109,11 @@ a, button, summary, input, select, textarea { touch-action: manipulation; }
 .lead { font-size: 1.12rem; color: #e3f1f4; max-width: 680px; }
 .lead a, .hero-meta a { color: #fff; }
 .hero-meta { color: #bcdbe3; font-size: .95rem; }
+.rev-pills { text-align: center; margin: 20px 0; }
+.rev-pill { display: inline-block; margin: 6px; padding: 14px 28px; border: 2px solid #f4b400; border-radius: 30px; color: #1a1a1a; font-weight: 700; text-decoration: none; }
+.rev-pill-read { background: #fff; }
+.rev-pill-write { background: #f4b400; }
+.rev-pill:hover { filter: brightness(.95); }
 .badges { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 22px; padding: 0; list-style: none; }
 .badges li { background: rgba(255, 255, 255, .08); border: 1px solid rgba(143, 224, 220, .35); color: #eafbfc; border-radius: 30px; padding: 6px 14px; font-size: .84rem; font-weight: 600; }
 .hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; }

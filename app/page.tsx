@@ -50,9 +50,13 @@ export default function Home() {
           <div>
             <span className="eyebrow">Aiken, SC · Detection Before Treatment</span>
             <h1>Certified K9 Bed Bug, Rodent &amp; Wildlife Detection</h1>
+            <div className="rev-pills">
+              <a className="rev-pill rev-pill-read" href={SITE.google.reviewsUrl} target="_blank" rel="noopener">⭐ {SITE.rating.value} on Google · Read our reviews</a>
+              <a className="rev-pill rev-pill-write" href={SITE.google.writeReviewUrl} target="_blank" rel="noopener">✍️ Leave us a review</a>
+            </div>
             <p className="lead">{plain(home.hero.lead || '')}</p>
             <ul className="badges">
-              <li>{SITE.rating.value}★ · {SITE.rating.count} reviews</li><li>NESDCA certified</li><li>FEMA-trained handler</li><li>Licensed technician</li><li>Family-owned</li>
+              <li>{SITE.rating.value}★ on Google</li><li>NESDCA certified</li><li>FEMA-trained handler</li><li>Licensed technician</li><li>Family-owned</li>
             </ul>
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href={SITE.phoneHref}>Call {SITE.phone}</a>

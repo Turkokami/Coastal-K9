@@ -5,7 +5,7 @@ Source: live ck9ps.com as published by the client, captured 2026-11-08. Not inde
 |---|---|---|
 | NAP | Coastal K9 and Pest Solutions, 320 Wendy Lane, Windsor, SC 29856, 803-226-3155, Kim@ck9ps.com | header, footer, contact, LocalBusiness schema |
 | Hours | Mon–Fri 8–6, Sat 8–4, Sun closed | footer, contact, schema |
-| Rating | 5.0 · 22+ reviews | header/hero badge only — NOT marked up as AggregateRating |
+| Rating | 5.0 on Google (no review count, per Kim 21 Nov 2026) | header, hero badge and homepage review buttons — NOT marked up as AggregateRating |
 | Founder | Kimberly Camera — FEMA US&R canine handler, 28+ yrs K9 detection, NESDCA/WDDO/CPDA/ICRWDA, licensed technician | bylines, about, Person schema |
 | Nationwide | "more than 15 companies" supported | homepage, nationwide pages |
 | Socials | facebook.com/kim.camera.386027, instagram ucpaws.k9.rodent.detection, LinkedIn kimberly-camera-7bb49b259 | footer, sameAs |

@@ -7,7 +7,7 @@ export default function Header() {
       <a className="skip" href="#main">Skip to content</a>
       <div className="topbar">
         <div className="wrap topbar-in">
-          <span><b>{SITE.rating.value}★</b> rating · {SITE.rating.count} reviews · Family-owned · Windsor, SC</span>
+          <span><b>{SITE.rating.value}★</b> on Google · Family-owned · Windsor, SC</span>
           <span className="topbar-r">
             <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
             <a href={SITE.phoneHref}>Call or text {SITE.phone}</a>
