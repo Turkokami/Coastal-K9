@@ -132,7 +132,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
       </>
     ) : null;
 
-  const wide = ['hub-blog', 'hub-areas', 'hub-services', 'hub-pests', 'gallery', 'videos', 'awards', 'press', 'coupons', 'about'].includes(p.kind);
+  const wide = ['hub-blog', 'hub-areas', 'hub-services', 'hub-pests', 'gallery', 'videos', 'awards', 'press', 'coupons', 'about', 'person'].includes(p.kind);
 
   return (
     <>

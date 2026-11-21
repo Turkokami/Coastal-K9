@@ -4,7 +4,7 @@ import { MEDIA, Page, plain, PAGES } from './content';
 const U = (p: string) => SITE.url + p;
 export const LB_ID = U('/#localbusiness');
 export const WEBSITE_ID = U('/#website');
-export const PERSON_ID = U('/about/#kimberly-camera');
+export const PERSON_ID = U(SITE.founder.url + '#person');
 
 function abs(src: string) { return src.startsWith('http') ? src : U(src); }
 
@@ -34,8 +34,10 @@ export function coreNodes() {
     },
     { '@type': 'WebSite', '@id': WEBSITE_ID, url: U('/'), name: SITE.name, publisher: { '@id': LB_ID }, inLanguage: 'en-US' },
     {
-      '@type': 'Person', '@id': PERSON_ID, name: SITE.founder.name, jobTitle: SITE.founder.jobTitle, url: U('/about/'),
+      '@type': 'Person', '@id': PERSON_ID, name: SITE.founder.name, alternateName: 'Kim Camera', jobTitle: SITE.founder.jobTitle, url: U(SITE.founder.url),
+      image: imageNode(SITE.founder.image, U(SITE.founder.url)).url,
       worksFor: { '@id': LB_ID }, description: SITE.founder.summary, sameAs: SITE.founder.sameAs,
+      award: ['NPMA Women’s Impact Award'],
       hasCredential: SITE.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: `${c.abbr} — ${c.name}`, recognizedBy: { '@type': 'Organization', name: c.name, url: c.url } })),
       knowsAbout: ['Canine scent detection', 'FEMA urban search and rescue canine handling', 'Wildlife biology', 'Integrated pest management'],
     },
@@ -55,12 +57,13 @@ export function pageGraph(p: Page, crumbs: { label: string; href: string }[]) {
   const url = U(p.path);
   const graph: any[] = [...coreNodes()];
   const webpage: any = {
-    '@type': p.kind === 'about' ? 'AboutPage' : p.kind === 'contact' ? 'ContactPage' : p.kind.startsWith('hub') || p.kind === 'gallery' || p.kind === 'videos' ? 'CollectionPage' : 'WebPage',
+    '@type': p.kind === 'about' ? 'AboutPage' : p.kind === 'person' ? 'ProfilePage' : p.kind === 'contact' ? 'ContactPage' : p.kind.startsWith('hub') || p.kind === 'gallery' || p.kind === 'videos' ? 'CollectionPage' : 'WebPage',
     '@id': url + '#webpage', url, name: p.title, description: p.description, isPartOf: { '@id': WEBSITE_ID },
     about: { '@id': LB_ID }, primaryImageOfPage: { '@id': url + '#primaryimage' }, breadcrumb: { '@id': url + '#breadcrumb' },
     inLanguage: 'en-US', dateModified: p.modified ? p.modified + 'Z' : undefined,
   };
-  if (p.kind === 'about') webpage.mainEntity = { '@id': PERSON_ID };
+  if (p.kind === 'about') webpage.mainEntity = { '@id': LB_ID };
+  if (p.kind === 'person') { webpage.mainEntity = { '@id': PERSON_ID }; webpage.about = { '@id': PERSON_ID }; }
   graph.push(webpage, imageNode(p.heroImage, url), breadcrumbNode(url, crumbs));
 
   if (SERVICE_KINDS.has(p.kind)) {

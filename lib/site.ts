@@ -22,8 +22,8 @@ export const SITE = {
   founder: {
     name: 'Kimberly Camera',
     jobTitle: 'Founder & Operations Field Director',
-    url: '/about/',
-    image: 'kim1',
+    url: '/kimberly-camera/',
+    image: 'founder-portrait',
     summary:
       'FEMA US&R-trained canine handler with 28+ years handling working dogs, 15 of them in detection; NESDCA, WDDO, CPDA and ICRWDA certified; licensed pest control technician.',
     sameAs: ['https://www.linkedin.com/in/kimberly-camera-7bb49b259/'],
@@ -113,6 +113,7 @@ export const NAV: NavItem[] = [
   {
     label: 'About', href: '/about/', children: [
       { label: 'About Us', href: '/about/' },
+      { label: 'Meet Kimberly Camera', href: '/kimberly-camera/' },
       { label: 'Awards & Recognition', href: '/awards-and-recognition/' },
       { label: 'Media & Press', href: '/media-and-press/' },
       { label: 'Image Gallery', href: '/coastal-k9-image-gallery/' },
@@ -147,4 +148,5 @@ export const KIND_PARENT: Record<string, { label: string; href: string } | null>
   pest: { label: 'Pest Library', href: '/pest-library/' },
   post: { label: 'Blog', href: '/coastal-k9-blog/' },
   rename: { label: 'About', href: '/about/' },
+  person: { label: 'About', href: '/about/' },
 };

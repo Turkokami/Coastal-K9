@@ -14,7 +14,7 @@ const nextConfig = {
       { source: '/wp-sitemap-:rest(.+).xml', destination: '/sitemap.xml', permanent: true },
       { source: '/nationwide-rodent-mitigation/', destination: '/nationwide-k9-rodent-detection/', permanent: true },
       { source: '/bed-bugs-hotels-multifamily-playbook/', destination: '/hotels-hospitality-pest-control/', permanent: true },
-      { source: '/profile/kim-camera/', destination: '/about/', permanent: true },
+      { source: '/profile/kim-camera/', destination: '/kimberly-camera/', permanent: true },
       { source: '/pest-control-columbia-pest-control-sc/', destination: '/columbia-sc-pest-control/', permanent: true },
       { source: '/home/', destination: '/', permanent: true },
       { source: '/mold-detection-dogs/', destination: '/services/', permanent: true },

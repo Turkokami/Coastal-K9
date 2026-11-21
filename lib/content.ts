@@ -3,6 +3,7 @@ import mediaJson from '@/content/media.json';
 import galleryJson from '@/content/gallery.json';
 import altJson from '@/content/alt-overrides.json';
 import contentDates from '@/content/content-dates.json';
+import founderPage from '@/content/kimberly-camera.json';
 import { ICONS } from './icons';
 
 export type Hero = {
@@ -22,7 +23,8 @@ export type Media = { alt: string; w: number; h: number; sizes: { w: number; h: 
  *  `modified` date stays when it is later; otherwise the repo date wins, so "Updated", dateModified and
  *  the sitemap lastmod never predate the text a visitor reads. */
 const TEXT_DATES = contentDates as Record<string, string>;
-export const PAGES = (pagesJson as unknown as Page[]).map((p) => {
+/** The founder's own page (/kimberly-camera/) is kept in its own file, next to the migrated pages. */
+export const PAGES = [...(pagesJson as unknown as Page[]), founderPage as unknown as Page].map((p) => {
   const d = TEXT_DATES[p.path];
   return d && (!p.modified || d > p.modified) ? { ...p, modified: d } : p;
 });
@@ -41,7 +43,7 @@ const LINK_FIX: Record<string, string> = {
   '/pest-control-columbia-pest-control-sc/': '/columbia-sc-pest-control/',
   '/bed-bugs-hotels-multifamily-playbook/': '/hotels-hospitality-pest-control/',
   '/nationwide-rodent-mitigation/': '/nationwide-k9-rodent-detection/',
-  '/profile/kim-camera/': '/about/',
+  '/profile/kim-camera/': '/kimberly-camera/',
 };
 
 export function img(name: string | null | undefined) {
