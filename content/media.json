@@ -2682,29 +2682,6 @@
   ],
   "orig": null
  },
- "facility-kennel-exterior": {
-  "alt": "Coastal K9 kennel building with solar panels on the roof",
-  "w": 1280,
-  "h": 960,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 360,
-    "src": "/media/facility-kennel-exterior-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 720,
-    "src": "/media/facility-kennel-exterior-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 960,
-    "src": "/media/facility-kennel-exterior-1280.webp"
-   }
-  ],
-  "orig": null
- },
  "facility-kennel-closeup": {
   "alt": "Front of the solar-powered kennel building",
   "w": 1280,
@@ -2889,52 +2866,6 @@
   ],
   "orig": null
  },
- "facility-geese": {
-  "alt": "Our geese at the facility",
-  "w": 1280,
-  "h": 1942,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 728,
-    "src": "/media/facility-geese-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 1456,
-    "src": "/media/facility-geese-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 1942,
-    "src": "/media/facility-geese-1280.webp"
-   }
-  ],
-  "orig": null
- },
- "facility-ferret": {
-  "alt": "One of our ferrets",
-  "w": 1280,
-  "h": 1707,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 640,
-    "src": "/media/facility-ferret-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 1280,
-    "src": "/media/facility-ferret-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 1707,
-    "src": "/media/facility-ferret-1280.webp"
-   }
-  ],
-  "orig": null
- },
  "dogs-pool-leap": {
   "alt": "Spaniel leaping off the ramp into the dog pool",
   "w": 1280,
@@ -3027,52 +2958,6 @@
   ],
   "orig": null
  },
- "dogs-deck": {
-  "alt": "Dogs on the pool deck at the facility",
-  "w": 1280,
-  "h": 1707,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 640,
-    "src": "/media/dogs-deck-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 1280,
-    "src": "/media/dogs-deck-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 1707,
-    "src": "/media/dogs-deck-1280.webp"
-   }
-  ],
-  "orig": null
- },
- "dogs-yard-group": {
-  "alt": "Detection dogs playing together in the yard",
-  "w": 1280,
-  "h": 960,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 360,
-    "src": "/media/dogs-yard-group-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 720,
-    "src": "/media/dogs-yard-group-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 960,
-    "src": "/media/dogs-yard-group-1280.webp"
-   }
-  ],
-  "orig": null
- },
  "dogs-goldens": {
   "alt": "Two golden retrievers resting on the lawn",
   "w": 1280,
@@ -3119,29 +3004,6 @@
   ],
   "orig": null
  },
- "dogs-beagle": {
-  "alt": "Beagle lying in the grass",
-  "w": 1280,
-  "h": 1707,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 640,
-    "src": "/media/dogs-beagle-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 1280,
-    "src": "/media/dogs-beagle-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 1707,
-    "src": "/media/dogs-beagle-1280.webp"
-   }
-  ],
-  "orig": null
- },
  "dogs-golden": {
   "alt": "Golden retriever in the field",
   "w": 1280,
@@ -3161,29 +3023,6 @@
     "w": 1280,
     "h": 1707,
     "src": "/media/dogs-golden-1280.webp"
-   }
-  ],
-  "orig": null
- },
- "dogs-malinois": {
-  "alt": "Belgian Malinois on the trail",
-  "w": 1280,
-  "h": 1707,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 640,
-    "src": "/media/dogs-malinois-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 1280,
-    "src": "/media/dogs-malinois-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 1707,
-    "src": "/media/dogs-malinois-1280.webp"
    }
   ],
   "orig": null
@@ -3326,29 +3165,6 @@
   ],
   "orig": null
  },
- "rescue-puppy-chew": {
-  "alt": "Spaniel foster puppy with a toy",
-  "w": 1280,
-  "h": 1707,
-  "sizes": [
-   {
-    "w": 480,
-    "h": 640,
-    "src": "/media/rescue-puppy-chew-480.webp"
-   },
-   {
-    "w": 960,
-    "h": 1280,
-    "src": "/media/rescue-puppy-chew-960.webp"
-   },
-   {
-    "w": 1280,
-    "h": 1707,
-    "src": "/media/rescue-puppy-chew-1280.webp"
-   }
-  ],
-  "orig": null
- },
  "rescue-litter": {
   "alt": "A full foster litter of spaniel puppies",
   "w": 1280,
@@ -3391,6 +3207,98 @@
     "w": 1280,
     "h": 1707,
     "src": "/media/rescue-puppy-porch-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-malinois-trail": {
+  "alt": "Belgian Malinois on the trail",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-malinois-trail-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-malinois-trail-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-malinois-trail-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-beagle-smile": {
+  "alt": "Happy beagle sitting in the woods",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-beagle-smile-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-beagle-smile-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-beagle-smile-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-woods": {
+  "alt": "Fluffy black and white foster puppy in the woods",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-woods-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-woods-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-woods-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-smile": {
+  "alt": "Smiling black and tan foster puppy in the woods",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-smile-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-smile-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-smile-1280.webp"
    }
   ],
   "orig": null
