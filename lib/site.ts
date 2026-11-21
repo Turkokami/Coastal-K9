@@ -63,6 +63,8 @@ export const NAV: NavItem[] = [
       { label: 'Integrated Pest Management', href: '/pest-control/' },
       { label: 'Spider Control', href: '/spider-control/' },
       { label: 'Cockroach Control', href: '/cockroach-control/' },
+      { label: 'Mosquito Control (No Fogging)', href: '/mosquito-control/' },
+      { label: 'Bat Removal & Exclusion', href: '/bat-removal/' },
       { label: 'All Services', href: '/services/' },
     ],
   },
@@ -78,6 +80,7 @@ export const NAV: NavItem[] = [
       { label: 'Schools & Student Housing', href: '/schools-student-housing-pest-control/' },
       { label: 'HOAs, Golf Courses & Campuses', href: '/hoa-golf-course-goose-management/' },
       { label: 'Falconry Bird Abatement', href: '/falconry-bird-abatement/' },
+      { label: 'Mold Detection Dogs', href: '/mold-detection-dogs/' },
     ],
   },
   {
@@ -128,7 +131,7 @@ export const NAV: NavItem[] = [
 ];
 
 export const FOOTER_GROUPS = [
-  { title: 'Residential', links: NAV[0].children!.slice(0, 10) },
+  { title: 'Residential', links: NAV[0].children!.slice(0, 12) },
   { title: 'Commercial & Nationwide', links: [...NAV[1].children!.slice(1, 8), { label: 'Nationwide K9 Rodent Detection', href: '/nationwide-k9-rodent-detection/' }] },
   { title: 'Service Areas', links: NAV[3].children! },
   { title: 'Company', links: [...NAV[4].children!, ...NAV[5].children!] },
