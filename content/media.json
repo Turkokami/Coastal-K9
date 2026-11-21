@@ -364,7 +364,7 @@
   "orig": "/wp-content/uploads/2026/06/kimgoose"
  },
  "kim-rats-4": {
-  "alt": "Kim rats 4",
+  "alt": "Detection dogs with rats removed from a site",
   "w": 480,
   "h": 320,
   "sizes": [
@@ -2365,7 +2365,7 @@
   "orig": "/wp-content/uploads/2026/06/7082d6e5-8f47-45c8-b86f-2d81b47bba8a"
  },
  "kim1": {
-  "alt": "Kimberly Camera, founder of Coastal K9 and Pest Solutions, presenting",
+  "alt": "Coastal K9 and Pest Solutions founder presenting",
   "w": 466,
   "h": 530,
   "sizes": [
@@ -2396,7 +2396,7 @@
   "orig": "/wp-content/uploads/2021/11/coastalk9_southcarolina_flyer_under2mb"
  },
  "1779324289640": {
-  "alt": "Kimberly Camera and the Coastal K9 and Pest Solutions team",
+  "alt": "The Coastal K9 and Pest Solutions team",
   "w": 1280,
   "h": 960,
   "sizes": [
@@ -2419,7 +2419,7 @@
   "orig": "/wp-content/uploads/2026/06/1779324289640"
  },
  "kimpctmagazine": {
-  "alt": "Kimberly Camera featured in Pest Control Technology magazine",
+  "alt": "Coastal K9 and Pest Solutions featured in Pest Control Technology magazine",
   "w": 480,
   "h": 270,
   "sizes": [
@@ -2635,5 +2635,925 @@
    }
   ],
   "orig": "/wp-content/uploads/2026/06/columbia"
+ },
+ "facility-aerial": {
+  "alt": "Aerial view of the Coastal K9 facility on 12 acres in Windsor, SC",
+  "w": 1280,
+  "h": 1280,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 480,
+    "src": "/media/facility-aerial-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "src": "/media/facility-aerial-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1280,
+    "src": "/media/facility-aerial-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-kennel-front": {
+  "alt": "Solar-powered kennel building behind the fenced yard",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-kennel-front-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-kennel-front-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-kennel-front-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-kennel-closeup": {
+  "alt": "Front of the solar-powered kennel building",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-kennel-closeup-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-kennel-closeup-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-kennel-closeup-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-indoor-runs": {
+  "alt": "Indoor kennel runs with detection dogs resting",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-indoor-runs-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-indoor-runs-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-indoor-runs-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-kennel-prep": {
+  "alt": "Kennel prep area with stainless steel tables and feeding bowls",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-kennel-prep-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-kennel-prep-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-kennel-prep-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-bath-room": {
+  "alt": "Dog bath and grooming room in the kennel",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-bath-room-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-bath-room-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-bath-room-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-dog-pool": {
+  "alt": "Dog pool with ramp and deck",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-dog-pool-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-dog-pool-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-dog-pool-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-dog-pool-field": {
+  "alt": "Dog pool in the fenced field",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-dog-pool-field-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-dog-pool-field-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-dog-pool-field-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-yard": {
+  "alt": "Fenced training yard and open field",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-yard-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-yard-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-yard-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-dog-search": {
+  "alt": "Detection dog searching a pallet stack on the job",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/facility-dog-search-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/facility-dog-search-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/facility-dog-search-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-pool-leap": {
+  "alt": "Spaniel leaping off the ramp into the dog pool",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-pool-leap-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-pool-leap-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-pool-leap-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-pool-swim": {
+  "alt": "Two spaniels swimming in the dog pool",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-pool-swim-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-pool-swim-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-pool-swim-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-pool-kennel-master": {
+  "alt": "Our Kennel Master swimming with a dog in the pool",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-pool-kennel-master-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-pool-kennel-master-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-pool-kennel-master-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-pool-lab": {
+  "alt": "Yellow Lab relaxing on a pool float",
+  "w": 528,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 873,
+    "src": "/media/dogs-pool-lab-480.webp"
+   },
+   {
+    "w": 528,
+    "h": 960,
+    "src": "/media/dogs-pool-lab-528.webp"
+   },
+   {
+    "w": 528,
+    "h": 960,
+    "src": "/media/dogs-pool-lab-528.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-goldens": {
+  "alt": "Two golden retrievers resting on the lawn",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-goldens-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-goldens-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-goldens-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-spaniel": {
+  "alt": "Brown spaniel resting in the grass",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-spaniel-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-spaniel-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-spaniel-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-golden": {
+  "alt": "Golden retriever in the field",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-golden-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-golden-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-golden-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-brush-search": {
+  "alt": "Jack Russell terrier and golden retriever searching the brush",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-brush-search-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-brush-search-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-brush-search-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-deck": {
+  "alt": "Foster puppy sitting on the deck",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-deck-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-deck-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-deck-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppies-bowl": {
+  "alt": "Foster puppies sharing a water bowl",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppies-bowl-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppies-bowl-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppies-bowl-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-ferns": {
+  "alt": "Black foster puppy in the ferns",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-ferns-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-ferns-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-ferns-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppies-pen": {
+  "alt": "Foster litter in their puppy pen",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppies-pen-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppies-pen-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppies-pen-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-grass": {
+  "alt": "Spaniel foster puppy in the grass",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-grass-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-grass-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-grass-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-litter": {
+  "alt": "A full foster litter of spaniel puppies",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-litter-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-litter-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-litter-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-porch": {
+  "alt": "Brown and white foster puppy on the porch",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-porch-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-porch-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-porch-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-malinois-trail": {
+  "alt": "Belgian Malinois on the trail",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-malinois-trail-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-malinois-trail-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-malinois-trail-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "dogs-beagle-smile": {
+  "alt": "Happy beagle sitting in the woods",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/dogs-beagle-smile-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/dogs-beagle-smile-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/dogs-beagle-smile-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-woods": {
+  "alt": "Fluffy black and white foster puppy in the woods",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-woods-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-woods-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-woods-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-puppy-smile": {
+  "alt": "Smiling black and tan foster puppy in the woods",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-puppy-smile-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-puppy-smile-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-puppy-smile-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pups-deck-trio": {
+  "alt": "Three foster puppies exploring the porch",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pups-deck-trio-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pups-deck-trio-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pups-deck-trio-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-spaniel-blanket": {
+  "alt": "Spaniel foster puppy on a blanket",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-spaniel-blanket-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-spaniel-blanket-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-spaniel-blanket-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-black-pup-deck": {
+  "alt": "Black foster puppy on the deck",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-black-pup-deck-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-black-pup-deck-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-black-pup-deck-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-yellow-pup": {
+  "alt": "Smiling yellow foster puppy",
+  "w": 1280,
+  "h": 1706,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-yellow-pup-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-yellow-pup-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1706,
+    "src": "/media/rescue-yellow-pup-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pups-mat": {
+  "alt": "Foster puppies resting on their mat at home",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pups-mat-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pups-mat-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pups-mat-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pair-floor": {
+  "alt": "Two black and tan foster puppies lying side by side",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-pair-floor-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-pair-floor-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-pair-floor-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pups-bed": {
+  "alt": "Foster puppies playing on their bed",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pups-bed-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pups-bed-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pups-bed-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pup-bedding": {
+  "alt": "Black and tan foster puppy on striped bedding",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-pup-bedding-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-pup-bedding-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-pup-bedding-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pup-logs": {
+  "alt": "Happy foster puppy in the log pile",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-pup-logs-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-pup-logs-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-pup-logs-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pup-pine": {
+  "alt": "Black and tan foster puppy resting by a pine tree",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pup-pine-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pup-pine-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pup-pine-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "founder-portrait": {
+  "alt": "Founder of Coastal K9 and Pest Solutions with a Jack Russell terrier",
+  "w": 1218,
+  "h": 1291,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 509,
+    "src": "/media/founder-portrait-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1018,
+    "src": "/media/founder-portrait-960.webp"
+   },
+   {
+    "w": 1218,
+    "h": 1291,
+    "src": "/media/founder-portrait-1218.webp"
+   }
+  ],
+  "orig": null
  }
 }
