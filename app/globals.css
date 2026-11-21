@@ -345,3 +345,5 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .k-founder img { width: 100%; max-width: 320px; height: auto; border-radius: 16px; }
 .home-founder { display: flex; justify-content: center; align-items: center; }
 .home-founder img { width: 100%; max-width: 360px; height: auto; border-radius: 16px; }
+/* About page aerial: show the whole property, no cropping */
+.hero-media img[src*="facility-aerial"] { aspect-ratio: auto; height: auto; object-fit: contain; }
