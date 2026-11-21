@@ -224,7 +224,7 @@ a.k-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); colo
 .k-pic, figure.k-pic { margin: 0 0 28px; }
 .k-bg { display: none; }
 .k-cimg { border-radius: var(--radius); margin: 20px 0; }
-.k-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; margin: 24px 0; }
+.k-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 24px 0; }
 .k-gallery figure { margin: 0; }
 .k-gallery img { aspect-ratio: 1; object-fit: cover; width: 100%; border-radius: 10px; }
 .k-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
@@ -341,9 +341,3 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .k-ytfig { margin: 18px 0 26px; }
 .k-ytfig .k-yt { margin: 0; }
 .k-ytfig figcaption { font-family: var(--font-h); font-weight: 600; color: var(--navy-900); margin-top: 8px; }
-.k-founder figure { margin: 8px 0 16px; }
-.k-founder img { width: 100%; max-width: 320px; height: auto; border-radius: 16px; }
-.home-founder { display: flex; justify-content: center; align-items: center; }
-.home-founder img { width: 100%; max-width: 360px; height: auto; border-radius: 16px; }
-/* About page aerial: show the whole property, no cropping */
-.hero-media img[src*="facility-aerial"] { aspect-ratio: auto; height: auto; object-fit: contain; }
