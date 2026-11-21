@@ -32,7 +32,7 @@ export default function Footer() {
         ))}
       </div>
       <div className="wrap foot-creds">
-        <span>Credentials:</span>
+        <span>Founder credentials:</span>
         {SITE.credentials.map((c) => (<a key={c.abbr} href={c.url} rel="noopener" target="_blank" title={c.name}>{c.abbr}</a>))}
         <span>· FEMA US&amp;R-trained handler · Licensed pest control technician</span>
       </div>

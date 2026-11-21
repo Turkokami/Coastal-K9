@@ -112,7 +112,7 @@ export const NAV: NavItem[] = [
   },
   {
     label: 'About', href: '/about/', children: [
-      { label: 'About Us', href: '/about/' },
+      { label: 'Meet Kimberly Camera', href: '/about/' },
       { label: 'Awards & Recognition', href: '/awards-and-recognition/' },
       { label: 'Media & Press', href: '/media-and-press/' },
       { label: 'Image Gallery', href: '/coastal-k9-image-gallery/' },
