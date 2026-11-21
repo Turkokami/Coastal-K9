@@ -12,7 +12,7 @@ const home = getPage('/')!;
 
 export const metadata: Metadata = {
   title: { absolute: 'K9 Bed Bug & Rodent Detection in Aiken, SC | Coastal K9' },
-  description: 'Certified K9 bed bug, rodent and wildlife detection in Aiken, North Augusta & the CSRA, led by FEMA-trained handler Kimberly Camera. Detection before treatment, every time.',
+  description: 'Certified K9 bed bug, rodent and wildlife detection in Aiken, North Augusta & the CSRA, with roots in FEMA search and rescue. Detection before treatment, every time.',
   alternates: { canonical: '/' },
   openGraph: { url: '/', images: [{ url: '/brand/og-default.jpg' }] },
 };
@@ -65,7 +65,7 @@ export default function Home() {
 
       <div className="trust" aria-label="Why customers trust us">
         <ul className="wrap">
-          <li dangerouslySetInnerHTML={{ __html: icon('award') + ' Founded by FEMA US&amp;R canine handler Kimberly Camera' }} />
+          <li dangerouslySetInnerHTML={{ __html: icon('award') + ' Roots in FEMA US&amp;R canine work' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('dog') + ' 28+ years with working dogs' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('certificate') + ' NESDCA · WDDO · CPDA · ICRWDA' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('location-dot') + ' Windsor, SC — serving the CSRA &amp; Midlands' }} />

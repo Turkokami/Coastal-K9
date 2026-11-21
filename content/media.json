@@ -364,7 +364,7 @@
   "orig": "/wp-content/uploads/2026/06/kimgoose"
  },
  "kim-rats-4": {
-  "alt": "Kim rats 4",
+  "alt": "Detection dogs with rats removed from a site",
   "w": 480,
   "h": 320,
   "sizes": [
@@ -2365,7 +2365,7 @@
   "orig": "/wp-content/uploads/2026/06/7082d6e5-8f47-45c8-b86f-2d81b47bba8a"
  },
  "kim1": {
-  "alt": "Kimberly Camera, founder of Coastal K9 and Pest Solutions, presenting",
+  "alt": "Coastal K9 and Pest Solutions founder presenting",
   "w": 466,
   "h": 530,
   "sizes": [
@@ -2396,7 +2396,7 @@
   "orig": "/wp-content/uploads/2021/11/coastalk9_southcarolina_flyer_under2mb"
  },
  "1779324289640": {
-  "alt": "Kimberly Camera and the Coastal K9 and Pest Solutions team",
+  "alt": "The Coastal K9 and Pest Solutions team",
   "w": 1280,
   "h": 960,
   "sizes": [
@@ -2419,7 +2419,7 @@
   "orig": "/wp-content/uploads/2026/06/1779324289640"
  },
  "kimpctmagazine": {
-  "alt": "Kimberly Camera featured in Pest Control Technology magazine",
+  "alt": "Coastal K9 and Pest Solutions featured in Pest Control Technology magazine",
   "w": 480,
   "h": 270,
   "sizes": [
@@ -3299,6 +3299,236 @@
     "w": 1280,
     "h": 1707,
     "src": "/media/rescue-puppy-smile-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pups-deck-trio": {
+  "alt": "Three foster puppies exploring the porch",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pups-deck-trio-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pups-deck-trio-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pups-deck-trio-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-spaniel-blanket": {
+  "alt": "Spaniel foster puppy on a blanket",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-spaniel-blanket-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-spaniel-blanket-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-spaniel-blanket-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-black-pup-deck": {
+  "alt": "Black foster puppy on the deck",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-black-pup-deck-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-black-pup-deck-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-black-pup-deck-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-yellow-pup": {
+  "alt": "Smiling yellow foster puppy",
+  "w": 1280,
+  "h": 1706,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-yellow-pup-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-yellow-pup-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1706,
+    "src": "/media/rescue-yellow-pup-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pups-mat": {
+  "alt": "Foster puppies resting on their mat at home",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pups-mat-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pups-mat-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pups-mat-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pair-floor": {
+  "alt": "Two black and tan foster puppies lying side by side",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-pair-floor-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-pair-floor-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-pair-floor-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pups-bed": {
+  "alt": "Foster puppies playing on their bed",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pups-bed-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pups-bed-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pups-bed-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pup-bedding": {
+  "alt": "Black and tan foster puppy on striped bedding",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-pup-bedding-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-pup-bedding-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-pup-bedding-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pup-logs": {
+  "alt": "Happy foster puppy in the log pile",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/rescue-pup-logs-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/rescue-pup-logs-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/rescue-pup-logs-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "rescue-pup-pine": {
+  "alt": "Black and tan foster puppy resting by a pine tree",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rescue-pup-pine-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rescue-pup-pine-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rescue-pup-pine-1280.webp"
    }
   ],
   "orig": null
