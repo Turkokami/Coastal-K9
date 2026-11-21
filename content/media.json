@@ -2635,5 +2635,304 @@
    }
   ],
   "orig": "/wp-content/uploads/2026/06/columbia"
+ },
+ "facility-aerial": {
+  "alt": "Aerial view of the Coastal K9 facility on 12 acres in Windsor, SC",
+  "w": 1280,
+  "h": 1280,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 480,
+    "src": "/media/facility-aerial-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "src": "/media/facility-aerial-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1280,
+    "src": "/media/facility-aerial-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-kennel-front": {
+  "alt": "Solar-powered kennel building behind the fenced yard",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-kennel-front-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-kennel-front-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-kennel-front-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-kennel-exterior": {
+  "alt": "Coastal K9 kennel building with solar panels on the roof",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-kennel-exterior-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-kennel-exterior-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-kennel-exterior-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-kennel-closeup": {
+  "alt": "Front of the solar-powered kennel building",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-kennel-closeup-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-kennel-closeup-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-kennel-closeup-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-indoor-runs": {
+  "alt": "Indoor kennel runs with detection dogs resting",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-indoor-runs-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-indoor-runs-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-indoor-runs-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-kennel-prep": {
+  "alt": "Kennel prep area with stainless steel tables and feeding bowls",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-kennel-prep-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-kennel-prep-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-kennel-prep-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-bath-room": {
+  "alt": "Dog bath and grooming room in the kennel",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-bath-room-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-bath-room-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-bath-room-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-dog-pool": {
+  "alt": "Dog pool with ramp and deck",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-dog-pool-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-dog-pool-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-dog-pool-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-dog-pool-field": {
+  "alt": "Dog pool in the fenced field",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-dog-pool-field-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-dog-pool-field-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-dog-pool-field-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-yard": {
+  "alt": "Fenced training yard and open field",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/facility-yard-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/facility-yard-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/facility-yard-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-dog-search": {
+  "alt": "Detection dog searching a pallet stack on the job",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/facility-dog-search-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/facility-dog-search-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/facility-dog-search-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-geese": {
+  "alt": "Our geese at the facility",
+  "w": 1280,
+  "h": 1942,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 728,
+    "src": "/media/facility-geese-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1456,
+    "src": "/media/facility-geese-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1942,
+    "src": "/media/facility-geese-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "facility-ferret": {
+  "alt": "One of our ferrets",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/facility-ferret-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/facility-ferret-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/facility-ferret-1280.webp"
+   }
+  ],
+  "orig": null
  }
 }
