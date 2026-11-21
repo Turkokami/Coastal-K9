@@ -181,7 +181,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
       </div>
       {['commercial', 'nationwide'].includes(p.kind) ? (
         <section className="section soft" aria-label="Request a commercial assessment"><div className="wrap" style={{ maxWidth: 820 }}>
-          <InspectionForm heading={p.kind === 'nationwide' ? 'Scope a nationwide rodent program' : 'Request a commercial assessment'} />
+          <InspectionForm commercial heading={p.kind === 'nationwide' ? 'Scope a nationwide rodent program' : 'Request a commercial assessment'} />
         </div></section>
       ) : null}
       {rel.length && !wide ? <Related title={RELATED_TITLE[p.kind] || 'Related'} pages={rel} /> : null}

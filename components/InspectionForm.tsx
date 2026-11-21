@@ -3,9 +3,10 @@ import { useState, useId } from 'react';
 import { SITE } from '@/lib/site';
 
 const PROPERTY = ['Residential Home', 'Apartment/Condo', 'Hotel/Motel', 'Commercial Property', 'School', 'Healthcare Facility', 'Restaurant', 'Warehouse', 'Food Processing / Agriculture', 'Other'];
+const PROPERTY_COMMERCIAL = ['Commercial Property', 'Food Processing / Agriculture', 'Warehouse', 'Restaurant', 'Hotel/Motel', 'Healthcare Facility', 'School', 'Apartment Community / Property Management', 'Other'];
 const SERVICE = ['Bed Bug Detection', 'Bed Bug Treatment', 'Rodent Detection', 'Rodent/Wildlife Exclusion', 'Goose Management', 'Bird Exclusion', 'General Pest Control', 'Nationwide Rodent Program', 'Multiple Services'];
 
-export default function InspectionForm({ compact = false, heading = 'Request an Inspection', anchor = false }: { compact?: boolean; heading?: string; anchor?: boolean }) {
+export default function InspectionForm({ compact = false, heading = 'Request an Inspection', anchor = false, commercial = false }: { compact?: boolean; heading?: string; anchor?: boolean; commercial?: boolean }) {
   const hid = useId();
   const [state, setState] = useState<'idle' | 'sending' | 'error'>('idle');
   const [err, setErr] = useState('');
@@ -39,7 +40,7 @@ export default function InspectionForm({ compact = false, heading = 'Request an 
         <label><span className="lbl">Property type<i aria-hidden="true">*</i></span>
           <select name="propertyType" required defaultValue="">
             <option value="" disabled>Choose…</option>
-            {PROPERTY.map((o) => <option key={o}>{o}</option>)}
+            {(commercial ? PROPERTY_COMMERCIAL : PROPERTY).map((o) => <option key={o}>{o}</option>)}
           </select>
         </label>
         <label><span className="lbl">Service needed<i aria-hidden="true">*</i></span>
