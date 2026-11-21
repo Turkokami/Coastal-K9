@@ -80,7 +80,6 @@ export const NAV: NavItem[] = [
       { label: 'Schools & Student Housing', href: '/schools-student-housing-pest-control/' },
       { label: 'HOAs, Golf Courses & Campuses', href: '/hoa-golf-course-goose-management/' },
       { label: 'Falconry Bird Abatement', href: '/falconry-bird-abatement/' },
-      { label: 'Mold Detection Dogs', href: '/mold-detection-dogs/' },
     ],
   },
   {
