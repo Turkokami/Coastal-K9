@@ -66,7 +66,7 @@ export default function Home() {
       <div className="trust" aria-label="Why customers trust us">
         <ul className="wrap">
           <li dangerouslySetInnerHTML={{ __html: icon('award') + ' Founded by FEMA US&amp;R canine handler Kimberly Camera' }} />
-          <li dangerouslySetInnerHTML={{ __html: icon('dog') + ' 28+ years of K9 detection' }} />
+          <li dangerouslySetInnerHTML={{ __html: icon('dog') + ' 28+ years with working dogs' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('certificate') + ' NESDCA · WDDO · CPDA · ICRWDA' }} />
           <li dangerouslySetInnerHTML={{ __html: icon('location-dot') + ' Windsor, SC — serving the CSRA &amp; Midlands' }} />
         </ul>
@@ -117,7 +117,7 @@ export default function Home() {
           <div>
             <span className="kicker">Meet the founder</span>
             <h2 id="h-kim">Kimberly Camera: from FEMA search-and-rescue to pest detection</h2>
-            <p>Kim’s career in working dogs began as a certified FEMA Urban Search &amp; Rescue canine handler, deploying across the country with live-find and cadaver-recovery dogs. With a background in wildlife biology and 28+ years of K9 detection, she built Coastal K9 around one idea: find the problem precisely before anyone applies a product.</p>
+            <p>Kim’s career in working dogs began as a certified FEMA Urban Search &amp; Rescue canine handler, deploying across the country with live-find and cadaver-recovery dogs. With 27 years in wildlife management and 28+ years handling working dogs, 15 of them in detection, she built Coastal K9 around one idea: find the problem precisely before anyone applies a product.</p>
             <p>She’s been profiled in <i>Pest Control Technology</i>, presented at the Purdue Pest Management Conference, and trains and certifies her own detection teams.</p>
             <div className="hero-ctas"><Link className="btn btn-teal" href="/about/">Read Kim’s story</Link><Link className="btn btn-light" href="/awards-and-recognition/">Awards &amp; recognition</Link></div>
           </div>
