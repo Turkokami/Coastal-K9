@@ -75,7 +75,7 @@ export function pageGraph(p: Page, crumbs: { label: string; href: string }[]) {
   if (p.kind === 'post' || p.kind === 'pest') {
     graph.push({
       '@type': p.kind === 'post' ? 'BlogPosting' : 'Article', '@id': url + '#article', headline: plain(p.h1).slice(0, 110), description: p.description,
-      author: { '@id': PERSON_ID }, publisher: { '@id': LB_ID }, image: { '@id': url + '#primaryimage' },
+      author: { '@id': LB_ID }, publisher: { '@id': LB_ID }, image: { '@id': url + '#primaryimage' },
       datePublished: p.date ? p.date + 'Z' : undefined, dateModified: p.modified ? p.modified + 'Z' : undefined,
       mainEntityOfPage: { '@id': url + '#webpage' }, inLanguage: 'en-US',
       citation: p.citations.length ? p.citations.map((c) => ({ '@type': 'CreativeWork', name: c.name, url: c.url })) : undefined,
