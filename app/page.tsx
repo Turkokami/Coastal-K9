@@ -45,6 +45,10 @@ export default function Home() {
   const posts = byKind('post').sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, 3);
   return (
     <>
+      <div className="video-banner">
+        <video className="vb-d" src="/video/banner-desktop.mp4" poster="/video/banner-poster.jpg" autoPlay muted loop playsInline aria-label="Coastal K9 detection dog searching a hotel room" />
+        <video className="vb-m" src="/video/banner-mobile.mp4" autoPlay muted loop playsInline aria-label="Coastal K9 detection dog searching a hotel room" />
+      </div>
       <section className="hero">
         <div className="wrap hero-in">
           <div>

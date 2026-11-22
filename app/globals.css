@@ -347,3 +347,9 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .home-founder img { width: 100%; max-width: 360px; height: auto; border-radius: 16px; }
 /* About page aerial: show the whole property, no cropping */
 .hero-media img[src*="facility-aerial"] { aspect-ratio: auto; height: auto; object-fit: contain; }
+
+/* Home page video banner strip */
+.video-banner { background: #000; line-height: 0; }
+.video-banner video { width: 100%; display: block; height: 320px; object-fit: cover; object-position: center 60%; }
+.vb-m { display: none !important; }
+@media (max-width: 900px) { .vb-d { display: none !important; } .vb-m { display: block !important; height: 220px; } }
