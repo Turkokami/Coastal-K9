@@ -384,3 +384,4 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .hero-video { margin: 18px 0 22px; max-width: 380px; }
 .hero-video video { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; background: #000; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
 @media (max-width: 600px) { .hero-video { max-width: none; } }
+.h1-kicker { display: block; font-size: .5em; line-height: 1.2; color: var(--teal-400, #4fd1c5); margin-bottom: .25em; }
