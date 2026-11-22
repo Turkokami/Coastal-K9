@@ -31,7 +31,7 @@ export default function InspectionForm({ compact = false, heading = 'Request an 
   return (
     <form className={`ifm${compact ? ' ifm-compact' : ''}`} onSubmit={onSubmit} id={anchor ? 'inspection' : undefined} aria-labelledby={hid} noValidate={false}>
       <h2 id={hid}>{heading}</h2>
-      <p className="ifm-sub">Tell us what you’re dealing with and Kim or a Coastal K9 specialist will call you back — usually the same business day.</p>
+      <p className="ifm-sub">Tell us what you’re dealing with and a Coastal K9 specialist will call you back — usually the same business day.</p>
       <div className="ifm-grid">
         <label><span className="lbl">Full name<i aria-hidden="true">*</i></span><input name="name" required autoComplete="name" /></label>
         <label><span className="lbl">Phone<i aria-hidden="true">*</i></span><input name="phone" type="tel" required autoComplete="tel" inputMode="tel" /></label>

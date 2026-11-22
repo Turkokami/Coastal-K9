@@ -3555,5 +3555,28 @@
    }
   ],
   "orig": null
+ },
+ "ferret-burrow": {
+  "alt": "Ferret peering out of a rat burrow under tree roots",
+  "w": 1280,
+  "h": 854,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 320,
+    "src": "/media/ferret-burrow-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "src": "/media/ferret-burrow-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 854,
+    "src": "/media/ferret-burrow-1280.webp"
+   }
+  ],
+  "orig": "kim-upload-2026-11-22"
  }
 }
