@@ -13,8 +13,8 @@ import { CardGrid } from '@/components/Related';
 const home = getPage('/')!;
 
 export const metadata: Metadata = {
-  title: { absolute: 'K9 Bed Bug & Rodent Detection in Aiken, SC | Coastal K9' },
-  description: 'Certified K9 bed bug and rodent detection in Aiken, North Augusta & the CSRA, with roots in FEMA search and rescue. Detection before treatment, every time.',
+  title: { absolute: 'Aiken SC Pest Control & K9 Bed Bug, Rodent Detection | Coastal K9' },
+  description: 'Family-owned exterminator with certified K9 bed bug and rodent detection in Aiken, North Augusta, Augusta and the CSRA, with roots in FEMA search and rescue.',
   alternates: { canonical: '/' },
   openGraph: { url: '/', images: [{ url: '/brand/og-default.jpg' }] },
 };
