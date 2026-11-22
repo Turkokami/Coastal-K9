@@ -18,10 +18,10 @@ export const SITE = {
     { label: 'Saturday', value: '8:00 AM – 4:00 PM', days: ['Saturday'], opens: '08:00', closes: '16:00' },
     { label: 'Sunday', value: 'Closed', days: [], opens: '', closes: '' },
   ],
-  rating: { value: '5.0', count: '22+' },
-  // Google reviews. Replace leaveReviewUrl with the Google Business Profile "Ask for reviews" link (g.page/r/...) when Kim sends it.
-  readReviewsUrl: 'https://www.google.com/maps/search/?api=1&query=Coastal+K9+and+Pest+Solutions+Windsor+SC',
-  leaveReviewUrl: 'https://www.google.com/maps/search/?api=1&query=Coastal+K9+and+Pest+Solutions+Windsor+SC',
+  rating: { value: '5.0' },
+  // Google reviews, both tied to the verified Business Profile (place ID ChIJJagaB23_-IgRFx-hU7939Y4).
+  readReviewsUrl: 'https://www.google.com/maps/search/?api=1&query=Coastal+K9+and+Pest+Solutions+320+Wendy+Ln+Windsor+SC&query_place_id=ChIJJagaB23_-IgRFx-hU7939Y4',
+  leaveReviewUrl: 'https://search.google.com/local/writereview?placeid=ChIJJagaB23_-IgRFx-hU7939Y4',
   founder: {
     name: 'Kimberly Camera',
     jobTitle: 'Founder & Operations Field Director',
