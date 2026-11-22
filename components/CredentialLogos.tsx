@@ -29,7 +29,7 @@ export default function CredentialLogos({ onHome = false }: { onHome?: boolean }
           <h3>Professional Memberships</h3>
           <ul className="logo-row">
             {members.map((l) => <li key={l.src}><img src={l.src} alt={l.alt} loading="lazy" /></li>)}
-            <li><span className="logo-text">UPMTC</span></li>
+            <li title="Urban Pest Management Technical Committee (UPMTC)"><span className="logo-text">UPMTC<small>Urban Pest Management Technical Committee</small></span></li>
           </ul>
         </div>
       </div>
