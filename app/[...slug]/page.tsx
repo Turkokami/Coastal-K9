@@ -5,6 +5,7 @@ import { PAGES, getPage, renderBody, img, imgTag, related, plain, byKind, MEDIA,
 import { KIND_PARENT, SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import Hero from '@/components/Hero';
+import BannerVideo from '@/components/BannerVideo';
 import JsonLd from '@/components/JsonLd';
 import CtaBand from '@/components/CtaBand';
 import Byline from '@/components/Byline';
@@ -138,7 +139,10 @@ export default async function Route({ params }: { params: Promise<{ slug: string
     <>
       {p.banner && p.banner.length ? (
         <div className="photo-banner">
-          {p.banner.filter((n) => img(n)).map((n, i) => <span key={n} dangerouslySetInnerHTML={{ __html: imgTag(n, undefined, { eager: i === 0, sizes: '34vw' }) }} />)}
+          {p.banner.filter((n) => n.startsWith('video:') || img(n)).map((n, i) => n.startsWith('video:')
+            ? <span key={n}><video src={n.slice(6)} poster={n.slice(6).replace(/\.mp4$/, '.jpg')} muted loop playsInline autoPlay preload="metadata" aria-label="Coastal K9 offshore video" /></span>
+            : <span key={n} dangerouslySetInnerHTML={{ __html: imgTag(n, undefined, { eager: i === 0, sizes: '34vw' }) }} />)}
+          {p.banner.some((n) => n.startsWith('video:')) ? <BannerVideo /> : null}
         </div>
       ) : null}
       <Hero p={p} crumbs={crumbs} aside={p.banner && p.banner.length ? 'none' : p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
