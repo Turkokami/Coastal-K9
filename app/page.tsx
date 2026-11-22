@@ -126,7 +126,7 @@ export default function Home() {
           <div>
             <span className="kicker">Nationwide · Food processing &amp; agriculture</span>
             <h2 id="h-nat">Nationwide K9 rodent detection and Norway rat burrow mitigation</h2>
-            <p>Beyond the CSRA, Coastal K9 supports more than 15 companies across the country with large-scale rodent mitigation — including complex Norway rat burrow systems that overwhelm conventional programs. We specialize in food processing and agricultural operations where documentation is critical and detection-driven precision is the difference between control and chronic reinfestation.</p>
+            <p>Beyond the CSRA, Coastal K9 provides large-scale rodent mitigation across the country — including complex Norway rat burrow systems that overwhelm conventional programs. We specialize in food processing and agricultural operations where documentation is critical and detection-driven precision is the difference between control and chronic reinfestation.</p>
             <div className="hero-ctas"><Link className="btn btn-primary" href="/nationwide-k9-rodent-detection/">Explore the nationwide program</Link><Link className="btn btn-outline-light" href="/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/">Burrow mitigation</Link></div>
           </div>
           <div dangerouslySetInnerHTML={{ __html: imgTag('ratsbig', 'Norway rats removed during a Coastal K9 commercial burrow mitigation project', { sizes: '(max-width: 860px) 100vw, 560px' }) }} />
