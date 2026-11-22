@@ -4,6 +4,7 @@ import '@fontsource/poppins/700.css';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import CredentialLogos from '@/components/CredentialLogos';
 import MobileBar from '@/components/MobileBar';
 import ClientEnhance from '@/components/ClientEnhance';
 import Analytics from '@/components/Analytics';
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Header />
         <main id="main">{children}</main>
+        <CredentialLogos />
         <Footer />
         <MobileBar />
         <ClientEnhance />

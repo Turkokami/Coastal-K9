@@ -156,18 +156,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section dark" aria-labelledby="h-cred">
-        <div className="wrap">
-          <div className="section-head">
-            <span className="kicker">Credentials</span>
-            <h2 id="h-cred">Nationally &amp; internationally certified</h2>
-            <p>Our founder’s detection credentials are held through recognized canine-detection authorities — verify each one directly.</p>
-          </div>
-          <div className="creds">
-            {SITE.credentials.map((c) => <a key={c.abbr} href={c.url} rel="noopener" target="_blank"><b>{c.abbr}</b><span>{c.name}</span></a>)}
-          </div>
-        </div>
-      </section>
 
       <section className="section soft" aria-labelledby="h-blog">
         <div className="wrap">
