@@ -349,7 +349,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .hero-media img[src*="facility-aerial"] { aspect-ratio: auto; height: auto; object-fit: contain; }
 
 /* Home page video banner: short strip on computers, full screen on phones */
-.video-banner { background: #000; line-height: 0; }
+.video-banner { background: #000; line-height: 0; position: relative; }
 .video-banner video { width: 100%; display: block; height: 320px; object-fit: cover; object-position: center 60%; }
 .vb-m { display: none !important; }
 /* Phones and small tablets: the video fills the whole screen below the header */
@@ -367,6 +367,10 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
   .photo-banner { gap: 2px; }
   .photo-banner img { height: 200px; }
 }
+
+/* Caption over a page video banner */
+.vb-caption { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; padding: 40px 20px 18px; line-height: 1.15; text-align: center; color: #fff; font-weight: 800; font-size: clamp(1.6rem, 4vw, 2.8rem); text-shadow: 0 2px 12px rgba(0,0,0,.8); background: linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,0)); pointer-events: none; }
+@media (max-width: 900px) { .vb-caption { top: 0; bottom: auto; padding: 22px 16px 48px; background: linear-gradient(to bottom, rgba(0,0,0,.65), rgba(0,0,0,0)); } }
 
 /* Home credentials: certification and membership logo rows (every tile the same size) */
 .logo-group { margin-top: 28px; }
