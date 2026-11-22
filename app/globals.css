@@ -376,4 +376,6 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .logo-row li { background: #fff; border-radius: var(--radius); height: 130px; display: flex; align-items: center; justify-content: center; padding: 14px; }
 .logo-row img { height: 96px; width: auto; max-width: 100%; object-fit: contain; }
 .logo-text { font-family: var(--font-h); font-weight: 800; font-size: 1.6rem; color: #0b1f38; letter-spacing: .02em; }
-@media (max-width: 600px) { .logo-row { gap: 6px; } .logo-row li { height: 66px; padding: 5px; border-radius: 10px; } .logo-row img { height: 52px; } .logo-text { font-size: .8rem; } }
+.logo-text small { display: block; font-size: .72rem; font-weight: 600; line-height: 1.2; letter-spacing: 0; text-align: center; margin-top: 4px; }
+.logo-text { text-align: center; }
+@media (max-width: 600px) { .logo-row { gap: 6px; } .logo-row li { height: 66px; padding: 5px; border-radius: 10px; } .logo-row img { height: 52px; } .logo-text { font-size: .8rem; } .logo-text small { font-size: .55rem; } }
