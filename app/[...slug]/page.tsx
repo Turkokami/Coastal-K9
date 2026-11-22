@@ -5,6 +5,7 @@ import { PAGES, getPage, renderBody, img, imgTag, related, plain, byKind, MEDIA,
 import { KIND_PARENT, SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import Hero from '@/components/Hero';
+import BannerVideo from '@/components/BannerVideo';
 import JsonLd from '@/components/JsonLd';
 import CtaBand from '@/components/CtaBand';
 import Byline from '@/components/Byline';
@@ -136,12 +137,18 @@ export default async function Route({ params }: { params: Promise<{ slug: string
 
   return (
     <>
-      {p.banner && p.banner.length ? (
+      {p.bannerVideo ? (
+        <div className="video-banner">
+          <video className="vb-d" src={`/video/${p.bannerVideo}-desktop.mp4`} poster={`/video/${p.bannerVideo}-poster.jpg`} muted loop playsInline preload="none" aria-label={p.bannerVideoLabel || ''} />
+          <video className="vb-m" src={`/video/${p.bannerVideo}-mobile.mp4`} poster={`/video/${p.bannerVideo}-poster.jpg`} muted loop playsInline preload="none" aria-label={p.bannerVideoLabel || ''} />
+          <BannerVideo />
+        </div>
+      ) : p.banner && p.banner.length ? (
         <div className="photo-banner">
           {p.banner.filter((n) => img(n)).map((n, i) => <span key={n} dangerouslySetInnerHTML={{ __html: imgTag(n, undefined, { eager: i === 0, sizes: '34vw' }) }} />)}
         </div>
       ) : null}
-      <Hero p={p} crumbs={crumbs} aside={p.banner && p.banner.length ? 'none' : p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
+      <Hero p={p} crumbs={crumbs} aside={p.bannerVideo || (p.banner && p.banner.length) ? 'none' : p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
       <div className={`wrap page${wide ? ' single' : ''}`}>
         <article className="content">
           {LONGFORM.has(p.kind) || p.kind === 'pest' ? <Byline modified={p.modified} label={p.kind === 'post' ? 'Written by' : 'Reviewed by'} /> : null}

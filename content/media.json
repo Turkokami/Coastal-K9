@@ -3642,5 +3642,41 @@
    }
   ],
   "orig": "kim-upload-2026-11-22"
+ },
+ "offshore-heliport-waiting-k9": {
+  "alt": "Coastal K9 bed bug detection dog resting in the heliport passenger waiting area",
+  "w": 960,
+  "h": 1280,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/offshore-heliport-waiting-k9-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/offshore-heliport-waiting-k9-960.webp"
+   }
+  ],
+  "orig": "kim-upload-2026-11-22"
+ },
+ "offshore-k9-portrait": {
+  "alt": "Coastal K9 bed bug detection dog at the heliport",
+  "w": 960,
+  "h": 1573,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 787,
+    "src": "/media/offshore-k9-portrait-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1573,
+    "src": "/media/offshore-k9-portrait-960.webp"
+   }
+  ],
+  "orig": "kim-upload-2026-11-22"
  }
 }
