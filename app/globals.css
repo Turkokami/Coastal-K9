@@ -348,12 +348,11 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 /* About page aerial: show the whole property, no cropping */
 .hero-media img[src*="facility-aerial"] { aspect-ratio: auto; height: auto; object-fit: contain; }
 
-/* Home page video banner strip */
+/* Home page video banner strip (phones use the same wide video as computers, shown whole) */
 .video-banner { background: #000; line-height: 0; }
 .video-banner video { width: 100%; display: block; height: 320px; object-fit: cover; object-position: center 60%; }
-@media (max-width: 900px) { .video-banner video { height: 320px; object-position: center center; } }
 .vb-m { display: none !important; }
-@media (max-width: 900px) { .vb-d { display: none !important; } .vb-m { display: block !important; } }
+@media (max-width: 900px) { .video-banner .vb-d { height: auto; aspect-ratio: 16 / 9; object-fit: cover; } }
 
 /* Home credentials: certification and membership logo rows (every tile the same size) */
 .logo-group { margin-top: 28px; }
