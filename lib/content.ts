@@ -11,7 +11,7 @@ export type Hero = {
 };
 export type Page = {
   path: string; slug: string; wpType: string; kind: string; title: string; description: string;
-  h1: string; hero: Hero; heroImage: string | null; body: string; faqs: { q: string; a: string }[];
+  h1: string; hero: Hero; heroImage: string | null; banner?: string[]; body: string; faqs: { q: string; a: string }[];
   toc: { id: string; text: string }[]; citations: { name: string; url: string }[]; images: string[];
   date: string; modified: string; excerpt: string; words: number; noindex: boolean;
   citySvc?: { service: string; city: string };
