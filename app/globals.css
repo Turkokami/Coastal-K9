@@ -347,3 +347,23 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .home-founder img { width: 100%; max-width: 360px; height: auto; border-radius: 16px; }
 /* About page aerial: show the whole property, no cropping */
 .hero-media img[src*="facility-aerial"] { aspect-ratio: auto; height: auto; object-fit: contain; }
+
+/* Home page video banner: short strip on computers, full screen on phones */
+.video-banner { background: #000; line-height: 0; }
+.video-banner video { width: 100%; display: block; height: 320px; object-fit: cover; object-position: center 60%; }
+.vb-m { display: none !important; }
+/* Phones and small tablets: the video fills the whole screen below the header */
+@media (max-width: 900px) {
+  .video-banner .vb-d { display: none !important; }
+  .video-banner .vb-m { display: block !important; height: calc(100vh - var(--hdr-h, 64px)); height: calc(100svh - var(--hdr-h, 64px)); object-fit: cover; object-position: center center; }
+}
+
+/* Home credentials: certification and membership logo rows (every tile the same size) */
+.logo-group { margin-top: 28px; }
+.cred-logos .logo-group:first-child { margin-top: 0; }
+.logo-group h3 { color: #fff; font-family: var(--font-h); font-size: 1.15rem; margin: 0 0 12px; }
+.logo-row { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.logo-row li { background: #fff; border-radius: var(--radius); height: 130px; display: flex; align-items: center; justify-content: center; padding: 14px; }
+.logo-row img { height: 96px; width: auto; max-width: 100%; object-fit: contain; }
+.logo-text { font-family: var(--font-h); font-weight: 800; font-size: 1.6rem; color: #0b1f38; letter-spacing: .02em; }
+@media (max-width: 600px) { .logo-row { gap: 6px; } .logo-row li { height: 66px; padding: 5px; border-radius: 10px; } .logo-row img { height: 52px; } .logo-text { font-size: .8rem; } }

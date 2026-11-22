@@ -6,6 +6,8 @@ import { pageGraph } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
 import InspectionForm from '@/components/InspectionForm';
 import CtaBand from '@/components/CtaBand';
+import BannerVideo from '@/components/BannerVideo';
+import CredentialLogos from '@/components/CredentialLogos';
 import { CardGrid } from '@/components/Related';
 
 const home = getPage('/')!;
@@ -45,32 +47,28 @@ export default function Home() {
   const posts = byKind('post').sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, 3);
   return (
     <>
+      <div className="video-banner">
+        <video className="vb-d" src="/video/banner-desktop.mp4" poster="/video/banner-poster.jpg" muted loop playsInline preload="none" aria-label="Coastal K9 detection dog searching a hotel room" />
+        <video className="vb-m" src="/video/banner-mobile.mp4" poster="/video/banner-poster.jpg" muted loop playsInline preload="none" aria-label="Coastal K9 detection dog searching a hotel room" />
+        <BannerVideo />
+      </div>
       <section className="hero">
         <div className="wrap hero-in">
           <div>
             <span className="eyebrow">Aiken, SC · Detection Before Treatment</span>
             <h1>Certified K9 Bed Bug, Rodent &amp; Wildlife Detection</h1>
             <p className="lead">{plain(home.hero.lead || '')}</p>
-            <ul className="badges">
-              <li>{SITE.rating.value}★ · {SITE.rating.count} reviews</li><li>NESDCA certified</li><li>FEMA-trained handler</li><li>Licensed technician</li><li>Family-owned</li>
-            </ul>
             <div className="hero-ctas">
-              <a className="btn btn-primary btn-lg" href={SITE.phoneHref}>Call {SITE.phone}</a>
-              <Link className="btn btn-outline-light btn-lg" href="/services/">See all services</Link>
+              <a className="btn btn-primary btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
+              <a className="btn btn-outline-light btn-lg" href={SITE.leaveReviewUrl} target="_blank" rel="noopener">Leave a Review</a>
             </div>
           </div>
           <div className="hero-card"><InspectionForm compact /></div>
         </div>
       </section>
 
-      <div className="trust" aria-label="Why customers trust us">
-        <ul className="wrap">
-          <li dangerouslySetInnerHTML={{ __html: icon('award') + ' Roots in FEMA US&amp;R canine work' }} />
-          <li dangerouslySetInnerHTML={{ __html: icon('dog') + ' 28+ years with working dogs' }} />
-          <li dangerouslySetInnerHTML={{ __html: icon('certificate') + ' NESDCA · WDDO · CPDA · ICRWDA' }} />
-          <li dangerouslySetInnerHTML={{ __html: icon('location-dot') + ' Windsor, SC — serving the CSRA &amp; Midlands' }} />
-        </ul>
-      </div>
+      <CredentialLogos onHome />
+
 
       <section className="section" aria-labelledby="h-div">
         <div className="wrap">
@@ -150,18 +148,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section dark" aria-labelledby="h-cred">
-        <div className="wrap">
-          <div className="section-head">
-            <span className="kicker">Credentials</span>
-            <h2 id="h-cred">Nationally &amp; internationally certified</h2>
-            <p>Our founder’s detection credentials are held through recognized canine-detection authorities — verify each one directly.</p>
-          </div>
-          <div className="creds">
-            {SITE.credentials.map((c) => <a key={c.abbr} href={c.url} rel="noopener" target="_blank"><b>{c.abbr}</b><span>{c.name}</span></a>)}
-          </div>
-        </div>
-      </section>
 
       <section className="section soft" aria-labelledby="h-blog">
         <div className="wrap">
