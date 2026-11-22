@@ -6,6 +6,7 @@ import { pageGraph } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
 import InspectionForm from '@/components/InspectionForm';
 import CtaBand from '@/components/CtaBand';
+import BannerVideo from '@/components/BannerVideo';
 import { CardGrid } from '@/components/Related';
 
 const home = getPage('/')!;
@@ -48,6 +49,7 @@ export default function Home() {
       <div className="video-banner">
         <video className="vb-d" src="/video/banner-desktop.mp4" poster="/video/banner-poster.jpg" autoPlay muted loop playsInline aria-label="Coastal K9 detection dog searching a hotel room" />
         <video className="vb-m" src="/video/banner-mobile.mp4" autoPlay muted loop playsInline aria-label="Coastal K9 detection dog searching a hotel room" />
+        <BannerVideo />
       </div>
       <section className="hero">
         <div className="wrap hero-in">
