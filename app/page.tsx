@@ -57,9 +57,6 @@ export default function Home() {
             <span className="eyebrow">Aiken, SC · Detection Before Treatment</span>
             <h1>Certified K9 Bed Bug, Rodent &amp; Wildlife Detection</h1>
             <p className="lead">{plain(home.hero.lead || '')}</p>
-            <ul className="badges">
-              <li>{SITE.rating.value}★ · {SITE.rating.count} reviews</li><li>NESDCA certified</li><li>FEMA-trained handler</li><li>Licensed technician</li><li>Family-owned</li>
-            </ul>
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
               <a className="btn btn-outline-light btn-lg" href={SITE.leaveReviewUrl} target="_blank" rel="noopener">Leave a Review</a>
@@ -71,14 +68,6 @@ export default function Home() {
 
       <CredentialLogos onHome />
 
-      <div className="trust" aria-label="Why customers trust us">
-        <ul className="wrap">
-          <li dangerouslySetInnerHTML={{ __html: icon('award') + ' Roots in FEMA US&amp;R canine work' }} />
-          <li dangerouslySetInnerHTML={{ __html: icon('dog') + ' 28+ years with working dogs' }} />
-          <li dangerouslySetInnerHTML={{ __html: icon('certificate') + ' NESDCA · WDDO · CPDA · ICRWDA' }} />
-          <li dangerouslySetInnerHTML={{ __html: icon('location-dot') + ' Windsor, SC — serving the CSRA &amp; Midlands' }} />
-        </ul>
-      </div>
 
       <section className="section" aria-labelledby="h-div">
         <div className="wrap">
