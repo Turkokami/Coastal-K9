@@ -358,16 +358,6 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
   .video-banner .vb-m { display: block !important; height: calc(100vh - var(--hdr-h, 64px)); height: calc(100svh - var(--hdr-h, 64px)); object-fit: cover; object-position: center center; }
 }
 
-/* Page photo banner (credentials page): three photos side by side on every screen size */
-.photo-banner { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; background: #000; line-height: 0; }
-.photo-banner img { width: 100%; height: 380px; display: block; object-fit: cover; object-position: center; }
-.photo-banner img[src*="offshore-platform"] { object-position: center 30%; }
-.photo-banner img[src*="helicopter-ride"] { object-position: center 10%; }
-@media (max-width: 900px) {
-  .photo-banner { gap: 2px; }
-  .photo-banner img { height: 200px; }
-}
-
 /* Home credentials: certification and membership logo rows (every tile the same size) */
 .logo-group { margin-top: 28px; }
 .cred-logos .logo-group:first-child { margin-top: 0; }

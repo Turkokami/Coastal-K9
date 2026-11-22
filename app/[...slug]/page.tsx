@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { PAGES, getPage, renderBody, img, imgTag, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, CROSS_LINKS, TOPICS, postTopic, PEST_GROUPS } from '@/lib/content';
+import { PAGES, getPage, renderBody, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, CROSS_LINKS, TOPICS, postTopic, PEST_GROUPS } from '@/lib/content';
 import { KIND_PARENT, SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import Hero from '@/components/Hero';
@@ -136,12 +136,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
 
   return (
     <>
-      {p.banner && p.banner.length ? (
-        <div className="photo-banner">
-          {p.banner.filter((n) => img(n)).map((n, i) => <span key={n} dangerouslySetInnerHTML={{ __html: imgTag(n, undefined, { eager: i === 0, sizes: '34vw' }) }} />)}
-        </div>
-      ) : null}
-      <Hero p={p} crumbs={crumbs} aside={p.banner && p.banner.length ? 'none' : p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
+      <Hero p={p} crumbs={crumbs} aside={p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
       <div className={`wrap page${wide ? ' single' : ''}`}>
         <article className="content">
           {LONGFORM.has(p.kind) || p.kind === 'pest' ? <Byline modified={p.modified} label={p.kind === 'post' ? 'Written by' : 'Reviewed by'} /> : null}
