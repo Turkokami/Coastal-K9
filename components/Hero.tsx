@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import BannerVideo from '@/components/BannerVideo';
 import { Page, imgTag, img, renderBody } from '@/lib/content';
 import { SITE } from '@/lib/site';
 import Breadcrumbs from './Breadcrumbs';
@@ -22,6 +23,7 @@ export default function Hero({ p, crumbs, aside = 'auto' }: { p: Page; crumbs: {
           <Breadcrumbs crumbs={crumbs} />
           {h.eyebrow ? <span className="eyebrow">{h.eyebrow}</span> : null}
           <h1 dangerouslySetInnerHTML={{ __html: h.h1 || p.h1 }} />
+          {p.heroVideo ? (<div className="hero-video"><video src={`/video/${p.heroVideo}.mp4`} poster={`/video/${p.heroVideo}-poster.jpg`} muted loop playsInline autoPlay preload="metadata" aria-label={p.heroVideoLabel || ''} /><BannerVideo /></div>) : null}
           {h.lead ? <div className="lead" dangerouslySetInnerHTML={{ __html: renderBody(h.lead.startsWith('<') ? h.lead : `<p>${h.lead}</p>`) }} /> : null}
           {h.badges && h.badges.length ? <ul className="badges">{h.badges.slice(0, 6).map((b) => <li key={b}>{b}</li>)}</ul> : null}
           <div className="hero-ctas">

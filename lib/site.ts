@@ -59,6 +59,7 @@ export const NAV: NavItem[] = [
       { label: 'K9 Rodent Detection', href: '/rodent-control/' },
       { label: 'Rat & Mouse Control', href: '/rat-mouse-control/' },
       { label: 'Repairs & Exclusion', href: '/repairs/' },
+      { label: 'Rodent Smoke Testing', href: '/rodent-smoke-testing/' },
       { label: 'Canada Goose Management', href: '/goose-control/' },
       { label: 'Bird Control & Exclusion', href: '/bird-exclusion/' },
       { label: 'Integrated Pest Management', href: '/pest-control/' },
