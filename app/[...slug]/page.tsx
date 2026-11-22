@@ -141,7 +141,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
           {p.banner.filter((n) => img(n)).map((n, i) => <span key={n} dangerouslySetInnerHTML={{ __html: imgTag(n, undefined, { eager: i === 0, sizes: '(max-width: 900px) 85vw, 34vw' }) }} />)}
         </div>
       ) : null}
-      <Hero p={p} crumbs={crumbs} aside={p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
+      <Hero p={p} crumbs={crumbs} aside={p.banner && p.banner.length ? 'none' : p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
       <div className={`wrap page${wide ? ' single' : ''}`}>
         <article className="content">
           {LONGFORM.has(p.kind) || p.kind === 'pest' ? <Byline modified={p.modified} label={p.kind === 'post' ? 'Written by' : 'Reviewed by'} /> : null}
