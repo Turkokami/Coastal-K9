@@ -19,6 +19,9 @@ export const SITE = {
     { label: 'Sunday', value: 'Closed', days: [], opens: '', closes: '' },
   ],
   rating: { value: '5.0', count: '22+' },
+  // Google reviews. Replace leaveReviewUrl with the Google Business Profile "Ask for reviews" link (g.page/r/...) when Kim sends it.
+  readReviewsUrl: 'https://www.google.com/maps/search/?api=1&query=Coastal+K9+and+Pest+Solutions+Windsor+SC',
+  leaveReviewUrl: 'https://www.google.com/maps/search/?api=1&query=Coastal+K9+and+Pest+Solutions+Windsor+SC',
   founder: {
     name: 'Kimberly Camera',
     jobTitle: 'Founder & Operations Field Director',

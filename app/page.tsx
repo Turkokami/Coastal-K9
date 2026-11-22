@@ -7,6 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import InspectionForm from '@/components/InspectionForm';
 import CtaBand from '@/components/CtaBand';
 import BannerVideo from '@/components/BannerVideo';
+import CredentialLogos from '@/components/CredentialLogos';
 import { CardGrid } from '@/components/Related';
 
 const home = getPage('/')!;
@@ -61,13 +62,15 @@ export default function Home() {
               <li>{SITE.rating.value}★ · {SITE.rating.count} reviews</li><li>NESDCA certified</li><li>FEMA-trained handler</li><li>Licensed technician</li><li>Family-owned</li>
             </ul>
             <div className="hero-ctas">
-              <a className="btn btn-primary btn-lg" href={SITE.phoneHref}>Call {SITE.phone}</a>
-              <Link className="btn btn-outline-light btn-lg" href="/services/">See all services</Link>
+              <a className="btn btn-primary btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
+              <a className="btn btn-outline-light btn-lg" href={SITE.leaveReviewUrl} target="_blank" rel="noopener">Leave a Review</a>
             </div>
           </div>
           <div className="hero-card"><InspectionForm compact /></div>
         </div>
       </section>
+
+      <CredentialLogos onHome />
 
       <div className="trust" aria-label="Why customers trust us">
         <ul className="wrap">

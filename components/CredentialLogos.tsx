@@ -1,3 +1,5 @@
+'use client';
+import { usePathname } from 'next/navigation';
 // Certification and professional membership logos, shown at the bottom of every page.
 const certs = [
   { src: '/media/logos/wddo.webp', alt: 'World Detector Dog Organization (WDDO)' },
@@ -12,7 +14,10 @@ const members = [
   { src: '/media/logos/npma.webp', alt: 'National Pest Management Association (NPMA)' },
 ];
 
-export default function CredentialLogos() {
+export default function CredentialLogos({ onHome = false }: { onHome?: boolean }) {
+  const path = usePathname();
+  // The home page shows these right under its top section, so skip the bottom band there.
+  if (!onHome && path === '/') return null;
   return (
     <section className="section dark cred-logos" aria-label="Certifications and professional memberships">
       <div className="wrap">
