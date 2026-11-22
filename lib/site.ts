@@ -116,7 +116,7 @@ export const NAV: NavItem[] = [
   {
     label: 'About', href: '/about/', children: [
       { label: 'About Us', href: '/about/' },
-      { label: 'Awards & Recognition', href: '/awards-and-recognition/' },
+      { label: 'Credentials You Can Trust', href: '/awards-and-recognition/' },
       { label: 'Media & Press', href: '/media-and-press/' },
       { label: 'Image Gallery', href: '/coastal-k9-image-gallery/' },
       { label: 'Video Library', href: '/k9-detection-video-library/' },
