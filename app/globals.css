@@ -359,8 +359,8 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .logo-group { margin-top: 28px; }
 .cred-logos .logo-group:first-child { margin-top: 0; }
 .logo-group h3 { color: #fff; font-family: var(--font-h); font-size: 1.15rem; margin: 0 0 12px; }
-.logo-row { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.logo-row { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .logo-row li { background: #fff; border-radius: var(--radius); height: 130px; display: flex; align-items: center; justify-content: center; padding: 14px; }
 .logo-row img { height: 96px; width: auto; max-width: 100%; object-fit: contain; }
 .logo-text { font-family: var(--font-h); font-weight: 800; font-size: 1.6rem; color: #0b1f38; letter-spacing: .02em; }
-@media (max-width: 600px) { .logo-row { gap: 8px; } .logo-row li { height: 80px; padding: 8px; } .logo-row img { height: 58px; } .logo-text { font-size: 1rem; } }
+@media (max-width: 600px) { .logo-row { gap: 6px; } .logo-row li { height: 66px; padding: 5px; border-radius: 10px; } .logo-row img { height: 52px; } .logo-text { font-size: .8rem; } }

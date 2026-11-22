@@ -3,6 +3,8 @@ const certs = [
   { src: '/media/logos/wddo.webp', alt: 'World Detector Dog Organization (WDDO)' },
   { src: '/media/logos/nesdca.webp', alt: 'NESDCA accredited bed bug detection team' },
   { src: '/media/logos/cpda.webp', alt: 'CPDA' },
+  { src: '/media/logos/icrwda.webp', alt: 'International Casino & Resort Working Dog Association (ICRWDA)' },
+  { src: '/media/logos/scapp.webp', alt: 'South Carolina Certified Commercial Pesticide Applicator' },
 ];
 const members = [
   { src: '/media/logos/scpca.webp', alt: 'South Carolina Pest Control Association' },
