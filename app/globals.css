@@ -379,3 +379,8 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .logo-text small { display: block; font-size: .72rem; font-weight: 600; line-height: 1.2; letter-spacing: 0; text-align: center; margin-top: 4px; }
 .logo-text { text-align: center; }
 @media (max-width: 600px) { .logo-row { gap: 6px; } .logo-row li { height: 66px; padding: 5px; border-radius: 10px; } .logo-row img { height: 52px; } .logo-text { font-size: .8rem; } .logo-text small { font-size: .55rem; } }
+
+/* Short clip under a page headline */
+.hero-video { margin: 18px 0 22px; max-width: 380px; }
+.hero-video video { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; background: #000; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+@media (max-width: 600px) { .hero-video { max-width: none; } }

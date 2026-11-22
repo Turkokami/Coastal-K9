@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 // and if blocked, start the banner on the visitor's first tap, scroll or key press.
 export default function BannerVideo() {
   useEffect(() => {
-    const vids = Array.from(document.querySelectorAll<HTMLVideoElement>('.video-banner video'));
+    const vids = Array.from(document.querySelectorAll<HTMLVideoElement>('.video-banner video, .hero-video video'));
     const start = () => vids.filter((v) => v.offsetParent !== null).forEach((v) => { v.muted = true; v.defaultMuted = true; v.setAttribute('muted', ''); v.setAttribute('playsinline', ''); const p = v.play(); if (p) p.catch(() => {}); });
     start();
     const evs = ['touchstart', 'click', 'scroll', 'keydown'];
