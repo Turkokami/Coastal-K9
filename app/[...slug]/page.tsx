@@ -138,7 +138,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
     <>
       {p.banner && p.banner.length ? (
         <div className="photo-banner">
-          {p.banner.filter((n) => img(n)).map((n, i) => <span key={n} dangerouslySetInnerHTML={{ __html: imgTag(n, undefined, { eager: i === 0, sizes: '(max-width: 900px) 85vw, 34vw' }) }} />)}
+          {p.banner.filter((n) => img(n)).map((n, i) => <span key={n} dangerouslySetInnerHTML={{ __html: imgTag(n, undefined, { eager: i === 0, sizes: '34vw' }) }} />)}
         </div>
       ) : null}
       <Hero p={p} crumbs={crumbs} aside={p.banner && p.banner.length ? 'none' : p.kind === 'pest' || p.kind === 'hub-blog' || p.kind === 'hub-pests' ? 'form' : 'auto'} />
