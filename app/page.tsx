@@ -14,25 +14,24 @@ const home = getPage('/')!;
 
 export const metadata: Metadata = {
   title: { absolute: 'K9 Bed Bug & Rodent Detection in Aiken, SC | Coastal K9' },
-  description: 'Certified K9 bed bug, rodent and wildlife detection in Aiken, North Augusta & the CSRA, with roots in FEMA search and rescue. Detection before treatment, every time.',
+  description: 'Certified K9 bed bug and rodent detection in Aiken, North Augusta & the CSRA, with roots in FEMA search and rescue. Detection before treatment, every time.',
   alternates: { canonical: '/' },
   openGraph: { url: '/', images: [{ url: '/brand/og-default.jpg' }] },
 };
 
 const DIVISIONS = [
   { href: '/bed-bug-control/', icon: 'bed', img: 'dog-insp-bb', title: 'K9 Bed Bug Detection', text: 'Certified dogs find live bugs and viable eggs room by room — discreet, documented and fast.' },
-  { href: '/rodent-control/', icon: 'shield-halved', img: 'img-9280', title: 'Rodent Detection & Exclusion', text: 'Dogs locate active harborage behind walls and below ground; then we seal entry points for good.' },
+  { href: '/rodent-control/', icon: 'shield-halved', img: 'img-4512', title: 'Rodent Detection & Exclusion', text: 'Dogs locate active harborage behind walls and below ground; then we seal entry points for good.' },
   { href: '/goose-control/', icon: 'feather', img: 'goose', title: 'Canada Goose Management', text: 'Humane, dog-powered hazing that reclaims HOAs, golf courses, parks and campuses.' },
   { href: '/bird-exclusion/', icon: 'crow', img: 'bird', title: 'Bird Control & Exclusion', text: 'Netting, wire and exclusion that keep pigeons and starlings off buildings — plus falconry abatement.' },
   { href: '/commercial-pest-control/', icon: 'building', img: 'img-20260603-143831', title: 'Commercial Programs', text: 'Documented, detection-driven programs for hotels, multifamily, food, healthcare and warehouses.' },
-  { href: '/nationwide-k9-rodent-detection/', icon: 'flag-usa', img: 'ratsbig', title: 'Nationwide Rodent Detection', text: 'Norway rat burrow mitigation for food processing and agriculture — supporting 15+ companies nationwide.' },
+  { href: '/nationwide-k9-rodent-detection/', icon: 'flag-usa', img: 'tunneling', title: 'Nationwide Rodent Detection', text: 'Norway rat burrow mitigation for food processing and agriculture operations across the country.' },
 ];
 
 const MORE = [
-  { href: '/bed-bug-treatment/', label: 'Bed Bug Treatment' }, { href: '/rat-mouse-control/', label: 'Rat & Mouse Control' },
-  { href: '/repairs/', label: 'Repairs & Exclusion' }, { href: '/pest-control/', label: 'Integrated Pest Management' },
+  { href: '/bed-bug-treatment/', label: 'Bed Bug Treatment' }, { href: '/pest-control/', label: 'Integrated Pest Management' },
   { href: '/spider-control/', label: 'Spider Control' }, { href: '/cockroach-control/', label: 'Cockroach Control' },
-  { href: '/falconry-bird-abatement/', label: 'Falconry Bird Abatement' }, { href: '/hoa-golf-course-goose-management/', label: 'HOA & Golf Goose Management' },
+  { href: '/mosquito-control/', label: 'Mosquito Control (No Fogging)' }, { href: '/bat-removal/', label: 'Bat Removal & Exclusion' },
 ];
 
 const AREAS: [string, string | null][] = [
@@ -56,7 +55,7 @@ export default function Home() {
         <div className="wrap hero-in">
           <div>
             <span className="eyebrow">Aiken, SC · Detection Before Treatment</span>
-            <h1>Certified K9 Bed Bug, Rodent &amp; Wildlife Detection</h1>
+            <h1>Certified K9 Bed Bug &amp; Rodent Detection</h1>
             <p className="lead">{plain(home.hero.lead || '')}</p>
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
@@ -73,9 +72,9 @@ export default function Home() {
       <section className="section" aria-labelledby="h-div">
         <div className="wrap">
           <div className="section-head">
-            <span className="kicker">One company, six K9 specialties</span>
+            <span className="kicker">One company, six specialties</span>
             <h2 id="h-div">What our certified detection teams handle</h2>
-            <p>Certified canine detection sits at the center of everything we do: the dog finds exactly where the problem is, so treatment is targeted, documented and effective the first time.</p>
+            <p>Every service starts the same way: a certified detection team confirms what is there and where, before anyone treats.</p>
           </div>
           <div className="cards">
             {DIVISIONS.map((d) => (
