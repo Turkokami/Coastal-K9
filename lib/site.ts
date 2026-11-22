@@ -28,7 +28,7 @@ export const SITE = {
     url: '/about/',
     image: 'kim1',
     summary:
-      'FEMA US&R-trained canine handler with 28+ years handling working dogs, 15 of them in detection; CPDA, WDDO and ICRWDA certified; licensed pest control technician.',
+      'FEMA US&R-trained canine handler with 28+ years handling working dogs, 15 of them in detection; CPDA and ICRWDA certified; licensed pest control technician.',
     sameAs: ['https://www.linkedin.com/in/kimberly-camera-7bb49b259/'],
   },
   social: [
@@ -37,8 +37,7 @@ export const SITE = {
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/kimberly-camera-7bb49b259/' },
   ],
   credentials: [
-    { abbr: 'WDDO', name: 'World Detection Dogs Organization', url: 'https://www.wddo.org/' },
-    { abbr: 'CPDA', name: 'Canine Professional Detection Association', url: 'https://www.caninepestdetection.org/' },
+    { abbr: 'CPDA', name: 'Canine Pest Detection Association', url: 'https://www.caninepestdetection.org/' },
     { abbr: 'ICRWDA', name: 'International Casino Resort Working Dogs Association', url: 'https://icrwda.org/' },
   ],
   logo: '/brand/logo.webp',
