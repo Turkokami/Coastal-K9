@@ -97,6 +97,12 @@ export const NAV: NavItem[] = [
     ],
   },
   {
+    label: 'Offshore & Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/', children: [
+      { label: 'Offshore & Oil Rig Inspections', href: '/offshore-oil-rig-bed-bug-inspections/' },
+      { label: 'Credentials You Can Trust', href: '/awards-and-recognition/' },
+    ],
+  },
+  {
     label: 'Service Areas', href: '/service-areas/', children: [
       { label: 'Aiken, SC', href: '/pest-control-aiken-south-carolina/' },
       { label: 'North Augusta, SC', href: '/pest-control-north-augusta-sc/' },
@@ -134,8 +140,8 @@ export const NAV: NavItem[] = [
 export const FOOTER_GROUPS = [
   { title: 'Residential', links: NAV[0].children!.slice(0, 12) },
   { title: 'Commercial & Nationwide', links: [...NAV[1].children!.slice(1, 8), { label: 'Nationwide K9 Rodent Detection', href: '/nationwide-k9-rodent-detection/' }] },
-  { title: 'Service Areas', links: NAV[3].children! },
-  { title: 'Company', links: [...NAV[4].children!, ...NAV[5].children!] },
+  { title: 'Service Areas', links: NAV[4].children! },
+  { title: 'Company', links: [...NAV[5].children!, ...NAV[6].children!] },
 ];
 
 // Breadcrumb parent per page kind
