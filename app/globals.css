@@ -165,6 +165,9 @@ a, button, summary, input, select, textarea { touch-action: manipulation; }
 .k-svclist, .k-signs, .k-list, .k-reg { list-style: none; padding: 0 !important; margin: 16px 0 22px; }
 .k-svclist li, .k-signs li, .k-list li, .k-reg li { position: relative; padding: 9px 0 9px 34px; border-bottom: 1px solid #edf3f5; margin: 0; }
 .k-svclist li::before, .k-list li::before { content: ''; position: absolute; left: 4px; top: 15px; width: 16px; height: 9px; border-left: 3px solid var(--teal-600); border-bottom: 3px solid var(--teal-600); transform: rotate(-45deg); }
+/* Video under a list item (Abatement dogs on the rodent page) */
+.k-abate-video { margin: 14px 0 6px; max-width: 640px; }
+.k-abate-video video { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); background: #000; }
 .k-signs li::before { content: '!'; position: absolute; left: 2px; top: 10px; width: 22px; height: 22px; border-radius: 50%; background: var(--amber); color: var(--navy-900); font-weight: 800; font-size: .8rem; display: grid; place-items: center; }
 .k-reg li::before { content: ''; position: absolute; left: 6px; top: 17px; width: 10px; height: 10px; border-radius: 2px; background: var(--teal-400); }
 .k-m-two { columns: 2; column-gap: 28px; }
