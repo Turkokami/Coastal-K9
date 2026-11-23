@@ -95,7 +95,7 @@ export function renderBody(html: string): string {
 
 // Generic, topic-relevant titles for the YouTube embeds (no published titles were available).
 const VIDEO_TITLES: Record<string, string> = {
-  x5htvQ2lEtE: 'K9 detection in action', LGmStZNv2dA: 'Our detection dogs at work', U0opRCsZjPQ: 'Inside a Coastal K9 inspection',
+  x5htvQ2lEtE: 'K9 detection in action', LGmStZNv2dA: 'Revolutionizing pest control with dogs: Kim Camera', U0opRCsZjPQ: 'Inside a Coastal K9 inspection',
   rXHDCYilQBQ: 'Pest Perspectives podcast: detection dogs for bed bugs, rodents and wildlife', H0NAGMj7Ir4: 'Behind the scenes at Coastal K9',
 };
 export function icon(name: string) {
