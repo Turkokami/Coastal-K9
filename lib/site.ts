@@ -97,7 +97,7 @@ export const NAV: NavItem[] = [
     ],
   },
   {
-    label: 'Offshore & Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/', children: [
+    label: 'Offshore Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/', children: [
       { label: 'Offshore & Oil Rig Inspections', href: '/offshore-oil-rig-bed-bug-inspections/' },
       { label: 'Credentials You Can Trust', href: '/awards-and-recognition/' },
     ],
