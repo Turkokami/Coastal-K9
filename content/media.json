@@ -3704,23 +3704,18 @@
  },
  "offshore-helideck-handler-spaniel": {
   "alt": "Coastal K9 handler and detection spaniel on an offshore platform helideck beside the crew helicopter",
-  "w": 1162,
-  "h": 1353,
+  "w": 868,
+  "h": 1448,
   "sizes": [
    {
     "w": 480,
-    "h": 559,
+    "h": 801,
     "src": "/media/offshore-helideck-handler-spaniel-480.webp"
    },
    {
-    "w": 960,
-    "h": 1118,
-    "src": "/media/offshore-helideck-handler-spaniel-960.webp"
-   },
-   {
-    "w": 1162,
-    "h": 1353,
-    "src": "/media/offshore-helideck-handler-spaniel-1162.webp"
+    "w": 868,
+    "h": 1448,
+    "src": "/media/offshore-helideck-handler-spaniel-868.webp"
    }
   ],
   "orig": "kim-upload-2026-11-23"
