@@ -133,6 +133,18 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section soft" aria-labelledby="h-off">
+        <div className="wrap split">
+          <div dangerouslySetInnerHTML={{ __html: imgTag('offshore-platform-aerial', 'Offshore oil platform in the Gulf, seen from the helicopter on the way to a K9 inspection', { sizes: '(max-width: 860px) 100vw, 560px' }) }} />
+          <div>
+            <span className="kicker">Offshore · Deepwater oil rigs</span>
+            <h2 id="h-off">Offshore oil rig bed bug inspections</h2>
+            <p>Bed bugs travel with crews. Our certified detection dogs work at the heliport, searching bags, buses and helicopters as crews come and go, so bed bugs never reach the platform. We also search where crews stay: float hotels, apartments and hotel rooms on land.</p>
+            <div className="hero-ctas"><Link className="btn btn-teal" href="/offshore-oil-rig-bed-bug-inspections/">Offshore oil rig inspections</Link><Link className="btn btn-light" href="/awards-and-recognition/">Our credentials</Link></div>
+          </div>
+        </div>
+      </section>
+
       <section className="section" aria-labelledby="h-area">
         <div className="wrap">
           <div className="section-head">
