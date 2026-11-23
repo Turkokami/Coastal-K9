@@ -365,6 +365,8 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 @media (max-width: 900px) { .photo-banner { grid-template-columns: 1.45fr 1fr 1fr; } .photo-banner img[src*="offshore-platform"] { object-position: 46% center; } }
 .photo-banner img[src*="helicopter-ride"] { object-position: center 10%; }
 .photo-banner img[src*="heliport-smile"] { object-position: center 35%; }
+.photo-banner img[src*="helideck-handler-spaniel"] { object-position: center 62%; }
+@media (max-width: 900px) { .photo-banner img[src*="helideck-handler-spaniel"] { object-position: 52% center; } }
 @media (max-width: 900px) {
   .photo-banner { gap: 2px; }
   .photo-banner img { height: 200px; }
