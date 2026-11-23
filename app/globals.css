@@ -69,7 +69,7 @@ a, button, summary, input, select, textarea { touch-action: manipulation; }
 .ddlist li:last-child a { color: var(--teal-700); }
 .nav-cta { display: flex; gap: 10px; align-items: center; }
 
-@media (max-width: 1460px) {
+@media (max-width: 1240px) {
   .topbar { display: none; }
   .nav-row { flex-wrap: nowrap; min-height: 64px; gap: 10px; }
   .brand img { width: 150px; }

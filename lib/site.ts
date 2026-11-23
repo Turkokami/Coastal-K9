@@ -51,59 +51,7 @@ export const SITE = {
 
 export type NavItem = { label: string; href: string; children?: { label: string; href: string }[] };
 
-export const NAV: NavItem[] = [
-  {
-    label: 'Residential', href: '/services/', children: [
-      { label: 'K9 Bed Bug Detection', href: '/bed-bug-control/' },
-      { label: 'Bed Bug Treatment', href: '/bed-bug-treatment/' },
-      { label: 'K9 Rodent Detection', href: '/rodent-control/' },
-      { label: 'Rat & Mouse Control', href: '/rat-mouse-control/' },
-      { label: 'Repairs & Exclusion', href: '/repairs/' },
-      { label: 'Rodent Smoke Testing', href: '/rodent-smoke-testing/' },
-      { label: 'Canada Goose Management', href: '/goose-control/' },
-      { label: 'Bird Control & Exclusion', href: '/bird-exclusion/' },
-      { label: 'Integrated Pest Management', href: '/pest-control/' },
-      { label: 'Spider Control', href: '/spider-control/' },
-      { label: 'Cockroach Control', href: '/cockroach-control/' },
-      { label: 'Mosquito Control (No Fogging)', href: '/mosquito-control/' },
-      { label: 'Bat Removal & Exclusion', href: '/bat-removal/' },
-      { label: 'All Services', href: '/services/' },
-    ],
-  },
-  {
-    label: 'Commercial', href: '/commercial-pest-control/', children: [
-      { label: 'Commercial Programs', href: '/commercial-pest-control/' },
-      { label: 'Hotels & Hospitality', href: '/hotels-hospitality-pest-control/' },
-      { label: 'Multifamily & Property Mgmt', href: '/multifamily-property-management-pest-control/' },
-      { label: 'Restaurants & Food Service', href: '/restaurant-food-service-pest-control/' },
-      { label: 'Warehouses & Distribution', href: '/warehouse-distribution-pest-control/' },
-      { label: 'Healthcare & Senior Living', href: '/healthcare-senior-living-pest-control/' },
-      { label: 'Food Processing & Manufacturing', href: '/food-processing-manufacturing-pest-control/' },
-      { label: 'Schools & Student Housing', href: '/schools-student-housing-pest-control/' },
-      { label: 'HOAs, Golf Courses & Campuses', href: '/hoa-golf-course-goose-management/' },
-      { label: 'Falconry Bird Abatement', href: '/falconry-bird-abatement/' },
-    ],
-  },
-  {
-    label: 'Nationwide Rodent', href: '/nationwide-k9-rodent-detection/', children: [
-      { label: 'Nationwide K9 Rodent Detection', href: '/nationwide-k9-rodent-detection/' },
-      { label: 'Food Processing Plants', href: '/nationwide-k9-rodent-detection/food-processing/' },
-      { label: 'Agriculture & Grain', href: '/nationwide-k9-rodent-detection/agriculture-grain/' },
-      { label: 'Norway Rat Burrow Mitigation', href: '/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/' },
-      { label: 'Multi-Site Programs', href: '/nationwide-k9-rodent-detection/multi-site-programs/' },
-      { label: 'Audit-Ready Documentation', href: '/nationwide-k9-rodent-detection/audit-documentation/' },
-      { label: 'Independent K9 Detection', href: '/independent-canine-detection/' },
-      { label: 'K9 Detection Accuracy', href: '/canine-scent-detection-accuracy/' },
-    ],
-  },
-  {
-    label: 'Offshore Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/', children: [
-      { label: 'Offshore & Oil Rig Inspections', href: '/offshore-oil-rig-bed-bug-inspections/' },
-      { label: 'Credentials You Can Trust', href: '/awards-and-recognition/' },
-    ],
-  },
-  {
-    label: 'Service Areas', href: '/service-areas/', children: [
+const SERVICE_AREAS = [
       { label: 'Aiken, SC', href: '/pest-control-aiken-south-carolina/' },
       { label: 'North Augusta, SC', href: '/pest-control-north-augusta-sc/' },
       { label: 'Graniteville, SC', href: '/pest-control-graniteville-sc/' },
@@ -116,8 +64,64 @@ export const NAV: NavItem[] = [
       { label: 'Augusta, GA', href: '/pest-control-augusta-ga/' },
       { label: 'Evans & Martinez, GA', href: '/pest-control-evans-ga/' },
       { label: 'All Service Areas', href: '/service-areas/' },
+    ];
+
+const COMMERCIAL = [
+  { label: 'Commercial Programs', href: '/commercial-pest-control/' },
+  { label: 'Hotels & Hospitality', href: '/hotels-hospitality-pest-control/' },
+  { label: 'Multifamily & Property Mgmt', href: '/multifamily-property-management-pest-control/' },
+  { label: 'Restaurants & Food Service', href: '/restaurant-food-service-pest-control/' },
+  { label: 'Warehouses & Distribution', href: '/warehouse-distribution-pest-control/' },
+  { label: 'Healthcare & Senior Living', href: '/healthcare-senior-living-pest-control/' },
+  { label: 'Food Processing & Manufacturing', href: '/food-processing-manufacturing-pest-control/' },
+  { label: 'Schools & Student Housing', href: '/schools-student-housing-pest-control/' },
+  { label: 'HOAs, Golf Courses & Campuses', href: '/hoa-golf-course-goose-management/' },
+  { label: 'Offshore Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/' },
+];
+
+// Menu is organised by the problem a customer has.
+export const NAV: NavItem[] = [
+  {
+    label: 'Bed Bugs', href: '/bed-bug-control/', children: [
+      { label: 'K9 Bed Bug Detection', href: '/bed-bug-control/' },
+      { label: 'Bed Bug Treatment', href: '/bed-bug-treatment/' },
+      { label: 'Hotels & Hospitality', href: '/hotels-hospitality-pest-control/' },
+      { label: 'Offshore Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/' },
+      { label: 'K9 Detection Accuracy', href: '/canine-scent-detection-accuracy/' },
     ],
   },
+  {
+    label: 'Rodents', href: '/rodent-control/', children: [
+      { label: 'K9 Rodent Detection', href: '/rodent-control/' },
+      { label: 'Rat & Mouse Control', href: '/rat-mouse-control/' },
+      { label: 'Rodent Smoke Testing', href: '/rodent-smoke-testing/' },
+      { label: 'Repairs & Exclusion', href: '/repairs/' },
+      { label: 'Nationwide Rodent Program', href: '/nationwide-k9-rodent-detection/' },
+      { label: 'Norway Rat Burrow Mitigation', href: '/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/' },
+      { label: 'Food Processing Plants', href: '/nationwide-k9-rodent-detection/food-processing/' },
+      { label: 'Agriculture & Grain', href: '/nationwide-k9-rodent-detection/agriculture-grain/' },
+    ],
+  },
+  {
+    label: 'Birds & Wildlife', href: '/goose-control/', children: [
+      { label: 'Canada Goose Management', href: '/goose-control/' },
+      { label: 'Bird Control & Exclusion', href: '/bird-exclusion/' },
+      { label: 'Falconry Bird Abatement', href: '/falconry-bird-abatement/' },
+      { label: 'Bat Removal & Exclusion', href: '/bat-removal/' },
+    ],
+  },
+  {
+    label: 'Pest Control', href: '/pest-control/', children: [
+      { label: 'Integrated Pest Management', href: '/pest-control/' },
+      { label: 'Spider Control', href: '/spider-control/' },
+      { label: 'Cockroach Control', href: '/cockroach-control/' },
+      { label: 'Mosquito Control (No Fogging)', href: '/mosquito-control/' },
+      { label: 'Pest Library', href: '/pest-library/' },
+      { label: 'All Services', href: '/services/' },
+    ],
+  },
+  { label: 'Commercial', href: '/commercial-pest-control/', children: COMMERCIAL },
+  { label: 'Service Areas', href: '/service-areas/', children: SERVICE_AREAS },
   {
     label: 'About', href: '/about/', children: [
       { label: 'About Us', href: '/about/' },
@@ -125,23 +129,18 @@ export const NAV: NavItem[] = [
       { label: 'Media & Press', href: '/media-and-press/' },
       { label: 'Image Gallery', href: '/coastal-k9-image-gallery/' },
       { label: 'Video Library', href: '/k9-detection-video-library/' },
-    ],
-  },
-  {
-    label: 'Resources', href: '/coastal-k9-blog/', children: [
       { label: 'Blog', href: '/coastal-k9-blog/' },
-      { label: 'Pest Library', href: '/pest-library/' },
       { label: 'Offers & Coupons', href: '/pest-control-coupons/' },
-      { label: 'Contact', href: '/contact/' },
+      { label: 'Contact Us', href: '/contact/' },
     ],
   },
 ];
 
 export const FOOTER_GROUPS = [
-  { title: 'Residential', links: NAV[0].children!.slice(0, 12) },
-  { title: 'Commercial & Nationwide', links: [...NAV[1].children!.slice(1, 8), { label: 'Nationwide K9 Rodent Detection', href: '/nationwide-k9-rodent-detection/' }] },
-  { title: 'Service Areas', links: NAV[4].children! },
-  { title: 'Company', links: [...NAV[5].children!, ...NAV[6].children!] },
+  { title: 'Residential', links: [...NAV[0].children!.slice(0, 2), ...NAV[1].children!.slice(0, 4), ...NAV[2].children!.slice(0, 2), ...NAV[3].children!.slice(0, 4)] },
+  { title: 'Commercial & Nationwide', links: [...COMMERCIAL.slice(1, 8), { label: 'Nationwide K9 Rodent Detection', href: '/nationwide-k9-rodent-detection/' }] },
+  { title: 'Service Areas', links: SERVICE_AREAS },
+  { title: 'Company', links: [...NAV[6].children!.slice(0, 5), { label: 'Blog', href: '/coastal-k9-blog/' }, { label: 'Pest Library', href: '/pest-library/' }, { label: 'Offers & Coupons', href: '/pest-control-coupons/' }, { label: 'Contact', href: '/contact/' }] },
 ];
 
 // Breadcrumb parent per page kind
