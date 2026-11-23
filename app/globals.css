@@ -363,6 +363,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .photo-banner img { width: 100%; height: 380px; display: block; object-fit: cover; object-position: center; }
 .photo-banner img[src*="offshore-platform"] { object-position: center 30%; }
 .photo-banner img[src*="helicopter-ride"] { object-position: center 10%; }
+.photo-banner img[src*="heliport-smile"] { object-position: center 35%; }
 @media (max-width: 900px) {
   .photo-banner { gap: 2px; }
   .photo-banner img { height: 200px; }

@@ -3678,5 +3678,28 @@
    }
   ],
   "orig": "kim-upload-2026-11-22"
+ },
+ "offshore-k9-heliport-smile": {
+  "alt": "Coastal K9 detection spaniel smiling on the heliport cart in front of the crew helicopter before an offshore inspection",
+  "w": 1086,
+  "h": 1448,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/offshore-k9-heliport-smile-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/offshore-k9-heliport-smile-960.webp"
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "src": "/media/offshore-k9-heliport-smile-1086.webp"
+   }
+  ],
+  "orig": "kim-upload-2026-11-23"
  }
 }
