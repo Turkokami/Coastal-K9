@@ -405,7 +405,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 @media (max-width: 600px) { .hero-video { max-width: none; } }
 .h1-kicker { display: block; font-size: .5em; line-height: 1.2; color: var(--teal-400, #4fd1c5); margin-bottom: .25em; }
 /* speaking engagement cards: conference logo, date, speaker line */
-.k-talklogo { height: 64px; display: flex; align-items: center; margin-bottom: 12px; }
-.k-talklogo img { max-height: 64px; max-width: 200px; width: auto; object-fit: contain; }
+.k-talklogo { min-height: 64px; height: 110px; display: flex; align-items: center; margin-bottom: 12px; }
+.k-talklogo img { max-height: 110px; height: 110px; max-width: 200px; width: auto; object-fit: contain; }
 .k-talklogo span { font-family: var(--font-h); font-weight: 800; font-size: 1.15rem; letter-spacing: .04em; color: var(--navy-900); border: 2px solid var(--line); border-radius: 8px; padding: 8px 14px; }
 .k-speaker { font-size: .95rem; margin: 6px 0; }
