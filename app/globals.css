@@ -376,6 +376,16 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
   .photo-banner img { height: 200px; }
 }
 
+/* Video banner with a photo beside it (nationwide page): video left, photo right on computers; stacked on phones */
+.video-banner.vb-split { display: grid; grid-template-columns: 1.4fr 1fr; gap: 4px; }
+.video-banner.vb-split video { height: 340px; object-position: center center; }
+.vb-photo img { width: 100%; height: 340px; display: block; object-fit: cover; object-position: center 55%; }
+@media (max-width: 900px) {
+  .video-banner.vb-split { grid-template-columns: 1fr; gap: 2px; }
+  .video-banner.vb-split .vb-m { height: 62svh; }
+  .vb-photo img { height: 300px; }
+}
+
 /* Caption over a page video banner */
 .vb-caption { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; padding: 40px 20px 18px; line-height: 1.15; text-align: center; color: #fff; font-weight: 800; font-size: clamp(1.6rem, 4vw, 2.8rem); text-shadow: 0 2px 12px rgba(0,0,0,.8); background: linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,0)); pointer-events: none; }
 @media (max-width: 900px) { .vb-caption { top: 0; bottom: auto; padding: 22px 16px 48px; background: linear-gradient(to bottom, rgba(0,0,0,.65), rgba(0,0,0,0)); } }
