@@ -3719,5 +3719,143 @@
    }
   ],
   "orig": "kim-upload-2026-11-23"
+ },
+ "rat-colony-1": {
+  "alt": "Several rats crowded along a dirty ledge beside pipes and a motor housing, droppings scattered on the ledge",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rat-colony-1-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rat-colony-1-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rat-colony-1-1280.webp"
+   }
+  ],
+  "orig": ""
+ },
+ "rat-colony-2": {
+  "alt": "A close view of the same colony, five rats packed between pipework and machinery",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rat-colony-2-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rat-colony-2-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rat-colony-2-1280.webp"
+   }
+  ],
+  "orig": ""
+ },
+ "rat-colony-3": {
+  "alt": "Two rats on a grimy ledge, one climbing down the side toward a pipe below",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rat-colony-3-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rat-colony-3-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rat-colony-3-1280.webp"
+   }
+  ],
+  "orig": ""
+ },
+ "rat-colony-4": {
+  "alt": "Close to a dozen rats crowded on and around a rusted motor housing inside equipment",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rat-colony-4-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rat-colony-4-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rat-colony-4-1280.webp"
+   }
+  ],
+  "orig": ""
+ },
+ "rat-burrow-5": {
+  "alt": "A rat peering out from a burrow opening in packed soil",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rat-burrow-5-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rat-burrow-5-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rat-burrow-5-1280.webp"
+   }
+  ],
+  "orig": ""
+ },
+ "rat-framing-6": {
+  "alt": "A rat looking out from a gap in the framing above a wooden beam",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/rat-framing-6-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/rat-framing-6-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/rat-framing-6-1280.webp"
+   }
+  ],
+  "orig": ""
  }
 }

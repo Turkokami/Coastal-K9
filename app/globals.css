@@ -410,3 +410,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .k-talklogo span { font-family: var(--font-h); font-weight: 800; font-size: 1.15rem; letter-spacing: .04em; color: var(--navy-900); border: 2px solid var(--line); border-radius: 8px; padding: 8px 14px; }
 .k-speaker { font-size: .95rem; margin: 6px 0; }
 .k-talk h3 { font-size: 1.05rem; line-height: 1.35; }
+/* rodent page: field photo grid */
+.k-ratpics { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 20px 0 32px; }
+.k-ratpics figure { margin: 0; }
+.k-ratpics img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 10px; display: block; }
