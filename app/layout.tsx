@@ -10,6 +10,8 @@ import MobileBar from '@/components/MobileBar';
 import ClientEnhance from '@/components/ClientEnhance';
 import Analytics from '@/components/Analytics';
 import { SITE } from '@/lib/site';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -32,6 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <MobileBar />
         <ClientEnhance />
         <Analytics />
+        {/* Vercel Web Analytics and Speed Insights: first-party, cookieless. */}
+        <VercelAnalytics />
+        <SpeedInsights />
       </body>
     </html>
   );
