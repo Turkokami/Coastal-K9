@@ -48,6 +48,6 @@ TBT 70–210 ms, CLS ≤ 0.04, LCP 1.2–2.8 s (gallery ~3.6 s). Re-check field 
 It reads the live `https://ck9ps.com/sitemap.xml` and submits only pages that are new or whose `lastmod` moved
 forward to IndexNow (Bing, Yandex, Seznam, Naver). The key file is `public/2e43307a92d89e735f345960a373c235.txt` — public
 by design, it proves control of the host; delete it and every submission is rejected. What was already submitted is
-recorded on the `indexnow-state` branch, so the bot never commits to `main` (Vercel is told not to deploy that branch).
+recorded on the `indexnow-state` branch, so the bot never commits to `main` (that branch carries its own vercel.json that turns Vercel deploys off).
 By hand: `npm run indexnow` (`-- --dry` to preview, `-- --all` to resubmit everything).
 **Google does not use IndexNow** — for Google it is the sitemap plus Request Indexing in Search Console.

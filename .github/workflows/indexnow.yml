@@ -11,8 +11,8 @@
 # 2. THE STATE IS NOT COMMITTED TO MAIN. The record of what was submitted lives
 #    on its own branch, `indexnow-state` (one file, one commit, overwritten each
 #    time). That keeps bot commits off main, so nobody has to pull them and they
-#    never trigger a production deploy; vercel.json stops Vercel deploying the
-#    state branch itself.
+#    never trigger a production deploy; a vercel.json on that branch stops Vercel
+#    deploying the state branch itself.
 #
 # GOOGLE IS NOT IN HERE. Google does not participate in IndexNow. For Google the
 # mechanism is the sitemap, which every build regenerates, and Search Console.
@@ -82,11 +82,14 @@ jobs:
           fi
           dir="$(mktemp -d)"
           cp .indexnow-state.json "$dir/indexnow-state.json"
+          # Vercel reads vercel.json from the commit it is about to deploy, so the
+          # state branch carries its own "don't deploy me" (main's copy can't reach it).
+          echo '{ "git": { "deploymentEnabled": false } }' > "$dir/vercel.json"
           cd "$dir"
           git init -q -b indexnow-state
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add indexnow-state.json
+          git add indexnow-state.json vercel.json
           git commit -qm "IndexNow: record submitted URLs"
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:indexnow-state
           echo "state saved to the indexnow-state branch"

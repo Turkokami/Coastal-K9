@@ -31,7 +31,7 @@
  *
  * WHERE THE STATE LIVES. The GitHub workflow keeps it on its own branch,
  * `indexnow-state`, not on main — so the bot never commits to main (no extra
- * production deploys, nothing for anyone to pull) and vercel.json tells Vercel
+ * production deploys, nothing for anyone to pull), and a vercel.json on that branch tells Vercel
  * not to deploy that branch. See .github/workflows/indexnow.yml.
  */
 import fs from 'node:fs';
