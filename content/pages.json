@@ -16253,5 +16253,61 @@
 "rewritten": false,
 "heroVideo": "smoke-test",
 "heroVideoLabel": "FogTrace fog escaping from a drain line under a sink during a rodent smoke test"
+},
+{
+"path": "/fly-control/",
+"slug": "fly-control",
+"wpType": "service",
+"kind": "service",
+"title": "Fly Control in Aiken, SC | Cluster, Drain & House Flies",
+"description": "Fly control for homes and businesses: house flies, drain flies, fruit flies, cluster flies and blow flies. We find the breeding source and stop flies at the source. Call 803-226-3155.",
+"h1": "Fly Control",
+"hero": {
+"eyebrow": "Residential and commercial · Flies",
+"h1": "<span class=\"h1-kicker\">Fly Control</span> Stop flies where they start.",
+"lead": "House flies, drain flies, fruit flies, cluster flies and blow flies. We find the source and shut it down.",
+"meta": "<strong>Call <a href=\"tel:8032263155\">803-226-3155</a></strong> · Family-owned · Homes & businesses",
+"badges": [],
+"ctas": [
+{
+"label": "803-226-3155",
+"href": "tel:8032263155"
+},
+{
+"label": "Call 803-226-3155",
+"href": "tel:8032263155"
+},
+{
+"label": "Request Service",
+"href": "/contact/"
+}
+]
+},
+"heroImage": null,
+"body": "<div class=\"k-intro\"><p>Flies are one of our specialties. House flies, drain flies, fruit flies, cluster flies and blow flies each come from a different source, and each needs a different fix. Coastal K9 and Pest Solutions starts every fly call by identifying the fly and tracking down where it is breeding. Then we remove the source and close the way in, so the problem stops instead of coming back next week.</p></div>\n<h2 id=\"flies-we-handle\">Flies we handle</h2>\n<div class=\"k-pest\">\n<h3>House flies</h3><p>Gray flies about a quarter inch long that breed in garbage, dumpsters, compost, manure and grease traps. A lot of house flies usually means a breeding spot close by. <a href=\"/pest-library/house-fly/\">House fly profile.</a></p>\n<h3>Drain flies</h3><p>Tiny, fuzzy, moth-like flies that rest on bathroom and kitchen walls. They breed in the slimy film that builds up inside drains, so spraying the room does little. Cleaning out that film is what ends them.</p>\n<h3>Fruit flies</h3><p>Small tan flies with red eyes, drawn to ripe produce, spilled drinks, recycling bins, mop buckets and dirty drains. Common in kitchens, bars and restaurants.</p>\n<h3>Cluster flies</h3><p>Larger, slow dark gray flies that pile up in attics and on upstairs windows in the fall and late winter. They do not breed indoors. See the cluster fly fact sheet below.</p>\n<h3>Blow flies</h3><p>Shiny metallic green or blue flies. A sudden swarm indoors often points to a dead animal in a wall, attic or crawl space. We track down the source.</p>\n</div>\n<h2 id=\"how-we-treat-flies\">How we treat flies</h2>\n<ul class=\"k-list\">\n<li>Identify the fly species</li>\n<li>Find and remove the breeding source</li>\n<li>Seal gaps, screens and vents where flies get in</li>\n<li>Targeted treatment only where it is needed</li>\n<li>Homes, restaurants, food service and commercial facilities</li>\n</ul>\n<h2 id=\"cluster-fly-fact-sheet\">Cluster fly fact sheet</h2>\n<table class=\"k-cmp\"><thead><tr><th>Topic</th><th>What to know</th></tr></thead><tbody>\n<tr><th>Appearance</th><td>Bigger than a house fly and dark gray, without a metallic shine. Golden hairs cover the body.</td></tr>\n<tr><th>Life cycle</th><td>In summer, females lay eggs one at a time in small cracks in the soil. The eggs hatch in about three days. The maggots live as parasites inside earthworms for roughly two to three weeks, then spend about another two weeks as pupae. The whole cycle takes only a few months.</td></tr>\n<tr><th>Outdoors</th><td>Adults spend the warm months around flowers and fruit.</td></tr>\n<tr><th>Fall and winter</th><td>In the fall they slip into buildings, one fly at a time, and gather to wait out the winter. They favor the upper floors and attics, hiding in corners, along closet edges, behind curtains, pictures and furniture. On sunny winter days they crowd onto window sills trying to get back outside.</td></tr>\n<tr><th>Spring</th><td>This is when most people notice them, as large numbers come out of hiding to leave the building.</td></tr>\n<tr><th>Risk</th><td>A nuisance only. Cluster flies do not bite, do not harm people and do not damage your home.</td></tr>\n<tr><th>Prevention</th><td>Keep them out before fall: screen windows and attic vents, and weather-strip doors and windows.</td></tr>\n<tr><th>Removal</th><td>Vacuum up flies that get inside, seal the vacuum bag in a container and put it in an outdoor trash can. Once they are in the walls there is no quick fix, which is why sealing entry points matters most.</td></tr>\n<tr><th>Treatment</th><td>Insecticide is only worth using when numbers are very large, and then only where the flies are getting in and where they are hiding.</td></tr>\n</tbody></table>\n<p class=\"k-podmeta\">Source: <a href=\"https://hgic.clemson.edu/factsheet/cluster-flies/\" rel=\"noopener\">Cluster Flies, HGIC 2415</a>, Home &amp; Garden Information Center, Clemson Cooperative Extension.</p>\n<div class=\"k-band\"><h2 id=\"get-rid-of-flies\">Get rid of flies for good</h2><p>Call or text, and we will find where your flies are coming from.</p><a href=\"tel:8032263155\">Call 803-226-3155</a></div>",
+"faqs": [],
+"toc": [
+{
+"id": "flies-we-handle",
+"text": "Flies we handle"
+},
+{
+"id": "how-we-treat-flies",
+"text": "How we treat flies"
+},
+{
+"id": "cluster-fly-fact-sheet",
+"text": "Cluster fly fact sheet"
+}
+],
+"citations": [],
+"images": [],
+"date": "2026-11-25T17:00:00",
+"modified": "2026-11-25T17:00:00",
+"excerpt": "Fly control for homes and businesses in South Carolina: house, drain, fruit, cluster and blow flies. We find the breeding source and stop it. Call 803-226-3155.",
+"words": 570,
+"noindex": false,
+"fixedScript": false,
+"rewritten": false
 }
 ]

@@ -116,6 +116,7 @@ export const NAV: NavItem[] = [
       { label: 'Spider Control', href: '/spider-control/' },
       { label: 'Cockroach Control', href: '/cockroach-control/' },
       { label: 'Mosquito Control (No Fogging)', href: '/mosquito-control/' },
+      { label: 'Fly Control', href: '/fly-control/' },
       { label: 'Pest Library', href: '/pest-library/' },
       { label: 'All Services', href: '/services/' },
     ],
