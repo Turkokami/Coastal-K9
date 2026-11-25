@@ -3741,5 +3741,28 @@
     "src": "/media/bed-bugs-jar-1280.webp"
    }
   ]
+ },
+ "bed-bug-signs": {
+  "alt": "Bed bug signs we look for: fecal spots, cast skins, a live adult in a mattress zipper and a freshly fed nymph",
+  "w": 1448,
+  "h": 1708,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 566,
+    "src": "/media/bed-bug-signs-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1132,
+    "src": "/media/bed-bug-signs-960.webp"
+   },
+   {
+    "w": 1448,
+    "h": 1708,
+    "src": "/media/bed-bug-signs-1448.webp"
+   }
+  ],
+  "orig": "kim-upload-2026-11-25"
  }
 }
