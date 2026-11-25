@@ -197,7 +197,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
           <InspectionForm commercial heading={p.kind === 'nationwide' ? 'Scope a nationwide rodent program' : 'Request a commercial assessment'} />
         </div></section>
       ) : null}
-      {rel.length && !wide ? <Related title={RELATED_TITLE[p.kind] || 'Related'} pages={rel} /> : null}
+      {rel.length && !wide && !(/bed.?bug/i.test(p.path) && p.body.includes('id="related-services"')) ? <Related title={RELATED_TITLE[p.kind] || 'Related'} pages={rel} /> : null}
       <CtaBand />
       <JsonLd data={pageGraph(p, crumbs)} />
     </>

@@ -145,7 +145,11 @@ export function related(p: Page, n = 6): Page[] {
   else if (p.kind === 'post') { const t = postTopic(p); const all = pool('post'); list = [...all.filter((x) => postTopic(x) === t), ...all.filter((x) => postTopic(x) !== t)]; }
   else if (p.kind === 'commercial') list = pool('commercial');
   else if (p.kind === 'nationwide') list = pool('nationwide');
-  else if (p.kind === 'service') list = pool('service');
+  else if (p.kind === 'service') {
+    // bed bug services only show on bed bug pages (Kim, Nov 2026: keep bed bugs off the bat removal page etc.)
+    const bb = (x: Page) => /bed.?bug/i.test(x.path);
+    list = pool('service').filter((x) => bb(x) === bb(p) || bb(p));
+  }
   const seen = new Set<string>();
   return list.filter((x) => (seen.has(x.path) ? false : (seen.add(x.path), true))).slice(0, n);
 }
