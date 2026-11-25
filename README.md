@@ -42,3 +42,12 @@ A clean run is the mechanical subset only — the human review still has to be d
 ## Lab performance (Lighthouse mobile, local `next start`, Nov 2026)
 Home 99 · service 92–95 · city/neighborhood 97 · pest library 96 · about 97 · gallery 89–94.
 TBT 70–210 ms, CLS ≤ 0.04, LCP 1.2–2.8 s (gallery ~3.6 s). Re-check field data (INP/LCP) at 28 days after cutover.
+
+## IndexNow (Bing instant indexing)
+`.github/workflows/indexnow.yml` runs after every push to `main` that can change a page, and daily at 07:00 UTC.
+It reads the live `https://ck9ps.com/sitemap.xml` and submits only pages that are new or whose `lastmod` moved
+forward to IndexNow (Bing, Yandex, Seznam, Naver). The key file is `public/2e43307a92d89e735f345960a373c235.txt` — public
+by design, it proves control of the host; delete it and every submission is rejected. What was already submitted is
+recorded on the `indexnow-state` branch, so the bot never commits to `main` (Vercel is told not to deploy that branch).
+By hand: `npm run indexnow` (`-- --dry` to preview, `-- --all` to resubmit everything).
+**Google does not use IndexNow** — for Google it is the sitemap plus Request Indexing in Search Console.

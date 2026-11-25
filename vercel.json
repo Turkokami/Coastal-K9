@@ -39,5 +39,10 @@
         }
       ]
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "indexnow-state": false
+    }
+  }
 }

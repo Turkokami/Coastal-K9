@@ -11,3 +11,6 @@ __pycache__/
 /public/llms-full.txt
 /public/**/*.md
 !/public/**/README.md
+
+# IndexNow submission record (kept on the indexnow-state branch, not here)
+.indexnow-state.json

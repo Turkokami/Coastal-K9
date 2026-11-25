@@ -1,0 +1,92 @@
+# Tell Bing about new and changed ck9ps.com pages, without anybody remembering to.
+#
+# Adapted from the Bellingham Sasquatch site's workflow, with two differences:
+#
+# 1. NO BUILD. scripts/indexnow.mjs reads the LIVE sitemap at
+#    https://ck9ps.com/sitemap.xml, so it only submits what is actually
+#    published. On a push it first waits for Vercel to put the new deploy live
+#    (builds here take well under a minute); the daily run is the safety net
+#    for a deploy that took longer.
+#
+# 2. THE STATE IS NOT COMMITTED TO MAIN. The record of what was submitted lives
+#    on its own branch, `indexnow-state` (one file, one commit, overwritten each
+#    time). That keeps bot commits off main, so nobody has to pull them and they
+#    never trigger a production deploy; vercel.json stops Vercel deploying the
+#    state branch itself.
+#
+# GOOGLE IS NOT IN HERE. Google does not participate in IndexNow. For Google the
+# mechanism is the sitemap, which every build regenerates, and Search Console.
+
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      # Only what can change a published URL. A README edit should not run this.
+      - 'app/**'
+      - 'components/**'
+      - 'content/**'
+      - 'lib/**'
+      - 'public/**'
+      - 'scripts/**'
+      - 'next.config.mjs'
+      - 'proxy.ts'
+      - 'package.json'
+  schedule:
+    # 07:00 UTC — 2–3 a.m. in South Carolina, after any evening deploy has settled.
+    - cron: '0 7 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  # Two runs submitting at once would race on the state.
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    permissions:
+      # Writes the state file to the indexnow-state branch.
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Load what was submitted last time
+        run: |
+          if git fetch --depth=1 origin indexnow-state 2>/dev/null; then
+            git show FETCH_HEAD:indexnow-state.json > .indexnow-state.json
+            echo "loaded state from the indexnow-state branch"
+          else
+            echo "no state branch yet — every URL counts as new (first run)"
+          fi
+
+      - name: Wait for Vercel to put this push live
+        if: github.event_name == 'push'
+        run: sleep 180
+
+      - name: Submit new and changed URLs
+        run: |
+          [ -f .indexnow-state.json ] && cp .indexnow-state.json /tmp/before.json || echo '' > /tmp/before.json
+          node scripts/indexnow.mjs --state .indexnow-state.json
+
+      - name: Record what was submitted
+        run: |
+          if [ ! -f .indexnow-state.json ] || cmp -s .indexnow-state.json /tmp/before.json; then
+            echo "no state change — nothing was submitted"
+            exit 0
+          fi
+          dir="$(mktemp -d)"
+          cp .indexnow-state.json "$dir/indexnow-state.json"
+          cd "$dir"
+          git init -q -b indexnow-state
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add indexnow-state.json
+          git commit -qm "IndexNow: record submitted URLs"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:indexnow-state
+          echo "state saved to the indexnow-state branch"
