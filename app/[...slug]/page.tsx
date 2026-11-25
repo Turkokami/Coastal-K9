@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { PAGES, getPage, renderBody, img, imgTag, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, CROSS_LINKS, TOPICS, postTopic, PEST_GROUPS } from '@/lib/content';
+import { PAGES, getPage, renderBody, img, imgTag, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, CROSS_LINKS, TOPICS, postTopic, PEST_GROUPS, mapFacade } from '@/lib/content';
 import { KIND_PARENT, SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import Hero from '@/components/Hero';
@@ -79,9 +79,9 @@ export default async function Route({ params }: { params: Promise<{ slug: string
             <div dangerouslySetInnerHTML={{ __html: body }} />
             <h2>Visit or write to us</h2>
             <p><b>{SITE.name}</b><br />{SITE.address.street}, {SITE.address.city}, {SITE.address.region} {SITE.address.zip}<br />
-              <a href={SITE.phoneHref}>{SITE.phone}</a> · <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
-            <p>{SITE.hours.map((h) => `${h.label}: ${h.value}`).join(' · ')}</p>
-            <iframe loading="lazy" title="Map: Coastal K9 and Pest Solutions, Windsor SC" src="https://www.google.com/maps?q=320+Wendy+Lane,+Windsor,+SC+29856&output=embed" style={{ width: '100%', minHeight: 360, border: 0, borderRadius: 14 }} />
+              Phone <a href={SITE.phoneHref}>{SITE.phone}</a><br />Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+            <p>{SITE.hours.map((h, i) => <span key={h.label}>{i > 0 ? <br /> : null}{h.label}: {h.value}</span>)}</p>
+            <div dangerouslySetInnerHTML={{ __html: mapFacade('https://www.google.com/maps?q=320+Wendy+Lane,+Windsor,+SC+29856&output=embed', 'Map: Coastal K9 and Pest Solutions, Windsor SC', `${SITE.address.street}, ${SITE.address.city}, ${SITE.address.region} ${SITE.address.zip}`, 'https://www.google.com/maps/search/?api=1&query=320+Wendy+Lane,+Windsor,+SC+29856') }} />
           </article>
         </div>
         <JsonLd data={pageGraph(p, crumbs)} />
@@ -164,7 +164,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
             </section>
           ) : null}
           {p.kind === 'pest' ? (
-            <p><Link href="/pest-library/">← Back to the pest library</Link></p>
+            <p><Link href="/pest-library/">Back to the pest library</Link></p>
           ) : null}
         </article>
         {wide ? null : (

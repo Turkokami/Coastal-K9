@@ -10,11 +10,34 @@ export default function ClientEnhance() {
     const nc = document.getElementById('navcheck') as HTMLInputElement | null; if (nc) nc.checked = false;
     const onClick = (e: MouseEvent) => {
       const t = e.target as HTMLElement;
-      // YouTube facade
-      const yt = t.closest('.k-yt') as HTMLElement | null;
+      // YouTube click-to-load: the player is only requested after the visitor presses Play
+      const ytBtn = t.closest('.k-yt-play');
+      const yt = ytBtn?.closest('.k-yt') as HTMLElement | null;
       if (yt && !yt.querySelector('iframe')) {
-        const id = yt.dataset.yt;
-        yt.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" title="${yt.dataset.title || 'Coastal K9 video'}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+        const id = (yt.dataset.yt || '').replace(/[^\w-]/g, '');
+        const f = document.createElement('iframe');
+        f.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+        f.title = yt.dataset.title || 'Coastal K9 video';
+        f.allow = 'autoplay; encrypted-media; picture-in-picture';
+        f.allowFullscreen = true;
+        yt.classList.add('is-loaded');
+        yt.replaceChildren(f);
+        f.focus();
+        return;
+      }
+      // Google Maps click-to-load
+      const mapBtn = t.closest('.k-map-show');
+      const map = mapBtn?.closest('.k-map') as HTMLElement | null;
+      if (map && !map.querySelector('iframe') && map.dataset.src?.startsWith('https://www.google.com/maps')) {
+        const f = document.createElement('iframe');
+        f.src = map.dataset.src;
+        f.title = map.dataset.title || 'Map';
+        f.loading = 'lazy';
+        map.classList.add('is-loaded');
+        map.querySelector('.k-map-btns')?.before(f);
+        mapBtn!.remove();
+        map.querySelector('.k-map-note')?.remove();
+        f.focus();
         return;
       }
       // one dropdown open at a time; close when clicking outside

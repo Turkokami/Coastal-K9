@@ -6,7 +6,7 @@ export default function Byline({ modified, label = 'Written & reviewed by' }: { 
     <div className="byline">
             <div>
         <div>{label} <Link href="/about/"><b>{SITE.name}</b></Link></div>
-        <div className="byline-sub">FEMA US&amp;R roots · CPDA · ICRWDA{d ? <> · Updated <time dateTime={d.toISOString().slice(0, 10)}>{d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time></> : null}</div>
+        <div className="byline-sub">FEMA US&amp;R roots, CPDA and ICRWDA certified.{d ? <> Updated <time dateTime={d.toISOString().slice(0, 10)}>{d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>.</> : null}</div>
       </div>
     </div>
   );

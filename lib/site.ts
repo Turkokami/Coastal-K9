@@ -8,7 +8,7 @@ export const SITE = {
   formerName: 'Urban Canine Pest & Wildlife Solutions (UCPaWS)',
   alternateNames: ['Urban Canine Pest & Wildlife Solutions', 'Urban Canine Pest and Wildlife Solutions', 'UCPaWS'],
   renamePath: '/ucpaws/',
-  tagline: 'Detection Before Treatment. Every Time.',
+  tagline: 'Detection comes before treatment, every time.',
   phone: '803-226-3155',
   phoneHref: 'tel:+18032263155',
   email: 'Kim@ck9ps.com',

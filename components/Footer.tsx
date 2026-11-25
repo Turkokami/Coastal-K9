@@ -32,13 +32,16 @@ export default function Footer() {
         ))}
       </div>
       <div className="wrap foot-creds">
-        <span>Credentials:</span>
-        {SITE.credentials.map((c) => (<a key={c.abbr} href={c.url} rel="noopener" target="_blank" title={c.name}>{c.abbr}</a>))}
-        <span>· FEMA US&amp;R-trained handler · Licensed pest control technician</span>
+        <p>
+          Credentials: {SITE.credentials.map((c, i) => (
+            <span key={c.abbr}>{i > 0 ? ' and ' : ''}<a href={c.url} rel="noopener" target="_blank" title={c.name}>{c.abbr}</a></span>
+          ))} certification, a FEMA US&amp;R-trained handler and a licensed pest control technician.
+        </p>
       </div>
       <div className="wrap foot-legal">
         <span>© {year} {SITE.name}. All rights reserved.</span>
         <span>K9 detection, bed bug &amp; rodent control serving Aiken, the CSRA &amp; the SC Midlands — nationwide K9 rodent detection for commercial clients.</span>
+        <button type="button" className="foot-linkbtn" data-analytics-choices>Analytics choices</button>
       </div>
     </footer>
   );

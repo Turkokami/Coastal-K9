@@ -14,7 +14,11 @@ export default function InspectionForm({ compact = false, heading = 'Request an 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
-    const data = Object.fromEntries(new FormData(form).entries());
+    const fd = new FormData(form);
+    // Honeypot: people never see this field, so clear anything a password manager or autofill put in it.
+    // Bots that post straight to the API skip this script and still trip the server-side check.
+    fd.set('secondary_ref', '');
+    const data = Object.fromEntries(fd.entries());
     setState('sending'); setErr('');
     try {
       const r = await fetch('/api/inquiry/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...data, page: window.location.pathname }) });
@@ -52,12 +56,12 @@ export default function InspectionForm({ compact = false, heading = 'Request an 
         {!compact && <label className="ifm-wide"><span className="lbl">Inspection address</span><input name="address" autoComplete="street-address" /></label>}
         <label className="ifm-wide"><span className="lbl">What are you seeing?</span><textarea name="details" rows={compact ? 2 : 4} /></label>
         {/* honeypot — named so mobile autofill leaves it alone */}
-        <div className="hp" aria-hidden="true"><label>Leave blank<input name="secondary_ref" tabIndex={-1} autoComplete="off" data-1p-ignore data-lpignore="true" /></label></div>
+        <div className="hp" aria-hidden="true"><label>Leave blank<input name="secondary_ref" tabIndex={-1} autoComplete="off" data-1p-ignore data-lpignore="true" data-form-type="other" /></label></div>
       </div>
       <button className="btn btn-primary btn-lg ifm-submit" type="submit" disabled={state === 'sending'}>
         {state === 'sending' ? 'Sending…' : 'Request My Inspection'}
       </button>
-      <p className="ifm-alt">Prefer to talk? Call or text <a href={SITE.phoneHref}>{SITE.phone}</a> · Mon–Fri 8–6, Sat 8–4</p>
+      <p className="ifm-alt">Prefer to talk? Call or text <a href={SITE.phoneHref}>{SITE.phone}</a> (Mon–Fri 8–6, Sat 8–4).</p>
       <p role="alert" aria-live="assertive" className="ifm-err">{state === 'error' ? err : ''}</p>
     </form>
   );

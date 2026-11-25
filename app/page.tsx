@@ -54,9 +54,8 @@ export default function Home() {
       <section className="hero">
         <div className="wrap hero-in">
           <div>
-            <span className="eyebrow">Aiken, SC · Detection Before Treatment</span>
             <h1>Certified K9 Bed Bug &amp; Rodent Detection</h1>
-            <p className="lead">{plain(home.hero.lead || '')}</p>
+            <p className="lead">For homes and businesses in Aiken, SC, detection comes before treatment. {plain(home.hero.lead || '')}</p>
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
               <a className="btn btn-outline-light btn-lg" href={SITE.leaveReviewUrl} target="_blank" rel="noopener">Leave a Review</a>
@@ -72,7 +71,6 @@ export default function Home() {
       <section className="section" aria-labelledby="h-div">
         <div className="wrap">
           <div className="section-head">
-            <span className="kicker">One company, six specialties</span>
             <h2 id="h-div">What our certified detection teams handle</h2>
             <p>Every service starts the same way: a certified detection team confirms what is there and where, before anyone treats.</p>
           </div>
@@ -83,7 +81,7 @@ export default function Home() {
                 <div className="card-b">
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
-                  <span className="card-more">View service →</span>
+                  <span className="card-more">View service</span>
                 </div>
               </Link>
             ))}
@@ -96,8 +94,7 @@ export default function Home() {
       <section className="section soft" aria-labelledby="h-how">
         <div className="wrap">
           <div className="section-head">
-            <span className="kicker">Our difference</span>
-            <h2 id="h-how">Detection before treatment. Every time.</h2>
+            <h2 id="h-how">Detection comes before treatment, every time</h2>
             <p>Most pest companies treat first and hope. We find it first — then treat only where activity is confirmed, and prove the result.</p>
           </div>
           <ol className="steps3">
@@ -112,7 +109,6 @@ export default function Home() {
         <div className="wrap split">
           <div className="k-founder home-founder" dangerouslySetInnerHTML={{ __html: imgTag('founder-portrait', 'Founder of Coastal K9 and Pest Solutions with a Jack Russell terrier', { sizes: '(max-width: 860px) 80vw, 360px' }) }} />
           <div>
-            <span className="kicker">Our founder</span>
             <h2 id="h-kim">A first-class environmental detection program</h2>
             <p>Our founder started Coastal K9 and Pest Solutions after 28+ years handling working dogs, beginning with FEMA Urban Search and Rescue, and 27 years in wildlife management and education.</p>
             <p>The goal: detection teams working side by side with pest professionals, making their jobs easier, delivering faster results, and focusing and reducing the use of pesticides and rodenticides.</p>
@@ -124,7 +120,6 @@ export default function Home() {
       <section className="section dark" aria-labelledby="h-nat">
         <div className="wrap split">
           <div>
-            <span className="kicker">Nationwide · Food processing &amp; agriculture</span>
             <h2 id="h-nat">Nationwide K9 rodent detection and Norway rat burrow mitigation</h2>
             <p>Beyond the CSRA, Coastal K9 provides large-scale rodent mitigation across the country — including complex Norway rat burrow systems that overwhelm conventional programs. We specialize in food processing and agricultural operations where documentation is critical and detection-driven precision is the difference between control and chronic reinfestation.</p>
             <div className="hero-ctas"><Link className="btn btn-primary" href="/nationwide-k9-rodent-detection/">Explore the nationwide program</Link><Link className="btn btn-outline-light" href="/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/">Burrow mitigation</Link></div>
@@ -137,7 +132,6 @@ export default function Home() {
         <div className="wrap split">
           <div dangerouslySetInnerHTML={{ __html: imgTag('offshore-platform-aerial', 'Offshore oil platform in the Gulf, seen from the helicopter on the way to a K9 inspection', { sizes: '(max-width: 860px) 100vw, 560px' }) }} />
           <div>
-            <span className="kicker">Offshore · Deepwater oil rigs</span>
             <h2 id="h-off">Offshore oil rig bed bug inspections</h2>
             <p>Bed bugs travel with crews. Our certified detection dogs work at the heliport, searching bags, buses and helicopters as crews come and go, so bed bugs never reach the platform. We also search where crews stay: float hotels, apartments and hotel rooms on land.</p>
             <div className="hero-ctas"><Link className="btn btn-teal" href="/offshore-oil-rig-bed-bug-inspections/">Offshore oil rig inspections</Link><Link className="btn btn-light" href="/awards-and-recognition/">Our credentials</Link></div>
@@ -148,13 +142,12 @@ export default function Home() {
       <section className="section" aria-labelledby="h-area">
         <div className="wrap">
           <div className="section-head">
-            <span className="kicker">Service area</span>
             <h2 id="h-area">Serving Aiken, the CSRA &amp; the SC Midlands</h2>
             <p>Same-week K9 detection within roughly 60 miles of our Windsor base, on both sides of the Savannah River — from Aiken’s Winter Colony and Houndslake to Lexington and Columbia — plus scheduled service across South Carolina, including Greenville and Charleston.</p>
           </div>
           <ul className="chips">
             {AREAS.map(([n, h]) => <li key={n}>{h ? <Link href={h}>{n}</Link> : <span>{n}</span>}</li>)}
-            <li><Link href="/service-areas/">All service areas →</Link></li>
+            <li><Link href="/service-areas/">All service areas</Link></li>
           </ul>
         </div>
       </section>
@@ -162,9 +155,9 @@ export default function Home() {
 
       <section className="section soft" aria-labelledby="h-blog">
         <div className="wrap">
-          <div className="section-head"><span className="kicker">From the field</span><h2 id="h-blog">Latest from the Coastal K9 blog</h2></div>
+          <div className="section-head"><h2 id="h-blog">Latest from the Coastal K9 blog</h2></div>
           <CardGrid pages={posts} />
-          <p style={{ marginTop: 20 }}><Link href="/coastal-k9-blog/">All articles →</Link> · <Link href="/pest-library/">Pest library →</Link></p>
+          <p style={{ marginTop: 20 }}>Read <Link href="/coastal-k9-blog/">all articles</Link> or browse the <Link href="/pest-library/">pest library</Link>.</p>
         </div>
       </section>
 

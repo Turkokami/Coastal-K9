@@ -72,11 +72,22 @@ export function renderBody(html: string): string {
     blk.replace(/sizes="[^"]*"/g, 'sizes="(max-width: 600px) 50vw, 240px"'));
   // remote images that were not migrated (badges hosted elsewhere) – lazy + decoding
   out = out.replace(/<img(?![^>]*loading=)([^>]*)>/g, '<img loading="lazy" decoding="async"$1>');
-  // YouTube iframes -> click-to-load facade (no third-party JS until the visitor asks)
-  out = out.replace(/<iframe[^>]*src="https:\/\/www\.youtube(?:-nocookie)?\.com\/embed\/([\w-]{11})[^"]*"[^>]*>\s*<\/iframe>/g,
-    (_m, id) => `<figure class="k-ytfig"><div class="k-yt" data-yt="${id}" data-title="${VIDEO_TITLES[id] ?? 'Coastal K9 video'}"><button type="button" aria-label="Play video: ${VIDEO_TITLES[id] ?? 'Coastal K9 video'}"><img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="k-yt-play" aria-hidden="true"></span></button></div><figcaption>${VIDEO_TITLES[id] ?? 'Coastal K9 video'}</figcaption></figure>`);
-  // other iframes (maps) – lazy
+  // YouTube iframes -> click-to-load block. Nothing loads from YouTube (no player, no thumbnail) until the
+  // visitor presses Play; the plain link opens the video on YouTube instead.
+  out = out.replace(/<iframe[^>]*src="https:\/\/www\.youtube(?:-nocookie)?\.com\/embed\/([\w-]{11})[^"]*"[^>]*>\s*<\/iframe>/g, (_m, id) => {
+    const t = VIDEO_TITLES[id] ?? 'Coastal K9 video';
+    return `<figure class="k-ytfig"><div class="k-yt" data-yt="${id}" data-title="${t}"><p class="k-yt-title">${t}</p><button type="button" class="btn btn-primary k-yt-play" aria-label="Play video: ${t}">Play video</button><p class="k-yt-note">The video loads from YouTube when you press play.</p></div><figcaption><a href="https://www.youtube.com/watch?v=${id}" rel="noopener" target="_blank">Watch “${t}” on YouTube</a></figcaption></figure>`;
+  });
+  // Google Maps iframes -> click-to-load block with the place written out and a normal link
+  out = out.replace(/<iframe[^>]*src="(https:\/\/www\.google\.com\/maps\?[^"]*)"[^>]*>\s*<\/iframe>/g, (_m, src: string) => {
+    const t = (/title="([^"]*)"/.exec(_m) || [])[1] || 'Map';
+    const q = decodeURIComponent((/[?&]q=([^&]*)/.exec(src.replace(/&amp;/g, '&')) || [])[1] || '').replace(/\+/g, ' ');
+    return mapFacade(src.replace(/&amp;/g, '&'), t, q, `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`);
+  });
+  // any other iframes – lazy
   out = out.replace(/<iframe(?![^>]*loading=)/g, '<iframe loading="lazy"');
+  // arrow icons inside links and buttons are decoration only
+  out = out.replace(/\s*<span aria-hidden="true" class="k-ic" data-icon="(?:arrow-right|arrow-up-right-from-square)"><\/span>/g, '');
   // icons
   out = out.replace(/<span aria-hidden="true" class="k-ic" data-icon="([^"]+)"><\/span>/g, (_m, n) => icon(n));
   // internal links: fix known moves; neutralise links to pages that do not exist (legacy 404s)
@@ -91,6 +102,12 @@ export function renderBody(html: string): string {
   // tables: wrap for horizontal scroll on phones
   out = out.replace(/<table/g, '<div class="k-tablewrap" role="region" aria-label="Comparison table" tabindex="0"><table').replace(/<\/table>/g, '</table></div>');
   return out;
+}
+
+/** Click-to-load Google Map: shows the place as text, a Show map button (ClientEnhance injects the iframe)
+ *  and a plain link to Google Maps. Nothing is requested from Google until the visitor asks. */
+export function mapFacade(src: string, title: string, place: string, link: string) {
+  return `<div class="k-map" data-src="${esc(src)}" data-title="${esc(title)}"><p class="k-map-place">${esc(place)}</p><p class="k-map-btns"><button type="button" class="btn btn-teal k-map-show">Show map</button><a class="btn btn-light" href="${esc(link)}" rel="noopener" target="_blank">Open in Google Maps</a></p><p class="k-map-note">The map loads from Google when you press Show map.</p></div>`;
 }
 
 // Generic, topic-relevant titles for the YouTube embeds (no published titles were available).

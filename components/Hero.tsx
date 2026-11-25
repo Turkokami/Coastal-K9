@@ -21,7 +21,6 @@ export default function Hero({ p, crumbs, aside = 'auto' }: { p: Page; crumbs: {
       <div className={`wrap hero-in${mode === 'none' ? ' noimg' : ''}`}>
         <div>
           <Breadcrumbs crumbs={crumbs} />
-          {h.eyebrow ? <span className="eyebrow">{h.eyebrow}</span> : null}
           <h1 dangerouslySetInnerHTML={{ __html: h.h1 || p.h1 }} />
           {p.heroVideo ? (<div className="hero-video"><video src={`/video/${p.heroVideo}.mp4`} poster={`/video/${p.heroVideo}-poster.jpg`} muted loop playsInline autoPlay preload="metadata" aria-label={p.heroVideoLabel || ''} /><BannerVideo /></div>) : null}
           {h.lead ? <div className="lead" dangerouslySetInnerHTML={{ __html: renderBody(h.lead.startsWith('<') ? h.lead : `<p>${h.lead}</p>`) }} /> : null}

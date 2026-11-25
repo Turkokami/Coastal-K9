@@ -22,7 +22,7 @@ export function CardGrid({ pages, more = 'Read more', withImage = true }: { page
           <div className="card-b">
             <h3>{cardTitle(r)}</h3>
             <p>{(r.description || r.excerpt).slice(0, 150)}{(r.description || r.excerpt).length > 150 ? '…' : ''}</p>
-            <span className="card-more">{more} →</span>
+            <span className="card-more">{more}</span>
           </div>
         </Link>
       ))}
