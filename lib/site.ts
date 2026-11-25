@@ -129,6 +129,7 @@ export const NAV: NavItem[] = [
       { label: 'Media & Press', href: '/media-and-press/' },
       { label: 'Image Gallery', href: '/coastal-k9-image-gallery/' },
       { label: 'Video Gallery', href: '/k9-detection-video-library/' },
+      { label: 'Gulf Offshore Gallery', href: '/gulf-offshore-gallery/' },
       { label: 'Blog', href: '/coastal-k9-blog/' },
       { label: 'Offers & Coupons', href: '/pest-control-coupons/' },
       { label: 'Contact Us', href: '/contact/' },
