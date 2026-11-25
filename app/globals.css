@@ -410,3 +410,6 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .k-talklogo span { font-family: var(--font-h); font-weight: 800; font-size: 1.15rem; letter-spacing: .04em; color: var(--navy-900); border: 2px solid var(--line); border-radius: 8px; padding: 8px 14px; }
 .k-speaker { font-size: .95rem; margin: 6px 0; }
 .k-talk h3 { font-size: 1.05rem; line-height: 1.35; }
+
+/* Bed bug page banner: Kim's upright close-up shown whole and sharp in a taller strip on computers */
+.video-banner.vbn-bedbug-banner .vb-d { height: 420px; object-position: center center; }

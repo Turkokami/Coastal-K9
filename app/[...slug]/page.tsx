@@ -138,7 +138,7 @@ export default async function Route({ params }: { params: Promise<{ slug: string
   return (
     <>
       {p.bannerVideo ? (
-        <div className="video-banner">
+        <div className={`video-banner vbn-${p.bannerVideo}`}>
           <video className="vb-d" src={`/video/${p.bannerVideo}-desktop.mp4`} poster={`/video/${p.bannerVideo}-poster.jpg`} autoPlay muted loop playsInline preload="metadata" aria-label={p.bannerVideoLabel || ''} />
           <video className="vb-m" src={`/video/${p.bannerVideo}-mobile.mp4`} poster={`/video/${p.bannerVideo}-poster.jpg`} autoPlay muted loop playsInline preload="metadata" aria-label={p.bannerVideoLabel || ''} />
           {p.bannerVideoCaption ? <p className="vb-caption">{p.bannerVideoCaption}</p> : null}
