@@ -128,7 +128,7 @@ export const NAV: NavItem[] = [
       { label: 'Credentials You Can Trust', href: '/awards-and-recognition/' },
       { label: 'Media & Press', href: '/media-and-press/' },
       { label: 'Image Gallery', href: '/coastal-k9-image-gallery/' },
-      { label: 'Video Library', href: '/k9-detection-video-library/' },
+      { label: 'Video Gallery', href: '/k9-detection-video-library/' },
       { label: 'Blog', href: '/coastal-k9-blog/' },
       { label: 'Offers & Coupons', href: '/pest-control-coupons/' },
       { label: 'Contact Us', href: '/contact/' },
