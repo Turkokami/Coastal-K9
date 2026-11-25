@@ -3719,5 +3719,27 @@
    }
   ],
   "orig": "kim-upload-2026-11-23"
+ },
+ "bed-bugs-jar": {
+  "alt": "Live bed bugs, eggs and fecal spots in a Coastal K9 and Pest Solutions training vial",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/bed-bugs-jar-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/bed-bugs-jar-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/bed-bugs-jar-1280.webp"
+   }
+  ]
  }
 }
