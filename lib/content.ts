@@ -3,6 +3,7 @@ import mediaJson from '@/content/media.json';
 import galleryJson from '@/content/gallery.json';
 import altJson from '@/content/alt-overrides.json';
 import contentDates from '@/content/content-dates.json';
+import descOverrides from '@/content/description-overrides.json';
 import { ICONS } from './icons';
 
 export type Hero = {
@@ -22,9 +23,12 @@ export type Media = { alt: string; w: number; h: number; sizes: { w: number; h: 
  *  `modified` date stays when it is later; otherwise the repo date wins, so "Updated", dateModified and
  *  the sitemap lastmod never predate the text a visitor reads. */
 const TEXT_DATES = contentDates as Record<string, string>;
+/** Rewritten meta descriptions (content/description-overrides.json) win over the legacy ones. */
+const DESC = descOverrides as Record<string, string>;
 export const PAGES = (pagesJson as unknown as Page[]).map((p) => {
   const d = TEXT_DATES[p.path];
-  return d && (!p.modified || d > p.modified) ? { ...p, modified: d } : p;
+  const q = DESC[p.path] ? { ...p, description: DESC[p.path] } : p;
+  return d && (!q.modified || d > q.modified) ? { ...q, modified: d } : q;
 });
 export const MEDIA = mediaJson as unknown as Record<string, Media>;
 export const GALLERY = galleryJson as unknown as string[];

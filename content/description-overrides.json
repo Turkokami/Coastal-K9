@@ -1,0 +1,13 @@
+{
+ "_note": "Meta descriptions that replace the legacy ones in pages.json (Bing flagged them as too short, Nov 2026). Applied at runtime in lib/content.ts, so re-running tools/extract.py does not undo them. Keep each page-specific, 120-160 characters, and true to what the page says.",
+ "/bird-exclusion-explained/": "Bird exclusion explained: when to use netting, spikes or wire, why scare devices fail, and how the right spec stops pigeons and starlings from coming back.",
+ "/brown-recluse-spiders-natural-history-behavior-and-the-truth-about-south-carolina/": "Brown recluse natural history and behavior, how to tell it from look-alikes, and what peer-reviewed records show: verified finds in South Carolina are rare.",
+ "/joro-spider-in-sc/": "The Joro spider in South Carolina: where this invasive orbweaver came from, how it spreads and behaves, and what the scary flying-spider headlines get wrong.",
+ "/pest-control-charleston-sc/": "Pest control in Charleston, SC: cockroaches, rodents, ants and exclusion, plus K9 bed bug screening, and why humid coastal nights keep buildings damp.",
+ "/pest-control-greenville-sc/": "Pest control in Greenville, SC, including converted mill apartments: roaches, rodents, ants and exclusion, plus K9 bed bug screening across shared buildings.",
+ "/pest-library/bed-bug/": "Bed bug identification and control: how to spot bed bugs and their eggs, the common look-alikes, how fast they spread, and why a K9 screening comes first.",
+ "/pest-library/canada-goose/": "Canada goose ID and control: how to recognize resident geese, their nesting and molt, the federal protections, and the legal ways a dog moves them off.",
+ "/pest-library/house-mouse/": "House mouse ID and control: droppings, look-alikes, how mice nest and breed indoors, the quarter-inch gaps they use, and how trapping and exclusion stop them.",
+ "/pest-library/norway-rat/": "Norway rat ID and control: how to tell it from a roof rat, how to read burrows along a foundation, and why baiting only the holes you can see rarely works.",
+ "/pest-library/red-imported-fire-ant/": "Red imported fire ant ID and control: mound signs, stings, look-alike ants, and why baiting the whole yard beats pouring treatment on the mounds you can see."
+}
