@@ -110,11 +110,11 @@ export default function Home() {
 
       <section className="section" aria-labelledby="h-kim">
         <div className="wrap split">
-          <div className="k-founder home-founder" dangerouslySetInnerHTML={{ __html: imgTag('founder-portrait', 'Founder of Coastal K9 and Pest Solutions with a Jack Russell terrier', { sizes: '(max-width: 860px) 80vw, 360px' }) }} />
+          <div className="k-founder home-founder" dangerouslySetInnerHTML={{ __html: imgTag('founder-portrait', 'Kim Camera, founder of Coastal K9 and Pest Solutions, with a Jack Russell terrier', { sizes: '(max-width: 860px) 80vw, 360px' }) }} />
           <div>
-            <span className="kicker">Our founder</span>
+            <span className="kicker">Meet our founder, Kim Camera</span>
             <h2 id="h-kim">A first-class environmental detection program</h2>
-            <p>Our founder started Coastal K9 and Pest Solutions after 28+ years handling working dogs, beginning with FEMA Urban Search and Rescue, and 27 years in wildlife management and education.</p>
+            <p>Kim Camera started Coastal K9 and Pest Solutions after 28+ years handling working dogs, beginning as a FEMA Urban Search and Rescue K9 handler with Tennessee Task Force 1, and 27 years in wildlife management and education.</p>
             <p>The goal: detection teams working side by side with pest professionals, making their jobs easier, delivering faster results, and focusing and reducing the use of pesticides and rodenticides.</p>
             <div className="hero-ctas"><Link className="btn btn-teal" href="/about/">About us</Link><Link className="btn btn-light" href="/awards-and-recognition/">Awards &amp; recognition</Link></div>
           </div>
