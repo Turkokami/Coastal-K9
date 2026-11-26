@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const DIVISIONS = [
   { href: '/bed-bug-control/', icon: 'bed', img: 'dog-insp-bb', title: 'K9 Bed Bug Detection', text: 'Certified dogs find live bugs and viable eggs room by room — discreet, documented and fast.' },
-  { href: '/rodent-control/', icon: 'shield-halved', img: 'img-4512', title: 'Rodent Detection & Exclusion', text: 'Dogs locate active harborage behind walls and below ground; then we seal the entry points.' },
+  { href: '/rodent-control/', icon: 'shield-halved', img: 'img-4512', title: 'Rodent Detection & Exclusion', text: 'Dogs locate rodent activity where we can’t see, behind walls and below ground; then we seal the entry points.' },
   { href: '/goose-control/', icon: 'feather', img: 'goose', title: 'Canada Goose Management', text: 'Humane, dog-powered hazing that reclaims HOAs, golf courses, parks and campuses.' },
   { href: '/bird-exclusion/', icon: 'crow', img: 'bird', title: 'Bird Control & Exclusion', text: 'Netting, wire and exclusion that keep pigeons and starlings off buildings — plus falconry abatement.' },
   { href: '/commercial-pest-control/', icon: 'building', img: 'img-20260603-143831', title: 'Commercial Programs', text: 'Documented, detection-driven programs for hotels, multifamily, food, healthcare and warehouses.' },
