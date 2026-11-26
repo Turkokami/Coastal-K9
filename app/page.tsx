@@ -114,7 +114,7 @@ export default function Home() {
           <div>
             <span className="kicker">Meet our founder, Kim Camera</span>
             <h2 id="h-kim">A first-class environmental detection program</h2>
-            <p>Kim Camera started Coastal K9 and Pest Solutions after 28+ years handling working dogs, beginning as a FEMA Urban Search and Rescue K9 handler with Tennessee Task Force 1 (now retired from FEMA), and 27 years in wildlife management and education.</p>
+            <p>Kim Camera started Coastal K9 and Pest Solutions after 28+ years handling working dogs, beginning as a FEMA Urban Search and Rescue K9 handler with Tennessee Task Force 1 (retired FEMA K9 handler), and 27 years in wildlife management and education.</p>
             <p>The goal: detection teams working side by side with pest professionals, making their jobs easier, delivering faster results, and focusing and reducing the use of pesticides and rodenticides.</p>
             <div className="hero-ctas"><Link className="btn btn-teal" href="/about/">About us</Link><Link className="btn btn-light" href="/awards-and-recognition/">Awards &amp; recognition</Link></div>
           </div>

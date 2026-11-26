@@ -29,6 +29,7 @@ export function coreNodes() {
       openingHoursSpecification: SITE.hours.filter((h) => h.days.length).map((h) => ({ '@type': 'OpeningHoursSpecification', dayOfWeek: h.days, opens: h.opens, closes: h.closes })),
       areaServed: SITE.areaServed.map((c) => ({ '@type': 'City', name: c.includes(',') ? c : `${c}, SC` })),
       founder: { '@id': PERSON_ID },
+      foundingDate: '2020',
       sameAs: SITE.social.map((s) => s.url),
       knowsAbout: ['Canine scent detection', 'Bed bug detection', 'Rodent detection', 'Norway rat burrow mitigation', 'Integrated pest management', 'Canada goose management', 'Bird exclusion', 'Rodent exclusion'],
     },

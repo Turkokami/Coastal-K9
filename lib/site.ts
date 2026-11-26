@@ -28,7 +28,7 @@ export const SITE = {
     url: '/about/',
     image: 'kim1',
     summary:
-      'FEMA US&R-trained canine handler with 28+ years handling working dogs, 15 of them in detection; CPDA and ICRWDA certified; licensed pest control technician.',
+      'Retired FEMA K9 handler (US&R) with 28+ years handling working dogs, 15 of them in detection; CPDA and ICRWDA certified; licensed pest control technician.',
     sameAs: ['https://www.linkedin.com/in/kimberly-camera-7bb49b259/'],
   },
   social: [
