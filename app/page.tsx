@@ -112,10 +112,10 @@ export default function Home() {
         <div className="wrap split">
           <div className="k-founder home-founder" dangerouslySetInnerHTML={{ __html: imgTag('founder-portrait', 'Kim Camera, founder of Coastal K9 and Pest Solutions, with a Jack Russell terrier', { sizes: '(max-width: 860px) 80vw, 360px' }) }} />
           <div>
-            <span className="kicker">Meet our founder, Kim Camera</span>
-            <h2 id="h-kim">A first-class environmental detection program</h2>
-            <p>Kim Camera started Coastal K9 and Pest Solutions after 28+ years handling working dogs, beginning as a FEMA Urban Search and Rescue K9 handler with Tennessee Task Force 1 (retired FEMA K9 handler), and 27 years in wildlife management and education.</p>
-            <p>The goal: detection teams working side by side with pest professionals, making their jobs easier, delivering faster results, and focusing and reducing the use of pesticides and rodenticides.</p>
+            <span className="kicker">Our founder</span>
+            <h2 id="h-kim">Meet Kim Camera, Founder of Coastal K9 and Pest Solutions</h2>
+            <p>Kim Camera is a retired FEMA K9 handler who served with Tennessee Task Force 1, with 28+ years handling working dogs and 27 years in wildlife management and education. She brings that experience to every job Coastal K9 and Pest Solutions takes on.</p>
+            <p>Kim&apos;s dream was to build a pest control company that could stop large rodent infestations quickly, without relying on rodenticide. When bait is truly needed, we use it in a targeted way and on a much smaller scale. That makes our approach safer around animal facilities, horse barns and livestock yards, where poison puts working animals, pets and wildlife at risk.</p>
             <div className="hero-ctas"><Link className="btn btn-teal" href="/about/">About us</Link><Link className="btn btn-light" href="/awards-and-recognition/">Awards &amp; recognition</Link></div>
           </div>
         </div>
