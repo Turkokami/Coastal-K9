@@ -55,7 +55,7 @@ export default function Home() {
         <div className="wrap hero-in">
           <div>
             <span className="eyebrow">Aiken, SC · Detection Before Treatment</span>
-            <h1>Certified K9 Bed Bug &amp; Rodent Detection</h1>
+            <h1>Coastal K9 and Pest Solutions<span className="h1-sub">A Unique Pest Control Company</span></h1>
             <p className="lead">{plain(home.hero.lead || '')}</p>
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
