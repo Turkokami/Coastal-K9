@@ -18,6 +18,10 @@ const nextConfig = {
       { source: '/pest-control-columbia-pest-control-sc/', destination: '/columbia-sc-pest-control/', permanent: true },
       { source: '/home/', destination: '/', permanent: true },
       { source: '/mold-detection-dogs/', destination: '/services/', permanent: true },
+      // pages removed Nov 2026 (no K9 accuracy or visual-inspection comparisons)
+      { source: '/canine-scent-detection-accuracy/', destination: '/bed-bug-control/', permanent: true },
+      { source: '/k9-vs-visual-bed-bug-inspection/', destination: '/bed-bug-control/', permanent: true },
+      { source: '/k9-bed-bug-detection-guide/', destination: '/bed-bug-control/', permanent: true },
       // WordPress archive URLs that may be indexed or linked
       { source: '/category/:slug*', destination: '/coastal-k9-blog/', permanent: true },
       { source: '/tag/:slug*', destination: '/coastal-k9-blog/', permanent: true },

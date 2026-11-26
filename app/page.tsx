@@ -101,7 +101,7 @@ export default function Home() {
             <p>Most pest companies treat first and hope. We find it first — then treat only where activity is confirmed, and prove the result.</p>
           </div>
           <ol className="steps3">
-            <li><b>Inspect</b>A certified K9 team sweeps the property — behind walls, under floors and in voids a visual inspection misses.</li>
+            <li><b>Inspect</b>A certified K9 team sweeps the property — behind walls, under floors and in voids we can’t see.</li>
             <li><b>Pinpoint</b>The handler confirms exactly what the dog found and where, and documents it room by room or zone by zone.</li>
             <li><b>Treat &amp; verify</b>Focused, least-toxic treatment only where activity is confirmed — then verification so you know it is solved.</li>
           </ol>
