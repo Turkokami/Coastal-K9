@@ -13,7 +13,7 @@ import { CardGrid } from '@/components/Related';
 const home = getPage('/')!;
 
 export const metadata: Metadata = {
-  title: { absolute: 'Aiken SC Pest Control and K9 Bed Bug Detection | Coastal K9' },
+  title: { absolute: 'Aiken SC Exterminator & Pest Control with K9 Detection | Coastal K9' },
   description: 'Family-owned exterminator with certified K9 bed bug and rodent detection in Aiken and surrounding counties, with roots in FEMA search and rescue.',
   alternates: { canonical: '/' },
   openGraph: { url: '/', images: [{ url: '/brand/og-default.jpg' }] },
