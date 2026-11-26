@@ -87,7 +87,6 @@ export const NAV: NavItem[] = [
       { label: 'Bed Bug Treatment', href: '/bed-bug-treatment/' },
       { label: 'Hotels & Hospitality', href: '/hotels-hospitality-pest-control/' },
       { label: 'Offshore Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/' },
-      { label: 'K9 Detection Accuracy', href: '/canine-scent-detection-accuracy/' },
     ],
   },
   {
