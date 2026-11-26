@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const DIVISIONS = [
   { href: '/bed-bug-control/', icon: 'bed', img: 'dog-insp-bb', title: 'K9 Bed Bug Detection', text: 'Certified dogs find live bugs and viable eggs room by room — discreet, documented and fast.' },
-  { href: '/rodent-control/', icon: 'shield-halved', img: 'img-4512', title: 'Rodent Detection & Exclusion', text: 'Dogs locate active harborage behind walls and below ground; then we seal entry points for good.' },
+  { href: '/rodent-control/', icon: 'shield-halved', img: 'img-4512', title: 'Rodent Detection & Exclusion', text: 'Dogs locate active harborage behind walls and below ground; then we seal the entry points.' },
   { href: '/goose-control/', icon: 'feather', img: 'goose', title: 'Canada Goose Management', text: 'Humane, dog-powered hazing that reclaims HOAs, golf courses, parks and campuses.' },
   { href: '/bird-exclusion/', icon: 'crow', img: 'bird', title: 'Bird Control & Exclusion', text: 'Netting, wire and exclusion that keep pigeons and starlings off buildings — plus falconry abatement.' },
   { href: '/commercial-pest-control/', icon: 'building', img: 'img-20260603-143831', title: 'Commercial Programs', text: 'Documented, detection-driven programs for hotels, multifamily, food, healthcare and warehouses.' },
@@ -32,6 +32,8 @@ const MORE = [
   { href: '/bed-bug-treatment/', label: 'Bed Bug Treatment' }, { href: '/pest-control/', label: 'Integrated Pest Management' },
   { href: '/spider-control/', label: 'Spider Control' }, { href: '/cockroach-control/', label: 'Cockroach Control' },
   { href: '/mosquito-control/', label: 'Mosquito Control (No Fogging)' }, { href: '/bat-removal/', label: 'Bat Removal & Exclusion' },
+  { href: '/pest-library/red-imported-fire-ant/', label: 'Ant Control' }, { href: '/pest-library/house-fly/', label: 'Fly Control' },
+  { href: '/rat-mouse-control/', label: 'Mouse Removal & Cleanup' }, { href: '/rodent-smoke-testing/', label: 'Rodent Smoke Testing' },
 ];
 
 const AREAS: [string, string | null][] = [
@@ -74,7 +76,7 @@ export default function Home() {
           <div className="section-head">
             <span className="kicker">One company, six specialties</span>
             <h2 id="h-div">What our certified detection teams handle</h2>
-            <p>Every service starts the same way: a certified detection team confirms what is there and where, before anyone treats.</p>
+            <p>Our bed bug and rodent work starts the same way: a certified detection team confirms what is there and where, before anyone treats.</p>
           </div>
           <div className="cards">
             {DIVISIONS.map((d) => (
@@ -97,13 +99,13 @@ export default function Home() {
         <div className="wrap">
           <div className="section-head">
             <span className="kicker">Our difference</span>
-            <h2 id="h-how">Detection before treatment. Every time.</h2>
-            <p>Most pest companies treat first and hope. We find it first — then treat only where activity is confirmed, and prove the result.</p>
+            <h2 id="h-how">Detection before treatment.</h2>
+            <p>Many pest problems get treated before anyone knows exactly where they are. We find it first — then treat only where activity is confirmed, and prove the result.</p>
           </div>
           <ol className="steps3">
             <li><b>Inspect</b>A certified K9 team sweeps the property — behind walls, under floors and in voids we can’t see.</li>
             <li><b>Pinpoint</b>The handler confirms exactly what the dog found and where, and documents it room by room or zone by zone.</li>
-            <li><b>Treat &amp; verify</b>Focused, least-toxic treatment only where activity is confirmed — then verification so you know it is solved.</li>
+            <li><b>Treat &amp; verify</b>Focused, least-toxic treatment only where activity is confirmed — then follow-up inspections to confirm the infestation is under control.</li>
           </ol>
         </div>
       </section>
@@ -114,7 +116,7 @@ export default function Home() {
           <div>
             <span className="kicker">Our founder</span>
             <h2 id="h-kim">Meet Kim Camera, Founder of Coastal K9 and Pest Solutions</h2>
-            <p>Kim Camera is a retired FEMA K9 handler who served with Tennessee Task Force 1, with 28+ years handling working dogs and 27 years in wildlife management and education. She brings that experience to every job Coastal K9 and Pest Solutions takes on.</p>
+            <p>Kim Camera is a retired FEMA K9 handler who served with Tennessee Task Force 1, with 28+ years handling working dogs and 28+ years in wildlife management and education. She brings that experience to every job Coastal K9 and Pest Solutions takes on.</p>
             <p>Kim&apos;s dream was to build a pest control company that could stop large rodent infestations quickly, without relying on rodenticide. When bait is truly needed, we use it in a targeted way and on a much smaller scale. That makes our approach safer around animal facilities, horse barns and livestock yards, where poison puts working animals, pets and wildlife at risk.</p>
             <div className="hero-ctas"><Link className="btn btn-teal" href="/about/">About us</Link><Link className="btn btn-light" href="/awards-and-recognition/">Awards &amp; recognition</Link></div>
           </div>
@@ -139,7 +141,7 @@ export default function Home() {
           <div>
             <span className="kicker">Offshore · Deepwater oil rigs</span>
             <h2 id="h-off">Offshore oil rig bed bug inspections</h2>
-            <p>Bed bugs travel with crews. Our certified detection dogs work at the heliport, searching bags, buses and helicopters as crews come and go, so bed bugs never reach the platform. We also search where crews stay: float hotels, apartments and hotel rooms on land.</p>
+            <p>Bed bugs travel with crews. Our certified detection dogs work at the heliport, searching bags, buses and helicopters as crews come and go, to keep bed bugs from reaching the platform. We also search where crews stay: float hotels, apartments and hotel rooms on land.</p>
             <div className="hero-ctas"><Link className="btn btn-teal" href="/offshore-oil-rig-bed-bug-inspections/">Offshore oil rig inspections</Link><Link className="btn btn-light" href="/awards-and-recognition/">Our credentials</Link></div>
           </div>
         </div>

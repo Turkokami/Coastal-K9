@@ -4,7 +4,7 @@ import { SITE } from '@/lib/site';
 
 const PROPERTY = ['Residential Home', 'Apartment/Condo', 'Hotel/Motel', 'Commercial Property', 'School', 'Healthcare Facility', 'Restaurant', 'Warehouse', 'Food Processing / Agriculture', 'Other'];
 const PROPERTY_COMMERCIAL = ['Commercial Property', 'Food Processing / Agriculture', 'Warehouse', 'Restaurant', 'Hotel/Motel', 'Healthcare Facility', 'School', 'Apartment Community / Property Management', 'Other'];
-const SERVICE = ['Bed Bug Detection', 'Bed Bug Treatment', 'Rodent Detection', 'Rodent/Wildlife Exclusion', 'Goose Management', 'Bird Exclusion', 'General Pest Control', 'Nationwide Rodent Program', 'Multiple Services'];
+const SERVICE = ['Bed Bug Detection', 'Bed Bug Treatment', 'Rodent Detection', 'Rodent/Wildlife Exclusion', 'Goose Management', 'Bird Exclusion', 'General Pest Control', 'Ant Control', 'Fly Control', 'Mouse Removal & Cleanup', 'Rodent Smoke Testing', 'Nationwide Rodent Program', 'Multiple Services'];
 
 export default function InspectionForm({ compact = false, heading = 'Request an Inspection', anchor = false, commercial = false }: { compact?: boolean; heading?: string; anchor?: boolean; commercial?: boolean }) {
   const hid = useId();
