@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import FounderCard from '@/components/FounderCard';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { PAGES, getPage, renderBody, img, imgTag, related, plain, byKind, MEDIA, Page, seoTitle, SERVICE_PESTS, CROSS_LINKS, TOPICS, postTopic, PEST_GROUPS } from '@/lib/content';
@@ -52,6 +53,16 @@ const RELATED_TITLE: Record<string, string> = {
 };
 
 const LONGFORM = new Set(['service', 'commercial', 'nationwide', 'city-service', 'city', 'neighborhood', 'post']);
+
+
+function localCall(p: Page): string | null {
+  if (p.kind !== 'post') return null;
+  const s = p.path;
+  if (/bat|white-nose/.test(s)) return 'Bats in your attic in Aiken, Augusta or Columbia? <a href="tel:8032263155">Call or text 803-226-3155</a> or see <a href="/bat-removal/">bat removal &amp; exclusion</a>.';
+  if (/spider/.test(s)) return 'Spiders in your home in Aiken, Augusta or Columbia? <a href="tel:8032263155">Call or text 803-226-3155</a> or see <a href="/spider-control/">spider control</a>.';
+  if (/rat|rodent/.test(s)) return 'Rats or mice in Aiken, Augusta or Columbia? <a href="tel:8032263155">Call or text 803-226-3155</a> or see <a href="/rat-mouse-control/">rat &amp; mouse control</a>.';
+  return null;
+}
 
 export default async function Route({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
@@ -153,9 +164,11 @@ export default async function Route({ params }: { params: Promise<{ slug: string
       <div className={`wrap page${wide ? ' single' : ''}`}>
         <article className="content">
           {LONGFORM.has(p.kind) || p.kind === 'pest' ? <Byline modified={p.modified} label={p.kind === 'post' ? 'Written by' : 'Reviewed by'} /> : null}
+          {localCall(p) ? <p className="local-call" dangerouslySetInnerHTML={{ __html: localCall(p)! }} /> : null}
           {CROSS_LINKS[p.path] ? <p className="k-xref" dangerouslySetInnerHTML={{ __html: CROSS_LINKS[p.path] }} /> : null}
           <div dangerouslySetInnerHTML={{ __html: body }} />
           {listing}
+          {['service', 'city-service', 'commercial', 'city', 'neighborhood', 'nationwide'].includes(p.kind) ? <FounderCard /> : null}
           {SERVICE_PESTS[p.path] ? (
             <section aria-labelledby="pests-h" className="k-intro" style={{ marginTop: 32 }}>
               <h2 id="pests-h" style={{ marginTop: 0 }}>Pests this service covers</h2>

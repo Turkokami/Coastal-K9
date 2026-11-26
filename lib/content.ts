@@ -164,13 +164,23 @@ const BRAND = ' | Coastal K9';
 const TITLE_OVERRIDES: Record<string, string> = {
   '/coastal-k9-blog/': 'K9 Detection & Pest Control Blog',
   '/norway-rat-burrow-mitigation/': 'Norway Rat Burrows: Identify, Treat & Prevent',
+  '/brown-recluse-spiders-natural-history-behavior-and-the-truth-about-south-carolina/': 'Brown Recluse Spiders in South Carolina: The Truth',
+  '/signs-of-bed-bugs-in-your-south-carolina-home-and-what-to-do-next/': 'Signs of Bed Bugs in Your SC Home and What to Do',
+  '/k9-bed-bug-inspections-for-healthcare-facilities/': 'K9 Bed Bug Inspections for Healthcare & Senior Living',
+  '/bird-control-for-commercial-rooftops/': 'Bird Control for Commercial Rooftops & Loading Docks',
+  '/10-questions-about-selecting-training-and-hiring-detection-dogs/': '10 Questions About Hiring Detection Dogs',
+  '/14-questions-about-bed-bug-treatment-prevention-and-protection/': '14 Questions About Bed Bug Treatment & Prevention',
+  '/black-widow-spiders-in-aiken-county/': 'Black Widow Spiders in Aiken County',
+  '/k9-bed-bug-inspections-for-hotels/': 'K9 Bed Bug Inspections for Hotels',
+  '/rodent-smoke-testing/': 'Rodent Smoke Testing for Sewer Rats in South Carolina',
+  '/goose-control-for-hoas-parks-schools/': 'Goose Control for HOAs, Parks & Schools',
 };
 /** Title tag: page title + short brand when it fits in ~65 chars; otherwise trimmed at a natural break. */
 export function seoTitle(p: Page): string {
   let t = (TITLE_OVERRIDES[p.path] || p.title).replace(/\s*\|\s*Coastal K9.*$/i, '').trim();
-  if (t.length + BRAND.length <= 66) return t + BRAND;
-  if (t.length <= 66) return t;
-  const cut = t.slice(0, 66);
+  if (t.length + BRAND.length <= 60) return t + BRAND;
+  if (t.length <= 60) return t;
+  const cut = t.slice(0, 60);
   const at = Math.max(cut.lastIndexOf(':'), cut.lastIndexOf(' —'), cut.lastIndexOf(' –'), cut.lastIndexOf(' |'), cut.lastIndexOf(','));
   return (at > 30 ? cut.slice(0, at) : cut.slice(0, cut.lastIndexOf(' '))).replace(/[\s,:;—–-]+$/, '');
 }
@@ -203,6 +213,11 @@ export const SERVICE_PESTS: Record<string, string[]> = {
 /** Pages kept separate on purpose (distinct intents) — each points to its sibling. */
 export const CROSS_LINKS: Record<string, string> = {
   '/about/': 'Coastal K9 and Pest Solutions was formerly Urban Canine Pest &amp; Wildlife Solutions (UCPaWS). <a href="/ucpaws/">Read about the name change</a>.',
+  '/bed-bug-control/': 'Not sure what to look for? Read <a href="/signs-of-bed-bugs-in-your-south-carolina-home-and-what-to-do-next/">signs of bed bugs in your South Carolina home</a>. We also serve <a href="/pest-control-greenville-sc/">Greenville</a> and <a href="/pest-control-charleston-sc/">Charleston</a>.',
+  '/bed-bug-treatment/': 'Bed bug treatment is also available in <a href="/pest-control-greenville-sc/">Greenville</a> and <a href="/pest-control-charleston-sc/">Charleston</a>. Wondering if it is bed bugs? See <a href="/signs-of-bed-bugs-in-your-south-carolina-home-and-what-to-do-next/">the signs to look for</a>.',
+  '/bat-removal/': 'Seeing more bats lately? Read <a href="/why-is-aiken-county-suddenly-full-of-bats/">why Aiken County is suddenly full of bats</a>.',
+  '/pest-control-aiken-south-carolina/': 'Near campus? See <a href="/pest-control-usc-aiken-sc/">pest control around USC Aiken</a>.',
+  '/pest-control-lexington-sc/': 'Also serving nearby <a href="/pest-control-gilbert-sc/">Gilbert, SC</a>.',
   '/norway-rat-burrow-mitigation/': 'This is our field guide to Norway rat burrows for homes and local properties. Running a food plant, farm or multi-site operation? See our <a href="/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/">commercial Norway rat burrow mitigation program</a>.',
   '/nationwide-k9-rodent-detection/norway-rat-burrow-mitigation/': 'This page covers our commercial and nationwide burrow program. For a plain-language guide to spotting and dealing with Norway rat burrows around a home, read <a href="/norway-rat-burrow-mitigation/">Norway rat burrows: identify, treat &amp; prevent</a>.',
 };
