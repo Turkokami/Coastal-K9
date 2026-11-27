@@ -126,6 +126,8 @@ export const postTopic = (p: Page) => TOPICS.find((t) => t.test.test(p.h1 + ' ' 
 
 export const PEST_GROUPS: { label: string; slugs: string[] }[] = [
   { label: 'Bed bugs & rodents — our detection dogs’ specialty', slugs: ['bed-bug', 'norway-rat', 'roof-rat', 'house-mouse'] },
+  { label: 'Mice of South Carolina', slugs: ['mice-of-south-carolina', 'house-mouse', 'white-footed-mouse', 'cotton-mouse', 'deer-mouse', 'oldfield-mouse', 'golden-mouse', 'eastern-harvest-mouse'] },
+  { label: 'Rats of South Carolina', slugs: ['rats-of-south-carolina', 'norway-rat', 'roof-rat', 'hispid-cotton-rat', 'marsh-rice-rat', 'eastern-woodrat', 'norway-rat-vs-roof-rat'] },
   { label: 'Cockroaches', slugs: ['german-cockroach', 'american-cockroach', 'smokybrown-cockroach', 'oriental-cockroach', 'brown-banded-cockroach', 'asian-cockroach', 'florida-woods-cockroach'] },
   { label: 'Ants', slugs: ['red-imported-fire-ant', 'odorous-house-ant', 'carpenter-ant', 'pharaoh-ant', 'argentine-ant', 'pavement-ant', 'ghost-ant', 'acrobat-ant', 'little-black-ant', 'crazy-ant'] },
   { label: 'Birds & geese', slugs: ['canada-goose', 'pigeon', 'european-starling', 'house-sparrow'] },
@@ -202,8 +204,8 @@ const PL = (...slugs: string[]) => slugs.map((x) => `/pest-library/${x}/`);
 export const SERVICE_PESTS: Record<string, string[]> = {
   '/bed-bug-control/': PL('bed-bug'),
   '/bed-bug-treatment/': PL('bed-bug'),
-  '/rodent-control/': PL('norway-rat', 'roof-rat', 'house-mouse'),
-  '/rat-mouse-control/': PL('norway-rat', 'roof-rat', 'house-mouse'),
+  '/rodent-control/': PL('norway-rat', 'roof-rat', 'house-mouse', 'rats-of-south-carolina', 'mice-of-south-carolina'),
+  '/rat-mouse-control/': PL('norway-rat', 'roof-rat', 'house-mouse', 'rats-of-south-carolina', 'mice-of-south-carolina'),
   '/repairs/': PL('norway-rat', 'roof-rat', 'house-mouse', 'eastern-gray-squirrel', 'raccoon', 'virginia-opossum', 'bat', 'nine-banded-armadillo'),
   '/goose-control/': PL('canada-goose'),
   '/hoa-golf-course-goose-management/': PL('canada-goose'),
