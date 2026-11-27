@@ -161,6 +161,13 @@ export const shortTitle = (p: Page) => plain(p.h1 || p.title).replace(/\s*[â€”â€
 
 const BRAND = ' | Coastal K9';
 const TITLE_OVERRIDES: Record<string, string> = {
+  '/rodent-control/': 'Rodent Control & K9 Rat Detection, Aiken SC',
+  '/restaurant-food-service-pest-control/': 'Restaurant Pest Control, Aiken & Augusta',
+  '/pest-control/': 'Pest Control & Exterminator in Aiken, SC',
+  '/rat-mouse-control/': 'Rat & Mouse Control, Aiken SC: Rats in the Attic',
+  '/bird-exclusion/': 'Bird Control & Exclusion, Aiken SC',
+  '/goose-control/': 'Canada Goose Control, Aiken & Augusta',
+  '/repairs/': 'Rodent Exclusion & Pest-Proofing Repairs, Aiken SC',
   '/coastal-k9-blog/': 'K9 Detection & Pest Control Blog',
   '/norway-rat-burrow-mitigation/': 'Norway Rat Burrows: Identify, Treat & Prevent',
   '/brown-recluse-spiders-natural-history-behavior-and-the-truth-about-south-carolina/': 'Brown Recluse Spiders in South Carolina: The Truth',
