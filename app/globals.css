@@ -469,3 +469,8 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .content table.k-facts tr > :first-child { width: 36%; }
 .content table.k-facts td, .content table.k-facts th { overflow-wrap: break-word; }
 .content table.k-vs tr > :first-child { width: 28%; }
+/* Pest Library photo grid (photos + short clips with captions) */
+.k-photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 18px; margin: 22px 0 28px; align-items: start; }
+.k-photos figure { margin: 0; }
+.k-photos img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: var(--radius); display: block; }
+.k-photos figcaption { font-size: .92rem; margin-top: 8px; color: #5d564b; }
