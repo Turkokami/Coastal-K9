@@ -4052,5 +4052,51 @@
    }
   ],
   "orig": "kim-upload-2026-11-25"
+ },
+ "fema-tntf1-k9-team": {
+  "alt": "Kim Camera with Spanky and fellow Tennessee Task Force 1 K9 handlers and their dogs",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/fema-tntf1-k9-team-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/fema-tntf1-k9-team-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/fema-tntf1-k9-team-1280.webp"
+   }
+  ],
+  "orig": null
+ },
+ "fema-tntf1-deployment": {
+  "alt": "Kim Camera on deployment with Tennessee Task Force 1",
+  "w": 1280,
+  "h": 1704,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 639,
+    "src": "/media/fema-tntf1-deployment-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1278,
+    "src": "/media/fema-tntf1-deployment-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1704,
+    "src": "/media/fema-tntf1-deployment-1280.webp"
+   }
+  ],
+  "orig": null
  }
 }
