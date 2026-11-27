@@ -4121,5 +4121,92 @@
    }
   ],
   "orig": "kim-upload-2026-11-24"
+ },
+ "bed-bug-adult": {
+  "alt": "Adult bed bug (Cimex lectularius) on white fabric, showing the flat oval body, banded reddish-brown abdomen and six legs",
+  "w": 748,
+  "h": 538,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 345,
+    "src": "/media/bed-bug-adult-480.webp"
+   },
+   {
+    "w": 748,
+    "h": 538,
+    "src": "/media/bed-bug-adult-748.webp"
+   }
+  ],
+  "orig": "IMG_7044.JPG"
+ },
+ "bed-bug-seam-nymph": {
+  "alt": "A pale bed bug hiding in a fabric seam",
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 360,
+    "src": "/media/bed-bug-seam-nymph-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "src": "/media/bed-bug-seam-nymph-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "src": "/media/bed-bug-seam-nymph-1280.webp"
+   }
+  ],
+  "orig": "IMG_2773.jpeg"
+ },
+ "bed-bug-heavy-infestation": {
+  "alt": "Heavy bed bug infestation: live bed bugs, shed skins, eggs and dark fecal spots along a furniture edge",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/bed-bug-heavy-infestation-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/bed-bug-heavy-infestation-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/bed-bug-heavy-infestation-1280.webp"
+   }
+  ],
+  "orig": "IMG_4329.jpeg"
+ },
+ "bed-bug-backpack": {
+  "alt": "Bed bug fecal spotting and blood smears on the lining of a backpack",
+  "w": 1280,
+  "h": 1707,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 640,
+    "src": "/media/bed-bug-backpack-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "src": "/media/bed-bug-backpack-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "src": "/media/bed-bug-backpack-1280.webp"
+   }
+  ],
+  "orig": "IMG_4201.jpeg"
  }
 }
