@@ -7910,17 +7910,17 @@
 "slug": "pest-control-coupons",
 "wpType": "page",
 "kind": "coupons",
-"title": "Pest Control Coupons, Aiken",
-"description": "Current savings on K-9 detection, pest control, rodent exclusion and bird work across Aiken, Augusta, Columbia and the surrounding Midlands.",
-"h1": "Great Service at a Fair Price",
+"title": "Pest Control & Bed Bug Coupons, Aiken SC",
+"description": "Current Coastal K9 offers: a free K9 bed bug inspection with treatment, $25 off your first treatment, $25 off a rush bed bug treatment, and a free mosquito visit.",
+"h1": "Current Offers",
 "hero": {
 "eyebrow": "Offers & Savings",
-"h1": "Great Service at a Fair Price",
-"lead": "We’re among the highest-ranked, most dependable pest and rodent control teams in the area — and we keep our pricing competitive. Call to ask about our current specials and find the right fit for your home or business.",
+"h1": "Current Offers",
+"lead": "Four ways to save with Coastal K9 and Pest Solutions right now. Call or text 803-226-3155 and mention the offer when you book.",
 "badges": [],
 "ctas": [
 {
-"label": "Call for Current Offers",
+"label": "Call or Text 803-226-3155",
 "href": "tel:8032263155"
 },
 {
@@ -7930,12 +7930,12 @@
 ]
 },
 "heroImage": "lab",
-"body": "<figure><span class=\"k-bg\"></span><img alt=\"Coastal K9 and Pest Solutions detection dog\" src=\"media:lab\"/><figcaption>Family-owned and locally operated — see what our K-9 teams can do for your home or business.</figcaption></figure><h2 id=\"how-we-help-you-save\">How we help you save</h2><div class=\"k-grid\"><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"tag\"></span><h3>Free, No-Obligation Quotes</h3><p>Get a clear, upfront price on any service — no pressure, no surprises.</p></div><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"percent\"></span><h3>Seasonal Specials</h3><p>We run specials throughout the year. Call to ask what’s available right now.</p></div><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"layer-group\"></span><h3>Bundle &amp; Save</h3><p>Combine services like pest control, rodent exclusion, and repairs for better value.</p></div><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"map-location-dot\"></span><h3>Serving the CSRA &amp; Midlands</h3><p>Offers apply within our service area — check the map to confirm your town.</p></div></div><h2 id=\"how-to-claim-your-offer\">How to claim your offer</h2><ul class=\"k-list\"><li><strong>Call us at 803-226-3155</strong> and let us know what service you need.</li><li><strong>Confirm you’re in our service area</strong> — take a look at our <a href=\"/service-areas/\">service area maps</a>.</li><li><strong>Mention you saw our offers page</strong> and we’ll apply any current special you qualify for.</li></ul><div class=\"k-band\"><h2 id=\"ready-to-save-on-pest-or-rodent-control\">Ready to save on pest or rodent control?</h2><p>Call our family-owned team for a free quote and our latest offers.</p><a href=\"tel:8032263155\">Call 803-226-3155</a></div>",
+"body": "<figure><span class=\"k-bg\"></span><img alt=\"Coastal K9 and Pest Solutions detection dog\" src=\"media:lab\"/><figcaption>Family-owned and locally operated — see what our K-9 teams can do for your home or business.</figcaption></figure><h2 id=\"current-offers\">Current offers</h2><div class=\"k-grid\"><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"bed\"></span><h3>Free K9 Bed Bug Inspection</h3><p>Free K9 bed bug inspection when you book bed bug treatment with us.</p></div><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"tag\"></span><h3>$25 Off Your First Treatment</h3><p>$25 off your first treatment. Not good with any other offer.</p></div><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"calendar-check\"></span><h3>$25 Off a Rush Bed Bug Treatment</h3><p>$25 off when you need bed bug treatment in a hurry.</p></div><div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"bugs\"></span><h3>One Extra Mosquito Treatment</h3><p>Sign up for our mosquito treatment program and get one extra mosquito treatment, a $45 value.</p></div></div><h2 id=\"how-to-claim-your-offer\">How to claim your offer</h2><ul class=\"k-list\"><li><strong>Call us at 803-226-3155</strong> and let us know what service you need.</li><li><strong>Confirm you’re in our service area</strong> — take a look at our <a href=\"/service-areas/\">service area maps</a>.</li><li><strong>Mention you saw our offers page</strong> and we’ll apply the offer you qualify for.</li></ul><div class=\"k-band\"><h2 id=\"ready-to-save-on-pest-or-rodent-control\">Ready to save on pest or rodent control?</h2><p>Call or text our family-owned team to book and claim your offer.</p><a href=\"tel:8032263155\">Call 803-226-3155</a></div>",
 "faqs": [],
 "toc": [
 {
-"id": "how-we-help-you-save",
-"text": "How we help you save"
+"id": "current-offers",
+"text": "Current offers"
 },
 {
 "id": "how-to-claim-your-offer",
