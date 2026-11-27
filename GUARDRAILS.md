@@ -8,7 +8,7 @@ Source: live ck9ps.com as published by the client, captured 2026-11-08. Not inde
 | Rating | 5.0 · 22+ reviews | header/hero badge only — NOT marked up as AggregateRating |
 | Founder | Kimberly Camera — FEMA US&R canine handler, 28+ yrs K9 detection, NESDCA/WDDO/CPDA/ICRWDA, licensed technician | bylines, about, Person schema |
 | Nationwide | "more than 15 companies" supported | homepage, nationwide pages |
-| Socials | facebook.com/kim.camera.386027, instagram ucpaws.k9.rodent.detection, LinkedIn kimberly-camera-7bb49b259 | footer, sameAs |
+| Socials | Coastal K9 business Page (facebook.com/share/19jsuB4sPb, Kim 27 Nov 2026; replaces her personal profile), instagram ucpaws.k9.rodent.detection, LinkedIn kimberly-camera-7bb49b259 | footer, sameAs |
 | GTM | GTM-NMPGCW4 (from live site) | components/Analytics.tsx |
 
 Excluded from the build on purpose: two images that look AI-generated presented as real scenes

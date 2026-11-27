@@ -32,7 +32,7 @@ export const SITE = {
     sameAs: ['https://www.linkedin.com/in/kimberly-camera-7bb49b259/'],
   },
   social: [
-    { name: 'Facebook', url: 'https://www.facebook.com/kim.camera.386027' },
+    { name: 'Facebook', url: 'https://www.facebook.com/share/19jsuB4sPb/' },
     { name: 'Instagram', url: 'https://www.instagram.com/ucpaws.k9.rodent.detection/' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/kimberly-camera-7bb49b259/' },
   ],
