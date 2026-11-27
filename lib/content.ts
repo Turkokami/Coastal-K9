@@ -132,7 +132,6 @@ export const PEST_GROUPS: { label: string; slugs: string[] }[] = [
   { label: 'Stinging insects', slugs: ['yellowjacket', 'paper-wasp'] },
   { label: 'Ticks, mosquitoes & fleas', slugs: ['lone-star-tick', 'asian-tiger-mosquito', 'cat-flea'] },
   { label: 'Spiders & occasional invaders', slugs: ['black-widow-spider', 'brown-recluse-spider', 'silverfish', 'house-fly'] },
-  { label: 'Termites (handled through our licensed partner)', slugs: ['eastern-subterranean-termite'] },
 ];
 
 export function related(p: Page, n = 6): Page[] {

@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import CredentialLogos from '@/components/CredentialLogos';
 import MobileBar from '@/components/MobileBar';
 import ProofStrip from '@/components/ProofStrip';
+import Masthead from '@/components/Masthead';
 import ClientEnhance from '@/components/ClientEnhance';
 import Analytics from '@/components/Analytics';
 import { SITE } from '@/lib/site';
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-US">
       <body>
+        <Masthead />
         <Header />
         <ProofStrip />
         <main id="main">{children}</main>

@@ -20,8 +20,9 @@ Excluded from the build on purpose: two images that look AI-generated presented 
 | Wildlife removal + exclusion (raccoon, opossum, squirrel, armadillo; bat one-way exclusion) | Yes | Humane removal, then sealing entry points |
 | Mosquito & tick treatment | Yes | Seasonal yard/perimeter treatment under IPM |
 | Lawn pests — fire ants & moles | Yes | Whole-yard fire ant baiting; mole removal + grub treatment |
-| Termites (treatment, bonds, CL-100 / wood infestation reports) | Subcontracted | "Coordinated through a licensed termite partner" — never claimed as in-house |
+| Termites (treatment, bonds, CL-100 / wood infestation reports) | No (Kim, 27 Nov 2026) | Not offered and not referred. Termites are not mentioned on service, city or FAQ pages; the termite library entry redirects to /pest-library/ |
+| Georgia service | Under a licensed GA partner's license and supervision (Kim, 27 Nov 2026) | GA town pages say work is done under the license and supervision of a licensed Georgia partner |
 
 The legacy city/neighborhood pages said the opposite in ~69 places ("we do not offer mosquito programs or lawn work",
-"we do not trap … a raccoon", "we do not subcontract termites"). Those sentences are rewritten at build time from
+"we do not trap … a raccoon"). Those sentences are rewritten at build time from
 `content/scope-fixes.json` (applied to body text and FAQ answers before schema is generated).

@@ -12,6 +12,7 @@ const nextConfig = {
       // Old Yoast / WordPress sitemap addresses Search Console may still hold
       { source: '/:type(page|post|category|post_tag|author|attachment|service|service-area|coupon)-sitemap:n(\\d*).xml', destination: '/sitemap.xml', permanent: true },
       { source: '/wp-sitemap-:rest(.+).xml', destination: '/sitemap.xml', permanent: true },
+      { source: '/pest-library/eastern-subterranean-termite/', destination: '/pest-library/', permanent: true },
       { source: '/nationwide-rodent-mitigation/', destination: '/nationwide-k9-rodent-detection/', permanent: true },
       { source: '/bed-bugs-hotels-multifamily-playbook/', destination: '/hotels-hospitality-pest-control/', permanent: true },
       { source: '/profile/kim-camera/', destination: '/about/', permanent: true },

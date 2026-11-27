@@ -16,7 +16,7 @@ export default function Header() {
       </div>
       <div className="wrap nav-row">
         <Link href="/" className="brand" aria-label={`${SITE.name} home`}>
-          <img src={SITE.logo} alt={SITE.name} width={480} height={134} />
+          <img src="/brand/logo-transparent.webp" alt={SITE.name} width={480} height={134} />
         </Link>
         <nav aria-label="Main" className="mainnav">
           <input type="checkbox" id="navcheck" className="navcheck" aria-label="Open main menu" />

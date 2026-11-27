@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="wrap foot-grid">
         <div className="foot-nap">
-          <img src={SITE.logo} alt={SITE.name} width={240} height={67} loading="lazy" />
+          <img src="/brand/logo-transparent.webp" alt={SITE.name} width={240} height={67} loading="lazy" />
           <p className="foot-tag">{SITE.tagline}</p>
           <address>
             <b>{SITE.name}</b><br />
