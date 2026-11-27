@@ -126,12 +126,15 @@ export const postTopic = (p: Page) => TOPICS.find((t) => t.test.test(p.h1 + ' ' 
 
 export const PEST_GROUPS: { label: string; slugs: string[] }[] = [
   { label: 'Bed bugs & rodents — our detection dogs’ specialty', slugs: ['bed-bug', 'norway-rat', 'roof-rat', 'house-mouse'] },
-  { label: 'Cockroaches & ants', slugs: ['german-cockroach', 'american-cockroach', 'odorous-house-ant', 'carpenter-ant', 'pharaoh-ant', 'red-imported-fire-ant'] },
+  { label: 'Cockroaches', slugs: ['german-cockroach', 'american-cockroach'] },
+  { label: 'Ants', slugs: ['red-imported-fire-ant', 'odorous-house-ant', 'carpenter-ant', 'pharaoh-ant'] },
   { label: 'Birds & geese', slugs: ['canada-goose', 'pigeon', 'european-starling', 'house-sparrow'] },
   { label: 'Wildlife', slugs: ['raccoon', 'virginia-opossum', 'eastern-gray-squirrel', 'bat', 'nine-banded-armadillo', 'eastern-mole'] },
   { label: 'Stinging insects', slugs: ['yellowjacket', 'paper-wasp'] },
   { label: 'Ticks, mosquitoes & fleas', slugs: ['lone-star-tick', 'asian-tiger-mosquito', 'cat-flea'] },
-  { label: 'Spiders & occasional invaders', slugs: ['black-widow-spider', 'brown-recluse-spider', 'silverfish', 'house-fly'] },
+  { label: 'Spiders', slugs: ['black-widow-spider', 'brown-recluse-spider'] },
+  { label: 'Occasional invaders', slugs: ['silverfish', 'house-fly'] },
+  { label: 'Invasive species — not native to South Carolina', slugs: ['red-imported-fire-ant', 'asian-tiger-mosquito', 'european-starling', 'house-sparrow', 'pigeon'] },
 ];
 
 export function related(p: Page, n = 6): Page[] {
