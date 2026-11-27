@@ -449,3 +449,4 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .site-header .brand { transition: opacity .35s ease; }
 .site-header.mast-on .brand { opacity: 0; pointer-events: none; }
 @media (prefers-reduced-motion: reduce) { .site-header .brand { transition: none; } }
+@media (min-width: 900px) { .masthead { padding: 14px 16px; } .masthead a { width: min(100%, 620px); } }
