@@ -21,7 +21,7 @@ Excluded from the build on purpose: two images that look AI-generated presented 
 | Mosquito & tick treatment | Yes | Seasonal yard/perimeter treatment under IPM |
 | Lawn pests — fire ants & moles | Yes | Whole-yard fire ant baiting; mole removal + grub treatment |
 | Termites (treatment, bonds, CL-100 / wood infestation reports) | No (Kim, 27 Nov 2026) | Not offered and not referred. Termites are not mentioned on service, city or FAQ pages; the termite library entry redirects to /pest-library/ |
-| Georgia service | Through a licensed GA partner (Kim, 27 Nov 2026) | GA town pages say work is done under a licensed Georgia partner's license |
+| Georgia service | Under a licensed GA partner's license and supervision (Kim, 27 Nov 2026) | GA town pages say work is done under the license and supervision of a licensed Georgia partner |
 
 The legacy city/neighborhood pages said the opposite in ~69 places ("we do not offer mosquito programs or lawn work",
 "we do not trap … a raccoon"). Those sentences are rewritten at build time from
