@@ -126,15 +126,17 @@ export const postTopic = (p: Page) => TOPICS.find((t) => t.test.test(p.h1 + ' ' 
 
 export const PEST_GROUPS: { label: string; slugs: string[] }[] = [
   { label: 'Bed bugs & rodents — our detection dogs’ specialty', slugs: ['bed-bug', 'norway-rat', 'roof-rat', 'house-mouse'] },
-  { label: 'Cockroaches', slugs: ['german-cockroach', 'american-cockroach'] },
-  { label: 'Ants', slugs: ['red-imported-fire-ant', 'odorous-house-ant', 'carpenter-ant', 'pharaoh-ant'] },
+  { label: 'Cockroaches', slugs: ['german-cockroach', 'american-cockroach', 'smokybrown-cockroach', 'oriental-cockroach', 'brown-banded-cockroach', 'asian-cockroach', 'florida-woods-cockroach'] },
+  { label: 'Ants', slugs: ['red-imported-fire-ant', 'odorous-house-ant', 'carpenter-ant', 'pharaoh-ant', 'argentine-ant', 'pavement-ant', 'ghost-ant', 'acrobat-ant', 'little-black-ant', 'crazy-ant'] },
   { label: 'Birds & geese', slugs: ['canada-goose', 'pigeon', 'european-starling', 'house-sparrow'] },
   { label: 'Wildlife', slugs: ['raccoon', 'virginia-opossum', 'eastern-gray-squirrel', 'bat', 'nine-banded-armadillo', 'eastern-mole'] },
-  { label: 'Stinging insects', slugs: ['yellowjacket', 'paper-wasp'] },
-  { label: 'Ticks, mosquitoes & fleas', slugs: ['lone-star-tick', 'asian-tiger-mosquito', 'cat-flea'] },
-  { label: 'Spiders', slugs: ['black-widow-spider', 'brown-recluse-spider'] },
+  { label: 'Stinging insects', slugs: ['yellowjacket', 'paper-wasp', 'bald-faced-hornet', 'european-hornet', 'honey-bee', 'carpenter-bee', 'bumble-bee', 'mud-dauber', 'cicada-killer', 'velvet-ant'] },
+  { label: 'Ticks', slugs: ['lone-star-tick', 'american-dog-tick', 'blacklegged-tick', 'brown-dog-tick', 'gulf-coast-tick', 'asian-longhorned-tick'] },
+  { label: 'Fleas', slugs: ['cat-flea', 'dog-flea', 'oriental-rat-flea', 'sticktight-flea'] },
+  { label: 'Mosquitoes', slugs: ['asian-tiger-mosquito'] },
+  { label: 'Spiders', slugs: ['black-widow-spider', 'brown-recluse-spider', 'brown-widow-spider', 'wolf-spider', 'common-house-spider', 'cellar-spider', 'jumping-spider', 'yellow-garden-spider', 'golden-silk-orbweaver', 'joro-spider', 'southern-house-spider', 'fishing-spider'] },
   { label: 'Occasional invaders', slugs: ['silverfish', 'house-fly'] },
-  { label: 'Invasive species — not native to South Carolina', slugs: ['red-imported-fire-ant', 'asian-tiger-mosquito', 'european-starling', 'house-sparrow', 'pigeon'] },
+  { label: 'Invasive species — not native to South Carolina', slugs: ['red-imported-fire-ant', 'asian-tiger-mosquito', 'european-starling', 'house-sparrow', 'pigeon', 'german-cockroach', 'american-cockroach', 'norway-rat', 'roof-rat', 'house-mouse', 'argentine-ant', 'pavement-ant', 'ghost-ant', 'crazy-ant', 'smokybrown-cockroach', 'oriental-cockroach', 'brown-banded-cockroach', 'asian-cockroach', 'european-hornet', 'brown-widow-spider', 'joro-spider', 'asian-longhorned-tick', 'oriental-rat-flea'] },
 ];
 
 export function related(p: Page, n = 6): Page[] {

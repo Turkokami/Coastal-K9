@@ -464,3 +464,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .k-founder .k-founder-fema img { max-width: 100%; border-radius: 14px; }
 .k-founder .k-founder-fema-sm { max-width: 360px; }
 .k-founder-fema figcaption { margin-top: 10px; font-size: .92rem; color: var(--muted); }
+/* two-column fact tables fit the phone screen instead of scrolling sideways */
+.content table.k-facts { min-width: 0; table-layout: fixed; }
+.content table.k-facts tr > :first-child { width: 36%; }
+.content table.k-facts td, .content table.k-facts th { overflow-wrap: break-word; }
