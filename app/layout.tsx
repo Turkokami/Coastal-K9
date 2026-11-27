@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   // Bing Webmaster Tools ownership check for https://ck9ps.com/. Keep it: removing it un-verifies the site.
   verification: { other: { 'msvalidate.01': '0F8140562A6D5BF4A76F4EAEB70BC8BE' } },
 };
-export const viewport: Viewport = { themeColor: '#0b1f38', width: 'device-width', initialScale: 1 };
+export const viewport: Viewport = { themeColor: '#221f1a', width: 'device-width', initialScale: 1 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
