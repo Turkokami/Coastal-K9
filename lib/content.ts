@@ -132,7 +132,6 @@ export const PEST_GROUPS: { label: string; slugs: string[] }[] = [
   { label: 'Stinging insects', slugs: ['yellowjacket', 'paper-wasp'] },
   { label: 'Ticks, mosquitoes & fleas', slugs: ['lone-star-tick', 'asian-tiger-mosquito', 'cat-flea'] },
   { label: 'Spiders & occasional invaders', slugs: ['black-widow-spider', 'brown-recluse-spider', 'silverfish', 'house-fly'] },
-  { label: 'Termites (handled through our licensed partner)', slugs: ['eastern-subterranean-termite'] },
 ];
 
 export function related(p: Page, n = 6): Page[] {
@@ -197,7 +196,7 @@ export const SERVICE_PESTS: Record<string, string[]> = {
   '/hoa-golf-course-goose-management/': PL('canada-goose'),
   '/bird-exclusion/': PL('pigeon', 'european-starling', 'house-sparrow'),
   '/falconry-bird-abatement/': PL('pigeon', 'european-starling', 'house-sparrow'),
-  '/pest-control/': PL('odorous-house-ant', 'carpenter-ant', 'red-imported-fire-ant', 'german-cockroach', 'american-cockroach', 'yellowjacket', 'paper-wasp', 'lone-star-tick', 'asian-tiger-mosquito', 'cat-flea', 'silverfish', 'eastern-mole', 'eastern-subterranean-termite'),
+  '/pest-control/': PL('odorous-house-ant', 'carpenter-ant', 'red-imported-fire-ant', 'german-cockroach', 'american-cockroach', 'yellowjacket', 'paper-wasp', 'lone-star-tick', 'asian-tiger-mosquito', 'cat-flea', 'silverfish', 'eastern-mole'),
   '/spider-control/': PL('black-widow-spider', 'brown-recluse-spider'),
   '/cockroach-control/': PL('german-cockroach', 'american-cockroach'),
   '/restaurant-food-service-pest-control/': PL('german-cockroach', 'american-cockroach', 'house-mouse', 'norway-rat', 'house-fly'),
