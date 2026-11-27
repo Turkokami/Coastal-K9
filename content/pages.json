@@ -15876,5 +15876,94 @@
 "rewritten": false,
 "heroVideo": "smoke-test",
 "heroVideoLabel": "FogTrace fog escaping from a drain line under a sink during a rodent smoke test"
+},
+{
+"path": "/bite-and-pest-monitoring/",
+"slug": "bite-and-pest-monitoring",
+"wpType": "service",
+"kind": "service",
+"title": "Feel Bites but No Bugs? Bite & Pest Monitoring, Aiken",
+"description": "Something biting you at night but no bugs in sight? Coastal K9’s Bite & Pest Monitoring: a K9 and technician inspection, sticky monitors and a signed photo report.",
+"h1": "Bite & Pest Monitoring Program",
+"hero": {
+"eyebrow": "Feel bites but can’t find bugs?",
+"h1": "<span class=\"h1-kicker\">Bite &amp; Pest Monitoring Program</span> Something biting you at night? We’ll find out what is, or isn’t, there.",
+"lead": "A K9 and technician inspection, sticky monitors and a signed report with photos, from a certified detection team that won’t dismiss your concerns.",
+"meta": "<strong>Call or text <a href=\"tel:8032263155\">803-226-3155</a></strong> · Certified K9 teams · Family-owned",
+"badges": [
+"K9 and technician inspection",
+"Signed photo report",
+"Monitoring included"
+],
+"ctas": [
+{
+"label": "Call or Text 803-226-3155",
+"href": "tel:8032263155"
+},
+{
+"label": "Request an Inspection",
+"href": "/contact/#inspection"
+}
+]
+},
+"heroImage": null,
+"body": "<p>Feel like something is biting you at night, but you can’t find a single bug? You are not imagining it, and we won’t treat you like you are. Coastal K9 and Pest Solutions gets about ten of these calls a month. Our Bite &amp; Pest Monitoring Program pairs a K9 and technician inspection with follow-up monitoring, so you get real answers about what is, or is not, in your home.</p>\n<h2 id=\"we-dont-dismiss-it\">We don’t dismiss it</h2>\n<p>Some people don’t react to bites at all. Others have terrible reactions. It is not our place as technicians to judge. Insects hide, and a first visit can miss them, so we keep looking. What we won’t do is spray a home when we can’t find signs of insect activity. That isn’t safe practice. We cannot treat what we can’t find, but we can keep digging until we know.</p>\n<h2 id=\"how-the-visit-works\">How the visit works</h2>\n<ol class=\"k-steps\">\n<li><h3>Meet and greet</h3><p>We sit down with you first, explain what we are going to do and answer your questions. Then we introduce you to the dog.</p></li>\n<li><h3>Technician inspection</h3><p>The handler looks for obvious signs and checks the places we don’t take the dogs: under sinks, in bathrooms and inside cabinets.</p></li>\n<li><h3>Safety sweep</h3><p>Before the dog works, we clear the area. We look for any self-treatment, dropped pills, sharp objects, pet food and water, toys and litter boxes, and other animals that could distract the dog.</p></li>\n<li><h3>K9 inspection</h3><p>Our certified detection dog searches the home for bed bugs.</p></li>\n<li><h3>Hands-on check</h3><p>We look for spiders, cockroaches, fleas, Asian lady beetles and carpet beetles, and for any other animal or insect activity.</p></li>\n<li><h3>Sticky monitors, every time</h3><p>We always leave sticky monitoring boards in case something was missed, and we come back to check them in 7 days.</p></li>\n<li><h3>Signed report with photos</h3><p>We go over the findings with you and you sign a copy. The report shows what we found, with photos, and our treatment recommendations. Clients can also see it in their online portal 24/7.</p></li>\n</ol>\n<h2 id=\"if-we-find-something\">If we find something</h2>\n<p>Once you decide on treatment, we try to be back within 3 to 5 business days. Nobody wants to live with bugs, and it’s our job to take care of them.</p>\n<h2 id=\"if-we-find-nothing\">If we find nothing</h2>\n<p>We don’t close the file. The monitors keep watching, and we report what they catch in writing and with photos. We also recommend talking with your family doctor, and we help you know how to describe what you’ve been experiencing. Monitoring plus your doctor is how we get to the bottom of it together.</p>\n<h2 id=\"pricing\">Pricing</h2>\n<div class=\"k-grid\">\n<div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"magnifying-glass\"></span><h3>K9 and technician inspection: $175</h3><p>Safety sweep, K9 search, hands-on check, sticky monitors checked at 7 days, and a signed report with photos.</p></div>\n<div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"calendar-check\"></span><h3>Inspection plus 3 months of monitoring: $225</h3><p>Everything in the inspection, plus three months of monitoring with written, photo-documented results.</p></div>\n<div class=\"k-card\"><span aria-hidden=\"true\" class=\"k-ic\" data-icon=\"circle-check\"></span><h3>Free with treatment or a pest control plan</h3><p>The inspection is free when you book treatment with us, and monitoring is free with a general pest control contract.</p></div>\n</div>\n<p>Related: <a href=\"/bed-bug-control/\">K9 bed bug detection</a> · <a href=\"/bed-bug-treatment/\">bed bug treatment</a> · <a href=\"/pest-control/\">general pest control</a>.</p>\n<div class=\"k-band\"><h2 id=\"book-an-inspection\">Book a bite and pest inspection</h2><p>Call or text and tell us what you’ve been feeling. We’ll take it from there.</p><a href=\"tel:8032263155\">Call 803-226-3155</a></div>",
+"faqs": [
+{
+"q": "I feel bites but can’t find any bugs. What should I do?",
+"a": "<p>Call us for a K9 and technician inspection. The dog searches for bed bugs, the technician checks for other biting and crawling insects, and we leave sticky monitors to catch anything that is hiding.</p>"
+},
+{
+"q": "Will you just spray to be safe?",
+"a": "<p>No. If we can’t find signs of insect activity, treating isn’t safe practice. We monitor instead and keep looking.</p>"
+},
+{
+"q": "What if the dog finds nothing?",
+"a": "<p>We check the sticky monitors in 7 days and report what we find in writing and with photos. With the 3-month plan, we keep monitoring. We also suggest talking with your family doctor and help you know how to describe it.</p>"
+},
+{
+"q": "What do I get at the end of the inspection?",
+"a": "<p>A signed report with photos showing what we found and our treatment recommendations. Clients can also see it in their online portal 24/7.</p>"
+},
+{
+"q": "How much does it cost?",
+"a": "<p>The K9 and technician inspection is $175. Inspection plus 3 months of monitoring is $225. The inspection is free when you book treatment with us, and monitoring is free with a general pest control contract.</p>"
+},
+{
+"q": "How soon can you treat if you find something?",
+"a": "<p>Once treatment is decided, we try to be on site within 3 to 5 business days.</p>"
+}
+],
+"toc": [
+{
+"id": "we-dont-dismiss-it",
+"text": "We don’t dismiss it"
+},
+{
+"id": "how-the-visit-works",
+"text": "How the visit works"
+},
+{
+"id": "if-we-find-something",
+"text": "If we find something"
+},
+{
+"id": "if-we-find-nothing",
+"text": "If we find nothing"
+},
+{
+"id": "pricing",
+"text": "Pricing"
+}
+],
+"citations": [],
+"images": [],
+"date": "2026-11-27T10:30:00",
+"modified": "2026-11-27T10:30:00",
+"excerpt": "Feel bites but no bugs? Coastal K9’s Bite & Pest Monitoring Program: K9 and technician inspection, sticky monitors, signed photo report. $175, or $225 with 3 months of monitoring.",
+"words": 620,
+"noindex": false,
+"fixedScript": false,
+"rewritten": false
 }
 ]

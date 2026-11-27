@@ -29,7 +29,7 @@ const DIVISIONS = [
 ];
 
 const MORE = [
-  { href: '/bed-bug-treatment/', label: 'Bed Bug Treatment' }, { href: '/pest-control/', label: 'Integrated Pest Management' },
+  { href: '/bed-bug-treatment/', label: 'Bed Bug Treatment' }, { href: '/bite-and-pest-monitoring/', label: 'Bite & Pest Monitoring' }, { href: '/pest-control/', label: 'Integrated Pest Management' },
   { href: '/spider-control/', label: 'Spider Control' }, { href: '/cockroach-control/', label: 'Cockroach Control' },
   { href: '/mosquito-control/', label: 'Mosquito Control (No Fogging)' }, { href: '/bat-removal/', label: 'Bat Removal & Exclusion' },
   { href: '/pest-library/red-imported-fire-ant/', label: 'Ant Control' }, { href: '/pest-library/house-fly/', label: 'Fly Control' },

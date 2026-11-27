@@ -85,6 +85,7 @@ export const NAV: NavItem[] = [
     label: 'Bed Bugs', href: '/bed-bug-control/', children: [
       { label: 'K9 Bed Bug Detection', href: '/bed-bug-control/' },
       { label: 'Bed Bug Treatment', href: '/bed-bug-treatment/' },
+      { label: 'Bite & Pest Monitoring', href: '/bite-and-pest-monitoring/' },
       { label: 'Hotels & Hospitality', href: '/hotels-hospitality-pest-control/' },
       { label: 'Offshore Oil Rigs', href: '/offshore-oil-rig-bed-bug-inspections/' },
     ],
