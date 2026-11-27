@@ -23,9 +23,17 @@ export default function ClientEnhance() {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') { document.querySelectorAll('details.dd[open]').forEach((d) => d.removeAttribute('open')); const nc = document.getElementById('navcheck') as HTMLInputElement | null; if (nc) nc.checked = false; }
     };
+    // small menu-bar logo fades in only once the big logo band has scrolled away
+    const mast = document.querySelector('.masthead');
+    const hdr = document.querySelector('.site-header');
+    let io: IntersectionObserver | null = null;
+    if (mast && hdr && 'IntersectionObserver' in window) {
+      io = new IntersectionObserver(([en]) => hdr.classList.toggle('mast-on', en.isIntersecting), { threshold: 0 });
+      io.observe(mast);
+    }
     document.addEventListener('click', onClick);
     document.addEventListener('keydown', onKey);
-    return () => { document.removeEventListener('click', onClick); document.removeEventListener('keydown', onKey); };
+    return () => { io?.disconnect(); document.removeEventListener('click', onClick); document.removeEventListener('keydown', onKey); };
   }, [path]);
   return null;
 }

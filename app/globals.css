@@ -446,3 +446,6 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .masthead { background: var(--navy-950); padding: clamp(10px, 2vw, 22px) 16px; text-align: center; border-bottom: 1px solid rgba(102, 197, 197, .18); }
 .masthead a { display: inline-block; width: min(100%, 1180px); }
 .masthead img { display: block; width: 100%; height: auto; }
+.site-header .brand { transition: opacity .35s ease; }
+.site-header.mast-on .brand { opacity: 0; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .site-header .brand { transition: none; } }
