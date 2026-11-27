@@ -136,6 +136,7 @@ export const PEST_GROUPS: { label: string; slugs: string[] }[] = [
   { label: 'Mosquitoes', slugs: ['asian-tiger-mosquito'] },
   { label: 'Spiders', slugs: ['black-widow-spider', 'brown-recluse-spider', 'brown-widow-spider', 'wolf-spider', 'common-house-spider', 'cellar-spider', 'jumping-spider', 'yellow-garden-spider', 'golden-silk-orbweaver', 'joro-spider', 'southern-house-spider', 'fishing-spider'] },
   { label: 'Occasional invaders', slugs: ['silverfish', 'house-fly'] },
+  { label: 'Look-alikes: how to tell them apart', slugs: ['smokybrown-vs-american-cockroach', 'german-vs-asian-cockroach', 'brown-widow-vs-black-widow', 'brown-recluse-vs-southern-house-spider', 'carpenter-bee-vs-bumble-bee', 'yellowjacket-vs-paper-wasp', 'norway-rat-vs-roof-rat', 'blacklegged-tick-vs-american-dog-tick'] },
   { label: 'Invasive species — not native to South Carolina', slugs: ['red-imported-fire-ant', 'asian-tiger-mosquito', 'european-starling', 'house-sparrow', 'pigeon', 'german-cockroach', 'american-cockroach', 'norway-rat', 'roof-rat', 'house-mouse', 'argentine-ant', 'pavement-ant', 'ghost-ant', 'crazy-ant', 'smokybrown-cockroach', 'oriental-cockroach', 'brown-banded-cockroach', 'asian-cockroach', 'european-hornet', 'brown-widow-spider', 'joro-spider', 'asian-longhorned-tick', 'oriental-rat-flea'] },
 ];
 

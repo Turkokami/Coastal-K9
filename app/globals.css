@@ -468,3 +468,4 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .content table.k-facts { min-width: 0; table-layout: fixed; }
 .content table.k-facts tr > :first-child { width: 36%; }
 .content table.k-facts td, .content table.k-facts th { overflow-wrap: break-word; }
+.content table.k-vs tr > :first-child { width: 28%; }
