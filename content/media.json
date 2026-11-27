@@ -4098,5 +4098,28 @@
    }
   ],
   "orig": null
+ },
+ "nationwide-rat-removal": {
+  "alt": "Hundreds of Norway rats removed on a Coastal K9 rodent mitigation job, laid out along a fence line",
+  "w": 1280,
+  "h": 1341,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 503,
+    "src": "/media/nationwide-rat-removal-480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1005,
+    "src": "/media/nationwide-rat-removal-960.webp"
+   },
+   {
+    "w": 1280,
+    "h": 1341,
+    "src": "/media/nationwide-rat-removal-1280.webp"
+   }
+  ],
+  "orig": "kim-upload-2026-11-24"
  }
 }
