@@ -450,3 +450,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); color:
 .site-header.mast-on .brand { opacity: 0; pointer-events: none; }
 @media (prefers-reduced-motion: reduce) { .site-header .brand { transition: none; } }
 @media (min-width: 900px) { .masthead { padding: 14px 16px; } .masthead a { width: min(100%, 620px); } }
+.k-founder .k-founder-fema { margin: 24px 0 8px; max-width: 640px; }
+.k-founder .k-founder-fema img { max-width: 100%; border-radius: 14px; }
+.k-founder .k-founder-fema-sm { max-width: 360px; }
+.k-founder-fema figcaption { margin-top: 10px; font-size: .92rem; color: var(--muted); }
