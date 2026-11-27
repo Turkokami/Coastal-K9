@@ -62,6 +62,7 @@ export default function Home() {
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href="tel:8032263155">Call or Text 803-226-3155</a>
               <a className="btn btn-outline-light btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
+              <a className="btn btn-outline-light btn-lg" href={SITE.leaveReviewUrl} target="_blank" rel="noopener">Leave a Review</a>
             </div>
           </div>
           <div className="hero-card"><InspectionForm compact /></div>
