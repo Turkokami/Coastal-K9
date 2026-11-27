@@ -4121,5 +4121,23 @@
    }
   ],
   "orig": "kim-upload-2026-11-24"
+ },
+ "bed-bug-adult": {
+  "alt": "Adult bed bug (Cimex lectularius) on white fabric, showing the flat oval body, banded reddish-brown abdomen and six legs",
+  "w": 748,
+  "h": 538,
+  "sizes": [
+   {
+    "w": 480,
+    "h": 345,
+    "src": "/media/bed-bug-adult-480.webp"
+   },
+   {
+    "w": 748,
+    "h": 538,
+    "src": "/media/bed-bug-adult-748.webp"
+   }
+  ],
+  "orig": "IMG_7044.JPG"
  }
 }
