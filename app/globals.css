@@ -1,12 +1,12 @@
 /* Coastal K9 and Pest Solutions — palette from the new CK9PS site: pluff mud #221f1a, sand #f2ebdd, blaze orange #d9541e. Variable names kept from the old navy/teal build. */
 :root {
   --navy-950: #171410; --navy-900: #221f1a; --navy-800: #2e2a23; --navy-700: #3d372e;
-  --teal-300: #f0a37e; --teal-400: #e8743f; --teal-600: #d9541e; --teal-700: #b4410f; --teal-50: #f2ebdd;
-  --amber: #d9541e; --amber-600: #b4410f;
+  --teal-300: #f0a37e; --teal-400: #e8743f; --teal-600: #c94b19; --teal-700: #b4410f; --teal-50: #f2ebdd;
+  --amber: #c94b19; --amber-600: #a23a0e;
   --ink: #221f1a; --muted: #5d564b; --line: #e4dccb; --soft: #f8f4ec; --white: #fff;
   --radius: 14px; --shadow: 0 8px 24px rgba(34, 31, 26, .08); --shadow-lg: 0 18px 44px rgba(34, 31, 26, .16);
   --font-h: 'Poppins', system-ui, sans-serif; --font-b: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --wrap: 1180px; --read: 760px;
+  --wrap: 1180px; --read: 690px;
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: 90px; }
