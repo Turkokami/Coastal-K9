@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getPage, imgTag, icon, byKind, plain } from '@/lib/content';
+import { getPage, imgTag, icon, byKind } from '@/lib/content';
 import { SITE } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
@@ -58,7 +58,8 @@ export default function Home() {
           <div>
             <span className="eyebrow">Aiken, SC · Detection Before Treatment</span>
             <h1>Coastal K9 and Pest Solutions<span className="h1-sub">A Unique Pest Control Company</span></h1>
-            <p className="lead">{plain(home.hero.lead || '')}</p>
+            <p className="lead">Pest and rodent control in Aiken and the CSRA, led by founder Kim Camera, a retired FEMA K9 handler with Tennessee Task Force 1. Our certified detection dogs find where bed bugs, rats and mice actually are before anyone treats, so treatment goes only where it&apos;s needed.</p>
+            <ul className="hero-facts"><li>2026 NPMA Impact Award</li><li>18 working detection dogs</li><li>28+ years handling working dogs</li></ul>
             <div className="hero-ctas">
               <a className="btn btn-primary btn-lg" href="tel:8032263155">Call or Text 803-226-3155</a>
               <a className="btn btn-outline-light btn-lg" href={SITE.readReviewsUrl} target="_blank" rel="noopener">Read Reviews</a>
