@@ -93,7 +93,7 @@ export default function Home() {
             ))}
           </div>
           <h3 style={{ marginTop: 34 }}>Also on our service list</h3>
-          <ul className="chips">{MORE.map((m) => <li key={m.href}><Link href={m.href}>{m.label}</Link></li>)}</ul>
+          <ul className="svc-list">{MORE.map((m) => <li key={m.href}><Link href={m.href}>{m.label}</Link></li>)}</ul>
         </div>
       </section>
 
